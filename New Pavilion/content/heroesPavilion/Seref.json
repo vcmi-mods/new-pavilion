@@ -1,0 +1,73 @@
+{
+	"seref" :
+	{
+		"class" : "embalmer",
+		"female" : true,
+
+		"texts" :
+		{
+			"name" : "Seref",
+			"biography" : "Seref’s fierce, yet protective nature has been widely known ever since she became an initiate. It surprised no one that she was chosen as one of the Goddess’ aspects – a shield that protects Her faithful.",
+			"specialty" :
+			{
+				"description" : "{Fire Shield}\r\n\r\nAt the beginning of battle casts Fire Shield on her troops.",
+				"tooltip" : "Spell Bonus: Fire Shield",
+				"name" : "Fire Shield"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "speciconsPavilion/32Shield.bmp",
+			"specialtyLarge" : "speciconsPavilion/44Shield.bmp",
+			"large" : "heroportraitsPavilion/Seref.png",
+			"small" : "heroportraitsPavilion/SerefSmall.png"
+		},
+        "spellbook" :
+		[
+			"fireShield"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "whipper",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "wadjet",
+				"max" : 8,
+				"min" : 4
+			},
+			{
+				"creature" : "camelRider",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic" ,
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "fireMagic"
+			}
+		],
+        "specialty": 
+		{
+			"bonuses": {
+				"fireShield": {
+					"type": "OPENING_BATTLE_SPELL",
+					"subtype": "spell.fireShield",
+					"val" : 2
+			    }
+			}
+		}
+	}
+}
+
+

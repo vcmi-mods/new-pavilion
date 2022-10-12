@@ -1,0 +1,81 @@
+{
+     "desertWarrior":
+	{
+		"name" :
+		{
+			"plural" : "Desert Warriors",
+			"singular" : "Desert Warrior"
+		},
+		"advMapAmount" :
+		{
+			"max" : 20,
+			"min" : 12
+		},
+		"faction" : "pavilion",
+		"aiValue" : 340,
+		"hasDoubleWeek": true,
+		"attack" : 10,
+		"cost" :
+		{
+			"gold" : 260
+		},
+		"damage" :
+		{
+			"max" : 6,
+			"min" : 2
+		},
+		"defense" : 10,
+		"fightValue" : 320,
+		"graphics" :
+		{
+			"animation" : "creaturedefsPavilion/desertWarrior.def",
+			"map" : "creaturedefsPavilion/desertWarriorMap.def",
+			"iconSmall" : "creatureiconsPavilion/desertWarriorSmall.bmp",
+			"iconLarge" : "creatureiconsPavilion/desertWarrior.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			}
+
+  	
+		},
+	    "doubleWide" : true,
+        "growth" : 7,
+		"horde" : 3,
+		"hitPoints" : 25,
+		"level" : 3,
+    
+		"sound" :
+		{
+			"attack":  "Pavilion/camAtt.wav",
+			"defend":  "Pavilion/camDef.wav",
+			"killed":  "Pavilion/camDie.wav",
+			"move":  "Pavilion/camWalk.wav",
+			"wince":  "Pavilion/camHit.wav"
+
+ 		},
+		"speed" : 8,
+
+		"abilities" :
+		{
+			"desertRider" : 
+			{
+				"type" : "LAND_MOVEMENT",
+				"val" : 150,
+				"limiters": [ {
+					"type":"CREATURE_TERRAIN_LIMITER",
+					"parameters": [ "sand" ]
+				} ],
+				"propagator": "HERO"
+			} 
+		},
+		"stackExperience" :
+		[
+
+		]	
+	}
+}

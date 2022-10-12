@@ -1,0 +1,57 @@
+{
+	"pavilion" :
+	{
+		"town" :
+		{
+			"siege" :
+			{
+
+					"gate" : 
+					{ 					
+						"gate" : { "x" : 391, "y" : 284 },
+						"arch" : { "x" : 451, "y" : 203 }	 
+					},
+				"imagePrefix" : "siegePavilion/bast",
+				"moat" : 
+				{ 			
+					"moat" : { "x" : 434, "y" : 84 },
+					"bank" : { "x" : 434, "y" : 84 }
+			
+				},
+				"shooter" : "sekhmet",
+				"static" : {
+					"bottom" 	 : { "x" : 510, "y" : 347 },
+					"top" 		 : { "x" : 495, "y" : 83 },
+					"background" : { "x" : 600, "y" : 33 }	
+				},
+				"towers" : {
+					"bottom" : {
+						"tower" 	 : { "x" : 613, "y" : 501 },
+						"battlement" : { "x" : 613, "y" : 501 },
+						"creature" 	 : { "x" : 400, "y" : 316 }	
+					},
+					"keep" : {
+						"tower" 	 : { "x" : 698, "y" : 151 },
+						"battlement" : { "x" : 698, "y" : 151 },											
+						"creature" 	 : { "x" : 526, "y" : -20 }
+					},
+					"top" : {
+						"tower"      : { "x" : 554, "y" : 18 },
+						"battlement" : { "x" : 554, "y" : 18 },
+						"creature"   : { "x" : 346, "y" : -165 }	
+					}
+				},
+				"walls" : {
+					"upper" 	: { "x" : 537, "y" : 52 },
+					"upperMid"  : { "x" : 468, "y" : 174 },
+					"bottomMid" : { "x" : 486, "y" : 314 },
+					"bottom" 	: { "x" : 547, "y" : 428 }	
+				}
+				
+				
+				
+				
+			}
+		}
+	}
+}

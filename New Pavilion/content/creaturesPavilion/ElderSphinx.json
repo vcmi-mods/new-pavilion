@@ -1,0 +1,84 @@
+{
+	"elderSphinx":
+	{
+		"name" :
+		{
+			"plural" : "Sphinx Oracles",
+			"singular" : "Sphinx Oracle"
+		},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 5
+		},
+		"faction" : "pavilion",
+		"aiValue" : 1600,
+		"attack" : 15,
+		"hasDoubleWeek": true,
+		"cost" :
+		{
+			"gold" : 1100
+		},
+		"damage" :
+		{
+			"max" : 23,
+			"min" : 18
+		},
+		"defense" : 17,
+		"fightValue" : 1400,
+		"graphics" :
+		{
+			"animation" : "creaturedefsPavilion/ElderSphinx.def",
+			"map" : "creaturedefsPavilion/ElderSphinxMap.def",
+			"iconSmall" : "creatureiconsPavilion/ElderSphinxSmall.bmp",
+			"iconLarge" : "creatureiconsPavilion/ElderSphinx.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.20,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			}
+	
+		},
+	    "doubleWide" : true,
+        "growth" : 2,
+		"hitPoints" : 110,
+		"level" : 6,
+        "horde" : 1,
+   
+		"sound" :
+		{
+			"attack" : "Pavilion/sphxAtt.wav",
+			"defend": "Pavilion/sphxDef.wav",
+			"killed": "Pavilion/sphxDie.wav",
+			"move": "Pavilion/sphxWalk.wav",
+			"wince": "Pavilion/sphxHit.wav"
+ 		},
+		"speed" : 9,
+		"abilities" :
+		{
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 40
+			},
+            	"buffNegation" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.blessingSeal",
+				"val" : 100
+			},
+				"spellDuration" : 
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 3
+			}				
+		},
+		"stackExperience" :
+		[
+		
+		]	
+	}
+}

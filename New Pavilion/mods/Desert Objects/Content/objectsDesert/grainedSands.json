@@ -1,0 +1,67 @@
+{
+	"grainedSand" : {
+		"handler": "generic",
+		"name" : "Grained Sand",
+		"base" : {
+			"base" : {
+			"visitableFrom" : [ "+++", "+++", "+++" ]
+			}
+		},
+
+		"types" : {
+			"grainedSands" : {
+				"templates" : {
+				"grained1" : {
+						"animation" : "desertdefs/terrains/grained1",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ],
+						"zIndex": 100						
+					},
+				"grained2" : {
+						"animation" : "desertdefs/terrains/grained2",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV" ],
+						"zIndex": 100						
+					},
+
+				"grained3" : {
+						"animation" : "desertdefs/terrains/grained3",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ],
+						"zIndex": 100						
+					},
+				"grained4" : {
+						"animation" : "desertdefs/terrains/grained4",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV"],
+						"zIndex": 100						
+					},
+				"grained5" : {
+						"animation" : "desertdefs/terrains/grained5",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVV", "VVV","VVV","VVV", "VVV","VVV"],
+						"zIndex": 100						
+					},
+				"grained6" : {
+						"animation" : "desertdefs/terrains/grained6",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVV", "VVV","VVV" ],
+						"zIndex": 100						
+					},
+				"grained7" : {
+						"animation" : "desertdefs/terrains/grained7",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVV", "VVVVV" ],
+						"zIndex": 100						
+					},
+				"grained8" : {
+						"animation" : "desertdefs/terrains/grained8",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VV", "VV","VV", "VV","VV"  ],
+						"zIndex": 100						
+					}
+				}
+			}
+		}
+	}
+}

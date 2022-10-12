@@ -1,0 +1,28 @@
+{
+	"name" : "Desert Objects",
+	"description" : "Desert-themed objects from the fred's object pack. ",
+	
+	"author" : "Fred79",
+	"contact" : "madaosoul@gmail.com",
+	"version" : "0.5.1",
+	"modType" : "Objects",	
+	
+	"conflicts" :
+	[
+
+	],
+	
+    "objects" :
+    [ 
+
+	"objectsDesert/desertObjects.json",
+	"objectsDesert/desertMines.json",
+	"objectsDesert/desertBarchanDunes.json",
+
+	"objectsDesert/cursedSands.json",
+	"objectsDesert/grainedSands.json",
+	"objectsDesert/desertPavement.json"
+    ]
+
+
+}

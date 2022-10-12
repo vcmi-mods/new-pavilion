@@ -1,0 +1,371 @@
+{
+	"pavilion" :
+	{
+		"town" :
+		{
+			"structures" : 
+			{
+                "extraAnimation": 
+				{ 
+					"animation" : "towndefsPavilion/TBFREXT2", 
+					"x" : 0, 
+				    "y" : 0,
+					"z" : -1
+				},
+				    "homes": 
+				{ 
+					"animation" : "towndefsPavilion/TBFREXT1", 
+					"x" : 141,
+					"y" : 96,
+					"z" : -3
+				},
+                
+				"mageGuild1" :
+				{
+					"animation" : "towndefsPavilion/00-mages-guild-1",
+					"area" : "town-screenPavilion/buildings-area/00-mages-guild-1",
+					"border" : "town-screenPavilion/buildings-border/00-mages-guild-1",
+					"x" : 350,
+					"y" : 90,
+                     "z" : -5
+				},
+				"mageGuild2" :
+				{
+					"animation" : "towndefsPavilion/01-mages-guild-2",
+					"area" : "town-screenPavilion/buildings-area/01-mages-guild-2",
+					"border" : "town-screenPavilion/buildings-border/01-mages-guild-2",
+					"x" : 340,
+					"y" : 59,
+                     "z" : -5
+				},
+				"mageGuild3" :
+				{
+					"animation" : "towndefsPavilion/02-mages-guild-3",
+					"area" : "town-screenPavilion/buildings-area/02-mages-guild-3",
+					"border" : "town-screenPavilion/buildings-border/02-mages-guild-3",
+					"x" : 340,
+					"y" : 43,
+                     "z" : -5
+				},
+                "mageGuild4" :
+				{
+					"animation" : "towndefsPavilion/03-mages-guild-4",
+					"area" : "town-screenPavilion/buildings-area/03-mages-guild-4",
+					"border" : "town-screenPavilion/buildings-border/03-mages-guild-4",
+				 	"x" : 345,
+					"y" : 3,
+                    "z" : -5
+				},
+				"tavern" :
+				{
+					"animation" : "towndefsPavilion/05-tavern",
+					"area" : "town-screenPavilion/buildings-area/05-tavern",
+					"border" : "town-screenPavilion/buildings-border/05-tavern",
+					"x" : 301,
+					"y" : 182,
+                    "z" : 1
+				},
+
+				"fort" :
+				{
+					"animation" : "towndefsPavilion/07-fort",
+					"area" : "town-screenPavilion/buildings-area/07-fort",
+					"border" : "town-screenPavilion/buildings-border/07-fort",
+					"x" : 43,
+					"y" : 60,
+					"z" : -5
+				},
+				"citadel" :
+				{
+					"animation" : "towndefsPavilion/08-citadel",
+					"area" : "town-screenPavilion/buildings-area/08-citadel",
+					"border" : "town-screenPavilion/buildings-border/08-citadel",
+					"x" : 28,
+					"y" : 4,
+					"z" : -5
+				},
+				"castle" :
+				{
+					"animation" : "towndefsPavilion/09-castle",
+					"area" : "town-screenPavilion/buildings-area/09-castle",
+					"border" : "town-screenPavilion/buildings-border/09-castle",
+					"x" : 28,
+					"y" : 4,
+					"z" : -5
+				},
+				"villageHall" :
+				{
+					"animation" : "towndefsPavilion/10-village-hall",
+					"area" : "town-screenPavilion/buildings-area/10-village-hall",
+					"border" : "town-screenPavilion/buildings-border/10-village-hall",
+					"x" : 650,
+					"y" : 128
+				},
+				"townHall" :
+				{
+					"animation" : "towndefsPavilion/11-town-hall",
+					"area" : "town-screenPavilion/buildings-area/11-town-hall",
+					"border" : "town-screenPavilion/buildings-border/11-town-hall",
+					"x" : 176,
+					"y" : 93
+				},
+				"cityHall" :
+				{
+					"animation" : "towndefsPavilion/12-city-hall",
+					"area" : "town-screenPavilion/buildings-area/12-city-hall",
+					"border" : "town-screenPavilion/buildings-border/12-city-hall",
+					"x" : 141,
+					"y" : 96,
+                     "z" : -5
+				},
+				"capitol" :
+				{
+					"animation" : "towndefsPavilion/13-capitol",
+					"area" : "town-screenPavilion/buildings-area/13-capitol",
+					"border" : "town-screenPavilion/buildings-border/13-capitol",
+					"x" : 141,
+					"y" : 61,
+                     "z" : -5
+				},
+				"marketplace" :
+				{
+					"animation" : "towndefsPavilion/14-marketplace",
+					"area" : "town-screenPavilion/buildings-area/14-marketplace",
+					"border" : "town-screenPavilion/buildings-border/14-marketplace",
+					"x" : 404,
+					"y" : 211,
+					"z" : 2
+				},
+				"resourceSilo" :
+				{
+					"animation" : "towndefsPavilion/15-resource-silo",
+					"area" : "town-screenPavilion/buildings-area/15-resource-silo",
+					"border" : "town-screenPavilion/buildings-border/15-resource-silo",
+					"x" : 369,
+					"y" : 191,
+					"z" : 0
+				},
+				"blacksmith" :
+				{
+					"animation" : "towndefsPavilion/16-blacksmith",
+					"area" : "town-screenPavilion/buildings-area/16-blacksmith",
+					"border" : "town-screenPavilion/buildings-border/16-blacksmith",
+					"x" : 549,
+					"y" : 196,
+					"z" : 4
+				},
+				"workshop" :
+				{
+					"animation" : "towndefsPavilion/23-workshop",
+					"area" : "town-screenPavilion/buildings-area/23-workshop",
+					"border" : "town-screenPavilion/buildings-border/23-workshop",
+					"x" : 549,
+					"y" : 196,
+					"z" : 3
+				},
+				"horde1" :
+				{
+					"animation" : "towndefsPavilion/18-horde",
+					"area" : "town-screenPavilion/buildings-area/18-horde",
+					"border" : "town-screenPavilion/buildings-border/18-horde",
+					"x" : 575,
+					"y" : 258,
+					"z" : 4,
+					"hidden" : true
+				},
+				"horde1Upgr" :
+				{
+					"animation" : "towndefsPavilion/19-horde-upg",
+					"area" : "town-screenPavilion/buildings-area/19-horde-upg",
+					"border" : "town-screenPavilion/buildings-border/19-horde-upg",
+					"x" : 575,
+					"y" : 257,
+					"z" : 4,
+					"hidden" : true, "builds" : "horde1" 
+				},
+
+				"special1" : 
+				{
+					"animation" : "towndefsPavilion/17-special-1",
+					"area" : "town-screenPavilion/buildings-area/17-special-1",
+					"border" : "town-screenPavilion/buildings-border/17-special-1",
+					"x" : 414,
+					"y" : 138,
+                    "z" : -1
+				},
+				"horde2" : 
+				{
+					"animation" : "towndefsPavilion/21-special-2",
+					"area" : "town-screenPavilion/buildings-area/21-special-2",
+					"border" : "town-screenPavilion/buildings-border/21-special-2",
+			        "x" : 320,
+					"y" : 192,
+					"z" : 6
+				},	
+				"horde2Upgr" : 
+				{
+					"animation" : "towndefsPavilion/24-special-2 - upg",
+					"area" : "town-screenPavilion/buildings-area/21-special-2",
+					"border" : "town-screenPavilion/buildings-border/21-special-2",
+			        "x" : 320,
+					"y" : 192,
+					"z" : 6,
+					"builds" : "horde2" 
+				},		
+				"special3" : 
+				{
+	               	"animation" : "towndefsPavilion/22-special-3",
+					"area" : "town-screenPavilion/buildings-area/22-special-3",
+					"border" : "town-screenPavilion/buildings-border/22-special-3",
+					"x" : 369,
+					"y" : 191,
+					"z" : 0
+				},	
+				"grail" :
+				{
+					"animation" : "towndefsPavilion/26-grail ani",
+					"area" : "town-screenPavilion/buildings-area/26-grail",
+					"border" : "town-screenPavilion/buildings-border/26-grail",
+					"x" : 0,
+					"y" : 0,
+					"z" : -6
+				},
+
+				"dwellingLvl1" :
+				{
+					"animation" : "towndefsPavilion/31-dwelling-2",
+					"area" : "town-screenPavilion/buildings-area/31-dwelling-2",
+					"border" : "town-screenPavilion/buildings-border/31-dwelling-2",
+					"x" : 0,
+					"y" : 94,
+					"z" : -4
+				},
+				"dwellingLvl2" :
+				{
+					"animation" : "towndefsPavilion/30-dwelling-1",
+					"area" : "town-screenPavilion/buildings-area/30-dwelling-1",
+					"border" : "town-screenPavilion/buildings-border/30-dwelling-1",
+					"x" : 575,
+					"y" : 258,
+					"z" : -6
+//					"z" : 4
+				},
+				"dwellingLvl3" :
+				{
+					"animation" : "towndefsPavilion/32-dwelling-3",
+					"area" : "town-screenPavilion/buildings-area/32-dwelling-3",
+					"border" : "town-screenPavilion/buildings-border/32-dwelling-3",
+					"x" : 178,
+					"y" : 203,
+					"z" : 0
+				},
+				"dwellingLvl4" :
+				{
+					"animation" : "towndefsPavilion/33-dwelling-4",
+					"area" : "town-screenPavilion/buildings-area/33-dwelling-4",
+					"border" : "town-screenPavilion/buildings-border/33-dwelling-4",
+					"x" : 206,
+					"y" : 97,
+					"z" : -4
+				},
+				"dwellingLvl5" :
+				{
+					"animation" : "towndefsPavilion/35-dwelling-6",
+					"area" : "town-screenPavilion/buildings-area/35-dwelling-6",
+					"border" : "town-screenPavilion/buildings-border/35-dwelling-6",
+					"x" : 639,
+					"y" : 251,
+					"z" : 5
+				},
+				"dwellingLvl6" :
+				{
+					"animation" : "towndefsPavilion/34-dwelling-5",
+					"area" : "town-screenPavilion/buildings-area/34-dwelling-5",
+					"border" : "town-screenPavilion/buildings-border/34-dwelling-5",
+					
+					"x" : 0,
+					"y" : 209,
+					"z" : 4
+				},
+				"dwellingLvl7" :
+				{
+					"animation" : "towndefsPavilion/36-dwelling-7",
+					"area" : "town-screenPavilion/buildings-area/36-dwelling-7",
+					"border" : "town-screenPavilion/buildings-border/36-dwelling-7",
+			       "x" : 449,
+					"y" : 70,
+					"z" : 0
+				},
+
+				"dwellingUpLvl1" :
+				{
+					"animation" : "towndefsPavilion/38-dwelling-upgrade-2",
+					"area" : "town-screenPavilion/buildings-area/38-dwelling-upgrade-2",
+					"border" : "town-screenPavilion/buildings-border/38-dwelling-upgrade-2",
+					"x" : 0,
+					"y" : 91,
+					"z" : -4
+				},
+				"dwellingUpLvl2" :
+				{
+					"animation" : "towndefsPavilion/37-dwelling-upgrade-1",
+					"area" : "town-screenPavilion/buildings-area/37-dwelling-upgrade-1",
+					"border" : "town-screenPavilion/buildings-border/37-dwelling-upgrade-1",
+					"x" : 575,
+					"y" : 258,
+					"z" : 4
+				},
+				"dwellingUpLvl3" :
+				{
+					"animation" : "towndefsPavilion/39-dwelling-upgrade-3",
+					"area" : "town-screenPavilion/buildings-area/39-dwelling-upgrade-3",
+					"border" : "town-screenPavilion/buildings-border/39-dwelling-upgrade-3",
+					"x" : 164,
+					"y" : 203,
+					"z" : 0
+				},
+				
+				"dwellingUpLvl4" :
+				{
+					"animation" : "towndefsPavilion/40-dwelling-upgrade-4",
+					"area" : "town-screenPavilion/buildings-area/40-dwelling-upgrade-4",
+					"border" : "town-screenPavilion/buildings-border/40-dwelling-upgrade-4",
+					"x" : 206,
+					"y" : 97,
+					"z" : -4
+				},
+				"dwellingUpLvl5" :
+				{
+					
+					
+					"animation" : "towndefsPavilion/42-dwelling-upgrade-6",
+					"area" : "town-screenPavilion/buildings-area/42-dwelling-upgrade-6",
+					"border" : "town-screenPavilion/buildings-border/42-dwelling-upgrade-6",
+					"x" : 639,
+					"y" : 251,
+					"z" : 5
+					
+					
+				},
+				"dwellingUpLvl6" :
+				{
+					"animation" : "towndefsPavilion/41-dwelling-upgrade-5",
+					"area" : "town-screenPavilion/buildings-area/41-dwelling-upgrade-5",
+					"border" : "town-screenPavilion/buildings-border/41-dwelling-upgrade-5",
+					"x" : 0,
+					"y" : 209,
+					"z" : 4
+				},
+				"dwellingUpLvl7" :
+				{
+					"animation" : "towndefsPavilion/43-dwelling-upgrade-7",
+					"area" : "town-screenPavilion/buildings-area/43-dwelling-upgrade-7",
+					"border" : "town-screenPavilion/buildings-border/43-dwelling-upgrade-7",
+			        "x" : 449,
+					"y" : 70,
+					"z" : 0
+				}
+			}
+		}
+	}
+}

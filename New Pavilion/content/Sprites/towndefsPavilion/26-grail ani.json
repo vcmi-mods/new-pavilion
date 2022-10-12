@@ -1,0 +1,24 @@
+{
+    "basepath" : "towndefsPavilion/grail/",
+ 
+    "sequences" :
+    [
+        {
+            "group" : 0,
+ 
+            // List of files in this group
+            "frames" :
+            [
+                "NPavGrail ani1.png",
+                "NPavGrail ani2.png",
+                "NPavGrail ani3.png",
+                "NPavGrail ani4.png",
+                "NPavGrail ani5.png",
+                "NPavGrail ani6.png",
+                "NPavGrail ani7.png"
+   				
+            ]
+        }
+     
+    ]
+}

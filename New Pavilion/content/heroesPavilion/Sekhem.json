@@ -1,0 +1,68 @@
+{
+	"sekhem" :
+	{
+		"class" : "vizier",
+		"female" : false,
+	
+		"texts" :
+		{
+			"name" : "Sekhem",
+			"biography" : "As an aspect of the Goddess’ rage, Sekhem is unfit to live with her sisters at the temple. In attempt to quench the undying thirst for blood and gore, she seeks battle during the times of war and unrest.",
+			"specialty" :
+			{
+				"description" : "{Offence}\r\n\r\nReceives a 5% per level bonus to Offence skill.",
+				"tooltip" : "Secondary Skill Bonus: Offence",
+				"name" : "Offence"
+			}
+		},
+	
+		"images" :
+		{
+			"specialtySmall" : "speciconsPavilion/32Offen.bmp",
+			"specialtyLarge" : "speciconsPavilion/44Offen.bmp",
+			"large" : "heroportraitsPavilion/Sekhem.png",
+			"small" : "heroportraitsPavilion/SekhemSmall.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "whipper",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "wadjet",
+				"max" : 8,
+				"min" : 4
+			},
+			{
+				"creature" : "camelRider",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "offence"
+			}
+		],
+		
+		"specialty": 
+		{
+			"bonuses" : {
+				"offence" : {
+					"subtype" : "skill.offence",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		}
+	}
+}
+

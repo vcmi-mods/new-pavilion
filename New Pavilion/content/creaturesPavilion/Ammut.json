@@ -1,0 +1,75 @@
+{
+	"ammut":
+	{
+		"name" :
+		{
+			"plural" : "Ammuts",
+			"singular" : "Ammut"
+		},
+		"advMapAmount" :
+		{
+			"max" : 16,
+			"min" : 8
+	
+		},
+		"faction" : "pavilion",
+		"aiValue" : 1000,
+		"hasDoubleWeek": true,
+		"attack" : 13,
+		"cost" :
+		{
+			"gold" : 500
+		},
+		"damage" :
+		{
+			"max" : 18,
+			"min" : 13
+		},
+		"defense" : 12,
+		"fightValue" : 800,
+		"graphics" :
+		{
+			"animation" : "creaturedefsPavilion/Ammut.def",
+			"map" : "creaturedefsPavilion/AmmutMap.def",
+			"iconSmall" : "creatureiconsPavilion/AmmutSmall.bmp",
+			"iconLarge" : "creatureiconsPavilion/Ammut.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.20,
+				"idle" : 15.00,
+				"attack" : 1.50,
+				"flight" : 1.00
+			}
+           
+		},
+	    "doubleWide" : true,
+        "growth" : 3,
+		"hitPoints" : 45,
+		"level" : 5,
+        "upgrades":
+		[
+			"sunAmmut"
+		],
+		"sound" :
+		{
+			"attack" : "Pavilion/amtAtt2.wav",
+			"defend": "Pavilion/amtdef2.wav",
+			"killed": "Pavilion/amtDie2.wav",
+			"move": "Pavilion/amtWalksteps.wav",
+			"wince": "Pavilion/amtHit2.wav"
+ 		},
+		"speed" : 5,
+		"abilities" :
+		{
+			"noRetaliate" :
+		   {
+			   "type" : "BLOCKS_RETALIATION"
+		   }
+		},
+		"stackExperience" :
+		[
+
+		]	
+	}
+}

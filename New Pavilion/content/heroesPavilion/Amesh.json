@@ -1,0 +1,58 @@
+{
+	"amesh" :
+	{
+		"class" : "vizier",
+		"female" : false,
+
+		"texts" :
+		{
+			"name" : "Amesh",
+			"biography" : "Amesh is the only human known to have gone toe to toe with a Sphinx during a riddling competition. His love for solving riddles and coming up with the new ones has gained him a notoriety and great respect among these esoteric creatures.",
+			"specialty" :
+			{
+				"description" : "{Sphinxes and Sphinx Oracles}\r\n\r\nIncreases the Attack and Defence of any Sphinxes or Sphinx Oracles for each level attained after 6th level.",
+				"tooltip" : "Creature Bonus: Sphinxes",
+				"name" : "Sphinxes"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "speciconsPavilion/Un32Sphi.bmp",
+			"specialtyLarge" : "speciconsPavilion/Un44Sphi.bmp",
+			"large" : "heroportraitsPavilion/Amesh.png",
+			"small" : "heroportraitsPavilion/AmeshSmall.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "whipper",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "wadjet",
+				"max" : 8,
+				"min" : 4
+			},
+			{
+				"creature" : "camelRider",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+		
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "tactics"
+			}	
+		],
+			
+		"specialty" : {
+			"creature" : "sphinx"
+		}
+	}
+}

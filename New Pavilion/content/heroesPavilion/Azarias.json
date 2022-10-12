@@ -1,0 +1,61 @@
+{
+	"azarias" :
+	{
+		"class" : "vizier",
+		"female" : false,
+
+		"texts" :
+		{
+			"name" : "Azarias",
+			"biography" : "Azarias dedicated his life to studying wild creatures around the world. As it turned into obsession, he started to spend most of his time in the wilderness, but as a result, his insight of many beasts’ strengths and weaknesses became unparelleled.",
+			"specialty" :
+			{
+				"description" : "{Wadjets and Venomous Wadjets}\r\n\r\nIncreases the Attack and Defence of any Wadjets or Venomous Wadjets for each level attained after 2nd level.",
+				"tooltip" : "Creature Bonus: Wadjets",
+				"name" : "Wadjets"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "speciconsPavilion/UN32Wadj.bmp",
+			"specialtyLarge" : "speciconsPavilion/UN44Wadj.bmp",
+			"large" : "heroportraitsPavilion/Azarias.png",
+			"small" : "heroportraitsPavilion/AzariasSmall.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "wadjet",
+				"max" : 8,
+				"min" : 4
+			},
+            {
+				"creature" : "wadjet",
+				"max" : 8,
+				"min" : 4
+			},
+			{
+				"creature" : "wadjet",
+				"max" : 8,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			}
+		],
+		"specialty" : {
+			"creature" : "wadjet"
+		}
+	}
+}

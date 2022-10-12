@@ -1,0 +1,84 @@
+{
+	"zamonth" :
+	{
+		"class" : "embalmer",
+		"female" : false,
+
+		"texts" :
+		{
+			"name" : "Zamonth",
+			"biography" : "Zamonth could never accept that necromantic arts had been banned by the priest caste. It was only because of his almost divine status that he was allowed to keep dark tomes containing the forbidden knowledge.",
+			"specialty" :
+			{
+				"description" : "{Mummies}\r\n\r\nTransforms undead creatures to Mummies.",
+				"tooltip" : "Special Upgrade: Mummies",
+				"name" : "Mummies"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "speciconsPavilion/un32Mummy.bmp",
+			"specialtyLarge" : "speciconsPavilion/un44Mummy.bmp",
+			"large" : "heroportraitsPavilion/Zamonth.png",
+			"small" : "heroportraitsPavilion/ZamonthSmall.png"
+		},
+		"spellbook" :
+		[
+			"animateDead"
+		],
+		"army" :
+		[
+			{
+				"creature" : "mummy",
+				"max" : 2,
+				"min" : 1
+			},
+			{
+				"creature" : "mummy",
+				"max" : 2,
+				"min" : 1
+			},
+			{
+				"creature" : "mummy",
+				"max" : 2,
+				"min" : 1
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "necromancy"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		
+		"specialty" : {
+			"base" : {
+				"addInfo" : "creature.mummy",
+				"type" : "SPECIAL_UPGRADE"
+			},
+			"bonuses" : {
+				"skeleton2mummy" : { "subtype" : "creature.skeleton" },
+				"skeletonWarrior2mummy" : { "subtype" : "creature.skeletonWarrior" },
+				"walkingDead2mummy" : { "subtype" : "creature.walkingDead" },
+				"zombie2mummy" : { "subtype" : "creature.zombie" },
+				"wight2mummy" : { "subtype" : "creature.wight" },
+				"wraith2mummy" : { "subtype" : "creature.wraith" },
+				"vampire2mummy" : { "subtype" : "creature.vampire" },
+				"vampireLord2mummy" : { "subtype" : "creature.vampireLord" },
+				"lich2mummy" : { "subtype" : "creature.lich" },
+				"powerLich2mummy" : { "subtype" : "creature.powerLich" },
+				"blackKnight2mummy" : { "subtype" : "creature.blackKnight" },
+				"dreadKnight2mummy" : { "subtype" : "creature.dreadKnight" },
+				"boneDragon2mummy" : { "subtype" : "creature.boneDragon" },
+				"zombie2ghostDragon" : { "subtype" : "creature.ghostDragon" }
+			}
+		}	
+	}
+}

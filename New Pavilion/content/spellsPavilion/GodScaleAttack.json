@@ -1,0 +1,76 @@
+{
+	"godScaleAttack" : 
+	{
+		"type": "ability",
+		
+		"targetType" : "CREATURE",
+		"name" : "God's Scales",
+		"school": {"air":false, "earth":false, "fire":false, "water":false},
+		"level": 1,
+		"power": 1,
+		"defaultGainChance": 0, 		
+		"gainChance":
+		{
+			
+		},
+		"graphics":
+		{
+			"iconImmune":"spellsPavilion/placeholder.bmp",
+			"iconScenarioBonus": "spellsPavilion/placeholderBonus.bmp",
+			"iconEffect": "spellsPavilion/ScalesAttackEffect.bmp",
+			"iconBook": "spellsPavilion/placeholder.bmp",
+			"iconScroll": "spellsPavilion/placeholderScroll.bmp"
+ 
+		},		
+		"animation":
+		{
+			"affect":[{"defName":"C13SPW0", "verticalPosition":"bottom"}, "C13SPW0"]
+		},
+		"sounds": {
+			"cast": "SLAYER"
+		},
+		
+		"levels" : 
+			{
+			
+			"base":{
+				"description": "Attack scaled down to 0.",
+				"cost": 0,
+				"power": 1,
+				"aiValue": 0,
+				"range" : "0",
+				"targetModifier":{"smart":true},
+				"effects" : {
+					"scaledAttack" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.attack",
+						"val" : 0,
+						"valueType" : "INDEPENDENT_MIN",
+						"duration" : "N_TURNS"
+					}
+					}
+					},
+					
+			"none":{
+			},
+			"basic":{
+			},
+			"advanced":{
+			},
+			"expert":{
+			}
+			},
+		"absoluteLimit" : {
+
+		},
+		"absoluteImmunity" : {
+
+		},
+		"immunity" : {
+
+		},
+		"flags" : {
+			"negative": true
+		}
+	}
+}

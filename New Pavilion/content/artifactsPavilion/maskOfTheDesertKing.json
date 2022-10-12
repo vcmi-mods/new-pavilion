@@ -1,0 +1,35 @@
+{
+	"maskOfTheDesertKing":
+	{
+		"type": ["HERO"],
+		"slot" : "HEAD",
+		"class": "MAJOR",
+		"value": 8000,	
+		"text":
+		{
+			"name": "Mask of the Desert King",
+			"description": "{Mask of the Desert King}\r\n\r\nWorn on the head, this item increases your Knowledge skill by +4, and increases the chance wandering creatures will offer to join the hero’s army.",
+			"event": "In the ruins of an ancient city, you find a worn mask. As you put it on, vistas of past empires flash in your mind and you hear a voice 'Every kingdom falls. Maybe you will be the one'."
+		},
+		"graphics":
+		{
+			"image": "artifactsPavilion/maskOfTheDesertKing.png",
+			"map": "artifactsPavilion/maskOfTheDesertKingmap.def"
+		},
+		"bonuses":
+		[
+			{
+				"subtype" : "primSkill.knowledge",
+				"type" : "PRIMARY_SKILL",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			}	,
+			{
+				"subtype" : "skill.diplomacy",
+				"type" : "SECONDARY_SKILL_PREMY",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		]
+	}
+}

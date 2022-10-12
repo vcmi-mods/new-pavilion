@@ -1,0 +1,78 @@
+{
+	"pavilion" :
+	{
+		"town" :
+		{
+			"guildSpells" :
+			{
+				// Level 1
+				"bless"          : 33,
+				"bloodlust"      : 33,
+				"cure"           : 33,
+				"curse"          : 63,
+				"dispel"         : 54,
+				"haste"          : 0,
+				"magicArrow"     : 88,
+				"protectWater"   : 19,
+				"protectFire"    : 33,
+				"shield"         : 19,
+				"slow"           : 54,
+				"stoneSkin"      : 33,
+				"summonBoat"     : 19,
+				"viewAir"        : 0,
+				"viewEarth"      : 19,
+
+				// Level 2
+				"disguise"       : 13,
+				"deathRipple"    : 44,
+    	 		"blind"          : 25,
+				"disruptingRay"  : 13,
+				"fireWall"       : 25,
+				"fortune"        : 13,
+				"iceBolt"        : 96,
+				"lightningBolt"  : 0,
+				"precision"      : 13,
+				"protectAir"     : 13,
+				"quicksand"      : 44,
+				"removeObstacle" : 13,
+				"scuttleBoat"    : 25,
+				"visions"        : 13,
+				"weakness"       : 44,
+
+				// Level 3
+				"airShield"      : 0,
+				"antiMagic"      : 87,
+				"earthquake"     : 17,
+				"fireball"       : 52,
+				"forceField"     : 52,
+				"forgetfulness"  : 34,
+				"frostRing"      : 52,
+				"hypnotize"      : 17,
+				"landMine"       : 34,
+				"mirth"          : 17,
+				"misfortune"     : 34,
+				"protectEarth"   : 52,
+				"teleport"       : 34,
+				"destroyUndead"  : 17,
+
+				//Level 4
+				"armageddon"     : 10,
+				"berserk"        : 10,				
+				"chainLightning" : 0,
+				"clone"          : 10,
+				"counterstrike"  : 10,
+				"fireShield"     : 20,
+				"frenzy"         : 10,
+				"inferno"        : 10,
+				"meteorShower"   : 20,
+				"prayer"         : 20,
+				"resurrection"   : 20,
+				"slayer"         : 10,
+				"sorrow"         : 10,
+				"townPortal"     : 20,
+				"waterWalk"      : 20
+			}
+		}
+	}
+}
+

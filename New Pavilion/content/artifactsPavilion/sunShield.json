@@ -1,0 +1,35 @@
+{
+	"sunShield":
+	{
+		"type": ["HERO"],
+		"slot" : "LEFT_HAND",
+		"class": "MAJOR",
+		"value": 8000,	
+		"text":
+		{
+			"name": "Sun Shield",
+			"description": "{Sun Shield}\r\n\r\nThis left handed item increases your Defense skill by +5, and Magic Resistance by 10%.",
+			"event": "During a journey, you encounter Wadjets sleeping nearby, with a source of incredible radiance in their nest. You quietly sneak up and take the object. In safety, you marvel at the glistening beauty of the Sun Shield."
+					
+		},
+		"graphics":
+		{
+			"image": "artifactsPavilion/sunShield2.png",
+			"map": "artifactsPavilion/sunShield2map.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 1,
+				"val": 5,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type": "MAGIC_RESISTANCE",
+				"val": 10,
+				"valueType" : "BASE_NUMBER"
+			}
+		]
+	}
+}

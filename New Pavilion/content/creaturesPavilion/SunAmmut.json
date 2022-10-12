@@ -1,0 +1,80 @@
+{
+    "sunAmmut":
+	{
+		"name" :
+		{
+			"plural" : "Devouring Ammuts",
+			"singular" : "Devouring Ammut"
+		},
+		"advMapAmount" :
+		{
+			"max" : 12,
+			"min" : 8
+		},
+		"faction" : "pavilion",
+		"aiValue" : 1300,
+		"hasDoubleWeek": true,
+		"attack" : 14,
+		"cost" :
+		{
+			"gold" : 600
+		},
+		"damage" :
+		{
+			"max" : 18,
+			"min" : 13
+		},
+		"defense" : 13,
+		"fightValue" : 1100,
+		"graphics" :
+		{
+			"animation" : "creaturedefsPavilion/SunAmmut.def",
+			"map" : "creaturedefsPavilion/SunAmmutMap.def",
+			"iconSmall" : "creatureiconsPavilion/SunAmmutSmall.bmp",
+			"iconLarge" : "creatureiconsPavilion/SunAmmut.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			}
+	
+		},
+	    "doubleWide" : true,
+        "growth" : 3,
+		"hitPoints" : 50,
+		"level" : 5,
+		"sound" :
+		{
+			"attack" : "Pavilion/amtAtt2.wav",
+			"defend": "Pavilion/amtdef2.wav",
+			"killed": "Pavilion/amtDie2.wav",
+			"move": "Pavilion/amtWalksteps.wav",
+			"wince": "Pavilion/amtHit2.wav"
+ 		},
+		"speed" : 6,
+		"abilities" :
+		{
+
+             "noRetaliate" :
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},	  
+			
+			"lifeEater" :
+			{
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.lifeEater",
+				"val" : 100, 
+				"duration": "N_TURNS"
+			}	
+
+		},
+		"stackExperience" :
+		[
+
+		]	
+	}
+}

@@ -1,0 +1,123 @@
+{
+	"specialSlowPav" : 
+	{
+		"type": "combat",
+		"targetType" : "CREATURE",
+		"name" : "Specialist's Slow",
+		"school": {"air":false, "earth":true, "fire":false, "water":false},
+		"level": 1,
+		"power": 0,
+		"defaultGainChance": 0, 		
+		"gainChance":
+		{},
+		"graphics":
+		{
+			"iconImmune":"spellsPavilion/placeholder.bmp",
+			"iconScenarioBonus": "spellsPavilion/SB53Muck.bmp",
+			"iconEffect": "spellsPavilion/Si53Muck.bmp",
+			"iconBook": "spellsPavilion/Sp53Muck_SP6.bmp",
+			"iconScroll": "spellsPavilion/Sm53Muck.bmp"
+ 
+		},	
+		"animation":{
+			"affect":[{"defName":"C09SPE0", "verticalPosition":"bottom"}]
+		},
+		"sounds": {
+			"cast": "MUCKMIRE"
+		},
+		
+		"levels" : 
+			{			
+				"base": {
+					"description": "{Specialist's Slow}\n\nReduces the speed of the selected enemy unit.\n\n(Effect is increased by 10% for lv 1-6 creatures.)\n",
+					"cost": 6,
+					"power": 0,
+					"aiValue": 20,
+					"range" : "0",
+					"targetModifier":{"smart":true},
+					"effects" : {
+						"stacksSpeedSpecial" : {
+							"addInfo" : 0,
+							"type" : "STACKS_SPEED",
+							"val" : -10,
+							"valueType" : "PERCENT_TO_ALL",
+							"duration" : "N_TURNS",
+							"limiters": [ 
+								"noneOf", 
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters": [ "KING1" ]
+									 },
+								 {
+										"type" : "HAS_ANOTHER_BONUS_LIMITER",
+										"parameters": [ "KING2" ]
+										 }, 
+								{
+											"type" : "HAS_ANOTHER_BONUS_LIMITER",
+											"parameters": [ "KING3" ]
+											 }, 
+											 {
+												"type" : "HAS_ANOTHER_BONUS_LIMITER",
+												"parameters": [ "SPELL_IMMUNITY", "core:spell.slow" ]
+												 } ]
+						},
+						
+						"normalSlow" : {
+							"addInfo" : 0,
+							"type" : "STACKS_SPEED",
+							"val" : -25,
+							"valueType" : "PERCENT_TO_ALL",
+							"duration" : "N_TURNS",
+							"limiters": [ 
+								"noneOf", {
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"parameters": [ "SPELL_IMMUNITY", "core:spell.slow" ]
+									 } ]
+							
+						}
+//chybaniepotrzebne
+//							"stacking" : "Slow"							
+						}
+					},				
+
+					"none":
+					{},
+					"basic":
+					{
+						"description": "{Basic Spec. Slow}\n\nReduces the speed of the selected enemy unit.\n\n(Effect is increased by 10% for lv 1-6 creatures.)\n",
+						"cost": 5
+					},
+					"advanced":
+					{
+						"description": "{Advanced Spec. Slow}\n\nReduces the speed of the selected enemy unit.\n\nEffect is twice that of Basic Slow and increased by 10% for lv 1-6 creatures.\n",
+						"cost": 5,
+						"effects" : {		
+							"normalSlow" : {
+								"val" : 50
+							}							
+	
+							}
+					},
+					"expert":
+					{
+						"description": "{Expert Spec. Slow}\n\nReduces the speed of all enemy units.\n\nEffect is twice that of Basic Slow and increased by 10% for lv 1-6 creatures.\n",
+						"cost": 5,
+						"range" : "X",
+						"effects" : {	
+							"normalSlow" : {
+								"val" : 50
+							}							
+							}
+
+					}
+                },
+				"targetCondition" : {
+					"allOf" : {},
+					"anyOf" : {},			
+					"noneOf" : {}
+			},	
+		"counters": { 
+			"core:spell.slow": true},
+		"flags" : {	"negative": true, "special": true }
+	}
+}

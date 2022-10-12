@@ -1,0 +1,89 @@
+{
+	"vizier" :
+	{
+		"name" : "Vizier",
+		"animation" :
+		{
+			"battle" : 
+			{
+				"female" : "herodefsPavilion/battleHeroVizier",
+				"male"   : "herodefsPavilion/battleHeroVizier"
+			}
+		},
+		"mapObject" : { "templates" : { "default" : { "animation" : "herodefsPavilion/mapHeroVizier" } } },
+		"faction" : "pavilion",
+		
+		"affinity" : "might",
+		
+		"commander" : "preacher",
+
+		"primarySkills" :
+		{
+			"attack"     : 2,
+			"defence"    : 1,
+			"spellpower" : 2,
+			"knowledge"  : 1
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 40,
+			"defence"    : 20,
+			"spellpower" : 30,
+			"knowledge"  : 10
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 30,
+			"defence"    : 20,
+			"spellpower" : 30,
+			"knowledge"  : 20
+		},
+		"secondarySkills" :
+		{
+			"pathfinding"  : 0,
+			"archery"      : 5,
+			"logistics"    : 8,
+			"scouting"     : 6,
+			"diplomacy"    : 2,
+			"navigation"   : 2,
+			"leadership"   : 5,
+			"wisdom"       : 2,
+			"mysticism"    : 2,
+			"luck"         : 2,
+			"ballistics"   : 7,
+			"eagleEye"     : 1,
+			"necromancy"   : 0,
+			"estates"      : 8,
+			"fireMagic"    : 2,
+			"airMagic"     : 0,
+			"waterMagic"   : 2,
+			"earthMagic"   : 3,
+			"scholar"      : 1,
+			"tactics"      : 8,
+			"artillery"    : 6,
+			"learning"     : 4,
+			"offence"      : 8,
+			"armorer"      : 7,
+			"intelligence" : 4,
+			"sorcery"      : 4,
+			"resistance"   : 7,
+			"firstAid"     : 6
+		},
+		
+		"defaultTavern" : 5,
+		
+		"tavern" :
+		{
+			"castle"     : 6,
+			"rampart"    : 6,
+			"tower"      : 6,
+			"inferno"    : 6,
+			"necropolis" : 6,
+			"dungeon"    : 6,
+			"stronghold" : 6,
+			"fortress"   : 6,
+			"conflux"    : 6,
+			"pavilion"      : 6
+		}
+	}
+}

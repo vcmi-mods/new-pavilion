@@ -1,0 +1,76 @@
+{
+	"bast" :
+	{
+		"class" : "embalmer",
+		"female" : true,
+		"special" : true,
+
+		"texts" :
+		{
+			"name" : "Bast",
+			"biography" : "As everyone knows, Priestesses do not like to hurry. They do everything carefully and with grace, but Bast is different. On a horseback, she can outrun the fastest riders.",
+			"specialty" :
+			{
+				"description" : "{Logistics}\r\n\r\nReceives a 5% per level bonus to Logistics skill.",
+				"tooltip" : "Secondary Skill Bonus: Logistics",
+				"name" : "Logistics"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "speciconsPavilion/un32logi.bmp",
+			"specialtyLarge" : "speciconsPavilion/un44logi.bmp",
+			"large" : "heroportraitsPavilion/Bast.png",
+			"small" : "heroportraitsPavilion/BastSmall.png"
+		},
+        	"spellbook" :
+		[
+			"haste"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "whipper",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "wadjet",
+				"max" : 8,
+				"min" : 4
+			},
+			{
+				"creature" : "camelRider",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		
+		"specialty": 
+{
+			"bonuses" : {
+				"logistics" : {
+					"subtype" : "skill.logistics",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		}
+	}
+}

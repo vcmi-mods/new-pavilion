@@ -1,0 +1,77 @@
+{
+	"lifeEater" : {
+		"type": "ability",
+		"name": "Life Eater",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"targetType": "CREATURE",
+		"level": 1,
+		"power": 1,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+		"animation":{
+			"affect":[{"defName":"spellsPavilion/LifeEaterSpell", "verticalPosition":"top"}]
+		},
+		"flags" : {"positive": true
+					},
+		"sounds": {
+			"cast": "PROTECTE"
+		},
+		"graphics":
+		{
+			"iconImmune":"spellsPavilion/placeholder.bmp",
+			"iconEffect": "spellsPavilion/LifeEaterEffect.bmp"
+		},
+		"levels" : {
+			"base":{
+		
+				"range": "1",
+				"power": 1,
+				"cost": 0,
+				"aiValue": 20,
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"battleEffects":{
+
+					"lifeEater" :
+					{
+					"type": "core:timed",
+					"cumulative": true,
+					"bonus":
+					{
+					"lifeEffect":
+                    {
+                        "type": "STACK_HEALTH",
+                        "val" : 3, 
+                        "duration": "N_TURNS"
+					}
+				}
+			}
+				},
+				"description": "The devourer grows stronger after every bite."
+			},
+			"none":
+			{},
+			"basic":
+			{},
+			"advanced":
+			{},
+			"expert":
+			{}
+		},		
+		"targetCondition" : {
+			"anyOf" : {
+				"new pavilion:creature.sunAmmut":"absolute"
+		}
+	}
+	}
+}

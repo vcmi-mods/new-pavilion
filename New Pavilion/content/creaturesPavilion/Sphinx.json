@@ -1,0 +1,86 @@
+{
+	"sphinx":
+	{
+		"name" :
+		{
+			"plural" : "Sphinxes",
+			"singular" : "Sphinx"
+		},
+		"advMapAmount" :
+		{
+			"max" : 12,
+			"min" : 5
+		},
+		"faction" : "pavilion",
+		"aiValue" : 1200,
+		"attack" : 14,
+		"hasDoubleWeek": true,
+		"cost" :
+		{
+			"gold" : 900
+		},
+		"damage" :
+		{
+			"max" : 20,
+			"min" : 15
+		},
+		"defense" : 16,
+		"fightValue" : 1000,
+		"graphics" :
+		{
+			"animation" : "creaturedefsPavilion/Sphinx.def",
+			"map" : "creaturedefsPavilion/SphinxMap.def",
+			"iconSmall" : "creatureiconsPavilion/SphinxSmall.bmp",
+			"iconLarge" : "creatureiconsPavilion/Sphinx.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.20,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			}
+           
+		},
+	    "doubleWide" : true,
+        "growth" : 2,
+		"hitPoints" : 100,
+		"level" : 6,
+        "upgrades":
+		[
+			"elderSphinx"
+		],
+		"sound" :
+		{
+			"attack" : "Pavilion/sphxAtt.wav",
+			"defend": "Pavilion/sphxDef.wav",
+			"killed": "Pavilion/sphxDie.wav",
+			"move": "Pavilion/sphxWalk.wav",
+			"wince": "Pavilion/sphxHit.wav"
+ 		},
+		"speed" : 7,
+		"abilities" :
+		{
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 20
+			},
+			"buffNegation" : 
+		{
+			"type" : "SPELL_AFTER_ATTACK",
+			"subtype" : "spell.blessingSeal",
+			"val" : 100
+		},
+			"spellDuration" : 
+		{
+			"type" : "CREATURE_ENCHANT_POWER",
+			"val" : 3
+		}	
+		},
+		"stackExperience" :
+		[
+
+		]	
+	}
+}

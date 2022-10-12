@@ -1,0 +1,104 @@
+{
+	"anubisWarrior":
+	{
+		"name" :
+		{
+			"plural" : "Divine Anubians",
+			"singular" : "Divine Anubian"
+		},
+		"advMapAmount" :
+		{
+			"max" : 8,
+			"min" : 3
+		},
+		"faction" : "pavilion",
+		"aiValue" : 4050,
+		"attack" : 30,
+		"cost" :
+		{
+			"gold" : 4000,
+            "mercury" : 2
+		},
+		"damage" :
+		{
+			"max" : 45,
+			"min" : 35
+		},
+		"defense" : 20,
+		"fightValue" : 3850,
+		"hasDoubleWeek": true,
+		"graphics" :
+		{
+			"animation" : "creaturedefsPavilion/newAnubis2.def",
+			"map" : "creaturedefsPavilion/newAnubis2adv.def",
+			"iconSmall" : "creatureiconsPavilion/newAnubisWarriorSmall.bmp",
+			"iconLarge" : "creatureiconsPavilion/newAnubisWarrior.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 2.00,
+				"idle" : 12.00,
+				"attack" : 1.00,
+				"flight" : 2.00
+			}
+	
+		},
+        "growth" : 1,
+		"hitPoints" : 250,
+		"level" : 7,
+        
+   
+		"sound" :
+		{
+			"attack" : "Pavilion/anubAtt2.wav",
+			"defend": "Pavilion/anubDef.wav",
+			"killed": "Pavilion/anubDie2.wav",
+			"move": "Pavilion/anubLevi.wav",
+//			"move": "DEVLMOVE.wav",
+			"wince": "Pavilion/anubHit2.wav",
+            "shoot" : "Pavilion/anubShoot.wav"
+//			"startMoving": "Pavilion/anubTel.wav",
+//			"endMoving": "Pavilion/anubTel.wav"
+ 		},
+		"speed" : 14,
+		"abilities" :
+		{
+			"advancedSlayer" : 
+		{ 
+			"type" : "KING2" 
+		},			
+			"earthImmunity" : 
+			{
+				"type" : "EARTH_IMMUNITY",
+				"subtype" : 0
+			},
+			    "levitate" :
+			{
+				"type" : "FLYING",
+				"subtype" : 0
+			},
+			"godScalesAttack" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.godScaleAttack",
+				"val" : 20
+			},
+//			"godScalesDefence" : 
+//			{
+//				"type" : "SPELL_AFTER_ATTACK",
+//				"subtype" : "spell.godScaleDefence",
+//				"val" : 20
+//			},
+			"spellDuration" : 
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 3
+			}			
+
+		},
+		"stackExperience" :
+		[
+		
+		]	
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"fireRing":
+	{
+		"type": ["HERO"],
+		"slot" : "RING",
+		"class" : "MINOR",
+		"value": 4000,		
+		"text":
+		{
+			"name": "Ring of Scorching",
+			"description": "{Ring of Scorching}\r\n\r\nWorn on a finger, this item causes your Fire spells to inflict an additional 25% damage.",
+			"event": "You take a rest under a large rock and notice something lying in the shade. It's a skeleton's arm wearing a strange ring on one of its charred fingers. The owner won't need it in the afterlife, so you put it in your pocket."
+		},
+		"graphics":
+		{
+			"image": "artifactsPavilion/fireRing.png",
+			"map": "artifactsPavilion/fireRingmap.def"
+		},
+		"bonuses":
+		[
+			{
+				"type" : "FIRE_SPELL_DMG_PREMY",
+				"val" : 25,
+				"valueType" : "BASE_NUMBER"
+			}
+		]
+	}
+}

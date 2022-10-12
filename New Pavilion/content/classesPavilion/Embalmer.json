@@ -1,0 +1,89 @@
+{
+	"embalmer" :
+	{
+		"name" : "Embalmer",
+		"animation" :
+		{
+			"battle" : 
+			{
+				"female" : "herodefsPavilion/battleHeroEmbalmer",
+				"male"   : "herodefsPavilion/battleHeroEmbalmer"
+			}
+		},
+		"mapObject" : { "templates" : { "default" : { "animation" : "herodefsPavilion/mapHeroEmbalmer" } } },
+		"affinity" : "magic",
+		
+		"commander" : "preacher",
+		
+		"faction" : "pavilion",
+
+		"primarySkills" :
+		{
+			"attack"     : 1,
+			"defence"    : 0,
+			"spellpower" : 2,
+			"knowledge"  : 2
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 30,
+			"defence"    : 10,
+			"spellpower" : 40,
+			"knowledge"  : 20
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 25,
+			"defence"    : 25,
+			"spellpower" : 25,
+			"knowledge"  : 25
+		},
+		"secondarySkills" :
+		{
+			"pathfinding"  : 0,
+			"archery"      : 3,
+			"logistics"    : 6,
+			"scouting"     : 2,
+			"diplomacy"    : 2,
+			"navigation"   : 3,
+			"leadership"   : 1,
+			"wisdom"       : 8,
+			"mysticism"    : 8,
+			"luck"         : 6,
+			"ballistics"   : 5,
+			"eagleEye"     : 2,
+			"necromancy"   : 0,
+			"estates"      : 6,
+			"fireMagic"    : 3,
+			"airMagic"     : 0,
+			"waterMagic"   : 3,
+			"earthMagic"   : 6,
+			"scholar"      : 8,
+			"tactics"      : 4,
+			"artillery"    : 4,
+			"learning"     : 4,
+			"offence"      : 2,
+			"armorer"      : 4,
+			"intelligence" : 6,
+			"sorcery"      : 5,
+			"resistance"   : 1,
+			"firstAid"     : 10
+		},
+		
+		"defaultTavern" : 5,
+		
+		"tavern" :
+		{
+			"castle"     : 6,
+			"rampart"    : 6,
+			"tower"      : 6,
+			"inferno"    : 6,
+			"necropolis" : 6,
+			"dungeon"    : 6,
+			"stronghold" : 6,
+			"fortress"   : 6,
+			"conflux"    : 6,
+			"pavilion"   : 6
+		}
+	}
+}

@@ -1,0 +1,146 @@
+{
+	"core:creatureGeneratorCommon" : 
+    {
+		"types" : 
+        {
+			"wadjetNest" :
+             {
+				"name" : "Wadjet Nest",
+				"creatures" : [[ "wadjet" ]],
+				"sounds": {
+					"ambient": ["objectsPavilion/maplvl2"]
+				},
+				"templates" : 
+                {
+					"default" : 
+                    {
+						"animation" : "mapdefsPavilion/wadjetNest.def",
+						"mask" : [ "VVV", "VVV", "VAA" ]
+					}
+				}
+             },
+                
+             "whipperVillage" :
+             {
+				"name" : "Settlement",
+				"creatures" : [[ "whipper" ]],
+				"sounds": {
+					"ambient": ["objectsPavilion/desertGarrison"]
+				},
+				"templates" : 
+                {
+					"default" : 
+                    {
+						"animation" : "mapdefsPavilion/village.def",
+						"mask" : [ "VVV", "VBB", "VAB" ]
+					}
+				}
+                
+			},
+                "camelTent" :
+             {
+				"name" : "Desert Tent",
+				"creatures" : [[ "camelRider" ]],
+				"sounds": {
+					"ambient": ["objectsPavilion/mapCamels"]
+				},
+				"templates" : 
+                {
+					"default" : 
+                    {
+						"animation" : "mapdefsPavilion/tent.def",
+						"mask" : [ "VVV", "VVV", "VAA" ]
+					}
+				}
+                
+			},
+                   "sekhmetAltar" :
+             {
+				"name" : "Altar of the Goddess",
+				"creatures" : [[ "sekhmet" ]],
+				"sounds": {
+					"ambient": ["objectsPavilion/maplvl4"]
+				},
+				"templates" : 
+                {
+					"default" : 
+                    {
+						"animation" : "mapdefsPavilion/sekhetAltar.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+                
+			},
+			"caveOfFear" :
+            {
+				"name" : "Cave of Fear",
+				"creatures" : [[ "ammut" ]],
+				"sounds": {
+					"ambient": ["objectsPavilion/maplvl5"]
+				},
+                 "guards" : true,
+				"templates" : 
+                {
+					"default" : 
+                    {
+						"animation" : "mapdefsPavilion/caveOfFear.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+                
+			},
+            "sphinxGarnison" :
+             {
+				"name" : "Sphinx Barracks",
+				"creatures" : [[ "sphinx" ]],
+				"sounds": {
+					"ambient": ["objectsPavilion/mapElephants"]
+				},
+                "guards" : true,
+				"templates" : 
+                {
+					"default" : 
+                    {
+						"animation" : "mapdefsPavilion/sphinxGarnison.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+                
+			},
+                     "anubisTomb" :
+             {
+				"name" : "Ancient Tomb",
+				"creatures" : [[ "anubis" ]],
+				"sounds": {
+					"ambient": ["objectsPavilion/maplvl7"]
+				},
+                 "guards" : true,
+				"templates" : 
+                {
+					"default" : 
+                    {
+						"animation" : "mapdefsPavilion/tomb.def",
+						"mask" : [ "VVV", "VBB", "VAB" ]
+					}
+				}
+                
+			},
+				"scarabAltar" :
+             {
+				"name" : "Scarab Chantry",
+				"creatures" : [[ "scarab" ]],
+				"sounds": {
+					"ambient": ["objectsPavilion/mapScarabAltar"]
+				},
+				"templates" : 
+                {
+					"default" : 
+                    {
+						"animation" : "mapdefsPavilion/scarabAltar.def",
+						"mask" : [ "VVV", "VVA" ]
+					}
+				}
+             }
+		}	
+	}
+}

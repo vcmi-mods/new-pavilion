@@ -1,0 +1,82 @@
+{
+	"overseer":
+	{
+		"name" :
+		{
+			"plural" : "Overseers",
+			"singular" : "Overseer"
+		},
+		"advMapAmount" :
+		{
+			"max" : 50,
+			"min" : 20
+		},
+		"faction" : "pavilion",
+		"aiValue" : 90,
+		"hasDoubleWeek": true,
+		"attack" : 5,
+		"cost" :
+		{
+			"gold" : 60
+		},
+		"damage" :
+		{
+			"max" : 3,
+			"min" : 1
+		},
+		"defense" : 5,
+		"fightValue" : 80,
+		"graphics" :
+		{
+			"animation" : "creaturedefsPavilion/Overseer.def",
+			"map" : "creaturedefsPavilion/OverseerMap.def",
+			"iconSmall" : "creatureiconsPavilion/OverseerSmall.bmp",
+			"iconLarge" : "creatureiconsPavilion/Overseer.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.10,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 10.00
+			}
+
+		},
+		"growth" : 15,
+		"hitPoints" : 7,
+		"level" : 1,
+		"horde" : 4,
+		"sound" :
+		{
+			"attack": "PFOEATTK.wav",
+			"defend": "Pavilion/wippDef.wav",
+			"killed": "Pavilion/wippDie.wav",
+			"move": "Pavilion/wippWalk.wav",
+			"wince": "Pavilion/wippHit.wav"
+ 		},
+		"speed" : 5,
+		"abilities" :
+		{
+			"tribute" :
+			{
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.gold",
+				"val" : 50,
+				"propagator" : "HERO",
+				"stacking" : "base"
+			},
+
+			"tribute2" :
+			{
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.gold",
+				"val" : 25,
+				"propagator" : "HERO"
+			}
+		},
+		"stackExperience" :
+		[
+		
+		]	
+	}
+}

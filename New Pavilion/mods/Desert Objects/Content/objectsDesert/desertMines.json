@@ -1,0 +1,166 @@
+{
+	"core:mine" : {
+		"types" : {
+
+			"crystalCavern" : { 
+				"templates": {
+					
+					"dirt" : { 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"animation" : "AVMCRDR0",
+					"mask" : ["VVVV","VBAB"], 
+					"allowedTerrains":["dirt"] 
+					},
+					
+					"sand" : { 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"animation" : "AVMCRDS0", 
+					"mask" : ["VVVV","VBBB","VBAB"], 
+					"allowedTerrains":["sand"] 
+					},
+					"grass1" : { 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"animation" : "AVMCRGR0", 
+					"mask" : ["VVVV","VBAB"], 
+					"allowedTerrains":["grass"] 
+					},
+					"grass2" : { 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"animation" : "AVMcrys0", 
+					"mask" : ["VVVV","VBAB"], 
+					"allowedTerrains":["grass"] 
+					},
+					"snow" : { 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"animation" : "AVMCRSN0", 
+					"mask" : ["VVVV","VBAB"], 
+					"allowedTerrains":["snow"] 
+					},
+					"swamp" : { 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"animation" : "AVMCRSW0", 
+					"mask" : ["VVVV","VBBB","VBAB"], 
+					"allowedTerrains":["swamp"] 
+					},
+					"rough" : { 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"animation" : "AVMCRRF0", 
+					"mask" : ["VVVV","VBAB"], 
+					"allowedTerrains":["rough"] 
+					},
+					"subterra" : { 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"animation" : "AVMCRSU0", 
+					"mask" : ["VVVV","VBAB"], 
+					"allowedTerrains":["subterra"] 
+					},
+					"lava" : { 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"animation" : "AVMCRVO0", 
+					"mask" : ["VVVV","VBAB"], 
+					"allowedTerrains":["lava"] 
+					},
+					"dune" : { 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"animation" : "desertdefs/mines/desertCrystalM", //hota sand
+					"mask" : ["VVVV","VBBB","VBAB"], 
+					"allowedTerrains":["sand"] 
+					}
+				}
+			},
+			
+
+			"goldMine" : { 
+				"templates": {
+					
+					"dirt" : { 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"animation" : "AVMgodr0",
+					"mask" : ["VVVV","VBAB"], 
+					"allowedTerrains":["dirt"] 
+					},
+					
+					"sand" : { 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"animation" : "AVMgods0", 
+					"mask" : ["VVVV","VBBB","VBAB"], 
+					"allowedTerrains":["sand"] 
+					},
+					"grass1" : { 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"animation" : "avmgogr0", 
+					"mask" : ["VVVV","VBAB"], 
+					"allowedTerrains":["grass"] 
+					},
+					"grass2" : { 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"animation" : "AVMgold0", 
+					"mask" : ["VVVV","VBAB"], 
+					"allowedTerrains":["grass"] 
+					},
+					"snow" : { 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"animation" : "AVMgosn0", 
+					"mask" : ["VVVV","VBAB"], 
+					"allowedTerrains":["snow"] 
+					},
+					"swamp" : { 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"animation" : "AVMgosw0", 
+					"mask" : ["VVVV","VBBB","VBAB"], 
+					"allowedTerrains":["swamp"] 
+					},
+					"rough" : { 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"animation" : "AVMgorf0", 
+					"mask" : ["VVVV","VBAB"], 
+					"allowedTerrains":["rough"] 
+					},
+					"subterra" : { 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"animation" : "AVMgosb0", 
+					"mask" : ["VVVV","VBAB"], 
+					"allowedTerrains":["subterra"] 
+					},
+					"lava" : { 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"animation" : "AVMgovo0", 
+					"mask" : ["VVVV","VBAB"], 
+					"allowedTerrains":["lava"] 
+					},
+					"dune" : { 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"animation" : "desertdefs/mines/desertGoldM", //hota sand
+					"mask" : ["VVVV","VBBB","VBAB"], 
+					"allowedTerrains":["sand"] 
+					}
+				}
+			},
+			
+
+			"abandoned" : { 
+				"templates": {
+					
+					"dirt" : { 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"animation" : "AVXabnd0",
+					"mask" : ["VVVV","VBAB"], 
+					"allowedTerrains":["dirt"] 
+					},
+					"grass2" : { 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"animation" : "AVMAbMG", 
+					"mask" : ["VVVV","VBAB"], 
+					"allowedTerrains":["grass"] 
+					},
+					"dune" : { 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"animation" : "desertdefs/mines/desertAbandonedM", //hota sand
+					"mask" : ["VVVV","VBBB","VBAB"], 
+					"allowedTerrains":["sand"] 
+					}
+				}
+			}
+		}	
+	}
+}	

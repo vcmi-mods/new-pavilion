@@ -1,0 +1,117 @@
+{
+	"pavilion" :
+	{
+		"name" : "Pavilion",
+		"creatureBackground" :
+		{
+			"120px" : "creature-bg-120pxPavilion.bmp",
+			"130px" : "creature-bg-130pxPavilion.bmp"
+		},
+		"nativeTerrain": "sand",
+		"alignment" : "neutral",
+		
+		"town" :
+		{
+
+            
+            
+  			"tavernVideo" : "tvrnRM.smk",
+            "musicTheme" : "music/BastionTown",
+			"guildWindow": "town-screenPavilion/mage-guild.bmp",
+			"townBackground": "town-screenPavilion/background.bmp",
+			"guildBackground" : "TPMAGE.bmp",
+			"hallBackground": "PAVTHALL",
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4"], [ "special1" ], [ "horde2" ] ],
+				[ [ "special3" ], ["workshop"], [ "horde1"] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7"] ]
+			],
+			"creatures" :
+			[
+				[ "whipper", "overseer" ],
+				[ "wadjet", "venomousWadjet" ],
+				[ "camelRider", "desertWarrior" ],
+				[ "sekhmet", "sekhmetPriestess" ],
+				[ "ammut", "sunAmmut" ],
+				[ "sphinx", "elderSphinx" ],
+				[ "anubis", "anubisWarrior" ]
+			],
+			
+			"names" :
+			[
+				"Ankmor",
+				"Morroc",
+                "Exandia",
+                "Cair",
+                "Kushidia",
+                "Saqqara",
+                "Shazad",
+                "Tilafa",
+                "Ja-ra",
+                "Yadinzah"
+			],
+			
+			"moatDamage" : 90,
+			"horde" : [ 1 , 2],
+			"mageGuild" : 4,
+			
+			"primaryResource" : "mercury",
+			"buildingsIcons" : "town-hallPavilion.def",
+			"warMachine" :  "firstAidTent",
+			"icons" :
+			{
+				"village" : {
+					"normal" : {"small" : "towniconsPavilion/hall-small.bmp", "large" : "towniconsPavilion/hall-big.bmp" },
+					"built"  : {"small" : "towniconsPavilion/hall-builded-small.bmp", "large" : "towniconsPavilion/hall-builded-big.bmp" }
+				},
+				"fort" : {
+					"normal" : {"small" : "towniconsPavilion/fort-small.bmp", "large" : "towniconsPavilion/fort-big.bmp" },
+					"built"  : {"small" : "towniconsPavilion/fort-builded-small.bmp", "large" : "towniconsPavilion/fort-builded-big.bmp" }
+				}
+			},
+			
+			"mapObject" : 
+			{
+				"filters" : {
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+				},
+				"templates" : {
+					"capitol" : { "animation" : "mapdefsPavilion/town-capitol.def" },
+					"castle" : { "animation" : "mapdefsPavilion/town-castle.def" },
+					"citadel" : { "animation" : "mapdefsPavilion/town-citadel.def" },
+					"fort" : { "animation" : "mapdefsPavilion/town-fort.def" },
+					"village" : { "animation" : "mapdefsPavilion/town-village.def" }
+				}
+			},
+
+			"defaultTavern" : 5,
+			
+			"tavern" :
+			{
+				"knight"       : 4,
+				"cleric"       : 4,
+				"ranger"       : 2,
+				"druid"        : 2,
+				"alchemist"    : 5,
+				"wizard"       : 5,
+				"demoniac"     : 5,
+				"heretic"      : 5,
+				"deathknight"  : 5,
+				"necromancer"  : 5,
+				"warlock"      : 5,
+				"overlord"     : 5,
+				"barbarian"    : 5,
+				"battlemage"   : 5,
+				"beastmaster"  : 5,
+				"witch"        : 5,
+				"planeswalker" : 5,
+				"elementalist" : 5
+			}
+		}
+	}
+}

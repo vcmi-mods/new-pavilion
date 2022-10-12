@@ -1,0 +1,69 @@
+{
+	"desertPavement" : {
+		"handler": "generic",
+		"name" : "Pavement",
+		"base" : {
+			"base" : {
+			"visitableFrom" : [ "+++", "+++", "+++" ]
+			}
+		},
+		"types" : {
+
+			"desertPavement" : {
+				"name" : "Desert Pavement",
+				"templates" : {
+
+				"pavement1" : {
+						"animation" : "desertdefs/terrains/pavement1",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ],
+						"zIndex": 100						
+					},
+				"pavement2" : {
+						"animation" : "desertdefs/terrains/pavement2",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV" ],
+						"zIndex": 100						
+					},
+
+				"pavement3" : {
+						"animation" : "desertdefs/terrains/pavement3",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ],
+						"zIndex": 100						
+					},
+				"pavement4" : {
+						"animation" : "desertdefs/terrains/pavement4",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV"],
+						"zIndex": 100						
+					},
+				"pavement5" : {
+						"animation" : "desertdefs/terrains/pavement5",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVV", "VVV","VVV","VVV", "VVV","VVV"],
+						"zIndex": 100						
+					},
+				"pavement6" : {
+						"animation" : "desertdefs/terrains/pavement6",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVV", "VVV","VVV" ],
+						"zIndex": 100						
+					},
+				"pavement7" : {
+						"animation" : "desertdefs/terrains/pavement7",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVV", "VVVVV" ],
+						"zIndex": 100						
+					},
+				"pavement8" : {
+						"animation" : "desertdefs/terrains/pavement8",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VV", "VV","VV", "VV","VV"  ],
+						"zIndex": 100						
+					}
+				}
+			}
+		}
+	}
+}

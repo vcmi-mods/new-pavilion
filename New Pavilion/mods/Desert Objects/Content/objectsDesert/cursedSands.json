@@ -1,0 +1,60 @@
+{
+	"core:cursedGround" : {
+
+		"types" : {
+			"cursedSands" : {
+				"templates" : {
+				"cursedsand1" : {
+						"animation" : "desertdefs/terrains/cursedsand1",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ],
+						"zIndex": 100						
+					},
+				"cursedsand2" : {
+						"animation" : "desertdefs/terrains/cursedsand2",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV" ],
+						"zIndex": 100						
+					},
+
+				"cursedsand3" : {
+						"animation" : "desertdefs/terrains/cursedsand3",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ],
+						"zIndex": 100						
+					},
+				"cursedsand4" : {
+						"animation" : "desertdefs/terrains/cursedsand4",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV"],
+						"zIndex": 100						
+					},
+				"cursedsand5" : {
+						"animation" : "desertdefs/terrains/cursedsand5",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVV", "VVV","VVV","VVV", "VVV","VVV"],
+						"zIndex": 100						
+					},
+				"cursedsand6" : {
+						"animation" : "desertdefs/terrains/cursedsand6",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVV", "VVV","VVV" ],
+						"zIndex": 100						
+					},
+				"cursedsand7" : {
+						"animation" : "desertdefs/terrains/cursedsand7",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVV", "VVVVV" ],
+						"zIndex": 100						
+					},
+				"cursedsand8" : {
+						"animation" : "desertdefs/terrains/cursedsand8",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VV", "VV","VV", "VV","VV"  ],
+						"zIndex": 100						
+					}
+				}
+			}
+		}
+	}
+}

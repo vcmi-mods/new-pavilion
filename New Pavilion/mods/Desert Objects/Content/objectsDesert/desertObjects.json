@@ -1,0 +1,212 @@
+{
+	"core:idolOfFortune" : {
+		"types" : {
+			"desertIdolofFortune" : {
+//				"index" : 2,
+				"rmg" : {
+					"zoneLimit"	: 1,
+					"value"		: 100,
+					"rarity"	: 100
+				},
+				"templates" : {
+				
+					"golden cat" : { 
+					"visitableFrom" : [ "+++", "+++", "+++" ],	
+					"animation" : "desertdefs/idolOfFortune", 
+					"mask" : [ "VV", "VA" ],
+                    "allowedTerrains": [ "sand" ]
+					}
+				}
+			}	
+		}
+	},
+	"core:treeOfKnowledge"	: {
+		"types" : {
+			"desertTreeOfKnowledge" : {
+				"name" : "Savant Sphinx",
+//				"index" : 1,
+				"rmg" : {
+					"mapLimit"	: 100,
+					"value"		: 2500,
+					"rarity"	: 50
+				},
+				"templates" : {
+				
+					"sphinx" : { 
+					"visitableFrom" : [ "+++", "+++", "+++" ],	
+					"animation" : "desertdefs/treeOfKnowledge", 
+					"mask" : [ "VVV","VBB","VVA" ],
+                    "allowedTerrains": [ "sand" ]
+					}
+				}
+			}
+		}
+	},
+	"core:subterraneanGate" : {
+		"types" : {
+			"desertSubterreanGate" : {
+//				"index" : 2,
+				"templates" : {
+		
+					"desertCave" : { 
+					"animation" : "desertdefs/subterraGate1",  
+					"mask" : [ "VVVVV","VBBBV","VBBBV", "VBABV" ], 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+                       "allowedTerrains": [ "subterra", "sand" ]
+					},
+					
+					"subterraTunnelUp" : { 
+					"animation" : "desertdefs/subterraGate2", 
+					"mask" : [ "VBBV","VBBV","VAVV" ], 
+					"visitableFrom" : [ "---", "-+-", "-+-" ],
+                       "allowedTerrains": [ "subterra", "sand" ]
+					},
+					"subterraTunnelDown" : { 
+					"animation" : "desertdefs/subterraGate3", 
+					"mask" : [ "VBBV","VBBV","VAVV" ], 
+					"visitableFrom" : [ "---", "-+-", "-+-" ], 
+						"allowedTerrains": [ "subterra", "sand" ]
+						}					
+				}
+			}
+		}
+	},
+		"core:monolithOneWayEntrance" : {		
+			"types" : {
+				"desertMonsterMaw" : {
+					"name" : "Sand Maw",
+					"sounds": {
+						"visit" : ["objectsPavilion/desertFallingScream"]
+					},
+					"index" : 8,
+					"templates" : {		
+						"monsterMaw" : { 
+						"visitableFrom" : [ "+++", "+++", "+++" ],	
+						"animation" : "desertdefs/maw1", 
+						"mask" : [ "VVVV", "VAAV" ], 
+						"allowedTerrains":[ "sand" ],
+						"zIndex": 100						
+						}
+					}
+				}
+			}			
+		},
+		"core:monolithOneWayExit" : {		
+			"types" : {
+				"desertMonsterMaw" : {
+					"name" : "Underground Hole",
+					"index" : 8,
+					"templates" : {		
+						"monsterMaw" : { 
+						"visitableFrom" : [ "---", "+++", "+++" ],	
+						"animation" : "desertdefs/maw2", 
+						"mask" : [ "BBB", "BAB" ], 
+						"allowedTerrains":[ "subterra" ] 
+						}
+					}
+				}
+			}			
+		},
+		"core:fountainOfYouth"	: {
+			"types" : {
+				"desertFountainOfYouth" : {
+	//				"index" : 1,
+	//				"rmg" : {
+	//					"zoneLimit"	: 1,
+	//					"value"		: 100,
+	//					"rarity"	: 100
+	//				},
+					"templates" : {
+					
+						"youth statue" : { 
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"animation" : "desertdefs/fountainOfYouth",
+						"mask" : [ "VVVV","VVBB","VBAV" ],
+						"allowedTerrains": [ "sand", "rough" ]
+						}
+					}
+				}
+			}
+		},
+		
+		"core:corpse" :{	
+			"types" : {	
+				"desertCorpse" : {
+	//				"index" : 1,
+	//				"rmg" : {
+	//					"value"		: 500,
+	//					"rarity"	: 70
+	//				},
+					"templates" : {
+						"corpse1" : 
+						{ 
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"animation" : "desertdefs/corpse1", 
+						"mask" : [ "BA"], 
+						"allowedTerrains": [ "sand" ]
+						},
+						
+						"corpse2" : { 
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"animation" : "desertdefs/corpse2", 
+						"mask" : [ "VA" ], 
+						"allowedTerrains": [ "sand" ]
+						}					
+					}
+				}			
+			}	
+		},			
+		"core:campfire" :{	
+			"types" : {	
+				"desert Campfire" : {
+					"name" : "Burnt Campfire",
+	//				"index" : 1,
+	//				"rmg" : {
+	//					"value"		: 500,
+	//					"rarity"	: 70
+	//				},
+					"templates" : {
+						"burnt campfire" : { 						
+						"visitableFrom" : [ "+++", "+++", "+++" ],	
+						"animation" : "desertdefs/campfire", 
+						"mask" : [ "VA"], 
+						"allowedTerrains": [ "sand" ]
+						}			
+					}
+				}			
+			}	
+		},	
+		"core:temple" : {
+			"types" : {
+				"desert Temple" : {
+				"templates" : {
+					"desertTemple" : { 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"animation" : "desertdefs/temple", 
+					"mask" : [ "VBV", "VBA" ], 
+					"allowedTerrains": [ "sand" ]
+					}					
+				}
+			}
+
+
+			}
+		},				
+		"core:sign" : {
+			"types" : {
+				"stone tablet" : {
+				"name" : "Stone Tablet",
+				"templates" : {
+					"yellowTablet" : { 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"animation" : "desertdefs/stoneTablet", 
+					"mask" : [ "VV", "VA" ], 
+					"allowedTerrains": [ "sand" ]
+					}					
+				}
+			}
+
+
+			}
+		}
+}

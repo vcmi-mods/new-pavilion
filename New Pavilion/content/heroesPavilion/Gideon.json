@@ -1,0 +1,72 @@
+{
+	"gideon" :
+	{
+		"class" : "vizier",
+		"female" : true,
+
+		"texts" :
+		{
+			"name" : "Gideon",
+			"biography" : "Gideon has been born  with the favour of gods and this is probably why he has grown so reckless. It was a surprise to many that he didn't grow into a zealous warrior, but he still seems to consider blades and arrows randomly breaking on his chest as a welcome boon.",
+			"specialty" :
+			{
+				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill.",
+				"tooltip" : "Secondary Skill Bonus: Armorer",
+				"name" : "Armorer"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "speciconsPavilion/Un32Defe.bmp",
+			"specialtyLarge" : "speciconsPavilion/Un44Defe.bmp",
+			"large" : "heroportraitsPavilion/Gideon.png",
+			"small" : "heroportraitsPavilion/GideonSmall.png"
+		},
+
+		"army" :
+		[
+	{
+		"creature" : "whipper",
+		"max" : 25,
+		"min" : 15
+	},
+	{
+		"creature" : "wadjet",
+		"max" : 8,
+		"min" : 4
+	},
+	{
+		"creature" : "camelRider",
+		"max" : 4,
+		"min" : 2
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "ballistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			}
+		], 		
+        "specialty": 
+		{
+			"bonuses" : {
+				"armorer" : {
+					"subtype" : "skill.armorer",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		}
+	}
+}
+
+

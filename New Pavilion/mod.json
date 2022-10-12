@@ -1,0 +1,108 @@
+{
+	"name" : "Pavilion Town",
+	"description" : "Modified and balanced version of the 'Bastion Town' ported to VCMI by edeksumo with help of Acid Cave modding community, originally conceptualised and created by New Town Group.",
+	
+	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community",
+	"contact" : "madaosoul@gmail.com",
+	"version" : "2.7",
+	"modType" : "Town",	
+	"compatibility":
+	{
+		"min" : "1.0.0"
+	},	
+	"conflicts" :
+	[
+
+	],
+	
+	"factions" :
+	[
+		"townPavilion/structures.json",
+		"townPavilion/faction.json",
+		"townPavilion/buildings.json",
+		"townPavilion/siege.json",
+		"townPavilion/spells.json",
+		"townPavilion/puzzle.json" 
+
+	],
+	
+	"creatures" :
+	[
+        "creaturesPavilion/Whipper.json",  
+        "creaturesPavilion/Overseer.json",  
+        "creaturesPavilion/Wadjet.json",  
+		"creaturesPavilion/VenomousWadjet.json", 		
+        "creaturesPavilion/CamelRider.json",
+		"creaturesPavilion/DesertWarrior.json",
+		"creaturesPavilion/Sekhmet.json",
+        "creaturesPavilion/SekhmetPriestess.json",  
+        "creaturesPavilion/Ammut.json",
+        "creaturesPavilion/SunAmmut.json", 		
+        "creaturesPavilion/Sphinx.json",  
+        "creaturesPavilion/ElderSphinx.json",      		
+        "creaturesPavilion/Anubis.json", 
+        "creaturesPavilion/AnubisWarrior.json", 
+       
+		"commanderPavilion/preacher.json",
+		"creaturesPavilion/Scarab.json",
+
+		"creaturesPavilion/stackExp.json"
+	],
+		"spells" :
+	[
+	  "spellsPavilion/BlessingSeal.json" ,
+	  "spellsPavilion/GodScaleAttack.json",
+	  "spellsPavilion/GodScaleDefence.json",
+	  "spellsPavilion/LifeEater.json",
+	  "spellsPavilion/specSlow.json" 
+	],
+	
+    	"heroClasses" :
+	[
+		"classesPavilion/Vizier.json",
+        "classesPavilion/Embalmer.json"
+	],
+	
+    	"heroes" :
+	[
+
+        "heroesPavilion/Amanra.json",
+        "heroesPavilion/Amesh.json",
+        "heroesPavilion/Azarias.json",
+        "heroesPavilion/Cassandra.json",
+		"heroesPavilion/Elspeth.json",    
+        "heroesPavilion/Gideon.json",
+        "heroesPavilion/Jaffa.json",    
+        "heroesPavilion/Keila.json", 
+		"heroesPavilion/Ko-Eset.json",
+        "heroesPavilion/Marzum.json",
+        "heroesPavilion/Menet.json",
+        "heroesPavilion/Osir.json",   
+        "heroesPavilion/Peth-Shub.json",   
+        "heroesPavilion/Sekhem.json",
+        "heroesPavilion/Seref.json", 
+        "heroesPavilion/Zamonth.json",
+              
+        "heroesPavilion/Bast.json",                                             
+        "heroesPavilion/Varn.json"
+	],
+	
+    "objects" :
+    [ 
+    "objectsPavilion/dwellings.json",
+	"objectsPavilion/ziggurat.json"
+    ],
+	
+	"artifacts" :
+	[
+	  "artifactsPavilion/staffOfSand.json" ,
+	  "artifactsPavilion/goldenScarab.json",
+	  "artifactsPavilion/sunShield.json",
+	  "artifactsPavilion/scrollOfWisdom.json",
+	  "artifactsPavilion/maskOfTheDesertKing.json",
+	  "artifactsPavilion/fireRing.json" 
+
+	]
+
+
+}

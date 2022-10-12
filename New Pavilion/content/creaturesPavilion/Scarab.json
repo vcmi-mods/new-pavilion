@@ -1,0 +1,76 @@
+{
+	"scarab":
+	{
+		"name" :
+		{
+			"plural" : "Scarabs",
+			"singular" : "Scarab"
+		},
+		"advMapAmount" :
+		{
+			"max" : 50,
+			"min" : 20
+		},
+		"faction" : "neutral",
+		"aiValue" : 50,
+		"hasDoubleWeek": true,
+		"attack" : 3,
+		"cost" :
+		{
+			"gold" : 40
+		},
+		"damage" :
+		{
+			"max" : 3,
+			"min" : 1
+		},
+		"defense" : 2,
+		"fightValue" : 50,
+		"graphics" :
+		{
+			"animation" : "creaturedefsPavilion/scarab.def",
+			"map" : "creaturedefsPavilion/scarabMap.def",
+			"iconSmall" : "creatureiconsPavilion/scarabIcoSmall.bmp",
+			"iconLarge" : "creatureiconsPavilion/scarabIco.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			}
+
+		},
+		"growth" : 20,
+		"hitPoints" : 5,
+		"level" : 1,
+		"sound" :
+		{
+			"attack": "Pavilion/scarAtt.wav",
+			"defend": "Pavilion/scarDef.wav",
+			"killed": "Pavilion/scarDie.wav",
+			"move": "Pavilion/scarWalk.wav",
+			"wince": "Pavilion/scarHit.wav"
+ 		},
+		"speed" : 8,
+		"abilities" :
+		{
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+			
+			"increaseLuck" :
+			{
+				"type" : "LUCK",
+				"val" : 1
+			}
+
+		},
+		"stackExperience" :
+		[
+			
+		]	
+	}
+}

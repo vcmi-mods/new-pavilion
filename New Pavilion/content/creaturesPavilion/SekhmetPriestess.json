@@ -1,0 +1,105 @@
+{
+	"sekhmetPriestess":
+	{
+		"name" :
+		{
+			"plural" : "High Priestesses",
+			"singular" : "High Priestess"
+		},
+		"advMapAmount" :
+		{
+			"max" : 16,
+			"min" : 10
+		},
+		"faction" : "pavilion",
+		"aiValue" : 550,
+		"attack" : 12,
+		"hasDoubleWeek": true,
+		"cost" :
+		{
+			"gold" : 380
+		},
+		"damage" :
+		{
+			"max" : 9,
+			"min" : 7
+		},
+		"defense" : 8,
+		"fightValue" : 500,
+		"graphics" :
+		{
+			"animation" : "creaturedefsPavilion/SekhmetPriestess.def",
+			"map" : "creaturedefsPavilion/SekhmetPriestessMap.def",
+			"iconSmall" : "creatureiconsPavilion/SekhmetPriestessSmall.bmp",
+			"iconLarge" : "creatureiconsPavilion/SekhmetPriestess.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			},
+            "missile" :
+			{
+				"projectile" : "creaturedefsPavilion/projectile/shot283.def",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}	
+		},
+		"growth" : 4,
+		"hitPoints" : 30,
+		"level" : 4,
+		"sound" :
+		{
+			"attack" : "Pavilion/sekhAtt.wav",
+			"defend": "Pavilion/sekhDef.wav",
+			"killed": "Pavilion/sekhDie.wav",
+			"move": "Pavilion/sekhWalk.wav",
+			"wince": "Pavilion/sekhHit.wav",
+            "shoot" : "Pavilion/sekhShoot.wav"
+ 		},
+		"speed" : 7,
+        "shots" : 24,
+		"abilities" :
+		{
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},	
+			"healLife":
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.cure",
+				"val" : 2
+			},
+			"healPower" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.cure",
+				"val" : 50
+			},
+
+			"spellPoints" : 
+			{
+				"type" : "CASTS",
+				"val" : 3
+			}
+
+
+		},
+		"stackExperience" :
+		[
+	
+		]	
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"varn" :
+	{
+		"class" : "vizier",
+		"female" : false,
+		"special" : true,
+
+		"texts" :
+		{
+			"name" : "Varn",
+			"biography" : "The only thing Varn could remember when he woke up in the middle of the desert, was his name. He wanders seeking answers to the mystery of his past and his purpose.",
+			"specialty" :
+			{
+				"description" : "{Anubians and Divine Anubians}\r\n\r\nIncreases the Attack and Defence of any Anubians or Divine Anubians for each level attained after 7th level.",
+				"tooltip" : "Creature Bonus: Anubians",
+				"name" : "Anubians"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "speciconsPavilion/un32Anub.bmp",
+			"specialtyLarge" : "speciconsPavilion/un44Anub.bmp",
+			"large" : "heroportraitsPavilion/Varn.png",
+			"small" : "heroportraitsPavilion/VarnSmall.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "whipper",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "wadjet",
+				"max" : 8,
+				"min" : 4
+			},
+			{
+				"creature" : "camelRider",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+
+		"skills" :
+		[
+		{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "anubis"
+		}
+	}
+}
+

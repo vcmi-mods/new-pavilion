@@ -1,0 +1,99 @@
+{
+	"preacher":
+	{
+		"name" :
+		{
+			"plural" : "Preachers",
+			"singular" : "Preacher"
+		},
+		"advMapAmount" :
+		{
+			"max" : 8,
+			"min" : 3
+		},
+		"faction" : "pavilion",
+		"aiValue" : 5931,
+		"special" : true,
+		"attack" : 5,
+		"damage" :
+		{
+			"max" : 12,
+			"min" : 6
+		},
+		"defense" : 5,
+		"fightValue" : 5272,
+		"graphics" :
+		{
+			"animation" : "creaturedefsPavilion/preacher.def",
+			"map" : "creaturedefsPavilion/preacherMap.def",
+			"iconSmall" : "creatureiconsPavilion/preacherSmall.bmp",
+			"iconLarge" : "creatureiconsPavilion/preacher.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			},
+			"missile" :
+			{
+				"projectile" : "creaturedefsPavilion/projectile/shot283.def",
+				"attackClimaxFrame" : 4,
+				"offset" :
+				{
+					"lowerX" : 62,
+					"lowerY" : -93,
+					"middleX" : 62,
+					"middleY" : -93,
+					"upperX" : 62,
+					"upperY" : -93
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"doubleWide" : false,
+		"growth" : 1,
+		"hitPoints" : 40,
+		"shots" : 6,
+		"sound" :
+		{
+			"attack" : "Pavilion/preaAtt.wav",
+			"defend": "Pavilion/preaDef.wav",
+			"killed": "Pavilion/preaDie.wav",
+			"wince": "Pavilion/preaHit.wav",
+			"move": "AMAGMOVE.wav",
+			"shoot": "Pavilion/preaShoot.wav"
+		},
+		"speed" : 4,
+		"abilities" :
+		{
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.airShield",
+				"val" : 3
+			}
+		}
+	}
+}

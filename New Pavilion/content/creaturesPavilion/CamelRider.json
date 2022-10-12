@@ -1,0 +1,71 @@
+{
+  "camelRider":
+	{
+		"name" :
+		{
+			"plural" : "Camel Riders",
+			"singular" : "Camel Rider"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 12
+		},
+		"faction" : "pavilion",
+		"aiValue" : 340,
+		"attack" : 9,
+		"cost" :
+		{
+			"gold" : 220
+		},
+		"damage" :
+		{
+			"max" : 6,
+			"min" : 2
+		},
+		"hasDoubleWeek": true,
+		"defense" : 9,
+		"fightValue" : 320,
+		"graphics" :
+		{
+			"animation" : "creaturedefsPavilion/camelRider.def",
+			"map" : "creaturedefsPavilion/camelRiderMap.def",
+			"iconSmall" : "creatureiconsPavilion/camelRiderSmall.bmp",
+			"iconLarge" : "creatureiconsPavilion/camelRider.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			}
+  	
+		},
+	    "doubleWide" : true,
+        "growth" : 7,
+		"horde" : 3,
+		"hitPoints" : 25,
+		"level" : 3,
+        "upgrades": [ "desertWarrior" ],
+
+    
+		"sound" :
+		{
+			"attack":  "Pavilion/camAtt.wav",
+			"defend":  "Pavilion/camDef.wav",
+			"killed":  "Pavilion/camDie.wav",
+			"move":  "Pavilion/camWalk.wav",
+			"wince":  "Pavilion/camHit.wav"
+ 		},
+		"speed" : 7,
+		"abilities" :
+		{
+
+		},
+		"stackExperience" :
+		[
+
+		]	
+	}
+}

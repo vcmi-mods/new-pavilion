@@ -1,0 +1,78 @@
+{
+	"whipper":
+	{
+		"name" :
+		{
+			"plural" : "Whippers",
+			"singular" : "Whipper"
+		},
+		"advMapAmount" :
+		{
+			"max" : 50,
+			"min" : 20
+		},
+		"faction" : "pavilion",
+		"aiValue" : 60,
+		"hasDoubleWeek": true,
+		"attack" : 4,
+		"cost" :
+		{
+			"gold" : 50
+		},
+		"damage" :
+		{
+			"max" : 3,
+			"min" : 1
+		},
+		"defense" : 3,
+		"fightValue" : 60,
+		"graphics" :
+		{
+			"animation" : "creaturedefsPavilion/Whipper.def",
+			"map" : "creaturedefsPavilion/WhipperMap.def",
+			"iconSmall" : "creatureiconsPavilion/WhipperSmall.bmp",
+			"iconLarge" : "creatureiconsPavilion/Whipper.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.10,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			}
+
+		},
+		"growth" : 15,
+		"hitPoints" : 7,
+		"level" : 1,
+        "upgrades":
+		[
+			"overseer"
+		],
+		"sound" :
+		{
+			"attack": "PFOEATTK.wav",
+			"defend": "Pavilion/wippDef.wav",
+			"killed": "Pavilion/wippDie.wav",
+			"move": "Pavilion/wippWalk.wav",
+			"wince": "Pavilion/wippHit.wav"
+ 		},
+		"speed" : 4,
+		        "horde" : 3,
+		"abilities" :
+		{
+			"tribute" :
+			{
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.gold",
+				"val" : 50,
+				"propagator" : "HERO",
+				"stacking" : "base"
+			}
+		},
+		"stackExperience" :
+		[
+			
+		]	
+	}
+}

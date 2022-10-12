@@ -1,0 +1,58 @@
+{
+	"scrollOfWisdom":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class" : "MINOR",
+		"value": 4000,	
+		"text":
+		{
+			"name": "Frog Of Sagacity",
+			"description": "{Frog Of Sagacity}\r\n\r\nThe Frog of Sagacity allows you to cast spells with increased effectiveness, but reduces your Knowledge skill by 2.",
+			"event": "When approaching a turn, you spot a nomad dying from thirst and exhaustion. In exchange for a generous draught from your flask, he gives you a wrapped bundle. You open it and take out a peculiar statue, but you notice the stranger had disappeared in the meantime."
+		},
+		"graphics":
+		{
+			"image": "artifactsPavilion/scrollOfWisdom.png",
+			"map": "artifactsPavilion/scrollOfWisdommap.def"
+		},
+		"bonuses" : [
+			{
+				"subtype" : 0,
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"				
+			},
+			{
+				"subtype" : "skill.fireMagic",
+				"type" : "SECONDARY_SKILL_PREMY",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			},		
+			{
+				"subtype" : "skill.earthMagic",
+				"type" : "SECONDARY_SKILL_PREMY",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			{
+				"subtype" : "skill.airMagic",
+				"type" : "SECONDARY_SKILL_PREMY",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			{
+				"subtype" : "skill.waterMagic",
+				"type" : "SECONDARY_SKILL_PREMY",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			{
+				"subtype" : "primSkill.knowledge",
+				"type" : "PRIMARY_SKILL",
+				"val" : -2,
+				"valueType" : "BASE_NUMBER"
+			}									
+		]
+	}
+}

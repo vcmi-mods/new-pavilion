@@ -1,0 +1,24 @@
+{
+    // Base path of all images in animation. Optional.
+    // Can be used to avoid using long path to images 
+    "basepath" : "towndefsPavilion/guild/",
+ 
+    // List of sequiences / groups in animation
+    // This will replace original group with specified list of files
+    // even if original animation is longer
+    "sequences" :
+    [
+        {
+            // Index of group, zero-based
+            "group" : 0,
+ 
+            // List of files in this group
+            "frames" :
+            [
+                "gildipoz4 0.png"
+                //"gildipoz4 1.png"	
+            ]
+        }
+     
+    ]
+}
