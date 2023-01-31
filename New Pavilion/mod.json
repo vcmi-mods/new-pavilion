@@ -102,7 +102,16 @@
 	  "artifactsPavilion/maskOfTheDesertKing.json",
 	  "artifactsPavilion/fireRing.json" 
 
-	]
+	],
 
+	"german" : {
+		"name" : "Pavillon",
+		"description" : "Modifizierte und ausgewogene Version der 'Bastion Town', die von edeksumo mit Hilfe der Acid Cave Modding-Community auf VCMI portiert wurde. Ursprünglich wurde sie von der New Town Group konzipiert und erstellt.",
+		"modType" : "Stadt",
+		
+		"translations" : [
+			"config/translation/german.json"
+		]
+	}
 
 }
