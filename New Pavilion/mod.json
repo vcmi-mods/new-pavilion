@@ -110,7 +110,7 @@
 		"modType" : "Stadt",
 		
 		"translations" : [
-			"config/translation/german.json"
+			"config/translationPavilion/german.json"
 		]
 	}
 
