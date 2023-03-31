@@ -24,26 +24,26 @@
 				"valueType" : "BASE_NUMBER"				
 			},
 			{
-				"subtype" : "skill.fireMagic",
-				"type" : "SECONDARY_SKILL_PREMY",
+				"subtype" : 2,
+				"type" : "MAGIC_SCHOOL_SKILL", //fire magic
 				"val" : 1,
 				"valueType" : "ADDITIVE_VALUE"
 			},		
 			{
-				"subtype" : "skill.earthMagic",
-				"type" : "SECONDARY_SKILL_PREMY",
+				"subtype" : 8,
+				"type" : "MAGIC_SCHOOL_SKILL", //eart magic
 				"val" : 1,
 				"valueType" : "ADDITIVE_VALUE"
 			},
 			{
-				"subtype" : "skill.airMagic",
-				"type" : "SECONDARY_SKILL_PREMY",
+				"subtype" : 4,
+				"type" : "MAGIC_SCHOOL_SKILL",  //air magic
 				"val" : 1,
 				"valueType" : "ADDITIVE_VALUE"
 			},
 			{
-				"subtype" : "skill.waterMagic",
-				"type" : "SECONDARY_SKILL_PREMY",
+				"subtype" : 1,
+				"type" : "MAGIC_SCHOOL_SKILL", //water magic
 				"val" : 1,
 				"valueType" : "ADDITIVE_VALUE"
 			},

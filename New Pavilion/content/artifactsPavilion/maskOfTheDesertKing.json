@@ -23,10 +23,9 @@
 				"type" : "PRIMARY_SKILL",
 				"val" : 4,
 				"valueType" : "BASE_NUMBER"
-			}	,
+			},
 			{
-				"subtype" : "skill.diplomacy",
-				"type" : "SECONDARY_SKILL_PREMY",
+				"type" : "WANDERING_CREATURES_JOIN_BONUS",
 				"val" : 1,
 				"valueType" : "ADDITIVE_VALUE"
 			}

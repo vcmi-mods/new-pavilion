@@ -37,10 +37,8 @@
 			{
 				"walk" : 1.10,
 				"idle" : 10.00,
-				"attack" : 1.00,
-				"flight" : 10.00
+				"attack" : 1.00
 			}
-
 		},
 		"growth" : 15,
 		"hitPoints" : 7,

@@ -37,11 +37,8 @@
 			{
 				"walk" : 1.00,
 				"idle" : 10.00,
-				"attack" : 1.00,
-				"flight" : 1.00
+				"attack" : 1.00
 			}
-
-  	
 		},
 	    "doubleWide" : true,
         "growth" : 7,
@@ -64,18 +61,16 @@
 		{
 			"desertRider" : 
 			{
-				"type" : "LAND_MOVEMENT",
+				"subtype" : 1,
+				"type" : "MOVEMENT",
 				"val" : 150,
+				"valueType" : "ADDITIVE_VALUE",
 				"limiters": [ {
 					"type":"CREATURE_TERRAIN_LIMITER",
 					"parameters": [ "sand" ]
 				} ],
 				"propagator": "HERO"
 			} 
-		},
-		"stackExperience" :
-		[
-
-		]	
+		}	
 	}
 }

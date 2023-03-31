@@ -38,10 +38,8 @@
 			{
 				"walk" : 2.00,
 				"idle" : 12.00,
-				"attack" : 1.00,
-				"flight" : 2.00
+				"attack" : 1.00
 			}
-	
 		},
         "growth" : 1,
 		"hitPoints" : 250,
@@ -54,18 +52,17 @@
 			"defend": "Pavilion/anubDef.wav",
 			"killed": "Pavilion/anubDie2.wav",
 			"move": "Pavilion/anubLevi.wav",
-//			"move": "DEVLMOVE.wav",
 			"wince": "Pavilion/anubHit2.wav",
             "shoot" : "Pavilion/anubShoot.wav"
-//			"startMoving": "Pavilion/anubTel.wav",
-//			"endMoving": "Pavilion/anubTel.wav"
  		},
 		"speed" : 14,
 		"abilities" :
 		{
 			"advancedSlayer" : 
 		{ 
-			"type" : "KING2" 
+				"type" : "KING",
+				"val" : 2,
+				"valueType" : "ADDITIVE_VALUE"
 		},			
 			"earthImmunity" : 
 			{
@@ -93,12 +90,7 @@
 			{
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 3
-			}			
-
-		},
-		"stackExperience" :
-		[
-		
-		]	
+			}
+		}
 	}
 }

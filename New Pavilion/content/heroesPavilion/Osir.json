@@ -64,11 +64,12 @@
 		{
 			"bonuses" : {
 				"firstAid" : {
-					"subtype" : "skill.firstAid",
-					"type" : "SECONDARY_SKILL_PREMY",
-					"updater" : "TIMES_HERO_LEVEL",
+					"subtype" : "core:spell.firstAid",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SPECIFIC_SPELL_POWER",
 					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE"
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
 				}
 			}
 		}

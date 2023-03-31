@@ -38,10 +38,8 @@
 			{
 				"walk" : 1.20,
 				"idle" : 15.00,
-				"attack" : 1.50,
-				"flight" : 1.00
+				"attack" : 1.50
 			}
-           
 		},
 	    "doubleWide" : true,
         "growth" : 3,

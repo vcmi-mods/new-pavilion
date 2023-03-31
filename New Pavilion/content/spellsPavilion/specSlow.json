@@ -46,15 +46,15 @@
 								"noneOf", 
 								{
 									"type" : "HAS_ANOTHER_BONUS_LIMITER",
-									"parameters": [ "KING1" ]
+									"parameters": [ "KING" ]
 									 },
 								 {
 										"type" : "HAS_ANOTHER_BONUS_LIMITER",
-										"parameters": [ "KING2" ]
+										"parameters": [ "KING" ]
 										 }, 
 								{
 											"type" : "HAS_ANOTHER_BONUS_LIMITER",
-											"parameters": [ "KING3" ]
+											"parameters": [ "KING" ]
 											 }, 
 											 {
 												"type" : "HAS_ANOTHER_BONUS_LIMITER",

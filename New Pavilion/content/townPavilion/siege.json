@@ -12,6 +12,8 @@
 						"arch" : { "x" : 451, "y" : 203 }	 
 					},
 				"imagePrefix" : "siegePavilion/bast",
+				"towerIconSmall" : "towniconsPavilion/bastars",
+				"towerIconLarge" : "towniconsPavilion/bastarl",
 				"moat" : 
 				{ 			
 					"moat" : { "x" : 434, "y" : 84 },
