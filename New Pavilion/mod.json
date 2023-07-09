@@ -4,7 +4,7 @@
 	
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.7.1",
+	"version" : "2.7.2",
 	"modType" : "Town",	
 	"compatibility":
 	{
@@ -12,6 +12,7 @@
 	},	
 	"changelog" :
     {
+		"2.7.2"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
 		"2.7.1"   : [ "Update to vcmi-1.2" ]
     },
 	"conflicts" :
@@ -106,6 +107,12 @@
 	  "artifactsPavilion/maskOfTheDesertKing.json",
 	  "artifactsPavilion/fireRing.json" 
 	],
+	"chinese" : {
+		"name" : "沙堡",
+		"translations" : [
+			"config/translationPavilion/chinese.json"
+		]
+	},
 	"german" : {
 		"name" : "Pavillon",
 		"description" : "Modifizierte und ausgewogene Version der 'Bastion Town', die von edeksumo mit Hilfe der Acid Cave Modding-Community auf VCMI portiert wurde. Ursprünglich wurde sie von der New Town Group konzipiert und erstellt.",
