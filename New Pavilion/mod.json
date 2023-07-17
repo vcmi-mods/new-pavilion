@@ -4,7 +4,7 @@
 	
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.8.0",
+	"version" : "2.8.1",
 	"modType" : "Town",	
 	"compatibility":
 	{
@@ -13,13 +13,14 @@
 	"changelog" :
     {
 		
+		"2.8.1"   : [ "Converting to vcmi-1.3 version", "New boat added" ],
 		"2.8.0"   : [ "Minor fixes, working special buildings, new graphics for heroes and Camel Riders." ],
 		"2.7.2"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
 		"2.7.1"   : [ "Update to vcmi-1.2" ]
     },
 	"conflicts" :
 	[
-
+	
 	],
 	
 	"factions" :
@@ -55,27 +56,30 @@
 
 		"creaturesPavilion/stackExp.json"
 	],
-		"spells" :
+	
+	"spells" :
 	[
 	  "spellsPavilion/BlessingSeal.json" ,
 	  "spellsPavilion/GodScaleAttack.json",
 	  "spellsPavilion/GodScaleDefence.json",
 	  "spellsPavilion/LifeEater.json",
 	  "spellsPavilion/specSlow.json",
-	  "spellsPavilion/tentBoost.json"   
+	  "spellsPavilion/tentBoost.json",
+	  "spellsPavilion/moat.json"  
 	],
-		"skills" :
+	
+	"skills" :
 	[
 	  "spellsPavilion/tentBoostSkill.json"  
 	],
 	
-    	"heroClasses" :
+    "heroClasses" :
 	[
 		"classesPavilion/Vizier.json",
         "classesPavilion/Embalmer.json"
 	],
 	
-    	"heroes" :
+    "heroes" :
 	[
 
         "heroesPavilion/Amanra.json",
@@ -101,8 +105,9 @@
 	
     "objects" :
     [ 
-    "objectsPavilion/dwellings.json",
-	"objectsPavilion/ziggurat.json"
+		"objectsPavilion/dwellings.json",
+		"objectsPavilion/ziggurat.json",
+		"boatPavilion/boats.json"
     ],
 	
 	"artifacts" :
