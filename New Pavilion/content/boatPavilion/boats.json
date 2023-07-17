@@ -1,0 +1,18 @@
+{
+	"core:boat" : {
+		"types" : {
+			"boatPavilion" : {
+				"actualAnimation" : "boatPavilion/boat0g",
+				"overlayAnimation" : "ABM01_.def",
+				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
+				"templates" : {
+					"default" : {
+						"animation" : "boatPavilion/boat0ged",
+						"mask" : [ "VVV", "VAV" ],
+						"allowedTerrains": [ "water" ] 
+					}
+				}
+			}
+		}
+	}
+}

@@ -168,8 +168,8 @@
 				"homes" :
 				{
 					
-					"description" : "",
-					"name" : "",
+					"description" : "Homes",
+					"name" : "Homes",
 					"requires" : ["anyOf", [ "cityHall" ], [ "capitol" ]],
 									"mode" : "auto",
 										"id" : 21

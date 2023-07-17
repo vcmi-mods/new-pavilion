@@ -244,7 +244,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : 71, //"spell.poison",
+					"subtype" : "spell.poison",
 					"addInfo" : [ 1, 2 ]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
@@ -430,15 +430,16 @@
 			{
 				"bonus" :
 				{
-					"type" : "DIRECT_DAMAGE_IMMUNITY"
+					"type" : "SPELL_DAMAGE_REDUCTION",
+					"subtype" : -1
 				},
-				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+				"values" : [ 0, 0, 0, 0, 100, 100, 100, 100, 100, 100 ]
 			},
 			{
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : 61, //"spell.forgetfulness",
+					"subtype" : "spell.forgetfulness",
 					"addInfo" : [ 3, 2 ]
 				},
 				"values" : [ 5, 5, 10, 10, 10, 20, 20, 20, 25, 30 ]
@@ -500,15 +501,16 @@
 			{
 				"bonus" :
 				{
-					"type" : "DIRECT_DAMAGE_IMMUNITY"
+					"type" : "SPELL_DAMAGE_REDUCTION",
+					"subtype" : -1
 				},
-				"values" : [ false, false, false, false, false, false, false, false, true, true ]
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 100, 100 ]
 			},
 			{
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : 61, //"spell.forgetfulness",
+					"subtype" : "spell.forgetfulness",
 					"addInfo" : [ 3, 2 ]
 				},
 				"values" : [ 0, 5, 5, 10, 10, 10, 15, 15, 20, 20 ]
@@ -864,7 +866,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 28 //"spell.airShield"
+					"subtype" : "spell.airShield"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 2, 2, 3, 3, 3 ]
 			},
@@ -940,7 +942,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 28 //"spell.airShield"
+					"subtype" : "spell.airShield"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 2, 2, 2, 3, 3 ]
 			},

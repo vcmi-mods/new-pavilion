@@ -19,7 +19,8 @@
 		"bonuses":
 		[
 			{
-				"type" : "FIRE_SPELL_DMG_PREMY",
+                "type" : "SPELL_DAMAGE",
+                "subtype" : "spellSchool.fire",
 				"val" : 25,
 				"valueType" : "BASE_NUMBER"
 			}
