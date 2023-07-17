@@ -4,7 +4,7 @@
 	
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.7.2",
+	"version" : "2.8.0",
 	"modType" : "Town",	
 	"compatibility":
 	{
@@ -12,6 +12,8 @@
 	},	
 	"changelog" :
     {
+		
+		"2.8.0"   : [ "Minor fixes, working special buildings, new graphics for heroes and Camel Riders." ],
 		"2.7.2"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
 		"2.7.1"   : [ "Update to vcmi-1.2" ]
     },
@@ -59,7 +61,12 @@
 	  "spellsPavilion/GodScaleAttack.json",
 	  "spellsPavilion/GodScaleDefence.json",
 	  "spellsPavilion/LifeEater.json",
-	  "spellsPavilion/specSlow.json" 
+	  "spellsPavilion/specSlow.json",
+	  "spellsPavilion/tentBoost.json"   
+	],
+		"skills" :
+	[
+	  "spellsPavilion/tentBoostSkill.json"  
 	],
 	
     	"heroClasses" :

@@ -69,8 +69,8 @@
 			{}
 		},		
 		"targetCondition" : {
-			"anyOf" : {
-				"new pavilion:creature.sunAmmut":"absolute"
+			"allOf" : {
+				"new-pavilion:creature.sunAmmut":"absolute"
 		}
 	}
 	}

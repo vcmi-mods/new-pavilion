@@ -1,0 +1,30 @@
+{
+	"core:firstAid" : 
+	{
+		"base" : {
+			"effects" : {
+				"main2" : {
+					"subtype" : "spell.smellingSalts",
+					"type" : "SPECIFIC_SPELL_POWER",
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"basic" : {
+			"effects" : {
+				"main2" : { "val" : 50 }
+			}
+		},
+		"advanced" : {
+			"effects" : {
+				"main2" : { "val" : 75 }
+			}
+		},
+		"expert" : {
+			"effects" : {
+				"main2" : { "val" : 100 }
+			}
+		}
+	}
+
+}
