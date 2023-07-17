@@ -211,14 +211,32 @@
 				},
 				"workshop" : 
 				{
-					"description" : "[Not working yet!] The Workshop provides your armies with Ammo Carts",
-					"name" : "Workshop",
+					"description" : "The Healers' Guild boosts your First Aid Tents (+50 Health, +25 Power, ability to revive healed creatures).",
+					"name" : "The Healers' Guild",
 					"cost" : 
 					{
+						"mercury" : 2,
+						"sulfur" : 2,
+						"crystal" : 2,
+						"gems" : 2,
+
 						"ore" : 5,
 						"gold" : 2000
 					},
-					"requires" : [ "allOf", ["blacksmith"] ],
+					"requires" : [ "allOf", ["blacksmith"], ["mageGuild1"] ],
+					"bonuses": [ 					
+					{ 
+						"type": "ENCHANTED", 
+						"valueType" : "BASE_NUMBER",
+						"subtype" : "spell.tentBoost",
+						"propagator": "PLAYER_PROPAGATOR" },
+
+						{
+						"type" : "OPENING_BATTLE_SPELL",
+						"subtype" : "spell.tentBoostRefill",
+						"propagator": "PLAYER_PROPAGATOR"}
+						
+						] ,
 					"id" : 23
 				},
 				"horde1" :
@@ -250,22 +268,21 @@
 				},
 				"special1" : 
 				{
-					"description" : "[Not working yet!] The Idol increases one of primary skill of visiting hero.",
+					"description" : "The Idol gives every visiting hero 1000 experience points.",
 					"name" : "Idol",
+					"type" : "experienceVisitingBonus",
 					"cost" : 
 					{
-						"gems" : 2,
-						"crystal" : 2,
-						"mercury" : 2,
-						"sulfur" : 2,
+						"gems" : 5,
+						"crystal" : 5,
+						
 						"gold" : 1000
 					},
-					"requires" : [ "allOf", ["fort"], ["cityHall"], ["mageGuild1"]],
 					"id" : 17
 				},
 				"horde2" : 
 				{
-					"description" : "[Not working yet!] The Water Mill randomly increases production of: Whippers, Wadjets or Camel Riders (currently only Camel Riders).",
+					"description" : "The Water Mill increases Camel Riders production by 3 per week.",
 					"name" : "Water Mill", 
 					"cost" : 
 					{
@@ -278,11 +295,11 @@
 				},	
 				"horde2Upgr" : 
 				{
-					"description" : "[Not working yet!] The Water Mill randomly increases production of: Whippers, Wadjets or Camel Riders (currently only Camel Riders).",
+					"description" : "The Water Mill increases Desert Warriors production by 3 per week.",
 					"name" : "Water Mill", 
 					"cost" : 
 					{},
-					"requires" :["allOf", ["townHall"], ["horde2"]],
+					"requires" : ["allOf", ["horde2"], ["dwellingUpLvl3"] ],
 					"upgrades" : "horde2",
 					"id" : 25,
 					"mode" : "auto"
@@ -290,7 +307,7 @@
 
 				"special3" : 
 				{
-					"description" : "The Treasury, earns your kingdom 500 gold per day.",
+					"description" : "The Treasury earns your kingdom 500 gold per day.",
 					"name" : "Treasury",
 					"cost" : 
 					{
@@ -349,8 +366,8 @@
 				},
 				"dwellingLvl4" :
 				{
-					"description" : "The Altar of the Goddess allows you to recruit Priestesses.",
-					"name" : "Altar of the Goddess",
+					"description" : "The Altar of Goddess allows you to recruit Priestesses.",
+					"name" : "Altar of Goddess",
 					"cost" : 
 					{
 						"gold" : 2500,
@@ -396,7 +413,7 @@
 						"ore"  : 10,
 						"mercury" : 15
 					},
-					"requires" : [ "allOf", ["dwellingLvl6"] ],
+					"requires" : [ "allOf", ["dwellingLvl5"], ["dwellingLvl6"] ],
 					"id" : 36
 				},
 
@@ -442,8 +459,8 @@
 				},
 				"dwellingUpLvl4" :
 				{
-					"description" : "The Upg. Altar of the Goddess allows you to recruit High Priestesses.",
-					"name" : "Upg. Altar of the Goddess",
+					"description" : "The Upg. Altar of Goddess allows you to recruit High Priestesses.",
+					"name" : "Upg. Altar of Goddess",
 					"cost" : 
 					{
 						"gold" : 2500,
