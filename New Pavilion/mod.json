@@ -125,10 +125,18 @@
 			"config/translationPavilion/chinese.json"
 		]
 	},
+	"french" : {
+		"name" : "Pavillon",
+		"description" : "Version modifiée et équilibrée de 'Bastion Town' portée sur VCMI par edeksumo avec l'aide de la communauté de modding Acid Cave, initialement conceptualisée et créée par New Town Group.",
+
+		"translations" : [
+			"config/translationPavilion/french.json"
+		]
+	},
 	"german" : {
 		"name" : "Pavillon",
 		"description" : "Modifizierte und ausgewogene Version der 'Bastion Town', die von edeksumo mit Hilfe der Acid Cave Modding-Community auf VCMI portiert wurde. Ursprünglich wurde sie von der New Town Group konzipiert und erstellt.",
-		
+
 		"translations" : [
 			"config/translationPavilion/german.json"
 		]
