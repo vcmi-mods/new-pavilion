@@ -8,7 +8,7 @@
 		"text":
 		{
 			"name": "Staff Of Sand",
-			"description": "{Staff Of Sand}\r\n\r\nThis right handed weapon increases your Power skill by +4, and helps you recover 2 extra spell points per day",
+			"description": "{Staff Of Sand}\r\n\r\nThis right handed weapon increases your Power skill by +4, and helps you recover 2 extra spell points per day.",
 			"event": "You spot an unnatural dune and decide to investigate it. You will be getting rid of sand from your armor for a long time, but the artifact that was hidden inside, is now in your possession."
 		},
 		"graphics":

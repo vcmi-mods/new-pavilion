@@ -8,7 +8,7 @@
 		"text":
 		{
 			"name": "Golden Scarab",
-			"description": "{Golden Scarab}\r\n\r\nWearing this item increases your Morale by +2, and your income by +350 gold per day",
+			"description": "{Golden Scarab}\r\n\r\nWearing this item increases your Morale by +2, and your income by +350 gold per day.",
 			"event": "Strolling through the camp, you catch a glimpse of a shiny scarab scurrying away. When you catch it, it turns into a lifeless statue. Without thinking long, you hide it in your pocket."
 		},
 		"graphics":

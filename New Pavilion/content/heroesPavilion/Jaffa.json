@@ -10,7 +10,7 @@
 			"biography" : "Jaffa was a servant of a cruel overlord and had to torture innocents at his master’s behest. When the opportunity of a coup presented itself, he was first to join the rebels and made a vow to use his powers only for good the moment he had finally plunged a dagger into the tyrant’s chest.",
 			"specialty" :
 			{
-				"description" : "{Haste}\r\n\r\nCasts Meteor Shower with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+				"description" : "{Meteor Shower}\r\n\r\nCasts Meteor Shower with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
 				"tooltip" : "Spell Bonus: Meteor Shower",
 				"name" : "Meteor Shower"
 			}
