@@ -3,7 +3,7 @@
     {
         "targetType" : "CREATURE",
         "type": "ability",
-        "name": "Ditch",
+        "name": "Sand Pit",
         "school": {},
         "level": 0,
         "power": 0,
@@ -38,12 +38,12 @@
             "special": true
         },
         "targetCondition" : {
-        }
+    }
     },
     "pavilionMoat": {
         "targetType" : "NO_TARGET",
         "type": "ability",
-        "name": "Ditch",
+        "name": "Sand Pit",
         "school" : {},
         "level": 0,
         "power": 0,
@@ -64,7 +64,7 @@
                         "triggerAbility" : "pavilionMoatTrigger",
                         "dispellable" : false,
                         "removeOnTrigger" : false,
-                        "moatDamage" : 90,
+                        "moatDamage" : 70,
                         "moatHexes" : [[11, 28, 44, 61, 77, 111, 129, 146, 164, 181]],
                         "defender" :{
                         },
@@ -94,6 +94,6 @@
             "indifferent": true
         },
         "targetCondition" : {
-        }
     }
-}
+    }
+    }
