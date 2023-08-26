@@ -19,7 +19,7 @@
 		"bonuses":
 		[
 			{
-				"subtype" : "primSkill.knowledge",
+				"subtype" : "primarySkill.knowledge",
 				"type" : "PRIMARY_SKILL",
 				"val" : 4,
 				"valueType" : "BASE_NUMBER"

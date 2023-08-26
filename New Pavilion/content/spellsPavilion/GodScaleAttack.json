@@ -43,7 +43,7 @@
 				"effects" : {
 					"scaledAttack" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.attack",
+						"subtype" : "primarySkill.attack",
 						"val" : 0,
 						"valueType" : "INDEPENDENT_MIN",
 						"duration" : "N_TURNS"

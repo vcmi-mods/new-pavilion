@@ -18,31 +18,31 @@
 		},
 		"bonuses" : [
 			{
-				"subtype" : 0,
+				"subtype" : "spellSchool.any",
 				"type" : "MAGIC_SCHOOL_SKILL",
 				"val" : 1,
 				"valueType" : "BASE_NUMBER"				
 			},
 			{
-				"subtype" : 2,
+				"subtype" : "spellSchool.fire",
 				"type" : "MAGIC_SCHOOL_SKILL", //fire magic
 				"val" : 1,
 				"valueType" : "ADDITIVE_VALUE"
 			},		
 			{
-				"subtype" : 8,
-				"type" : "MAGIC_SCHOOL_SKILL", //eart magic
+				"subtype" : "spellSchool.earth",
+				"type" : "MAGIC_SCHOOL_SKILL", //earth magic
 				"val" : 1,
 				"valueType" : "ADDITIVE_VALUE"
 			},
 			{
-				"subtype" : 4,
+				"subtype" : "spellSchool.air",
 				"type" : "MAGIC_SCHOOL_SKILL",  //air magic
 				"val" : 1,
 				"valueType" : "ADDITIVE_VALUE"
 			},
 			{
-				"subtype" : 1,
+				"subtype" : "spellSchool.water",
 				"type" : "MAGIC_SCHOOL_SKILL", //water magic
 				"val" : 1,
 				"valueType" : "ADDITIVE_VALUE"

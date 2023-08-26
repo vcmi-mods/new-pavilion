@@ -4,7 +4,7 @@
 	
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.8.2",
+	"version" : "2.8.3",
 	"modType" : "Town",	
 	"compatibility":
 	{
@@ -13,6 +13,7 @@
 	"changelog" :
     {
 		
+		"2.8.3"   : [ "Fixed Scroll of Wisdom" ],
 		"2.8.2"   : [ "French traslation added", "Fixed boat issues" ],
 		"2.8.1"   : [ "Converting to vcmi-1.3 version", "New boat added" ],
 		"2.8.0"   : [ "Minor fixes, working special buildings, new graphics for heroes and Camel Riders." ],
