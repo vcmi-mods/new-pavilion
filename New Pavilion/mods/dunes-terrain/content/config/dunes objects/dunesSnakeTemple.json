@@ -1,0 +1,110 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"dunesSnakeTemple" : 
+			{
+				"name" : "Snake Temple",
+				"templates" : {
+					"base" : { 
+					"animation" : "dunes objectFunc/snakeTemple", 
+					"visitableFrom" : [ "---", "-++", "+++" ], 
+					"mask" : [ "VVV", "VBB", "VBA" ],
+					"allowedTerrains": [ "sand", "subterra", "rough", "dunes" ] 
+					}
+				},
+				"sounds": {
+					"ambient": ["objects/snakeTemple"]
+				},
+				"rmg" : {
+					"value"		: 3000,
+					"rarity"	: 30,
+					"zoneLimit" : 1,
+					"mapLimit" : 20
+				},
+				"levels": [
+					{
+						"chance": 50,
+						"guards": [
+							{ "amount": 8, "type" : "new-pavilion:wadjet"},
+							{ "amount": 8, "type" : "new-pavilion:wadjet"},
+							{ "amount": 8, "type" : "new-pavilion:wadjet"},
+							{ "amount": 8, "type" : "new-pavilion:wadjet"},
+							{ "amount": 8, "type" : "new-pavilion:wadjet"},
+							{ "amount": 8, "type" : "new-pavilion:wadjet"},
+							{ "amount": 8, "type" : "new-pavilion:wadjet"}
+						],
+						"combat_value": 800,
+							"reward" : {
+							"value": 10000,
+							"resources": 
+							{
+								"gold" : 2500,
+								"crystal" : 4
+							},							
+							"spells" : [ 
+								{ 
+									"level" : 1 
+								} 
+							]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 12, "type" : "new-pavilion:wadjet"},
+							{ "amount": 12, "type" : "new-pavilion:wadjet"},
+							{ "amount": 12, "type" : "new-pavilion:wadjet"},
+							{ "amount": 12, "type" : "new-pavilion:wadjet", "upgradeChance": 50 },
+							{ "amount": 12, "type" : "new-pavilion:wadjet"},
+							{ "amount": 12, "type" : "new-pavilion:wadjet"},
+							{ "amount": 12, "type" : "new-pavilion:wadjet"}
+						],
+						"combat_value": 9000,
+						"reward" : {
+							"value": 10000,
+							"resources": 
+							{
+								"gold" : 3500,
+								"crystal" : 6
+							},
+							"spells" : [ 
+								{ 
+									"level" : 1 
+								} 
+							]
+						}
+					},
+					
+					{
+						"chance": 20,
+						"guards": [
+							{ "amount": 20, "type" : "new-pavilion:wadjet"},
+							{ "amount": 20, "type" : "new-pavilion:wadjet"},
+							{ "amount": 20, "type" : "new-pavilion:wadjet", "upgradeChance": 50 },
+							{ "amount": 20, "type" : "new-pavilion:wadjet", "upgradeChance": 50 },
+							{ "amount": 20, "type" : "new-pavilion:wadjet", "upgradeChance": 50 },
+							{ "amount": 20, "type" : "new-pavilion:wadjet"},
+							{ "amount": 20, "type" : "new-pavilion:wadjet"}
+						],
+						"combat_value": 12000,
+						"reward" : {
+							"value": 12000,
+							"resources": 
+							{
+								"gold" : 5500,
+								"crystal" : 10
+							},
+							"spells" : [ 
+								{ 
+									"level" : 2
+								} 
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

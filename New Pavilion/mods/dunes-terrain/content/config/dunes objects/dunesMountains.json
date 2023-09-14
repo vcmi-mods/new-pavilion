@@ -1,0 +1,106 @@
+{
+	"core:mountain": {
+		"types": {
+			"object": {
+				"templates": {
+
+					"MNTDUO1": {
+						"animation": "dunes mountains/mountain2",
+						"mask": ["VVVVVV", "VBBBBB", "VBBBBB", "VBBBVV"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					},
+					"MNTDUO2": {
+						"animation": "dunes mountains/mountain1",
+						"mask": ["VVVVVV", "VBBBBV", "VBBBBB", "VVVBBB"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					},
+					
+					"MNTDUO3": {
+						"animation": "dunes mountains/mountain4",
+						"mask": ["VVVV", "VBBB", "VBBV"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					},
+					
+					"MNTDUO4": {
+						"animation": "dunes mountains/mountain3",
+						"mask": ["VVVV", "VBBB", "VVBB"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					},
+					
+					"MNTDUO5": {
+						"animation": "dunes mountains/mountain6",
+						"mask": ["VVVV", "VVBB", "VBBV"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					},
+					
+					"MNTDUO6": {
+						"animation": "dunes mountains/mountain5",
+						"mask": ["VVVV", "VBBV", "VVBB"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					},
+
+
+					"MNTDUO7": {
+						"animation": "dunes mountains/mountain8",
+						"mask": ["VVVVVV", "VBBBBB", "VBBBBB", "VBBBVV"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					},
+					"MNTDUO8": {
+						"animation": "dunes mountains/mountain7",
+						"mask": ["VVVVVV", "VBBBBV", "VBBBBB", "VVVBBB"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					},
+					
+					"MNTDUO9": {
+						"animation": "dunes mountains/mountain9",
+						"mask": ["VVVV", "VBBB", "VBBV"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					},
+					
+					"MNTDU10": {
+						"animation": "dunes mountains/mountain10",
+						"mask": ["VVVV", "VBBB", "VVBB"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					},
+					"MNTDU11": {
+						"animation": "dunes mountains/mountain11",
+						"mask": ["VVVV", "VVBB", "VBBV"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					},
+					
+					"MNTDU12": {
+						"animation": "dunes mountains/mountain12",
+						"mask": ["VVVV", "VBBV", "VVBB"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					}
+					
+					
+				}
+			}	
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"core:learningStone"	: {
+		"types" : {
+			"learningStone" : {
+				"templates" : {
+					"dunesStone" : {
+						"animation": "dunes objectFunc/stone",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "dunes" ]
+					}
+				}
+			}
+		}
+	}
+}			

@@ -1,0 +1,131 @@
+{
+"rocks" : {
+	"name" : "Rock",
+	"handler":"static",
+		"types" : {
+			"object" : {			
+				"templates" : {	
+
+					"DNROCK01": {
+						"animation": "dunes rocks/rock_01",
+						"mask": ["VV", "VB"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					},
+					"DNROCK02": {
+						"animation": "dunes rocks/rock_02",
+						"mask": ["VV", "VB"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					},
+					"DNROCK03": {
+						"animation": "dunes rocks/rock_03",
+						"mask": ["VV", "VB"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					},
+					"DNROCK04": {
+						"animation": "dunes rocks/rock_04",
+						"mask": ["VVV", "VBB"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					},
+					"DNROCK05": {
+						"animation": "dunes rocks/rock_05",
+						"mask": ["VVV", "VBB"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					},
+					"DNROCK06": {
+						"animation": "dunes rocks/rock_06",
+						"mask": ["VVV", "VVV", "VBB"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					},
+					"DNROCK07": {
+						"animation": "dunes rocks/rock_07",
+						"mask": ["VVV", "VVV", "VVB"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					},
+					"DNROCK08": {
+						"animation": "dunes rocks/rock_08",
+						"mask": ["VVV", "VBV", "VBB"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					},
+					"DNROCKARCH": {
+						"animation": "dunes rocks/rock_arch",
+						"mask": ["VVVV", "VVVV", "VBVB"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					},
+					"DNROCKARCH_01": {
+						"animation": "dunes rocks/rock_arch_01",
+						"mask": ["VVVV", "VVVV", "VBVB"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					}
+	
+				}
+			}	
+		}
+	},
+	"core:skull": {
+		"types": {
+			"dunesSkullOh": {
+				"name": "Skull",
+				"templates": {
+					
+					"dunesSkull_01": {
+						"animation": "dunes objects/skull_01",
+						"mask": ["VV", "VB"],
+						"allowedTerrains": ["dunes"]
+					},
+					"dunesSkull_02": {
+						"animation": "dunes objects/skull_02",
+						"mask": ["VV", "BB"],
+						"allowedTerrains": ["dunes"]
+					}
+				}
+			}
+		}
+	},
+	"rocksBush" : {
+		"name" : "Rocks with bushes",
+		"handler":"static",
+			"types" : {
+				"object" : {			
+					"templates" : {	
+					"rockAndBush_01" : { 
+						"animation" : "dunes objects/rockAndBush_01", 
+						"mask" : [ "VVV", "VVV", "VBB" ], 
+                    				"allowedTerrains": [ "dunes" ]
+					},					
+					"rockAndBush_02" : {
+						 "animation" : "dunes objects/rockAndBush_02", 
+						"mask" : [ "VVVVV", "VVVVV", "VVBBB", "VVBBB" ], 
+                    				"allowedTerrains": [ "dunes" ]
+					},
+
+					"rockAndBush_03" : {
+						 "animation" : "dunes objects/rockAndBush_03", 
+						"mask" : [ "VVVV", "VVVV", "VBBB" ], 
+                    				"allowedTerrains": [ "dunes" ]
+					}
+					
+				}
+			}	
+		}
+	}
+}

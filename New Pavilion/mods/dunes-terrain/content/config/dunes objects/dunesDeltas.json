@@ -1,0 +1,28 @@
+{
+	"core:riverDelta": {
+		"types": {
+			"object": {
+				"templates": {
+					
+					"riverDunes_delta": {
+						"animation": "dunes river/riverDunes_delta",
+						"mask": ["VVV","VVV","VVV"]
+					},
+					"riverDunes_delta_01": {
+						"animation": "dunes river/riverDunes_delta_01",
+						"mask": ["VVV","VVV","VVV"]
+					},
+					"riverDunes_delta_02": {
+						"animation": "dunes river/riverDunes_delta_02",
+						"mask": ["VVV","VVV","VVV"]
+					},
+					"riverDunes_delta_03": {
+						"animation": "dunes river/riverDunes_delta_03",
+						"mask": ["VVV","VVV","VVV"]
+					}
+					
+				}
+			}
+		}
+	}
+}

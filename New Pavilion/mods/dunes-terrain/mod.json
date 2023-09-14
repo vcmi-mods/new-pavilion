@@ -1,0 +1,64 @@
+{
+	"name" : "Dunes terrain",
+	"description" : "Assets for dunes terrain. \nSpecial thanks for Avatar and Witchking. \nMusic from: https://pixabay.com/pl/users/artslop_flodur-1985637/ ",
+	"author" : "edeksumo, lillith",
+	"contact" : "edeksumo@gmail.com",
+	"version" : "1.0.0",
+	"changelog" :
+	{
+		"1.0.0"   : [ "Initial release" ]
+	},
+	"compatibility" :
+	{
+		"min" : "1.3.0"
+	},
+	"modType" : "Objects",	
+	"conflicts" :
+	[
+
+	],
+	"rivers":
+	[
+		"config/dunes terrain/river.json"
+	],
+		
+    "objects" :
+    [ 
+	"config/dunes objects/dunesDunes.json",
+	"config/dunes objects/dunesMountains.json",
+	"config/dunes objects/dunesRocks.json",
+	"config/dunes objects/dunesHoles.json",
+	"config/dunes objects/dunesOh.json",
+	"config/dunes objects/dunesObelisk.json",
+	"config/dunes objects/dunesOther.json",
+	"config/dunes objects/dunesOasis.json",
+	"config/dunes objects/dunesLibraryOfEnlightenment.json",
+	"config/dunes objects/dunesTreeOfKnowledge.json",
+	"config/dunes objects/dunesObservatory.json",
+	"config/dunes objects/dunesUtopia.json",
+	"config/dunes objects/dunesIdolOfFortune.json",
+	"config/dunes objects/dunesLearningStone.json",
+	"config/dunes objects/dunesStarAxis.json",
+	"config/dunes objects/dunesBigMine.json",
+	"config/dunes objects/dunesSnakeTemple.json",
+	"config/dunes objects/dunesDeltas.json",
+	"config/dunes objects/dunesFromWog.json",
+	"config/dunes objects/dunesMines.json"
+    ],
+	"factions" :
+	[
+		"config/dunes pavilion/pavilionTerrain"
+	],
+	"battlefields" :
+	[
+		"config/dunes terrain/battlefields.json"
+	],
+	"obstacles" :
+	[
+		"config/dunes terrain/obstacles.json"
+	],
+	"terrains" :
+	[
+		"config/dunes terrain/terrains.json"
+	]
+}

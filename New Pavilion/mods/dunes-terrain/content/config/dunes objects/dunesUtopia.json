@@ -1,0 +1,17 @@
+{
+	"core:dragonUtopia" : 
+	{
+		"types" : {
+			"dragonUtopia" : {
+				"templates" : {
+					"dunes" : {
+						"animation" : "dunes objectFunc/DragonUtopia",
+						"visitableFrom" :  [ "---", "-+-", "+++" ], 
+						"mask" : [ "VVVVVVV", "VVVVVV", "VVBBBB","BBBBBV","VVBBAV"],
+						"allowedTerrains":["dunes"] 							
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+    "basepath" : "dunes/frames/",
+    "sequences" :
+    [
+        {
+            "group" : 0,
+            "frames" :
+            [
+                "DnRck2.png"
+            ]
+        }
+    ]
+}

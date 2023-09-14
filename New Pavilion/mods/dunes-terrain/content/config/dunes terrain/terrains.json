@@ -1,0 +1,18 @@
+{
+	"dunes" :
+	{
+		"text" : "Dunes",
+		"moveCost" : 75,
+		"minimapUnblocked" : [ 228, 194, 93 ],
+		 "minimapBlocked"   : [ 167, 142, 70 ],
+		"music" : "dunes/Cavernous_Desert02",
+		"tiles" : "dunes/dunestls",
+		"river" : "lazurRiver",
+		"rockTerrain":"rock",
+		"shortIdentifier" : "dn",
+		"type" : ["LAND", "SURFACE"],
+		"battleFields" : ["dunesBattlefield_01", "dunesBattlefield_02", "dunesBattlefield_03"],
+		"horseSound" : "horse07",
+		"horseSoundPenalty" : "horse27"
+	}
+}

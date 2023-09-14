@@ -1,0 +1,16 @@
+{
+	"core:starAxis"	: {
+		"types" : {
+			"starAxis" : {
+				"templates" : {
+					"star" : {
+						"animation": "dunes objectFunc/star",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "dunes" ]
+					}
+				}
+			}
+		}
+	}
+}			

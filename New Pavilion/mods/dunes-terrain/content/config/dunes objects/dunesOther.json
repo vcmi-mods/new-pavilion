@@ -1,0 +1,226 @@
+{
+"core:sign" : 
+	{
+		"types" : {
+			"crypt" : {
+				"templates" : {
+					"dunes" : {
+						"animation" : "dunes objectFunc/sign", 
+						"visitableFrom" :  [ "---", "-+-", "+++" ], 
+						"mask" : [ "A"],
+						"allowedTerrains":["dunes"] 							
+					}
+				}
+			}
+		}
+	},
+"core:crypt" : 
+	{
+		"types" : {
+			"crypt" : {
+				"templates" : {
+					"dunes" : {
+						"animation" : "dunes objectFunc/crypt", 
+						"visitableFrom" :  [ "---", "-+-", "+++" ], 
+						"mask" : [ "VVV", "BAB"],
+						"allowedTerrains":["dunes"] 							
+					}
+				}
+			}
+		}
+	},
+	"schoolOfFlight" : {
+		"handler":"configurable",
+		"name" : "School of flight",
+		"types" : {
+			"schoolOfFlight" : {
+				"name": "School of flight",
+				"rmg" : {
+					"value"	: 7000,	//10000 20
+					"rarity" : 80,
+					"zoneLimit" : 1
+				},
+				"sounds" : {
+					"visit" : ["objects/schoolOfFlightVisit"],
+					"ambient": ["objects/schoolOfFlight"]
+				},
+				"canRefuse": true,
+				"visitMode" : "unlimited",
+				"rewards":
+				[
+					{
+						"message": "{School of flight}\r\n\r\nIn this strange buildnig lives few wizards, which are learning ability to fly. They asking that did they can practice on you and your army for some gold?",			
+							"spellCast" : {
+							"spell" : "fly",
+							"schoolLevel": 3
+						},
+						"resources": {"gold" : -1500},
+					}
+				],
+				"templates" : {
+					"avxtwngt" : { "animation" : "dunes objectFunc/schoolOfFlight", 
+						"mask" : [ "VVVV", "VBBB", "VABB" ], 
+						"allowedTerrains": [
+							"dunes"
+						],
+						"visitableFrom" : [ "---", "-+-", "+++" ]
+					}
+				}
+			}
+		}
+	},
+	"eyeOnTheWorld" : {
+		"handler":"configurable",
+		"name" : "Eye on the World",
+		"types" : {
+			"eyeTower" : {
+				"name": "Eye on the World",
+				"rmg" : {
+					"value"	: 2300,	//10000 20
+					"rarity" : 200,
+					"zoneLimit" : 1
+				},
+				"sounds" : {
+					"visit" : ["objects/eyeTowerVisit"],
+					"ambient": ["objects/eyeTower"]
+				},
+				"rewards" : [
+					{
+						"message" : "{Eye on the World}\r\n\r\nYou have visited tower of mad fool. He gives you something strange to drink, it seems like you can see further for few days.",
+						"bonuses" : [ { "type" : "SIGHT_RADIUS",  "val" : 3, "duration" : "N_DAYS", "turns" : 3} ],
+					}
+				],
+				"onVisitedMessage": "{Eye on the World}\r\n\r\nDoors seems to be locked.",
+				"visitMode" : "once",
+				"resetParameters" : {
+					"period" : 7,
+					"visitors" : true
+				},
+				"templates" : {
+					"avxtwngt" : { 
+							"animation" : "dunes objectFunc/towerOfEye",
+							"mask" : [ "VVV","VVV","VVA" ], 
+							"visitableFrom" : [ "---", "+++", "+++" ],
+							"allowedTerrains": [ "dunes" ]
+					}
+				}
+			}
+		}
+	},
+"core:magicWell" : {
+		"types" : {
+			"magicWell" : {			
+				"templates" : {	 			
+					"dunes_well" : { "animation" : "dunes objectFunc/dunes_well",
+						"mask" : [ "VV", "VA" ],
+						"allowedTerrains": [
+							"dunes"
+						],
+						"visitableFrom" : [ "---", "+-+", "+++" ]
+					}
+				}
+			}
+		}
+	},
+	"vase"	: {
+		"name" : "Vase",
+		"handler": "configurable",
+		"types" : {
+			"vase" : {
+				"name":"Vase",
+				"rmg" : {
+					"value"		: 800,
+					"rarity"	: 700
+				},
+				"sounds" : {
+					"visit" : ["objects/vaseVisit"],
+					"removal" : [ "PICKUP01", "PICKUP02", "PICKUP03", "PICKUP04", "PICKUP05", "PICKUP06", "PICKUP07" ]
+				},
+				"rewards" : [
+					{
+						"message": "{Vase}\r\n\r\nYou have found some resources in broken vase.",
+						"removeObject" : true,
+						"resources" : [
+							{
+								"list" : [ "sulfur", "gems", "crystal" ],
+								"min" : 1,
+								"max" : 3
+							},
+							{
+								"type" : "gold",
+								"amount" : [ 100, 200, 300 ]
+							}
+						]
+					}
+				],
+	
+				"selectMode": "selectRandom",
+				"templates" : {
+					"AVAbrrlw" :
+					{
+						"animation" : "dunes objectFunc/vase",
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"mask" : [ "A"],
+						"allowedTerrains": [ "dunes"]
+					}
+				}
+			}
+		}
+	},		
+"core:crater": {
+		"types": {
+			"object": {
+				"templates": {
+
+					"duneCrater01": {
+						"animation": "dunes objects/hole02",
+						"mask": ["BB"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					},
+
+					"duneCrater02": {
+						"animation": "dunes objects/hole01",
+						"mask": ["BBB"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					}
+				}
+			}
+		}
+	},
+"dunesBush" : {
+	"name" : "Dunes with bushes",
+	"handler":"static",
+		"types" : {
+			"object" : {			
+				"templates" : {	
+					"duneBush01": {
+						"animation": "dunes objects/bush01",
+						"mask": ["BB", "BB"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					},
+					"duneBush02": {
+						"animation": "dunes objects/bush02",
+						"mask": ["BB", "BB"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					},
+					"duneBush03": {
+						"animation": "dunes objects/bush03",
+						"mask": ["BB", "BB"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					}
+					
+				}
+			}	
+		}
+	}
+}

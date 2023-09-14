@@ -1,0 +1,21 @@
+{
+	"core:redwoodObservatory"	: {
+		"types" : {
+			"dunesObservationTower" : {
+				"rmg" : {
+					"value"		: 750,
+					"rarity"	: 100,
+					"zoneLimit" : 1
+					},
+					"templates" : {
+						"avwtobtw" : {
+							"animation" : "dunes objectFunc/tower",
+							"mask" : [ "VVV","VVV","VVA" ], 
+							"visitableFrom" : [ "---", "+++", "+++" ],
+							"allowedTerrains": [ "dunes" ]
+					}
+				}
+			}
+		}
+	}		
+}

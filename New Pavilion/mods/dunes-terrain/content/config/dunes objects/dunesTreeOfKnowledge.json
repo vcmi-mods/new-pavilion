@@ -1,0 +1,16 @@
+{
+	"core:treeOfKnowledge"	: {
+		"types" : {
+			"treeOfKnowledge" : {
+				"templates" : {
+					"dunesTreeOf" : {
+						"animation" : "dunes objectFunc/KnowdleeTree",
+						"mask" : [ "VBV","VBV","VAV" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "dunes" ]
+					}
+				}
+			}
+		}
+	}
+}

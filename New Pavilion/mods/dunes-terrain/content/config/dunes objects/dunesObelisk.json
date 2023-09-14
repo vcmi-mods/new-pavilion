@@ -1,0 +1,16 @@
+{
+	"core:obelisk": {
+		"types": {
+			"object": {
+				"templates": {
+					"dunesObelisk": {
+						"animation": "dunes objects/obelisk",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+						"allowedTerrains": ["dunes"]
+					}
+				}
+			}
+		}
+	}
+}

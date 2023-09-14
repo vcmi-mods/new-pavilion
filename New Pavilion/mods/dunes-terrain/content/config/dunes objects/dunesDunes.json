@@ -1,0 +1,62 @@
+{
+"dunesMt" : {
+	"name" : "Dunes",
+	"handler":"static",
+		"types" : {
+			"object" : {			
+				"templates" : {	
+			
+					"dune1" : { "animation" : "dunes dunes/dune1",  
+					"mask" : [ "VVBBBV","VBBBBB","VBBBBB","VVVBBB"],
+                    "allowedTerrains": [ "dunes" ]
+					},						
+					
+					"dune2" : { "animation" : "dunes dunes/dune2", 					 
+					"mask" : [ "VVBBBV", "VBBBBB","VBBBBB","VBBBVV"], 
+                    "allowedTerrains": [ "dunes" ]
+					},
+					
+					"dune3" : { "animation" : "dunes dunes/dune3", 					 
+					"mask" : [ "VBBV","VBBB", "VVBB"], 
+                    "allowedTerrains": [ "dunes" ]
+					},
+					
+					"dune4" : { "animation" : "dunes dunes/dune4", 
+					"mask" : [ "VVBB","VBBB", "VBBV"], 
+                    "allowedTerrains": [ "dunes" ]
+					},
+					
+					"dune5" : { "animation" : "dunes dunes/dune5", 
+					"mask" : [ "VBBV","VVBB"], 
+                    "allowedTerrains": [ "dunes" ]
+					},					
+					
+					"dune6" : { "animation" : "dunes dunes/dune6",  
+					"mask" : [ "VVBB","VBBV"], 
+                    "allowedTerrains": [ "dunes" ]
+					},
+	
+					"dune10" : { "animation" : "dunes dunes/dune10",  
+					"mask" : [ "BB"], 
+                    "allowedTerrains": [ "dunes" ]
+					},
+
+					"dune20" : { "animation" : "dunes dunes/dune20",  
+					"mask" : [ "BB"], 
+                    "allowedTerrains": [ "dunes" ]
+					},
+
+					"dune30" : { "animation" : "dunes dunes/dune30",  
+					"mask" : [ "BBB"], 
+                    "allowedTerrains": [ "dunes" ]
+					}	
+				}
+			}
+		}	
+	}	
+}
+	
+	
+
+
+	

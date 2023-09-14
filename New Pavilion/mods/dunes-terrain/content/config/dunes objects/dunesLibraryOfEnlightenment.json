@@ -1,0 +1,17 @@
+{
+	"core:libraryOfEnlightenment" : {
+		"types" : {
+			"libraryOfEnlightenment" : {
+				"templates" : {
+					"dunesLibrary" : {
+						"animation" : "dunes objectFunc/library",
+						"mask" : [ "VVVVV", "VBBBB", "VBBAB" ],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains": [ "dunes" ]
+					}
+				}
+			}
+		}
+	}
+}
+

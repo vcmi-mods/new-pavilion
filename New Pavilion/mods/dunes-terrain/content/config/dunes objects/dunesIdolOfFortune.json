@@ -1,0 +1,16 @@
+{
+	"core:idolOfFortune" : {
+		"types" : {
+			"idolOfFortune" : {
+				"templates" : {
+					"DunesIdol" : {
+						"animation": "dunes objectFunc/idol",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "dunes" ]
+					}
+				}
+			}	
+		}
+	}
+}

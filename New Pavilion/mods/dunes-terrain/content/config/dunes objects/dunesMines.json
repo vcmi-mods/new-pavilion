@@ -1,0 +1,112 @@
+{
+	"core:mine" : {
+		"types" : {
+			"crystalCavern" : {
+				"templates": {
+					"dunes" : {
+						"animation" : "dunes mines/crystalmine",
+						"mask" : ["VVVV","VVVV","VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["dunes"]
+					},
+					"dunes_01" : {
+						"animation" : "dunes mines/crystalmine_01",
+						"mask" : ["VVVV","VVVV","VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["dunes"]
+					}
+				}
+			},
+			"goldMine" : {
+				"templates": {
+					
+					"dunes" : {
+						"animation" : "dunes mines/goldmine",
+						"mask" : ["VVVV","VVVV","VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["dunes"]
+					},
+					"dunes_01" : {
+						"animation" : "dunes mines/goldmine_01",
+						"mask" : ["VVVV","VVVV","VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["dunes"]
+					}
+				}
+			},
+			
+			"sawmill" : {
+				"templates" : {
+					
+					"dunes" : {
+						"animation" : "dunes mines/sawmill", 
+						"mask" : ["VVVVV", "VVVBB", "VBBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["dunes"]
+					}
+				}
+			},
+			
+			"alchemistLab" : {
+				"templates" : {
+					"dunes" : {
+						"animation" : "dunes mines/lab",
+						"mask" : ["VVV", "VVV", "BAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["dunes"]
+					}
+				}
+			},
+			
+			"orePit" : {
+				"templates" : {
+					"dunes" : {
+						"animation" : "dunes mines/oremine",
+						"mask" : ["BBB", "BAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["dunes"]
+					}
+				}
+			},
+			
+			"sulfurDune" : {
+				"templates" : {
+					"dunes" : {
+						"animation" : "dunes mines/sulfurmine",
+						"mask" : ["VVV", "BAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["dunes"]
+					}
+				}
+			},
+			
+			"gemPond" : {
+				"templates" : {
+					"dunes" : {
+						"animation" : "dunes mines/gem",
+						"mask" : ["BBB", "BAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["dunes"]
+					}
+				}
+			},
+
+			"abandoned" : {
+				"templates" : {
+					"dunes" : {
+						"animation" : "dunes mines/abandonmine",
+						"mask" : ["VBBB", "VBAB"],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains" : ["dunes"]
+					},
+					"dunes_01" : {
+						"animation" : "dunes mines/abandonmine_01",
+						"mask" : ["VVVV", "VBBB", "VBAB"],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains" : ["dunes"]
+					}
+				}
+			}
+		}
+	}
+}	

@@ -1,0 +1,158 @@
+// Defines battle obstacles. We have two vectors of them:
+// * "obstacles" are usual obtacles, that are randomly placed in the battlefield.
+// * "absoluteObstacles" are a little special: there can be only one such obstacle in the battlefield and its position is always the same.
+//
+// Their properties:
+// * "allowedTerrains" vector of terrain types (TT format) where obstacle is appropriate
+// * "specialBattlefields" vector of battlefield images (BI format) where obstacle is appropriate. If there is a special battlefield image, then only this list is checked. Otherwise it's ignored. 
+// * "blockedTiles": for absolute obstacles contains absolute coordinates. For usual obstacles contains offsets relative to the obstacle position (that is bottom left corner). If obstacle is placed in an odd row (counting from 0) and the blocked tile is in an even row, position will be shifted one tile to the left. Thanks to that ie. -16 is always top-right hex, no matter where the obstale will get placed.
+// * "width" for usual obstacles it's count of tiles that must be free to the right for obstacle to be placed. For absolute obstacles, it's x offset for the graphics.
+// * "height" for usual obstacles it's count of tiles that must be free to the top for obstacle to be placed. For absolute obstacles, it's y offset for the graphics.
+// * "animation" is name of the graphics. It's def file for usual obstacles and bitmap for the absolute ones.
+
+{
+	"absoluteVertical":
+	{
+		"allowedTerrains" : ["dunes"],   //to change later
+		"specialBattlefields" : [],
+		"width" : 272,
+		"height" :133,
+		"blockedTiles" :  [27,28,43,44,60,61,76,77,93,94,109,110,126,127,142,143,159,160],
+		"animation" : "dunes/dunesAbVr",
+		"absolute" : true
+	},
+	"absoluteVertical_01":
+	{
+		"allowedTerrains" : ["dunes"],   //to change later
+		"specialBattlefields" : [],
+		"width" : 319,
+		"height" :133,
+		"blockedTiles" :  [24,41,59,76,94,111,129,146,164],
+		"animation" : "dunes/dunesAbVr_01",
+		"absolute" : true
+	},
+	"absoluteHorizontal":
+	{
+		"allowedTerrains" : ["dunes"],   //to change later
+		"specialBattlefields" : [],
+		"width" : 251,
+		"height" :261,
+		"blockedTiles" :  [73,74,91,92,108,109,110,111,112,113],
+		"animation" : "dunes/dunesAbHr",
+		"absolute" : true
+	},
+
+
+	"dunesSkeleton":
+	{
+		"allowedTerrains" : ["dunes"],   //to change later
+		"specialBattlefields" : [],
+		"width" : 5,
+		"height" :3,
+		"blockedTiles" :  [0, 1],
+		"animation" : "dunes/DnSkel1.def",
+		"absolute" : false
+	},
+	"dunesVase1":
+	{
+		"allowedTerrains" : ["dunes"],   //to change later
+		"specialBattlefields" : [],
+		"width" : 5,
+		"height" :3,
+		"blockedTiles" :  [0, 1],
+		"animation" : "dunes/DnVs1.def",
+		"absolute" : false
+	},
+	"dunesVase2":
+	{
+		"allowedTerrains" : ["dunes"],   //to change later
+		"specialBattlefields" : [],
+		"width" : 5,
+		"height" :3,
+		"blockedTiles" :  [0, 1],
+		"animation" : "dunes/DnVs2.def",
+		"absolute" : false
+	},
+	"dunesBones":
+	{
+		"allowedTerrains" : ["dunes"],   //to change later
+		"specialBattlefields" : [],
+		"width" : 5,
+		"height" :3,
+		"blockedTiles" :  [0, 1, 2],
+		"animation" : "dunes/DnBns1.def",
+		"absolute" : false
+	},
+	"dunesRock1":
+	{
+		"allowedTerrains" : ["dunes"],   //to change later
+		"specialBattlefields" : [],
+		"width" : 5,
+		"height" :3,
+		"blockedTiles" :  [0, 1, 2],
+		"animation" : "dunes/DnRck1.def",
+		"absolute" : false
+	},
+	"dunesRock2":
+	{
+		"allowedTerrains" : ["dunes"],   //to change later
+		"specialBattlefields" : [],
+		"width" : 5,
+		"height" :3,
+		"blockedTiles" :  [0, 1],
+		"animation" : "dunes/DnRck2.def",
+		"absolute" : false
+	},
+	"dunesCactus1":
+	{
+		"allowedTerrains" : ["dunes"],   //to change later
+		"specialBattlefields" : [],
+		"width" : 5,
+		"height" :3,
+		"blockedTiles" :  [0, 1],
+		"animation" : "dunes/DnCct1.def",
+		"absolute" : false
+	},
+	"dunesCactus2":
+	{
+		"allowedTerrains" : ["dunes"],   //to change later
+		"specialBattlefields" : [],
+		"width" : 5,
+		"height" :4,
+		"blockedTiles" :  [0, 1],
+		"animation" : "dunes/DnCct2.def",
+		"absolute" : false
+	},
+	"dunesCactus3":
+	{
+		"allowedTerrains" : ["dunes"],   //to change later
+		"specialBattlefields" : [],
+		"width" : 5,
+		"height" :4,
+		"blockedTiles" :  [0, 1],
+		"animation" : "dunes/DnCct2.def",
+		"absolute" : false
+	},
+	"dunesBush1":
+	{
+		"allowedTerrains" : ["dunes"],   //to change later
+		"specialBattlefields" : [],
+		"width" : 5,
+		"height" :4,
+		"blockedTiles" :  [0, 1],
+		"animation" : "dunes/DnBsh1.def",
+		"absolute" : false
+	},
+	"dunesBush2":
+	{
+		"allowedTerrains" : ["dunes"],   //to change later
+		"specialBattlefields" : [],
+		"width" : 5,
+		"height" :4,
+		"blockedTiles" :  [1, -15, -14],
+		"animation" : "dunes/DnBsh2.def",
+		"absolute" : false
+	}
+
+
+}

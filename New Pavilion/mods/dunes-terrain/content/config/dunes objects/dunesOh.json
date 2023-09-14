@@ -1,0 +1,89 @@
+{
+"core:cactus" : {
+		"types" : {
+			"object" : {
+
+				"templates" : {
+				
+					"cactOhDn01" : { "animation" : "dunes OH/AVLca100", 
+					"mask" : [ "V", "B" ], 
+                    			"allowedTerrains": [ "dunes" ]
+					},
+
+					"cactOhDn02" : { "animation" : "dunes OH/AVLca1r0", 
+					"mask" : [ "V", "B" ], 
+                    			"allowedTerrains": [ "dunes" ]
+					},
+
+					"cactusDunes_01" : { "animation" : "dunes objects/cactus_01", 
+					"mask" : [ "VV", "VB" ], 
+                    			"allowedTerrains": [ "dunes" ]
+					},
+
+					"cactusDunes_02" : { "animation" : "dunes objects/cactus_02", 
+					"mask" : [ "VV", "VB" ], 
+                    			"allowedTerrains": [ "dunes" ]
+					},
+
+					"cactusDunes_03" : { "animation" : "dunes objects/cactus_03", 
+					"mask" : [ "VV", "VB" ], 
+                    			"allowedTerrains": [ "dunes" ]
+					},
+
+					"cactusDunes_04" : { "animation" : "dunes objects/cactus_04", 
+					"mask" : [ "VV", "VB" ], 
+                    			"allowedTerrains": [ "dunes" ]
+					}
+
+					
+				}
+			}	
+		}
+	},
+
+	"core:skull": {
+		"types": {
+			"dunesSkullOh": {
+				"name": "Skull",
+				"templates": {
+					
+					"skullOhDn01": {
+						"animation": "dunes OH/AVLskul0",
+						"mask": ["B"],
+						"allowedTerrains": ["dunes"]
+					}
+				}
+			}
+		}
+	},
+	"palmsTree" : {
+		"name" : "Palms",
+		"handler": "static",
+		"types" : {
+			"object" : {
+				"templates" : {
+					"palmOhDn01" : { "animation" : "dunes OH/AVLswt06",
+					"mask" : ["VV","VB"],
+					"allowedTerrains": ["dunes"]
+					},
+					"palmOhDn02" : { "animation" : "dunes OH/AVLswt07",
+					"mask" : ["VV","VB"],
+					"allowedTerrains": ["dunes"]
+					},
+					"palmOhDn03" : { "animation" : "dunes OH/AVLswt12",
+					"mask" : ["VV","VB"],
+					"allowedTerrains": ["dunes"]
+					},
+					"palmOhDn04" : { "animation" : "dunes OH/AVLswtr6",
+					"mask" : ["VBV","VBV"],
+					"allowedTerrains": ["dunes"]
+					},
+					"palmOhDn05" : { "animation" : "dunes OH/AVLswtr8",
+					"mask" : ["VBB","VBB"],
+					"allowedTerrains": ["dunes"]
+					}						
+				}
+			}			
+		}	
+	}
+}

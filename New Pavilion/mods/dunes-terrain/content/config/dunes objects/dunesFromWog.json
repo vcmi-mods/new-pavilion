@@ -1,0 +1,70 @@
+{
+"dunesBones" : {
+	"name" : "Bones",
+	"handler":"static",
+		"types" : {
+			"object" : {
+				"templates" : {			
+					"dunesJaws00" : { "animation" : "dunes wog/jaws00", 
+						"mask" : [ "VBB" ], 
+						"allowedTerrains": [ "dunes" ]
+					},	
+	
+					"dunesJaws01" : { "animation" : "dunes wog/jaws03", 
+						"mask" : [ "B" ], 
+						"allowedTerrains": [ "dunes" ]
+					}					
+				}
+			}			
+		}	
+	},
+	"dunesCrystals" : {
+		"name" : "Desert Crystals",
+		"handler":"static",
+		"types" : {
+			"object" : {				
+				"templates" : {	
+					"dunesCryst_01" : { "animation" : "dunes wog/Undercrb00", 
+						"mask" : [ "VVV", "VBB" ], 
+						"allowedTerrains": [ "dunes" ]
+					},
+					"dunesCryst_02" : { "animation" : "dunes wog/Undercrb01", 
+						"mask" : [ "VVV", "VBB" ], 
+						"allowedTerrains": [ "dunes" ]
+					},
+					"dunesCryst_03" : { "animation" : "dunes wog/Undercrb03", 
+						"mask" : [ "VVV", "VBV" ], 
+						"allowedTerrains": [ "dunes" ]
+					},
+					"dunesCryst_04" : { "animation" : "dunes wog/Undercrb04", 
+						"mask" : [ "VV", "VB" ], 
+						"allowedTerrains": [ "dunes" ]
+					}				
+				}
+			}
+		}
+	},
+	"dunesRuin" : {
+	"name" : "Ruins",
+	"handler":"static",
+		"types" : {
+			"object" : {
+				"templates" : {	
+					"dunesPillar01" : { "animation" : "dunes wog/wfpillar03", 
+						"mask" : [ "VVV", "VBB" ], 
+						"allowedTerrains": [ "dunes" ]
+					},
+					"dunesPillar02" : { "animation" : "dunes wog/wfpillar04", 
+						"mask" : [ "VV", "BB" ], 
+						"allowedTerrains": [ "dunes" ]
+					},
+
+					"dunesPillar03" : { "animation" : "dunes wog/wfpillar08", 
+						"mask" : [ "VV", "VB" ], 
+						"allowedTerrains": [ "dunes" ]
+					}
+				}
+			}
+		}	
+	}
+}
