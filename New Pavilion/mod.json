@@ -122,13 +122,6 @@
 	  "artifactsPavilion/maskOfTheDesertKing.json",
 	  "artifactsPavilion/fireRing.json" 
 	],
-//	"chinese" : {
-//		"name" : "沙堡",
-//		"description" : "沙堡",
-//		"translations" : [
-//			"config/translationPavilion/chinese.json"
-//		]
-//	},
 	"french" : {
 		"name" : "Pavillon",
 		"description" : "Version modifiée et équilibrée de 'Bastion Town' portée sur VCMI par edeksumo avec l'aide de la communauté de modding Acid Cave, initialement conceptualisée et créée par New Town Group.",
