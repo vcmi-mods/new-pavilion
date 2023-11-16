@@ -4,7 +4,7 @@
 	
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.0",
+	"version" : "2.9.1",
 	"modType" : "Town",	
 	"size" : 49.2,
 	"compatibility":
@@ -13,6 +13,7 @@
 	},	
 	"changelog" :
     {
+		"2.9.1"   : [ "Update chinese transation" ],
 		"2.9.0"   : [ "New sand terrain added", "Polish translation added" ],
 		"2.8.3"   : [ "Fixed Scroll of Wisdom" ],
 		"2.8.2"   : [ "French traslation added", "Fixed boat issues" ],
@@ -144,6 +145,14 @@
 
 		"translations" : [
 			"config/translationPavilion/polish.json"
+		]
+	},
+		"chinese" : {
+		"name" : "沙堡",
+		"description" : "沙堡",
+		
+		"translations" : [
+			"config/translationPavilion/chinese.json"
 		]
 	}
 }
