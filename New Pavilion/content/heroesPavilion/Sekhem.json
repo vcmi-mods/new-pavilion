@@ -55,7 +55,7 @@
 		{
 			"bonuses" : {
 				"offence" : {
-					"subtype" : 0,
+					"subtype" : "damageTypeMelee",
 					"targetSourceType" : "SECONDARY_SKILL",
 					"type" : "PERCENTAGE_DAMAGE_BOOST",
 					"val" : 5,

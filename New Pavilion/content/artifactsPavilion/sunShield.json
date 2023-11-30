@@ -21,7 +21,7 @@
 		[
 			{
 				"type": "PRIMARY_SKILL",
-				"subtype": 1,
+				"subtype": "defence",
 				"val": 5,
 				"valueType" : "BASE_NUMBER"
 			},

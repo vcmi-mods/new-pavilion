@@ -20,7 +20,7 @@
 		[
 			{
 				"type": "PRIMARY_SKILL",
-				"subtype": 2,
+				"subtype": "spellpower",
 				"val": 4,
 				"valueType" : "BASE_NUMBER"
 			},

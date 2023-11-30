@@ -24,31 +24,31 @@
 				"valueType" : "BASE_NUMBER"				
 			},
 			{
-				"subtype" : "spellSchool.fire",
-				"type" : "MAGIC_SCHOOL_SKILL", //fire magic
+				"subtype" : "fire",
+				"type" : "MAGIC_SCHOOL_SKILL",
 				"val" : 1,
 				"valueType" : "ADDITIVE_VALUE"
 			},		
 			{
-				"subtype" : "spellSchool.earth",
-				"type" : "MAGIC_SCHOOL_SKILL", //earth magic
+				"subtype" : "earth",
+				"type" : "MAGIC_SCHOOL_SKILL",
 				"val" : 1,
 				"valueType" : "ADDITIVE_VALUE"
 			},
 			{
-				"subtype" : "spellSchool.air",
-				"type" : "MAGIC_SCHOOL_SKILL",  //air magic
+				"subtype" : "air",
+				"type" : "MAGIC_SCHOOL_SKILL",
 				"val" : 1,
 				"valueType" : "ADDITIVE_VALUE"
 			},
 			{
-				"subtype" : "spellSchool.water",
-				"type" : "MAGIC_SCHOOL_SKILL", //water magic
+				"subtype" : "water",
+				"type" : "MAGIC_SCHOOL_SKILL",
 				"val" : 1,
 				"valueType" : "ADDITIVE_VALUE"
 			},
 			{
-				"subtype" : "primSkill.knowledge",
+				"subtype" : "knowledge",
 				"type" : "PRIMARY_SKILL",
 				"val" : -2,
 				"valueType" : "BASE_NUMBER"

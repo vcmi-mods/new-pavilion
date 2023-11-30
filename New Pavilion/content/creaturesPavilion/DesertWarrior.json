@@ -61,7 +61,7 @@
 		{
 			"desertRider" : 
 			{
-				"subtype" : 1,
+				"subtype" : "heroMovementLand",
 				"type" : "MOVEMENT",
 				"val" : 150,
 				"valueType" : "ADDITIVE_VALUE",

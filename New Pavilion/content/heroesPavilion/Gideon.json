@@ -58,7 +58,7 @@
 		{
 			"bonuses" : {
 				"armorer" : {
-					"subtype" : -1,
+					"subtype" : "damageTypeAll",
 					"targetSourceType" : "SECONDARY_SKILL",
 					"type" : "GENERAL_DAMAGE_REDUCTION",
 					"val" : 5,

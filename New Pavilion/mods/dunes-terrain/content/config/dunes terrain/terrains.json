@@ -10,7 +10,7 @@
 		"river" : "lazurRiver",
 		"rockTerrain":"rock",
 		"shortIdentifier" : "dn",
-		"type" : ["LAND", "SURFACE"],
+		"type" : ["SURFACE"],
 		"battleFields" : ["dunesBattlefield_01", "dunesBattlefield_02", "dunesBattlefield_03"],
 		"horseSound" : "horse07",
 		"horseSoundPenalty" : "horse27"

@@ -61,21 +61,21 @@
 		"speed" : 9,
 		"abilities" :
 		{
-				"advancedSlayer" : 
+			"advancedSlayer" : 
 			{ 
 				"type" : "KING",
 				"val" : 2,
 				"valueType" : "ADDITIVE_VALUE"
 			},			
-            	"earthImmunity" : 
+            "earthImmunity" : 
 			{
-				"type" : "EARTH_IMMUNITY",
-				"subtype" : 0
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "earth"
 			},
-			    "levitate" :
+			"levitate" :
 			{
 				"type" : "FLYING",
-				"subtype" : 0
+				"subtype" : "movementFlying"
 			}
 		}
 	}

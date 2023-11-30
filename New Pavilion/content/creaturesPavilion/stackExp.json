@@ -6,7 +6,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
@@ -14,7 +14,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
@@ -22,7 +22,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
@@ -30,7 +30,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
@@ -67,7 +67,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
@@ -75,7 +75,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
@@ -83,7 +83,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
@@ -91,7 +91,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
@@ -135,7 +135,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
@@ -143,7 +143,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
@@ -151,7 +151,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
@@ -159,7 +159,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
@@ -196,7 +196,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
@@ -204,7 +204,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
@@ -212,7 +212,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
@@ -220,7 +220,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
@@ -259,7 +259,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
@@ -267,7 +267,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
@@ -275,7 +275,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
@@ -283,7 +283,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
@@ -322,7 +322,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
@@ -330,7 +330,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
@@ -338,7 +338,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
@@ -346,7 +346,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
@@ -383,7 +383,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
@@ -391,7 +391,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
@@ -399,7 +399,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
@@ -407,7 +407,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
@@ -431,7 +431,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_DAMAGE_REDUCTION",
-					"subtype" : -1
+					"subtype" : "spellSchool.any"
 				},
 				"values" : [ 0, 0, 0, 0, 100, 100, 100, 100, 100, 100 ]
 			},
@@ -454,7 +454,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
@@ -462,7 +462,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
@@ -470,7 +470,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
@@ -478,7 +478,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
@@ -502,7 +502,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_DAMAGE_REDUCTION",
-					"subtype" : -1
+					"subtype" : "spellSchool.any"
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 100, 100 ]
 			},
@@ -532,7 +532,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
@@ -540,7 +540,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
@@ -548,7 +548,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
@@ -556,7 +556,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
@@ -600,7 +600,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
@@ -608,7 +608,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
@@ -616,7 +616,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
@@ -624,7 +624,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
@@ -675,7 +675,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
@@ -683,7 +683,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
@@ -691,7 +691,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
@@ -699,7 +699,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
@@ -743,7 +743,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
@@ -751,7 +751,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
@@ -759,7 +759,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
@@ -767,7 +767,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
@@ -811,7 +811,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -819,7 +819,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -827,7 +827,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -835,7 +835,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -887,7 +887,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -895,7 +895,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -903,7 +903,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -911,7 +911,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
@@ -963,7 +963,7 @@
 			{	
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
@@ -971,7 +971,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
@@ -979,7 +979,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
@@ -987,7 +987,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
