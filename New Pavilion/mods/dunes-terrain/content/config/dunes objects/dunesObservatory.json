@@ -1,12 +1,7 @@
 {
 	"core:redwoodObservatory"	: {
 		"types" : {
-			"dunesObservationTower" : {
-				"rmg" : {
-					"value"		: 750,
-					"rarity"	: 100,
-					"zoneLimit" : 1
-					},
+			"redwoodObservatory" : {
 					"templates" : {
 						"avwtobtw" : {
 							"animation" : "dunes objectFunc/tower",

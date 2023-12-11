@@ -2,7 +2,6 @@
 "core:cactus" : {
 		"types" : {
 			"object" : {
-
 				"templates" : {
 				
 					"cactOhDn01" : { "animation" : "dunes OH/AVLca100", 
@@ -34,8 +33,6 @@
 					"mask" : [ "VV", "VB" ], 
                     			"allowedTerrains": [ "dunes" ]
 					}
-
-					
 				}
 			}	
 		}
@@ -43,7 +40,7 @@
 
 	"core:skull": {
 		"types": {
-			"dunesSkullOh": {
+			"object": {
 				"name": "Skull",
 				"templates": {
 					

@@ -2,7 +2,7 @@
 "core:sign" : 
 	{
 		"types" : {
-			"crypt" : {
+			"object" : {
 				"templates" : {
 					"dunes" : {
 						"animation" : "dunes objectFunc/sign", 
