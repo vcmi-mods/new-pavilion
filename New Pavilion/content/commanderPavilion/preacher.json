@@ -54,7 +54,7 @@
 		"doubleWide" : false,
 		"growth" : 1,
 		"hitPoints" : 40,
-		"shots" : 6,
+		"shots" : 24,
 		"sound" :
 		{
 			"attack" : "Pavilion/preaAtt.wav",
