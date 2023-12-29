@@ -35,7 +35,7 @@
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{
-				"walk" : 1.20,
+				"walk" : 1,
 				"idle" : 10.00,
 				"attack" : 1.00
 			}
@@ -51,31 +51,23 @@
 		],
 		"sound" :
 		{
-			"attack" : "Pavilion/sphxAtt.wav",
-			"defend": "Pavilion/sphxDef.wav",
-			"killed": "Pavilion/sphxDie.wav",
-			"move": "Pavilion/sphxWalk.wav",
-			"wince": "Pavilion/sphxHit.wav"
+			"attack" : "WUNCSHOT",
+			"defend":  "Pavilion/sphxDef.wav",
+			"killed":  "Pavilion/sphxDie.wav",
+			"move": "MANTMOVE",
+			"wince":  "Pavilion/sphxHit.wav"
  		},
 		"speed" : 7,
 		"abilities" :
 		{
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
 			"magicResistance" :
 			{
-				"type" : "MAGIC_RESISTANCE",
-				"val" : 20
-			},
-			"buffNegation" : 
-		{
-			"type" : "SPELL_AFTER_ATTACK",
-			"subtype" : "spell.blessingSeal",
-			"val" : 100
-		},
-			"spellDuration" : 
-		{
-			"type" : "CREATURE_ENCHANT_POWER",
-			"val" : 3
-		}	
+				"type" : "MIND_IMMUNITY"
+			}
 		},
 		"stackExperience" :
 		[

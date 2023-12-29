@@ -4,7 +4,7 @@
 		"type": "ability",
 		
 		"targetType" : "CREATURE",
-		"name" : "Blessings Seal",
+		"name" : "Cruel Fate",
 		"school": {"air":false, "earth":false, "fire":false, "water":false},
 		"level": 1,
 		"power": 1,
@@ -15,16 +15,11 @@
 		},
 		"graphics":
 		{
-			"iconImmune":"spellsPavilion/placeholder.bmp",
-			"iconScenarioBonus": "spellsPavilion/placeholderBonus.bmp",
-			"iconEffect": "spellsPavilion/BlessingSealEffect.bmp",
-			"iconBook": "spellsPavilion/placeholder.bmp",
-			"iconScroll": "spellsPavilion/placeholderScroll.bmp"
- 
+			"iconEffect": "spellsPavilion/BlessingSealEffect.bmp"
 		},		
 		"animation":
 		{
-			"affect":[{"defName":"C02SPA0", "verticalPosition":"bottom"}, "C02SPA0"]
+			"affect":[{"defName":"C02SPE0", "verticalPosition":"bottom"}, "C02SPE0"]
 		},
 		"sounds": {
 			"cast": "BACKLASH"
@@ -34,13 +29,22 @@
 			{
 			
 			"base":{
-				"description": "A seal blocking benign magic.",
+				"description": "A charm dispelling and blocking benign magic.",
 				"cost": 0,
 				"power": 1,
 				"aiValue": 0,
 				"range" : "0",
 				"targetModifier":{"smart":true},
-				"effects" : {
+
+
+				"battleEffects" : {
+
+					"blockHelp" : {
+						
+						"type":"core:timed", 
+						"cumulative": false, 
+						"bonus":  {
+
 					"hasteSeal" : {
 						"type" : "SPELL_IMMUNITY",
 						"subtype" : "spell.haste",
@@ -173,67 +177,23 @@
 						"addInfo" : 0,						
 						"duration" : "N_TURNS"
 					}
+					},
+					"dispelHelp":{
+						"type":"core:dispel",
+						"ignoreImmunity" : true,
+						"dispelNegative":false,
+						"dispelNeutral":false,
+						"dispelPositive":true
 					}
+				}}
 					},
 					
-			"none":{
-				"description": "A seal blocking benign magic.",
-				"cost": 0,
-				"power": 1,
-				"aiValue": 0,
-				"effects" : {
-					"blessingSeal" : {
-						"type" : "NONE"
-
-					}
-				}
-			},
-			"basic":{
-				"description": "A seal blocking benign magic.",
-				"cost": 0,
-				"power": 1,
-				"aiValue": 0,
-				"effects" : {
-					"blessingSeal" : {
-						"type" : "NONE"
-
-					}
-				}
-			},
-			"advanced":{
-				"description": "A seal blocking benign magic.",
-				"cost": 0,
-				"power": 1,
-				"aiValue": 0,
-				"effects" : {
-					"blessingSeal" : {
-						"type" : "NONE"
-
-					}
-				}
-			},
-			"expert":{
-				"description": "A seal blocking benign magic.",
-				"cost": 0,
-				"power": 1,
-				"aiValue": 0,
-				"effects" : {
-					"blessingSeal" : {
-						"type" : "NONE"
+					"none":	{},	"basic":{},	"advanced":	{}, "expert":{}	
 					
-					}
-				}
-				}
 			},
-		"absoluteLimit" : {
-
-		},
-		"absoluteImmunity" : {
-
-		},
-		"immunity" : {
-
-		},
+			
+			"targetCondition" : {},
+			
 		"flags" : {
 			"negative": true
 		}

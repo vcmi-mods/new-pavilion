@@ -4,7 +4,7 @@
 	
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.3",
+	"version" : "2.9.4",
 	"modType" : "Town",	
 	"compatibility":
 	{
@@ -12,6 +12,7 @@
 	},	
 	"changelog" :
     {
+		"2.9.4"   : [ "New graphics for Sphinxes and Village Hall (map object)" ],
 		"2.9.3"   : [ "Fixed Redwood Observatory" ],
 		"2.9.2"   : [ "Update do vcmi-1.4 format" ],
 		"2.9.1"   : [ "Update chinese transation" ],
