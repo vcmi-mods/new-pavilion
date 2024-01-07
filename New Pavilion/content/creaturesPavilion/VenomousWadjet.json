@@ -9,7 +9,7 @@
 		},
 		"advMapAmount" :
 		{
-			"max" : 30,
+			"max" : 25,
 			"min" : 16
 		},
 		"faction" : "pavilion",

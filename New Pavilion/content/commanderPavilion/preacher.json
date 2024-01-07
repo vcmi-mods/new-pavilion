@@ -8,11 +8,11 @@
 		},
 		"advMapAmount" :
 		{
-			"max" : 8,
-			"min" : 3
+			"max" : 25,
+			"min" : 16
 		},
 		"faction" : "pavilion",
-		"aiValue" : 5931,
+		"aiValue" : 156,
 		"special" : true,
 		"attack" : 5,
 		"damage" :
@@ -21,7 +21,7 @@
 			"min" : 6
 		},
 		"defense" : 5,
-		"fightValue" : 5272,
+		"fightValue" : 130,
 		"graphics" :
 		{
 			"animation" : "creaturedefsPavilion/preacher.def",
@@ -52,7 +52,7 @@
 			}
 		},
 		"doubleWide" : false,
-		"growth" : 1,
+		"growth" : 9,
 		"hitPoints" : 40,
 		"shots" : 24,
 		"sound" :
