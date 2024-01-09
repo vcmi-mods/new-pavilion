@@ -23,7 +23,7 @@
 				"rewards":
 				[
 					{
-						"message" : "{Big Crystal Mine}\r\n\r\nSo this mine suposed to work similar to abandon mine but with mighty desert Dwarfs and producing 2 crystals per day, but for now VCMI don't allow for such thing so it's gives 2 crystal per visit per day.",						
+						"message" : "{Big Crystal Mine}\r\n\r\nSo this mine supposed to work similar to abandon mine but with mighty desert Dwarfs and producing 2 crystals per day, but for now VCMI don't allow for such thing so it's gives 2 crystal per visit per day.",
 						"resources": {"crystal" : 2},
 					}
 				],
