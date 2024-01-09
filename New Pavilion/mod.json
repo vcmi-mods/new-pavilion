@@ -4,7 +4,7 @@
 	
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.5",
+	"version" : "2.9.51",
 	"modType" : "Town",	
 	"compatibility":
 	{
@@ -12,6 +12,7 @@
 	},	
 	"changelog" :
     {
+		"2.9.51"   : [ "Updated french translation" ],
 		"2.9.5"   : [ "Fixed the commander and the translations' bugs" ],
 		"2.9.4"   : [ "New graphics for Sphinxes and Village Hall (map object)" ],
 		"2.9.3"   : [ "Fixed Redwood Observatory" ],
