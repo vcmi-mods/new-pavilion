@@ -49,7 +49,7 @@
 				"rewards":
 				[
 					{
-						"message": "{School of flight}\r\n\r\nIn this strange buildnig lives few wizards, which are learning ability to fly. They asking that did they can practice on you and your army for some gold?",			
+						"message": "{School of flight}\r\n\r\nIn this strange building lives few wizards, which are learning ability to fly. They ask if they can practice on you and your army for some gold?",
 							"spellCast" : {
 							"spell" : "fly",
 							"schoolLevel": 3
