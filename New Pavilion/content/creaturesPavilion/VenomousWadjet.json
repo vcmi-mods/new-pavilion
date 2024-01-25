@@ -27,7 +27,6 @@
 		},
 		"defense" : 5,
 		"fightValue" : 190,
-		"hasDoubleWeek": true,
 		"graphics" :
 		{
 			"animation" : "creaturedefsPavilion/venomousWadjet.def",

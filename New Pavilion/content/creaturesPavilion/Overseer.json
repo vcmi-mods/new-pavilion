@@ -13,7 +13,6 @@
 		},
 		"faction" : "pavilion",
 		"aiValue" : 90,
-		"hasDoubleWeek": true,
 		"attack" : 5,
 		"cost" :
 		{
