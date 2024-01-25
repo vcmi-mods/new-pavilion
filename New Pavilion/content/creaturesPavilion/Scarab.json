@@ -13,7 +13,6 @@
 		},
 		"faction" : "neutral",
 		"aiValue" : 50,
-		"hasDoubleWeek": true,
 		"attack" : 3,
 		"cost" :
 		{

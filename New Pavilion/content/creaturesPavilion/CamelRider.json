@@ -23,7 +23,6 @@
 			"max" : 6,
 			"min" : 2
 		},
-		"hasDoubleWeek": true,
 		"defense" : 9,
 		"fightValue" : 320,
 		"graphics" :

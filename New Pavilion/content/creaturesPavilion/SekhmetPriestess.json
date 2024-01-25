@@ -14,7 +14,6 @@
 		"faction" : "pavilion",
 		"aiValue" : 550,
 		"attack" : 12,
-		"hasDoubleWeek": true,
 		"cost" :
 		{
 			"gold" : 380

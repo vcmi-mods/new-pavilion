@@ -26,7 +26,6 @@
 		},
 		"defense" : 20,
 		"fightValue" : 3850,
-		"hasDoubleWeek": true,
 		"graphics" :
 		{
 			"animation" : "creaturedefsPavilion/newAnubis2.def",
