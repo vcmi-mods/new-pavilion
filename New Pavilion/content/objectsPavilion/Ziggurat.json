@@ -11,7 +11,7 @@
 				},
 				"templates" : {
 					"base" : { "animation" : "mapdefsPavilion/ziggurat.def", 
-					"visitableFrom" : [ "+++", "+++", "+++" ], 
+					"visitableFrom" : [ "---", "-+-", "+++" ], 
 					"mask" : [ "VVVV", "VBBV", "BBBB", "VBAB"], 
 					"allowedTerrains":["subterra", "rough", "dirt", "sand", "lava"] 
 					}

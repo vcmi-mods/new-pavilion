@@ -4,7 +4,7 @@
 	
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.52",
+	"version" : "2.9.53",
 	"modType" : "Town",	
 	"compatibility":
 	{
@@ -12,6 +12,7 @@
 	},	
 	"changelog" :
     {
+		"2.9.53"   : [ "Ziggurat should only be accessible from bottom." ],
 		"2.9.52"   : [ "Now only lvl1-lv3 creatures have double week spawning." ],
 		"2.9.51"   : [ "Updated french translation" ],
 		"2.9.5"   : [ "Fixed the commander and the translations' bugs" ],
