@@ -155,8 +155,7 @@
 	},
 		"chinese" : {
 		"name" : "沙堡",
-		"description" : "沙堡",
-		
+		"description" : "沙堡的原型是古埃及神话，兵种设计也有独特的埃及神话艺术。在英雄无敌的世界里也是非常独特的设计。",
 		"translations" : [
 			"config/translationPavilion/chinese.json"
 		]
