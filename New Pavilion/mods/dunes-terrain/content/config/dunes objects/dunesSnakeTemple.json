@@ -27,13 +27,13 @@
 					{
 						"chance": 50,
 						"guards": [
-							{ "amount": 8, "type" : "pavillon:wadjet"},
-							{ "amount": 8, "type" : "pavillon:wadjet"},
-							{ "amount": 8, "type" : "pavillon:wadjet"},
-							{ "amount": 8, "type" : "pavillon:wadjet"},
-							{ "amount": 8, "type" : "pavillon:wadjet"},
-							{ "amount": 8, "type" : "pavillon:wadjet"},
-							{ "amount": 8, "type" : "pavillon:wadjet"}
+							{ "amount": 8, "type" : "new-pavilion:wadjet"},
+							{ "amount": 8, "type" : "new-pavilion:wadjet"},
+							{ "amount": 8, "type" : "new-pavilion:wadjet"},
+							{ "amount": 8, "type" : "new-pavilion:wadjet"},
+							{ "amount": 8, "type" : "new-pavilion:wadjet"},
+							{ "amount": 8, "type" : "new-pavilion:wadjet"},
+							{ "amount": 8, "type" : "new-pavilion:wadjet"}
 						],
 						"combat_value": 800,
 							"reward" : {
@@ -53,13 +53,13 @@
 					{
 						"chance": 30,
 						"guards": [
-							{ "amount": 12, "type" : "pavillon:wadjet"},
-							{ "amount": 12, "type" : "pavillon:wadjet"},
-							{ "amount": 12, "type" : "pavillon:wadjet"},
-							{ "amount": 12, "type" : "pavillon:wadjet", "upgradeChance": 50 },
-							{ "amount": 12, "type" : "pavillon:wadjet"},
-							{ "amount": 12, "type" : "pavillon:wadjet"},
-							{ "amount": 12, "type" : "pavillon:wadjet"}
+							{ "amount": 12, "type" : "new-pavilion:wadjet"},
+							{ "amount": 12, "type" : "new-pavilion:wadjet"},
+							{ "amount": 12, "type" : "new-pavilion:wadjet"},
+							{ "amount": 12, "type" : "new-pavilion:wadjet", "upgradeChance": 50 },
+							{ "amount": 12, "type" : "new-pavilion:wadjet"},
+							{ "amount": 12, "type" : "new-pavilion:wadjet"},
+							{ "amount": 12, "type" : "new-pavilion:wadjet"}
 						],
 						"combat_value": 9000,
 						"reward" : {
@@ -80,13 +80,13 @@
 					{
 						"chance": 20,
 						"guards": [
-							{ "amount": 20, "type" : "pavillon:wadjet"},
-							{ "amount": 20, "type" : "pavillon:wadjet"},
-							{ "amount": 20, "type" : "pavillon:wadjet", "upgradeChance": 50 },
-							{ "amount": 20, "type" : "pavillon:wadjet", "upgradeChance": 50 },
-							{ "amount": 20, "type" : "pavillon:wadjet", "upgradeChance": 50 },
-							{ "amount": 20, "type" : "pavillon:wadjet"},
-							{ "amount": 20, "type" : "pavillon:wadjet"}
+							{ "amount": 20, "type" : "new-pavilion:wadjet"},
+							{ "amount": 20, "type" : "new-pavilion:wadjet"},
+							{ "amount": 20, "type" : "new-pavilion:wadjet", "upgradeChance": 50 },
+							{ "amount": 20, "type" : "new-pavilion:wadjet", "upgradeChance": 50 },
+							{ "amount": 20, "type" : "new-pavilion:wadjet", "upgradeChance": 50 },
+							{ "amount": 20, "type" : "new-pavilion:wadjet"},
+							{ "amount": 20, "type" : "new-pavilion:wadjet"}
 						],
 						"combat_value": 12000,
 						"reward" : {
