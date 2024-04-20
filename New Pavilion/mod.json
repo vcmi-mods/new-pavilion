@@ -4,14 +4,15 @@
 	
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.53",
+	"version" : "2.9.54",
 	"modType" : "Town",	
 	"compatibility":
 	{
-		"min" : "1.4.0"
+		"min" : "1.5.0"
 	},	
 	"changelog" :
     {
+		"2.9.54"   : [ "Add biomes configuration for Dunes" ],
 		"2.9.53"   : [ "Ziggurat should only be accessible from bottom." ],
 		"2.9.52"   : [ "Now only lvl1-lv3 creatures have double week spawning." ],
 		"2.9.51"   : [ "Updated french translation" ],

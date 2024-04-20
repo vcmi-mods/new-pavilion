@@ -1,0 +1,76 @@
+{
+	"dunesDunes": {
+		"biome": {
+			"terrain": "dunes",
+			"objectType": "mountain"
+		},
+		"templates": ["dune1", "dune2", "dune3", "dune4", "dune5", "dune6", "dune10", "dune20", "dune30"]
+	},
+	"jaws": {
+		"biome": {
+			"terrain": "dunes",
+			"objectType": "animal"
+		},
+		"templates": ["dunesJaws00", "dunesJaws01"]
+	},
+	"dunesCrystals": {
+		"biome": {
+			"terrain": "dunes",
+			"objectType": "rock"
+		},
+		"templates": ["dunesCryst_01", "dunesCryst_02", "dunesCryst_03", "dunesCryst_01"]
+	},
+	"dunesRuin": {
+		"biome": {
+			"terrain": "dunes",
+			"objectType": "structure"
+		},
+		"templates": ["dunesPillar01", "dunesPillar02", "dunesPillar03"]
+	},
+	"dunesHole": {
+		"biome": {
+			"terrain": "dunes",
+			"objectType": "crater"
+		},
+		"templates": ["dunesHole"]
+	},
+	"dunesBasalt": {
+		"biome": {
+			"terrain": "dunes",
+			"objectType": "mountain"
+		},
+		"templates": ["MNTDUO1", "MNTDUO2", "MNTDUO3", "MNTDUO4", "MNTDUO5", "MNTDUO6", "DNROCKARCH"]
+	},
+	"dunesMountain": {
+		"biome": {
+			"terrain": "dunes",
+			"objectType": "mountain"
+		},
+		"templates": ["MNTDUO7", "MNTDUO8", "MNTDUO9", "MNTDU10", "MNTDU11", "MNTDU12", "DNROCKARCH_01"]
+	},
+	"dunesLake": {
+		"biome": {
+			"terrain": "dunes",
+			"objectType": "lake"
+		},
+		"templates": ["duneOasis01", "duneOasis02", "duneOasis03"]
+	},
+	"dunesCactus": {
+		"biome": {
+			"terrain": "dunes",
+			"objectType": "plant"
+		},
+		"templates": [
+			"cactOhDn01", "cactOhDn02", "cactusDunes_01", "cactusDunes_02", "cactusDunes_03", "cactusDunes_04"
+		]
+	},
+	"dunesRock": {
+		"biome": {
+			"terrain": "dunes",
+			"objectType": "rock"
+		},
+		"templates": [
+			"DNROCK01", "DNROCK02", "DNROCK03", "DNROCK04", "DNROCK05", "DNROCK06", "DNROCK07", "DNROCK08"
+		]
+	}
+}
