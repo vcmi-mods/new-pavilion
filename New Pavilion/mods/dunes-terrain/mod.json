@@ -45,6 +45,10 @@
 	"config/dunes objects/dunesFromWog.json",
 	"config/dunes objects/dunesMines.json"
     ],
+	"biomes" :
+	[
+		"config/dunes objects/dunesBiomes"
+	],
 	"factions" :
 	[
 		"config/dunes pavilion/pavilionTerrain"
