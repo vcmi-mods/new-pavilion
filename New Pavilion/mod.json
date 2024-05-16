@@ -4,14 +4,15 @@
 	
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.54",
+	"version" : "2.9.55",
 	"modType" : "Town",	
 	"compatibility":
 	{
 		"min" : "1.5.0"
 	},	
 	"changelog" :
-    {
+	{
+		"2.9.55"   : [ "Update chinese transation" ],
 		"2.9.54"   : [ "Add biomes configuration for Dunes" ],
 		"2.9.53"   : [ "Ziggurat should only be accessible from bottom." ],
 		"2.9.52"   : [ "Now only lvl1-lv3 creatures have double week spawning." ],
@@ -28,7 +29,7 @@
 		"2.8.0"   : [ "Minor fixes, working special buildings, new graphics for heroes and Camel Riders." ],
 		"2.7.2"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
 		"2.7.1"   : [ "Update to vcmi-1.2" ]
-    },
+	},
 	"conflicts" :
 	[
 	
@@ -47,20 +48,20 @@
 	
 	"creatures" :
 	[
-        "creaturesPavilion/Whipper.json",  
-        "creaturesPavilion/Overseer.json",  
-        "creaturesPavilion/Wadjet.json",  
+		"creaturesPavilion/Whipper.json",  
+		"creaturesPavilion/Overseer.json",  
+		"creaturesPavilion/Wadjet.json",  
 		"creaturesPavilion/VenomousWadjet.json", 		
-        "creaturesPavilion/CamelRider.json",
+		"creaturesPavilion/CamelRider.json",
 		"creaturesPavilion/DesertWarrior.json",
 		"creaturesPavilion/Sekhmet.json",
-        "creaturesPavilion/SekhmetPriestess.json",  
-        "creaturesPavilion/Ammut.json",
-        "creaturesPavilion/SunAmmut.json", 		
-        "creaturesPavilion/Sphinx.json",  
-        "creaturesPavilion/ElderSphinx.json",      		
-        "creaturesPavilion/Anubis.json", 
-        "creaturesPavilion/AnubisWarrior.json", 
+		"creaturesPavilion/SekhmetPriestess.json",  
+		"creaturesPavilion/Ammut.json",
+		"creaturesPavilion/SunAmmut.json", 		
+		"creaturesPavilion/Sphinx.json",  
+		"creaturesPavilion/ElderSphinx.json",      		
+		"creaturesPavilion/Anubis.json", 
+		"creaturesPavilion/AnubisWarrior.json", 
        
 		"commanderPavilion/preacher.json",
 		"creaturesPavilion/Scarab.json",
@@ -84,13 +85,13 @@
 	  "spellsPavilion/tentBoostSkill.json"  
 	],
 	
-    "heroClasses" :
+	"heroClasses" :
 	[
 		"classesPavilion/Vizier.json",
         "classesPavilion/Embalmer.json"
 	],
 	
-    "heroes" :
+	"heroes" :
 	[
 
         "heroesPavilion/Amanra.json",
@@ -114,12 +115,12 @@
         "heroesPavilion/Varn.json"
 	],
 	
-    "objects" :
-    [ 
+	"objects" :
+	[ 
 		"objectsPavilion/dwellings.json",
 		"objectsPavilion/ziggurat.json",
 		"boatPavilion/boats.json"
-    ],
+	],
 	
 	"artifacts" :
 	[
