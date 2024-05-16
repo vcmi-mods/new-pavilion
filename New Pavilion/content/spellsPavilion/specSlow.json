@@ -35,12 +35,19 @@
 					"aiValue": 20,
 					"range" : "0",
 					"targetModifier":{"smart":true},
-					"effects" : {
+					
+				"battleEffects":{
+
+					"specialistsSlow" :
+					{
+					"type": "core:timed",
+					"cumulative": true,
+					"bonus":
+					{
 						"stacksSpeedSpecial" : {
 							"addInfo" : 0,
 							"type" : "STACKS_SPEED",
-							"val" : -10,
-							"valueType" : "PERCENT_TO_ALL",
+							"val" : -1,
 							"duration" : "N_TURNS",
 							"limiters": [ 
 								"noneOf", 
@@ -48,14 +55,6 @@
 									"type" : "HAS_ANOTHER_BONUS_LIMITER",
 									"parameters": [ "KING" ]
 									 },
-								 {
-										"type" : "HAS_ANOTHER_BONUS_LIMITER",
-										"parameters": [ "KING" ]
-										 }, 
-								{
-											"type" : "HAS_ANOTHER_BONUS_LIMITER",
-											"parameters": [ "KING" ]
-											 }, 
 											 {
 												"type" : "HAS_ANOTHER_BONUS_LIMITER",
 												"parameters": [ "SPELL_IMMUNITY", "core:spell.slow" ]
@@ -75,9 +74,9 @@
 									 } ]
 							
 						}
-//chybaniepotrzebne
-//							"stacking" : "Slow"							
-						}
+				}
+			}
+				}
 					},				
 
 					"none":
@@ -91,23 +90,37 @@
 					{
 						"description": "{Advanced Spec. Slow}\n\nReduces the speed of the selected enemy unit.\n\nEffect is twice that of Basic Slow and increased by 10% for lv 1-6 creatures.\n",
 						"cost": 5,
-						"effects" : {		
+						"battleEffects":{
+		
+							"specialistsSlow" :
+							{
+							"type": "core:timed",
+							"cumulative": true,
+							"bonus":
+							{
 							"normalSlow" : {
-								"val" : 50
-							}							
-	
+								"val" : -50
 							}
+	
+							}}}
 					},
 					"expert":
 					{
 						"description": "{Expert Spec. Slow}\n\nReduces the speed of all enemy units.\n\nEffect is twice that of Basic Slow and increased by 10% for lv 1-6 creatures.\n",
 						"cost": 5,
 						"range" : "X",
-						"effects" : {	
+						"battleEffects":{
+		
+							"specialistsSlow" :
+							{
+							"type": "core:timed",
+							"cumulative": true,
+							"bonus":
+							{
 							"normalSlow" : {
-								"val" : 50
-							}							
-							}
+								"val" : -50
+							}		
+							}}}
 
 					}
                 },
@@ -117,7 +130,8 @@
 					"noneOf" : {}
 			},	
 		"counters": { 
-			"core:spell.slow": true},
+			"core:spell.slow": true,
+			"core:spell.haste": true},
 		"flags" : {	"negative": true, "special": true }
 	}
 }
