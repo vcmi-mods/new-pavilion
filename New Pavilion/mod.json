@@ -4,7 +4,7 @@
 	
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.55",
+	"version" : "2.9.56",
 	"modType" : "Town",	
 	"compatibility":
 	{
@@ -12,6 +12,7 @@
 	},	
 	"changelog" :
 	{
+		"2.9.56"   : [ "Minor hero specialty fixes, add pavilion special aid tent support to original H3 tent specialists" ],
 		"2.9.55"   : [ "Update chinese transation" ],
 		"2.9.54"   : [ "Add biomes configuration for Dunes" ],
 		"2.9.53"   : [ "Ziggurat should only be accessible from bottom." ],
