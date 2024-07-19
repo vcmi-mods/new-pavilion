@@ -4,7 +4,7 @@
 	
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.56",
+	"version" : "2.9.57",
 	"modType" : "Town",	
 	"compatibility":
 	{
@@ -12,8 +12,9 @@
 	},	
 	"changelog" :
 	{
+		"2.9.57"   : [ "Portuguese translation added" ],
 		"2.9.56"   : [ "Minor hero specialty fixes, add pavilion special aid tent support to original H3 tent specialists" ],
-		"2.9.55"   : [ "Update chinese transation" ],
+		"2.9.55"   : [ "Update chinese translation" ],
 		"2.9.54"   : [ "Add biomes configuration for Dunes" ],
 		"2.9.53"   : [ "Ziggurat should only be accessible from bottom." ],
 		"2.9.52"   : [ "Now only lvl1-lv3 creatures have double week spawning." ],
@@ -22,10 +23,10 @@
 		"2.9.4"   : [ "New graphics for Sphinxes and Village Hall (map object)" ],
 		"2.9.3"   : [ "Fixed Redwood Observatory" ],
 		"2.9.2"   : [ "Update do vcmi-1.4 format" ],
-		"2.9.1"   : [ "Update chinese transation" ],
+		"2.9.1"   : [ "Update chinese translation" ],
 		"2.9.0"   : [ "New sand terrain added", "Polish translation added" ],
 		"2.8.3"   : [ "Fixed Scroll of Wisdom" ],
-		"2.8.2"   : [ "French traslation added", "Fixed boat issues" ],
+		"2.8.2"   : [ "French translation added", "Fixed boat issues" ],
 		"2.8.1"   : [ "Converting to vcmi-1.3 version", "New boat added" ],
 		"2.8.0"   : [ "Minor fixes, working special buildings, new graphics for heroes and Camel Riders." ],
 		"2.7.2"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
@@ -161,6 +162,13 @@
 		"description" : "沙堡的原型是古埃及神话，兵种设计也有独特的埃及神话艺术。在英雄无敌的世界里也是非常独特的设计。",
 		"translations" : [
 			"config/translationPavilion/chinese.json"
+		]
+	},
+		"portuguese" : {
+		"name" : "Pavilhão",
+		"description" : "Versão modificada e equilibrada da 'Cidade Bastion' portada para VCMI por edeksumo com a ajuda da comunidade de modding Acid Cave, originalmente concebida e criada por New Town Group.",
+		"translations" : [
+			"config/translationPavilion/portuguese.json"
 		]
 	}
 }
