@@ -4,7 +4,7 @@
 	
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.57",
+	"version" : "2.9.58",
 	"modType" : "Town",	
 	"compatibility":
 	{
@@ -12,6 +12,7 @@
 	},	
 	"changelog" :
 	{
+		"2.9.58"   : [ "Fixed Polish translation of Anubis ability" ],
 		"2.9.57"   : [ "Portuguese translation added" ],
 		"2.9.56"   : [ "Minor hero specialty fixes, add pavilion special aid tent support to original H3 tent specialists" ],
 		"2.9.55"   : [ "Update chinese translation" ],
