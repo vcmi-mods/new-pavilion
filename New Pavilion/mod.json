@@ -4,7 +4,7 @@
 	
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.58",
+	"version" : "2.9.59",
 	"modType" : "Town",	
 	"compatibility":
 	{
@@ -12,6 +12,7 @@
 	},	
 	"changelog" :
 	{
+		"2.9.59"   : [ "Russian translation by Anton Sergeew" ],
 		"2.9.58"   : [ "Fixed Polish translation of Anubis ability" ],
 		"2.9.57"   : [ "Portuguese translation added" ],
 		"2.9.56"   : [ "Minor hero specialty fixes, add pavilion special aid tent support to original H3 tent specialists" ],
@@ -170,6 +171,14 @@
 		"description" : "Versão modificada e equilibrada da 'Cidade Bastion' portada para VCMI por edeksumo com a ajuda da comunidade de modding Acid Cave, originalmente concebida e criada por New Town Group.",
 		"translations" : [
 			"config/translationPavilion/portuguese.json"
+		]
+	},
+	"russian" : {
+		"name" : "Павильон",
+		"description" : "Modifizierte und ausgewogene Version der 'Bastion Town', die von edeksumo mit Hilfe der Acid Cave Modding-Community auf VCMI portiert wurde. Ursprünglich wurde sie von der New Town Group konzipiert und erstellt.",
+
+		"translations" : [
+			"config/translationPavilion/russian.json"
 		]
 	}
 }
