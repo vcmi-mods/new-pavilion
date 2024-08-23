@@ -175,7 +175,7 @@
 	},
 	"russian" : {
 		"name" : "Павильон",
-		"description" : "Modifizierte und ausgewogene Version der 'Bastion Town', die von edeksumo mit Hilfe der Acid Cave Modding-Community auf VCMI portiert wurde. Ursprünglich wurde sie von der New Town Group konzipiert und erstellt.",
+		"description" : "Модифицированная и сбалансированная версия «Bastion Town», портированная на VCMI пользователем edeksumo при поддержке сообщества моддеров Acid Cave, изначально задуманная и созданная New Town Group. Город, созданный на основе египетской мифологии.",
 
 		"translations" : [
 			"config/translationPavilion/russian.json"
