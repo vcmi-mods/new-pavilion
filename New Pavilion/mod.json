@@ -4,14 +4,15 @@
 	
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.60",
+	"version" : "2.9.61",
 	"modType" : "Town",	
 	"compatibility":
 	{
-		"min" : "1.5.0"
+		"min" : "1.5.0" 
 	},	
 	"changelog" :
 	{
+		"2.9.61"   : [ "Updated chinese translation by kdmcser" ],
 		"2.9.60"   : [ "Updated russian translation" ],
 		"2.9.59"   : [ "Russian translation by Anton Sergeew" ],
 		"2.9.58"   : [ "Fixed Polish translation of Anubis ability" ],
