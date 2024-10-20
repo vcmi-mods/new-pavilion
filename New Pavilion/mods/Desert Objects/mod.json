@@ -22,7 +22,10 @@
 	"objectsDesert/cursedSands.json",
 	"objectsDesert/grainedSands.json",
 	"objectsDesert/desertPavement.json"
-    ]
-
+    ],
+	"czech" : {
+		"name" : "Pouštní objekty",
+		"description" : "Objekty s pouštní tematikou z balíčku objektů od Freda."
+	}
 
 }
