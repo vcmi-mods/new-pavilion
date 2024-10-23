@@ -81,7 +81,7 @@
 			"object" : {
 				"templates" : {
 		
-					"desertCave" : { 
+					"pavDesertCave" : { 
 						"animation" : "desertdefs/subterraGate1",  
 						"mask" : [ "VVVVV","VBBBV","VBBBV", "VBABV" ], 
 						"visitableFrom" : [ "---", "+++", "+++" ],
