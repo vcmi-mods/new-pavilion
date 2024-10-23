@@ -1,12 +1,7 @@
 {
 	"core:idolOfFortune" : {
 		"types" : {
-			"desertIdolofFortune" : {
-				"rmg" : {
-					"zoneLimit"	: 1,
-					"value"		: 100,
-					"rarity"	: 100
-				},
+			"idolOfFortune" : {
 				"templates" : {
 					"golden cat" : { 
 						"visitableFrom" : [ "+++", "+++", "+++" ],	
@@ -22,11 +17,54 @@
 		"types" : {
 			"desertTreeOfKnowledge" : {
 				"name" : "Savant Sphinx",
+				"aiValue" : 2500,
 				"rmg" : {
 					"mapLimit"	: 100,
 					"value"		: 2500,
 					"rarity"	: 50
 				},
+				"compatibilityIdentifiers" : [ "object" ],
+				"onEmpty" : [
+					{
+						"message" : 150,
+						"appearChance" : { "min" : 34, "max" : 67 }
+					},
+					{
+						"message" : 152,
+						"appearChance" : { "min" : 67 }
+					}
+				],
+				"onVisitedMessage" : 147,
+				"description" : "@core.xtrainfo.18",
+				"visitMode" : "hero",
+				"selectMode" : "selectFirst",
+				"canRefuse" : true,
+				"showScoutedPreview" : true,
+
+				"rewards" : [
+					{
+						"description" : "@core.arraytxt.202",
+						"message" : 148,
+						"appearChance" : { "max" : 34 },
+						"heroLevel" : 1
+					},
+					{
+						"description" : "@core.arraytxt.203",
+						"message" : 149,
+						"appearChance" : { "min" : 34, "max" : 67 },
+						"limiter" : { "resources" : { "gold" : 2000 } },
+						"resources" : { "gold" : -2000 },
+						"heroLevel" : 1
+					},
+					{
+						"description" : "@core.arraytxt.204",
+						"message" : 151,
+						"appearChance" : { "min" : 67 },
+						"limiter" : { "resources" : { "gems" : 10 } },
+						"resources" : { "gems" : -10 },
+						"heroLevel" : 1
+					},
+				],
 				"templates" : {
 					"sphinx" : { 
 						"visitableFrom" : [ "+++", "+++", "+++" ],	
@@ -101,7 +139,8 @@
 		},
 		"core:fountainOfYouth"	: {
 			"types" : {
-				"object" : {
+				"fountainOfYouth" : {
+					"compatibilityIdentifiers" : [ "object" ],
 					"templates" : {
 						"youthStatue" : { 
 							"visitableFrom" : [ "---", "+++", "+++" ],
@@ -116,7 +155,8 @@
 		
 		"core:corpse" :{	
 			"types" : {	
-				"object" : {
+				"corpse" : {
+					"compatibilityIdentifiers" : [ "object" ],
 					"templates" : {
 						"corpse1" : { 
 							"visitableFrom" : [ "+++", "+++", "+++" ],
@@ -137,17 +177,37 @@
 		"core:campfire" :{	
 			"types" : {	
 				"desertCampfire" : {
-					"name" : "Burnt Campfire",
-					"rmg" : {
-						"value"		: 500,
-						"rarity"	: 70
-					},
-					"templates" : {
-						"burntCampfire" : { 						
-							"visitableFrom" : [ "+++", "+++", "+++" ],	
-							"animation" : "desertdefs/campfire", 
-							"mask" : [ "VA"], 
-							"allowedTerrains": [ "sand" ]
+				"name" : "Burnt Campfire",
+				"aiValue" : 2000,
+				"rmg" : {
+					"value"		: 2000,
+					"rarity"	: 500
+				},
+				"visitMode" : "unlimited",
+				"selectMode" : "selectFirst",
+				"rewards" : [
+					{
+						"message" : 23,
+						"removeObject" : true,
+						"resources" : [
+							{
+								"anyOf" : [ "wood", "ore", "mercury", "gems", "sulfur", "crystal" ],
+								"min" : 4,
+								"max" : 6
+							},
+							{
+								"type" : "gold",
+								"amount" : [ 400, 500, 600 ]
+							}
+						]
+					}
+				],
+				"templates" : {
+					"burntCampfire" : { 						
+						"visitableFrom" : [ "+++", "+++", "+++" ],	
+						"animation" : "desertdefs/campfire", 
+						"mask" : [ "VA"], 
+						"allowedTerrains": [ "sand" ]
 						}			
 					}
 				}			
@@ -155,7 +215,8 @@
 		},	
 		"core:temple" : {
 			"types" : {
-				"object" : {
+				"temple" : {
+					"compatibilityIdentifiers" : [ "object" ],
 					"templates" : {
 						"desertTemple" : { 
 							"visitableFrom" : [ "---", "+++", "+++" ],

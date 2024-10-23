@@ -4,14 +4,15 @@
 	
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.63",
+	"version" : "2.9.70",
 	"modType" : "Town",	
 	"compatibility":
 	{
-		"min" : "1.5.0" 
+		"min" : "1.6.0" 
 	},	
 	"changelog" :
 	{
+		"2.9.70"   : [ "Update to vcmi-1.6 format" ],
 		"2.9.63"   : [ "Czech translation by George King" ],
 		"2.9.62"   : [ "Updated Portuguese translation" ],
 		"2.9.61"   : [ "Updated chinese translation by kdmcser" ],

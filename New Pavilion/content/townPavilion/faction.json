@@ -16,7 +16,7 @@
             
             
   			"tavernVideo" : "tvrnRM.smk",
-            "musicTheme" : "music/BastionTown",
+            "musicTheme" : [ "music/BastionTown" ],
 			"guildWindow": "town-screenPavilion/mage-guild.bmp",
 			"townBackground": "town-screenPavilion/background.bmp",
 			"guildBackground" : "TPMAGE.bmp",
@@ -61,7 +61,6 @@
 			
 			"primaryResource" : "mercury",
 			"buildingsIcons" : "town-hallPavilion.def",
-			"warMachine" :  "firstAidTent",
 			"icons" :
 			{
 				"village" : {

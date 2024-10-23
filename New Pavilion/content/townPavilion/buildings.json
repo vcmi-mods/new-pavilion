@@ -179,6 +179,7 @@
 				{
 					"name" : "Marketplace",
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"marketModes" : ["resource-resource", "resource-player"],
 					"cost" :
 					{
 						"wood" : 5,
@@ -195,6 +196,7 @@
 						"ore" : 5,
 						"gold" : 5000
 					},
+					"produce": { "mercury": 1 },
 					"requires" : ["marketplace"],
 					"id" : 15
 				},
@@ -207,6 +209,7 @@
 						"wood" : 5,
 						"gold" : 1000
 					},
+					"warMachine" :  "firstAidTent",
 					"id" : 16
 				},
 				"workshop" : 
@@ -270,7 +273,15 @@
 				{
 					"description" : "The Idol gives every visiting hero 1000 experience points.",
 					"name" : "Idol",
-					"type" : "experienceVisitingBonus",
+					"configuration" : {
+						"visitMode" : "hero",
+						"rewards" : [
+							{
+								"message" : "A visit to the Idol teaches you many new skills",
+								"heroExperience" : 1000
+							}
+						]
+					},
 					"cost" : 
 					{
 						"gems" : 5,

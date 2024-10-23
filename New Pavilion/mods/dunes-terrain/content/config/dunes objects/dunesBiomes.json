@@ -6,7 +6,7 @@
 		},
 		"templates": ["dune1", "dune2", "dune3", "dune4", "dune5", "dune6", "dune10", "dune20", "dune30"]
 	},
-	"jaws": {
+	"dunesJaws": {
 		"biome": {
 			"terrain": "dunes",
 			"objectType": "animal"
