@@ -2,7 +2,7 @@
 	"dunesBigMines" : 
 	{
 		"name" : "Big Mines",
-		"handler": "configurable",
+		"handler": "flaggable",
 		"types" : 
 		{
 			"dunesBigGoldMine" : 
@@ -19,19 +19,10 @@
 				"sounds": {
 					"ambient": ["objects/bigMineAmbient"]
 				},
-				"onVisitedMessage": "{Big Crystal Mine}\r\n\r\nDig dig dig.",				
-				"rewards":
-				[
-					{
-						"message" : "{Big Crystal Mine}\r\n\r\nSo this mine supposed to work similar to abandon mine but with mighty desert Dwarfs and producing 2 crystals per day, but for now VCMI don't allow for such thing so it's gives 2 crystal per visit per day.",
-						"resources": {"crystal" : 2},
-					}
-				],
-				"visitMode" : "once",
-				"resetParameters" : {
-					"period" : 1,
-					"visitors" : true
-				},
+				"onVisit": "{Big Crystal Mine}\r\n\r\nYou took control over the Big Crystal Mine.\r\n\It will produce 2 Crystal per day."
+        			"dailyIncome" : {
+        			  "crystal" : 2
+        			},
 				"rmg" : {
 					"value"		: 4000,
 					"rarity"	: 400,
