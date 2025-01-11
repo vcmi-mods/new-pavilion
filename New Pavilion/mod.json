@@ -4,7 +4,7 @@
 	
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.72",
+	"version" : "2.9.73",
 	"modType" : "Town",	
 	"compatibility":
 	{
@@ -12,6 +12,7 @@
 	},	
 	"changelog" :
 	{
+		"2.9.73"   : [ "Added basic wikipedia", "Fix for commander spell resistance ability", "Removed campaing due to numerous bugs" ],
 		"2.9.72"   : [ "Added campaign Wars of the Dessert made by Fabrice-TIERCELIN" ],
 		"2.9.71"   : [ "Fix Grail not to produce gold" ],
 		"2.9.70"   : [ "Update to vcmi-1.6 format" ],
@@ -77,7 +78,9 @@
 		"commanderPavilion/preacher.json",
 		"creaturesPavilion/Scarab.json",
 
-		"creaturesPavilion/stackExp.json"
+		"creaturesPavilion/stackExp.json",
+		
+		"creaturesPavilion/wiki.json"
 	],
 	
 	"spells" :

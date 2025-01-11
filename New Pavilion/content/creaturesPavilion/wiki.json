@@ -1,0 +1,76 @@
+{
+	"whipper":
+	{
+		"description" : "{Whipper}\r\n\r\n{gold|Special Ability : Generate resource}\n\nThe presence of any Whipper in hero army produces 50 gold every day. Effect doesn't cumulate with Overseers."
+	},
+
+	"overseer":
+	{
+		"description" : "{Overseer}\r\n\r\n{gold|Special Ability : Generate resource}\n\nThe presence of any Overseer in hero army produces 75 gold every day. Effect doesn't cumulate with Whippers."
+	},
+	
+	"wadjet":
+	{
+		"description" : "{Wadjet}\r\n\r\n{gold|Special Ability : Flying}\n\nFlying is a special ability of creatures, which allows them to bypass obstacles (e.g. walls) during combat. Having creatures with this special ability in a hero's army does not affect the movement of that hero on the adventure map in any way (meaning that flying creatures also cause a movement penalty on non-native terrain)."
+	},
+
+	"venomousWadjet":
+	{
+		"description" : "{Venomous Wadjet}\r\n\r\n{gold|Special Ability : Casts Poison after attack. Flying.}\n\nVenomous Wadjects have 20% chance to cast Poison spell after attack.\nFlying is a special ability of creatures, which allows them to bypass obstacles (e.g. walls) during combat. Having creatures with this special ability in a hero's army does not affect the movement of that hero on the adventure map in any way (meaning that flying creatures also cause a movement penalty on non-native terrain)."	
+	},
+	
+//	"camelRider":
+//	{
+//		"description" : "{Camel Rider}"
+//	},
+
+	"desertWarrior":
+	{
+		"description" : "{Desert Warrior}\r\n\r\n{gold|Special Ability : Sand Runner}\n\nUnlike Nomads, having Desert Warriors in army increases movement points by 150 on new turn during travelling through sand."
+	},
+
+	"sekhmet":
+	{
+		"description" : "{Sekhmet}\r\n\r\n{gold|Special Ability : Ranged attack. Can cast Cure}\n\nSekhmets can cast three times per battle cure spell at advanced level. Cure heals 25 HP.\nRanged attack is a special ability of creatures, which allows them to attack without engaging into hand-to-hand combat. When attacking in melee, most ranged creatures suffer melee penalty, which halves their damage. Ranged penalty halves the ranged damage farther away than 10 hexes."	
+	},
+
+	"sekhmetPriestess":
+	{
+		"description" : "{Sekhmet Priestess}\r\n\r\n{gold|Special Ability : Ranged attack. Can cast Cure}\n\nSekhmets can cast three times per battle cure spell at advanced level. Cure heals 50 HP.\nRanged attack is a special ability of creatures, which allows them to attack without engaging into hand-to-hand combat. When attacking in melee, most ranged creatures suffer melee penalty, which halves their damage. Ranged penalty halves the ranged damage farther away than 10 hexes."	
+	},
+	
+	"ammut":
+	{
+		"description" : "{Ammut}\r\n\r\n{gold|Special Ability : Blocks Retaliation}\n\nSome creatures have special ability typically phrased as \"no enemy retaliation\", which does not allow the stack(s) they attack to retaliate against them. This also means, that the attacked stack will not lose one of their retaliations for that combat round if attacked by a creature stack with no enemy retaliation. Thus, while attack with no retaliation is a very strong ability, sometimes it's a double-edged sword as creatures with no enemy retaliation cannot be used to prevent an enemy creature from retaliating that round."	
+	},
+
+	"sunAmmut":
+	{
+		"description" : "{Sun Ammut}\r\n\r\n{gold|Special Ability : Life Eater. Blocks Retaliation.}\n\nSun Ammut eats life after attack. The devourer grows stronger with each bite! It means Sun Ammuts gain +3 HP after every attack. Effect is cummulative.\n\nSome creatures have special ability typically phrased as \"no enemy retaliation\", which does not allow the stack(s) they attack to retaliate against them. This also means, that the attacked stack will not lose one of their retaliations for that combat round if attacked by a creature stack with no enemy retaliation. Thus, while attack with no retaliation is a very strong ability, sometimes it's a double-edged sword as creatures with no enemy retaliation cannot be used to prevent an enemy creature from retaliating that round."	
+	},
+
+	"sphinx":
+	{
+		"description" : "{Sphinx}\r\n\r\n{gold|Special Ability : Flying. Immunity to Mind spells.}\n\nUnlike the Black Dragon's full Spell immunity, the Sphinxes and Elder Sphinxes are only immune to mind altering spells (Berserk, Blind, Forgetfulness, Frenzy, Hypnotize, Mirth, Sorrow). This is still very useful as they're immune to Blind and Berserk among others. This allows them to be resurrected, but also killed by attacking spells, or affected by any other kinds of spells like buffing or debuffing spells. However, negative spells become less relevant with time as creature stacks become too big for spells to make meaningful dents in them, do comparable damage, or significantly lower their efficiency by spells like Curse or Weakness.\n\nFlying is a special ability of creatures, which allows them to bypass obstacles (e.g. walls) during combat. Having creatures with this special ability in a hero's army does not affect the movement of that hero on the adventure map in any way (meaning that flying creatures also cause a movement penalty on non-native terrain)."	
+	},
+
+	"elderSphinx":
+	{
+		"description" : "{Elder Sphinx}\r\n\r\n{gold|Special Ability : Flying. Immunity to Mind spells. Casts Cruel Fate.}\n\nElder Sphinxes have 100% chance to cast Cruel Fate after attack - a charm dispelling and blocking benign magic. Fate lasts 3 turns.\n\nUnlike the Black Dragon's full Spell immunity, the Sphinxes and Elder Sphinxes are only immune to mind altering spells (Berserk, Blind, Forgetfulness, Frenzy, Hypnotize, Mirth, Sorrow). This is still very useful as they're immune to Blind and Berserk among others. This allows them to be resurrected, but also killed by attacking spells, or affected by any other kinds of spells like buffing or debuffing spells. However, negative spells become less relevant with time as creature stacks become too big for spells to make meaningful dents in them, do comparable damage, or significantly lower their efficiency by spells like Curse or Weakness.\n\nFlying is a special ability of creatures, which allows them to bypass obstacles (e.g. walls) during combat. Having creatures with this special ability in a hero's army does not affect the movement of that hero on the adventure map in any way (meaning that flying creatures also cause a movement penalty on non-native terrain)."
+	},
+
+	"anubis":
+	{
+		"description" : "{Anubian}\r\n\r\n{gold|Special Ability : Flying. Immune to earth spells. Vulnerable to Advanced Slayer.}\n\nAnubians are immune to all earth spells (positive and negative).\n\nEnemy's stacks which is enchanted by advanced Slayer, can do 200% damage to Anubians.\n\nFlying is a special ability of creatures, which allows them to bypass obstacles (e.g. walls) during combat. Having creatures with this special ability in a hero's army does not affect the movement of that hero on the adventure map in any way (meaning that flying creatures also cause a movement penalty on non-native terrain)."	
+	},
+
+	"anubisWarrior":
+	{
+		"description" : "{Divine Anubian}\r\n\r\n{gold|Special Ability : Flying. Immune to earth spells. Vulnerable to Advanced Slayer. Can casts God Scales spell after attack.}\n\nDivine Anubians have 20% chance to cast God Scales spell after attack. This spell scales down enemy's unit attack to 0 for three turns.\n\nDivine Anubians are immune to all earth spells (positive and negative).\n\nEnemy's stacks which is enchanted by advanced Slayer, can do 200% damage to Divine Anubians.\n\nFlying is a special ability of creatures, which allows them to bypass obstacles (e.g. walls) during combat. Having creatures with this special ability in a hero's army does not affect the movement of that hero on the adventure map in any way (meaning that flying creatures also cause a movement penalty on non-native terrain)."		
+	},
+	
+	"scarab":
+	{
+		"description" : "{Scarab}\r\n\r\n{gold|Special Ability : Flying. Increase Luck}\n\nHaving Scarabs in hero's army increases Luck by 1.\n\nFlying is a special ability of creatures, which allows them to bypass obstacles (e.g. walls) during combat. Having creatures with this special ability in a hero's army does not affect the movement of that hero on the adventure map in any way (meaning that flying creatures also cause a movement penalty on non-native terrain)."
+	}
+}

@@ -69,7 +69,8 @@
 		{
 			"magicResistance" :
 			{
-				"type" : "MAGIC_RESISTANCE",
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",
 				"val" : 5
 			},
 			"castsAmount" :
@@ -91,8 +92,9 @@
 			{
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.airShield",
-				"val" : 3
+				"val" : 1
 			}
-		}
+		},
+		"description" : "{Preacher}\r\n\r\nPavilion's commander can cast Air Shield spell at basic level."
 	}
 }
