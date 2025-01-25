@@ -16,13 +16,20 @@
 					"allowedTerrains":["subterra", "rough", "dirt", "sand", "lava"] 
 					}
 				},
+				"blockedVisitable" : false,
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankWide",
 				"rmg" : {
 					"value"		: 2000,
 					"rarity"	: 100
 				},
-				"levels": [
+				"rewards": [
 					{
-						"chance": 30,
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 30 },
 						"guards": [
 							{ "amount": 4, "type" : "sphinx" },
 							{ "amount": 4, "type" : "sphinx" },
@@ -30,21 +37,18 @@
 							{ "amount": 4, "type" : "sphinx" },
 							{ "amount": 4, "type" : "sphinx" }
 						],
-						"combat_value": 506,
-						"reward" : {
-							"value": 10000,
-							"resources": 
-							{
-							
-								"crystal" : 8,
-								"gems" : 8,
-								"gold" : 5000
-							}
+						"resources": 
+						{
+						
+							"crystal" : 8,
+							"gems" : 8,
+							"gold" : 5000
 						}
 					},
 										
 					{
-						"chance": 30,
+						"message" : 34,
+						"appearChance" : { "min" : 30, "max" : 60 },
 						"guards": [
 							{ "amount": 5, "type" : "sphinx" },
 							{ "amount": 5, "type" : "sphinx" },
@@ -52,21 +56,18 @@
 							{ "amount": 5, "type" : "sphinx" },
 							{ "amount": 5, "type" : "sphinx" }
 						],
-						"combat_value": 802,
-						"reward" : {
-							"value": 15000,
-							"resources": 
-							{
-							
-								"crystal" : 10,
-								"gems" : 10,
-								"gold" : 7000
-							}
+						"resources": 
+						{
+						
+							"crystal" : 10,
+							"gems" : 10,
+							"gold" : 7000
 						}
 					},
 					
 					{
-						"chance": 30,
+						"message" : 34,
+						"appearChance" : { "min" : 60, "max" : 90 },
 						"guards": [
 							{ "amount": 7, "type" : "sphinx" },
 							{ "amount": 7, "type" : "sphinx" },
@@ -74,21 +75,18 @@
 							{ "amount": 7, "type" : "sphinx" },
 							{ "amount": 7, "type" : "sphinx" }
 						],
-						"combat_value": 1353,
-						"reward" : {
-							"value": 20000,
-							"resources": 
-							{
-							
-								"crystal" : 15,
-								"gems" : 15,
-								"gold" : 10000
-							}
+						"resources": 
+						{
+						
+							"crystal" : 15,
+							"gems" : 15,
+							"gold" : 10000
 						}
 					},
 					
 					{
-						"chance": 10,
+						"message" : 34,
+						"appearChance" : { "min" : 90, "max" : 100 },
 						"guards": [
 							{ "amount": 10, "type" : "sphinx" },
 							{ "amount": 10, "type" : "sphinx" },
@@ -96,16 +94,12 @@
 							{ "amount": 10, "type" : "sphinx" },
 							{ "amount": 10, "type" : "sphinx" }
 						],
-						"combat_value": 1704,
-						"reward" : {
-							"value": 25000,
-							"resources": 
-							{
-							
-								"crystal" : 20,
-								"gems" : 20,
-								"gold" : 12000
-							}
+						"resources": 
+						{
+						
+							"crystal" : 20,
+							"gems" : 20,
+							"gold" : 12000
 						}
 					}
 

@@ -17,15 +17,22 @@
 				"sounds": {
 					"ambient": ["objects/snakeTemple"]
 				},
+				"blockedVisitable" : false,
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankWide",
 				"rmg" : {
 					"value"		: 3000,
 					"rarity"	: 30,
 					"zoneLimit" : 1,
 					"mapLimit" : 20
 				},
-				"levels": [
+				"rewards": [
 					{
-						"chance": 50,
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 50 },
 						"guards": [
 							{ "amount": 8, "type" : "new-pavilion:wadjet"},
 							{ "amount": 8, "type" : "new-pavilion:wadjet"},
@@ -35,23 +42,20 @@
 							{ "amount": 8, "type" : "new-pavilion:wadjet"},
 							{ "amount": 8, "type" : "new-pavilion:wadjet"}
 						],
-						"combat_value": 800,
-							"reward" : {
-							"value": 10000,
-							"resources": 
-							{
-								"gold" : 2500,
-								"crystal" : 4
-							},							
-							"spells" : [ 
-								{ 
-									"level" : 1 
-								} 
-							]
-						}
+						"resources": 
+						{
+							"gold" : 2500,
+							"crystal" : 4
+						},							
+						"spells" : [ 
+							{ 
+								"level" : 1 
+							} 
+						]
 					},
 					{
-						"chance": 30,
+						"message" : 34,
+						"appearChance" : { "min" : 50, "max" : 80 },
 						"guards": [
 							{ "amount": 12, "type" : "new-pavilion:wadjet"},
 							{ "amount": 12, "type" : "new-pavilion:wadjet"},
@@ -61,24 +65,21 @@
 							{ "amount": 12, "type" : "new-pavilion:wadjet"},
 							{ "amount": 12, "type" : "new-pavilion:wadjet"}
 						],
-						"combat_value": 9000,
-						"reward" : {
-							"value": 10000,
-							"resources": 
-							{
-								"gold" : 3500,
-								"crystal" : 6
-							},
-							"spells" : [ 
-								{ 
-									"level" : 1 
-								} 
-							]
-						}
+						"resources": 
+						{
+							"gold" : 3500,
+							"crystal" : 6
+						},
+						"spells" : [ 
+							{ 
+								"level" : 1 
+							} 
+						]
 					},
 					
 					{
-						"chance": 20,
+						"message" : 34,
+						"appearChance" : { "min" : 80, "max" : 100 },
 						"guards": [
 							{ "amount": 20, "type" : "new-pavilion:wadjet"},
 							{ "amount": 20, "type" : "new-pavilion:wadjet"},
@@ -88,20 +89,16 @@
 							{ "amount": 20, "type" : "new-pavilion:wadjet"},
 							{ "amount": 20, "type" : "new-pavilion:wadjet"}
 						],
-						"combat_value": 12000,
-						"reward" : {
-							"value": 12000,
-							"resources": 
-							{
-								"gold" : 5500,
-								"crystal" : 10
-							},
-							"spells" : [ 
-								{ 
-									"level" : 2
-								} 
-							]
-						}
+						"resources": 
+						{
+							"gold" : 5500,
+							"crystal" : 10
+						},
+						"spells" : [ 
+							{ 
+								"level" : 2
+							} 
+						]
 					}
 				]
 			}
