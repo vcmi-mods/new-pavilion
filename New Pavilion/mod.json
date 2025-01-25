@@ -4,7 +4,7 @@
 	
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.73",
+	"version" : "2.9.74",
 	"modType" : "Town",	
 	"compatibility":
 	{
@@ -12,6 +12,7 @@
 	},	
 	"changelog" :
 	{
+		"2.9.74"   : [ "Update Snake Temple and Ziggurat creature banks to vcmi-1.6 format" ],
 		"2.9.73"   : [ "Added basic wikipedia", "Fix for commander spell resistance ability", "Removed campaing due to numerous bugs" ],
 		"2.9.72"   : [ "Added campaign Wars of the Dessert made by Fabrice-TIERCELIN" ],
 		"2.9.71"   : [ "Fix Grail not to produce gold" ],
