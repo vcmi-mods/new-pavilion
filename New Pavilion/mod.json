@@ -1,10 +1,10 @@
 {
 	"name" : "Pavilion Town",
-	"description" : "Modified and balanced version of the 'Bastion Town' ported to VCMI by edeksumo with help of Acid Cave modding community, originally conceptualised and created by New Town Group. The town is released with one campaign named 'Wars of the desert'. It's a simple campaign but the author (Fabrice TIERCELIN) allows anyone to improve it.",
+	"description" : "Modified and balanced version of the 'Bastion Town' ported to VCMI by edeksumo with help of Acid Cave modding community, originally conceptualised and created by New Town Group.",
 	
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.74",
+	"version" : "2.9.75",
 	"modType" : "Town",	
 	"compatibility":
 	{
@@ -12,6 +12,7 @@
 	},	
 	"changelog" :
 	{
+		"2.9.75"   : [ "Updated Polish translation" ],
 		"2.9.74"   : [ "Update Snake Temple and Ziggurat creature banks to vcmi-1.6 format" ],
 		"2.9.73"   : [ "Added basic wikipedia", "Fix for commander spell resistance ability", "Removed campaing due to numerous bugs" ],
 		"2.9.72"   : [ "Added campaign Wars of the Dessert made by Fabrice-TIERCELIN" ],
