@@ -1,5 +1,5 @@
 {
-	"osir" :
+	"1_osir" :
 	{
 		"class" : "embalmer",
 		"female" : false,
@@ -43,8 +43,8 @@
 			},
 			{
 				"creature" : "camelRider",
-				"max" : 4,
-				"min" : 2
+				"max" : 5,
+				"min" : 3
 			}
 		],
 

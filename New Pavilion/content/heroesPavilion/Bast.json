@@ -1,5 +1,5 @@
 {
-	"bast" :
+	"1_bast" :
 	{
 		"class" : "embalmer",
 		"female" : true,
@@ -38,13 +38,13 @@
 			},
 			{
 				"creature" : "wadjet",
-				"max" : 8,
-				"min" : 4
+				"max" : 9,
+				"min" : 7
 			},
 			{
 				"creature" : "camelRider",
-				"max" : 4,
-				"min" : 2
+				"max" : 5,
+				"min" : 3
 			}
 		],
 

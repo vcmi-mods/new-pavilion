@@ -1,5 +1,5 @@
 {
-	"zamonth" :
+	"1_zamonth" :
 	{
 		"class" : "embalmer",
 		"female" : false,
@@ -32,17 +32,17 @@
 			{
 				"creature" : "mummy",
 				"max" : 2,
-				"min" : 1
+				"min" : 2
 			},
 			{
 				"creature" : "mummy",
 				"max" : 2,
-				"min" : 1
+				"min" : 2
 			},
 			{
 				"creature" : "mummy",
 				"max" : 2,
-				"min" : 1
+				"min" : 2
 			}
 		],
 
@@ -64,6 +64,7 @@
 				"type" : "SPECIAL_UPGRADE"
 			},
 			"bonuses" : {
+				
 				"skeleton2mummy" : { "subtype" : "creature.skeleton" },
 				"skeletonWarrior2mummy" : { "subtype" : "creature.skeletonWarrior" },
 				"walkingDead2mummy" : { "subtype" : "creature.walkingDead" },

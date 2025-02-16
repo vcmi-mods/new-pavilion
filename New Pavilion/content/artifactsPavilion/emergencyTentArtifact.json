@@ -1,0 +1,23 @@
+{
+	"emergencyTentArt":
+        {
+	"type" : ["HERO"],
+	"warMachine":"emergencyTentPav",
+        "class": "SPECIAL",
+        "value": 1500,
+        "slot":"MACH3",
+        "text":
+		{
+			"name": "Emergency Tent",
+			"description": "{Emergency Tent}\r\n\r\nThe Emergency Tent is sturdier, more efficient than First Aid Tent and revives units (the effect doesn't last past the battle).",
+			"event": "The Emergency Tent."
+		},
+		"graphics":
+		{
+			"image": "artifactsPavilion/EMtentArtifact",
+			"map"  :   "artifactsPavilion/blanksmol"
+		}
+	}
+}
+
+

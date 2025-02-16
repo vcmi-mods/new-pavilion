@@ -4,7 +4,7 @@
 	
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.76",
+	"version" : "2.9.77",
 	"modType" : "Town",	
 	"compatibility":
 	{
@@ -12,6 +12,7 @@
 	},	
 	"changelog" :
 	{
+		"2.9.77"   : [ "Hero ids and specialty standarisation, added Emergency Tent" ],
 		"2.9.76"   : [ "Updated Polish translation" ],
 		"2.9.74"   : [ "Update Snake Temple and Ziggurat creature banks to vcmi-1.6 format" ],
 		"2.9.73"   : [ "Added basic wikipedia", "Fix for commander spell resistance ability", "Removed campaing due to numerous bugs" ],
@@ -82,7 +83,9 @@
 
 		"creaturesPavilion/stackExp.json",
 		
-		"creaturesPavilion/wiki.json"
+		"creaturesPavilion/wiki.json",
+
+        "artifactsPavilion/emergencyTentCreature.json"
 	],
 	
 	"spells" :
@@ -145,7 +148,8 @@
 	  "artifactsPavilion/sunShield.json",
 	  "artifactsPavilion/scrollOfWisdom.json",
 	  "artifactsPavilion/maskOfTheDesertKing.json",
-	  "artifactsPavilion/fireRing.json" 
+	  "artifactsPavilion/fireRing.json",
+	  "artifactsPavilion/emergencyTentArtifact.json"
 	],
 	"french" : {
 		"name" : "Pavillon",

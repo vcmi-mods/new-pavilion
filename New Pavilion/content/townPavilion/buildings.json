@@ -214,7 +214,7 @@
 				},
 				"workshop" : 
 				{
-					"description" : "The Healers' Guild boosts your First Aid Tents (+50 Health, +25 Power, ability to revive healed creatures).",
+					"description" : "Allows the visiting hero to purchase an Emergency Tent (150 Health; revives healed creatures (revived units don't stay after battle)).",
 					"name" : "The Healers' Guild",
 					"cost" : 
 					{
@@ -226,20 +226,10 @@
 						"ore" : 5,
 						"gold" : 2000
 					},
+					"warMachine" : "emergencyTentArt",
 					"requires" : [ "allOf", ["blacksmith"], ["mageGuild1"] ],
-					"bonuses": [ 					
-					{ 
-						"type": "ENCHANTED", 
-						"valueType" : "BASE_NUMBER",
-						"subtype" : "spell.tentBoost",
-						"propagator": "PLAYER_PROPAGATOR" },
+					
 
-						{
-						"type" : "OPENING_BATTLE_SPELL",
-						"subtype" : "spell.tentBoostRefill",
-						"propagator": "PLAYER_PROPAGATOR"}
-						
-						] ,
 					"id" : 23
 				},
 				"horde1" :

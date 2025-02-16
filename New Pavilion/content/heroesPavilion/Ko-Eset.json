@@ -1,5 +1,5 @@
 {
-	"ko-Eset" :
+	"0_ko-Eset" :
 	{
 		"class" : "vizier",
 		"female" : true,
@@ -33,7 +33,7 @@
 			},
             {
 				"creature" : "wadjet",
-				"max" : 12,
+				"max" : 9,
 				"min" : 7
 			},
 			{

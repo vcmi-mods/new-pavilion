@@ -12,17 +12,17 @@
 		},
 		"basic" : {
 			"effects" : {
-				"main2" : { "val" : 50 }
+				"main2" : { "val" : 75 }
 			}
 		},
 		"advanced" : {
 			"effects" : {
-				"main2" : { "val" : 75 }
+				"main2" : { "val" : 100 }
 			}
 		},
 		"expert" : {
 			"effects" : {
-				"main2" : { "val" : 100 }
+				"main2" : { "val" : 125 }
 			}
 		}
 	}

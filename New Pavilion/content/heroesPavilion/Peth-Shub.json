@@ -1,5 +1,5 @@
 {
-	"peth-Shub" :
+	"1_peth-Shub" :
 	{
 		"class" : "embalmer",
 		"female" : false,
@@ -39,13 +39,13 @@
 			},
 			{
 				"creature" : "wadjet",
-				"max" : 8,
-				"min" : 4
+				"max" : 9,
+				"min" : 7
 			},
 			{
 				"creature" : "camelRider",
-				"max" : 4,
-				"min" : 2
+				"max" : 5,
+				"min" : 3
 			}
 		],
 
