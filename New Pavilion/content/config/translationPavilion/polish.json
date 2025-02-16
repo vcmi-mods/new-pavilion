@@ -92,7 +92,7 @@
 	"building.new-pavilion.pavilion.special3.name" : "Skarbiec",
 	"building.new-pavilion.pavilion.tavern.description" : "Pozwala rekrutować bohaterów i podnosi morale wojsk broniących miasta.",
 	"building.new-pavilion.pavilion.tavern.name" : "Karczma",
-	"building.new-pavilion.pavilion.workshop.description" : "W Gildia Uzdrowicieli produkuje się Namioty Szpitalne (150 pkt. zdrowia; możliwość wskrzeszania leczonych stworzeń (wskrzeszone stworzenia nie zostają po walce)).",
+	"building.new-pavilion.pavilion.workshop.description" : "W Gildii Uzdrowicieli produkuje się Namioty Szpitalne (150 pkt. zdrowia; możliwość wskrzeszania (wskrzeszone stworzenia nie zostają po walce)).",
 	"building.new-pavilion.pavilion.workshop.name" : "Gildia Uzdrowicieli",
 	"creatures.new-pavilion.ammut.name.plural" : "Ammuty",
 	"creatures.new-pavilion.ammut.name.singular" : "Ammut",
