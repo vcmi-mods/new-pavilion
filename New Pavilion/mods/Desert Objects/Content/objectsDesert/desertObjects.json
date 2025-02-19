@@ -1,7 +1,13 @@
 {
 	"core:idolOfFortune" : {
 		"types" : {
-			"idolOfFortune" : {
+			"desertIdolofFortune" : {
+				"aiValue" : 100,
+				"rmg" : {
+					"zoneLimit"	: 1,
+					"value"		: 100,
+					"rarity"	: 100
+				},
 				"templates" : {
 					"golden cat" : { 
 						"visitableFrom" : [ "+++", "+++", "+++" ],	
@@ -9,7 +15,44 @@
 						"mask" : [ "VV", "VA" ],
 						"allowedTerrains": [ "sand" ]
 					}
-				}
+				},
+				"compatibilityIdentifiers" : [ "object" ],
+				"onVisitedMessage" : 63,
+				"description" : "@core.xtrainfo.22",
+				"visitMode" : "bonus",
+				"selectMode" : "selectFirst",
+				"rewards" : [
+					{
+						"message" : 62,
+						"limiter" : { 
+							"anyOf" : [
+								{ "dayOfWeek" : 1 },
+								{ "dayOfWeek" : 3 },
+								{ "dayOfWeek" : 5 }
+							]
+						},
+						"bonuses" : [ { "type" : "LUCK", "val" : 1, "duration" : "ONE_BATTLE", "description" : 68 } ]
+					},
+					{
+						"message" : 62,
+						"limiter" : { 
+							"anyOf" : [
+								{ "dayOfWeek" : 2 },
+								{ "dayOfWeek" : 4 },
+								{ "dayOfWeek" : 6 }
+							]
+						},
+						"bonuses" : [ { "type" : "MORALE", "val" : 1, "duration" : "ONE_BATTLE", "description" : 68 } ]
+					},
+					{
+						"message" : 62,
+						"limiter" : { "dayOfWeek" : 7 },
+						"bonuses" : [ 
+							{ "type" : "MORALE", "val" : 1, "duration" : "ONE_BATTLE", "description" : 68 },
+							{ "type" : "LUCK", "val" : 1, "duration" : "ONE_BATTLE", "description" : 68 }  
+						]
+					}
+				]
 			}	
 		}
 	},
@@ -23,7 +66,16 @@
 					"value"		: 2500,
 					"rarity"	: 50
 				},
+				"templates" : {
+					"sphinx" : { 
+						"visitableFrom" : [ "+++", "+++", "+++" ],	
+						"animation" : "desertdefs/treeOfKnowledge", 
+						"mask" : [ "VVV","VBB","VVA" ],
+						"allowedTerrains": [ "sand" ]
+					}
+				},
 				"compatibilityIdentifiers" : [ "object" ],
+
 				"onEmpty" : [
 					{
 						"message" : 150,
@@ -64,18 +116,11 @@
 						"resources" : { "gems" : -10 },
 						"heroLevel" : 1
 					},
-				],
-				"templates" : {
-					"sphinx" : { 
-						"visitableFrom" : [ "+++", "+++", "+++" ],	
-						"animation" : "desertdefs/treeOfKnowledge", 
-						"mask" : [ "VVV","VBB","VVA" ],
-						"allowedTerrains": [ "sand" ]
-					}
-				}
+				]
 			}
 		}
 	},
+	
 	"core:subterraneanGate" : {
 		"types" : {
 			"object" : {
@@ -103,6 +148,7 @@
 			}
 		}
 	},
+		
 		"core:monolithOneWayEntrance" : {		
 			"types" : {
 				"desertMonsterMaw" : {
@@ -137,52 +183,96 @@
 				}
 			}			
 		},
-		"core:fountainOfYouth"	: {
-			"types" : {
-				"fountainOfYouth" : {
-					"compatibilityIdentifiers" : [ "object" ],
-					"templates" : {
-						"youthStatue" : { 
-							"visitableFrom" : [ "---", "+++", "+++" ],
-							"animation" : "desertdefs/fountainOfYouth",
-							"mask" : [ "VVVV","VVBB","VBAV" ],
-							"allowedTerrains": [ "sand", "rough" ]
-						}
-					}
-				}
-			}
-		},
 		
-		"core:corpse" :{	
-			"types" : {	
-				"corpse" : {
-					"compatibilityIdentifiers" : [ "object" ],
-					"templates" : {
-						"corpse1" : { 
-							"visitableFrom" : [ "+++", "+++", "+++" ],
-							"animation" : "desertdefs/corpse1", 
-							"mask" : [ "BA"], 
-							"allowedTerrains": [ "sand" ]
-						},						
-						"corpse2" : { 
-							"visitableFrom" : [ "+++", "+++", "+++" ],
-							"animation" : "desertdefs/corpse2", 
-							"mask" : [ "VA" ], 
-							"allowedTerrains": [ "sand" ]
-						}					
+	"core:fountainOfYouth"	: {
+		"types" : {
+			"object" : {
+				"aiValue" : 100,
+				"templates" : {
+					"youthStatue" : { 
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"animation" : "desertdefs/fountainOfYouth",
+						"mask" : [ "VVVV","VVBB","VBAV" ],
+						"allowedTerrains": [ "sand", "rough" ]
 					}
-				}			
-			}	
-		},			
-		"core:campfire" :{	
-			"types" : {	
-				"desertCampfire" : {
-				"name" : "Burnt Campfire",
-				"aiValue" : 2000,
-				"rmg" : {
-					"value"		: 2000,
-					"rarity"	: 500
 				},
+				"compatibilityIdentifiers" : [ "object" ],
+
+				"onVisitedMessage" : 58,
+				"description" : "@core.xtrainfo.0",
+				"visitMode" : "bonus",
+				"selectMode" : "selectFirst",
+				"rewards" : [
+					{
+						"message" : 57,
+						"movePoints" : 400,
+						"bonuses" : [ { "type" : "MORALE", "val" : 1, "duration" : "ONE_BATTLE", "description" : 103 } ]
+					}
+				]
+			}
+		}
+	},
+		
+	"core:corpse" :{	
+		"types" : {	
+			"object" : {
+				"aiValue" : 500,
+				"compatibilityIdentifiers" : [ "object" ],
+				"onVisitedMessage" : 38,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"rewards" : [
+					{
+						"appearChance" : { "max" : 10 },
+						"message" : 37,
+						"artifacts" : [ { "class" : "TREASURE" } ]
+					},
+					{
+						"appearChance" : { "min" : 10, "max" : 20 },
+						"message" : 37,
+						"artifacts" : [ { "class" : "MINOR" } ]
+					},
+					{
+						"appearChance" : { "min" : 20, "max" : 100 },
+						"message" : 38,
+					}
+				],
+				"templates" : {
+					"corpse1" : { 
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"animation" : "desertdefs/corpse1", 
+						"mask" : [ "BA"], 
+						"allowedTerrains": [ "sand" ]
+					},						
+					"corpse2" : { 
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"animation" : "desertdefs/corpse2", 
+						"mask" : [ "VA" ], 
+						"allowedTerrains": [ "sand" ]
+					}					
+				}
+			}			
+		}	
+	},		
+		
+	"core:campfire" :{	
+		"types" : {	
+			"desertCampfire" : {
+				"name" : "Burnt Campfire",
+				"rmg" : {
+					"value"		: 500,
+					"rarity"	: 70
+				},
+				"templates" : {
+					"burntCampfire" : { 						
+						"visitableFrom" : [ "+++", "+++", "+++" ],	
+						"animation" : "desertdefs/campfire", 
+						"mask" : [ "VA"], 
+						"allowedTerrains": [ "sand" ]
+					}			
+				},
+				"aiValue" : 2000,
+				"compatibilityIdentifiers" : [ "object" ],
 				"visitMode" : "unlimited",
 				"selectMode" : "selectFirst",
 				"rewards" : [
@@ -201,46 +291,58 @@
 							}
 						]
 					}
+				]
+			}			
+		}	
+	},	
+	
+	"core:temple" : {
+		"types" : {
+			"object" : {
+				"aiValue" : 100,
+				"compatibilityIdentifiers" : [ "object" ],
+
+				"onVisitedMessage" : 141,
+				"description" : "@core.xtrainfo.23",
+				"visitMode" : "bonus",
+				"selectMode" : "selectFirst",
+				"rewards" : [
+					{
+						"message" : 140,
+						"limiter" : { "dayOfWeek" : 7 },
+						"bonuses" : [ { "type" : "MORALE", "val" : 2, "duration" : "ONE_BATTLE", "description" : 97 } ]
+					},
+					{
+						"message" : 140,
+						"bonuses" : [ { "type" : "MORALE", "val" : 1, "duration" : "ONE_BATTLE", "description" : 96 } ]
+					}
 				],
-				"templates" : {
-					"burntCampfire" : { 						
-						"visitableFrom" : [ "+++", "+++", "+++" ],	
-						"animation" : "desertdefs/campfire", 
-						"mask" : [ "VA"], 
+					"templates" : {
+					"desertTemple" : { 
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"animation" : "desertdefs/temple", 
+						"mask" : [ "VBV", "VBA" ], 
 						"allowedTerrains": [ "sand" ]
-						}			
-					}
-				}			
-			}	
-		},	
-		"core:temple" : {
-			"types" : {
-				"temple" : {
-					"compatibilityIdentifiers" : [ "object" ],
-					"templates" : {
-						"desertTemple" : { 
-							"visitableFrom" : [ "---", "+++", "+++" ],
-							"animation" : "desertdefs/temple", 
-							"mask" : [ "VBV", "VBA" ], 
-							"allowedTerrains": [ "sand" ]
-						}			
-					}
-				}
-			}
-		},				
-		"core:sign" : {
-			"types" : {
-				"stonetablet" : {
-				"name" : "Stone Tablet",
-					"templates" : {
-						"yellowTablet" : { 
-							"visitableFrom" : [ "---", "+++", "+++" ],
-							"animation" : "desertdefs/stoneTablet", 
-							"mask" : [ "VV", "VA" ], 
-							"allowedTerrains": [ "sand" ]
-						}			
-					}
+					}			
 				}
 			}
 		}
+	},
+	
+	"core:sign" : {
+		"types" : {
+			"stonetablet" : {
+				"name" : "Stone Tablet",
+				"aiValue" : 0,
+				"templates" : {
+					"yellowTablet" : { 
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"animation" : "desertdefs/stoneTablet", 
+						"mask" : [ "VV", "VA" ], 
+						"allowedTerrains": [ "sand" ]
+					}			
+				}
+			}
+		}
+	}
 }
