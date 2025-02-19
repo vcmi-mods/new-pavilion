@@ -83,6 +83,7 @@
 	"building.new-pavilion.pavilion.resourceSilo.name" : "物资仓库",
 	"building.new-pavilion.pavilion.special1.description" : "图腾偶像向来访英雄教授新技能(经验值+1000)，每人一次。",
 	"building.new-pavilion.pavilion.special1.name" : "图腾偶像",
+	"building.new-pavilion.pavilion.special1.rewards.0" : "访问图腾偶像教会了你许多新技能。",
 	"building.new-pavilion.pavilion.special3.description" : "金库每天向你提供500个金币。",
 	"building.new-pavilion.pavilion.special3.name" : "金库",
 	"building.new-pavilion.pavilion.tavern.description" : "酒馆可提高驻军的士气。",
