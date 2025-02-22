@@ -12,7 +12,6 @@
 			"min" : 5
 		},
 		"faction" : "pavilion",
-		"aiValue" : 1600,
 		"attack" : 15,
 		"cost" :
 		{
@@ -25,6 +24,8 @@
 		},
 		"defense" : 17,
 		"fightValue" : 1400,
+		"aiValue": 2000,
+
 		"graphics" :
 		{
 			"animation" : "creaturedefsPavilion/ElderSphinx.def",

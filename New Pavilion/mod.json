@@ -2,9 +2,9 @@
 	"name" : "Pavilion Town",
 	"description" : "Modified and balanced version of the 'Bastion Town' ported to VCMI by edeksumo with help of Acid Cave modding community, originally conceptualised and created by New Town Group.",
 	
-	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community",
+	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community, VCMI community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.78",
+	"version" : "2.9.79",
 	"modType" : "Town",	
 	"compatibility":
 	{
@@ -12,7 +12,8 @@
 	},	
 	"changelog" :
 	{
-		"2.9.78"   : [ "kdmcser fixes for dessert objects" ],
+		"2.9.79"   : [ "Adjusted aivalues from the pvp mod; corrected scarab description in all languages" ],
+		"2.9.78"   : [ "kdmcser fixes for dessert objects" ],		
 		"2.9.77"   : [ "Hero ids and specialty standarisation, added Emergency Tent" ],
 		"2.9.76"   : [ "Updated Polish translation" ],
 		"2.9.74"   : [ "Update Snake Temple and Ziggurat creature banks to vcmi-1.6 format" ],

@@ -12,7 +12,6 @@
 			"min" : 3
 		},
 		"faction" : "pavilion",
-		"aiValue" : 4050,
 		"attack" : 30,
 		"cost" :
 		{
@@ -26,6 +25,8 @@
 		},
 		"defense" : 20,
 		"fightValue" : 3850,
+		"aiValue": 7200,
+
 		"graphics" :
 		{
 			"animation" : "creaturedefsPavilion/newAnubis2.def",
