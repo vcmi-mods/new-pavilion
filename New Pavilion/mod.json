@@ -4,7 +4,7 @@
 	
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community, VCMI community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.80",
+	"version" : "2.9.81",
 	"modType" : "Town",	
 	"compatibility":
 	{
@@ -12,6 +12,7 @@
 	},	
 	"changelog" :
 	{
+		"2.9.81"   : [ "Fixed unused death animations and glitching town theme" ],
 		"2.9.80"   : [ "Small fixes is desert objects messages" ],
 		"2.9.79"   : [ "Adjusted aivalues from the pvp mod; corrected scarab description in all languages" ],
 		"2.9.78"   : [ "kdmcser fixes for dessert objects" ],		
