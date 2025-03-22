@@ -28,6 +28,30 @@
 				}
 			}
 		}
+	},
+
+	"mirage": {
+		"name" : "Mirage",
+		"handler": "generic",
+		"base" : {
+			"base" : {
+			"visitableFrom" : [ "+++", "+++", "+++" ]
+			}
+		},
+		"types": {
+			"mirage": {
+				"name" : "Mirage",
+				"templates": {
+					"duneMirage04": {
+						"animation": "dunes oasis/mirage",
+						"mask": ["VVVV", "VVVV"],
+						"allowedTerrains": [
+							"dunes"
+						]
+					}
+				}
+			}
+		}
 	}
 
 }
