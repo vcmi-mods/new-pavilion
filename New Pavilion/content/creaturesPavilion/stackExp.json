@@ -661,7 +661,7 @@
 			{
 				"bonus" :
 				{
-					"type" : "FEARFUL"
+					"type" : "FEARFUL" //old fear, not sure how it works in vcmi-1.7
 				},
 				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 10, 10 ]
 			}		
