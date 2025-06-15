@@ -14,7 +14,8 @@
 		"graphics":
 		{
 			"image": "artifactsPavilion/maskOfTheDesertKing.png",
-			"map": "artifactsPavilion/maskOfTheDesertKingmap.def"
+			"map": "artifactsPavilion/maskOfTheDesertKingmap.def",
+			"scenarioBonus" : "artifactsPavilion/bonusBlank"
 		},
 		"bonuses":
 		{

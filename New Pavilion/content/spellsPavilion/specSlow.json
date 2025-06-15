@@ -32,7 +32,7 @@
 					"description": "{Specialist's Slow}\n\nReduces the speed of the selected enemy unit.\n\n(Effect is increased by 10% for lv 1-6 creatures.)\n",
 					"cost": 6,
 					"power": 0,
-					"aiValue": 20,
+//					"aiValue": 20,
 					"range" : "0",
 					"targetModifier":{"smart":true},
 					

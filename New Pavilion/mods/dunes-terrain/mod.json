@@ -66,10 +66,6 @@
 	[
 		"config/dunes terrain/terrains.json"
 	],
-    "chinese" : {
-		"name" : "沙丘地形",
-		"description" : "沙丘地形资源。 \n特别感谢Avatar和Witchking。\n音乐来源：https://pixabay.com/pl/users/artslop_flodur-1985637/"
-	},
 	"czech" : {
 		"name" : "Duny",
 		"description" : "Podklady pro terén dun.\nZvláštní poděkování Avatarovi a Witchkingovi.\nHudba z: https://pixabay.com/pl/users/artslop_flodur-1985637/"

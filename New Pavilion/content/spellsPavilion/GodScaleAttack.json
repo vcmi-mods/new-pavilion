@@ -37,7 +37,7 @@
 				"description": "Attack scaled down to 0.",
 				"cost": 0,
 				"power": 1,
-				"aiValue": 0,
+//				"aiValue": 0,
 				"range" : "0",
 				"targetModifier":{"smart":true},
 				"effects" : {

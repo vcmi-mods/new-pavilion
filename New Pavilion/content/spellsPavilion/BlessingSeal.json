@@ -32,7 +32,7 @@
 				"description": "A charm dispelling and blocking benign magic.",
 				"cost": 0,
 				"power": 1,
-				"aiValue": 0,
+//				"aiValue": 0,
 				"range" : "0",
 				"targetModifier":{"smart":true},
 

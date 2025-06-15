@@ -15,7 +15,8 @@
 		"graphics":
 		{
 			"image": "artifactsPavilion/EMtentArtifact",
-			"map"  :   "artifactsPavilion/blanksmol"
+			"map"  :   "artifactsPavilion/blanksmol",
+			"scenarioBonus" : "artifactsPavilion/bonusBlank"
 		}
 	}
 }

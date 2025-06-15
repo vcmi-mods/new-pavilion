@@ -661,9 +661,9 @@
 			{
 				"bonus" :
 				{
-					"type" : "FEARFUL"
+					"type" : "FEAR"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 10, 10 ]
+				"values" : [ false, false, false, false, false, false, false, false, true, true ]
 			}		
 		]	
 	},

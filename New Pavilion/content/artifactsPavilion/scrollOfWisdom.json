@@ -14,7 +14,8 @@
 		"graphics":
 		{
 			"image": "artifactsPavilion/scrollOfWisdom.png",
-			"map": "artifactsPavilion/scrollOfWisdommap.def"
+			"map": "artifactsPavilion/scrollOfWisdommap.def",
+			"scenarioBonus" : "artifactsPavilion/bonusBlank"
 		},
 		"bonuses" : {
 			"allSpellSchools" :

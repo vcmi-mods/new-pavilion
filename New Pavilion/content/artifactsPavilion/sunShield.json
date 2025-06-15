@@ -15,7 +15,8 @@
 		"graphics":
 		{
 			"image": "artifactsPavilion/sunShield2.png",
-			"map": "artifactsPavilion/sunShield2map.def"
+			"map": "artifactsPavilion/sunShield2map.def",
+			"scenarioBonus" : "artifactsPavilion/bonusBlank"
 		},
 		"bonuses":
 		{

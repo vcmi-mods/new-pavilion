@@ -14,7 +14,8 @@
 		"graphics":
 		{
 			"image": "artifactsPavilion/staffOfSand.png",
-			"map": "artifactsPavilion/staffOfSandmap.def"
+			"map": "artifactsPavilion/staffOfSandmap.def",
+			"scenarioBonus" : "artifactsPavilion/bonusBlank"
 		},
 		"bonuses":
 		{

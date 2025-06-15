@@ -14,7 +14,8 @@
 		"graphics":
 		{
 			"image": "artifactsPavilion/goldenScarab.png",
-			"map": "artifactsPavilion/goldenScarabmap.def"
+			"map": "artifactsPavilion/goldenScarabmap.def",
+			"scenarioBonus" : "artifactsPavilion/bonusBlank"
 		},
 		"bonuses":
 		{

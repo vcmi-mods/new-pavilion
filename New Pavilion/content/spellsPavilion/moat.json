@@ -14,7 +14,7 @@
                 "range" : "0",
                 "description" : "", //For validation
                 "cost" : 0, //For validation
-                "aiValue" : 0, //For validation
+//                "aiValue" : 0, //For validation
                 "battleEffects" : {
                     "directDamage" : {
                         "type":"core:damage"
@@ -52,7 +52,7 @@
         "levels" : {
             "base":{
                 "description" : "",
-                "aiValue" : 0,
+//                "aiValue" : 0,
                 "power" : 0,
                 "cost" : 0,
                 "targetModifier":{"smart":false},

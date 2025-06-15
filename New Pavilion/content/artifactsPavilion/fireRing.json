@@ -14,7 +14,8 @@
 		"graphics":
 		{
 			"image": "artifactsPavilion/fireRing.png",
-			"map": "artifactsPavilion/fireRingmap.def"
+			"map": "artifactsPavilion/fireRingmap.def",
+			"scenarioBonus" : "artifactsPavilion/bonusBlank"
 		},
 		"bonuses":
 		{
