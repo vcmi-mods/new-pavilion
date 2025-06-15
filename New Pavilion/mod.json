@@ -4,14 +4,15 @@
 	
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community, VCMI community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.82",
+	"version" : "2.9.83",
 	"modType" : "Town",	
 	"compatibility":
 	{
-		"min" : "1.6.0" 
+		"min" : "1.7.0" 
 	},	
 	"changelog" :
 	{
+		"2.9.83"   : [ "Update to vcmi-1.7 format" ],
 		"2.9.82"   : [ "Fixed unused death animations and glitching town theme" ],
 		"2.9.80"   : [ "Small fixes is desert objects messages" ],
 		"2.9.79"   : [ "Adjusted aivalues from the pvp mod; corrected scarab description in all languages" ],

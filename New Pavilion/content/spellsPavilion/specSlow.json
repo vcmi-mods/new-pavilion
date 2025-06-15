@@ -45,7 +45,7 @@
 					"bonus":
 					{
 						"stacksSpeedSpecial" : {
-							"addInfo" : 0,
+//							"addInfo" : 0,
 							"type" : "STACKS_SPEED",
 							"val" : -1,
 							"duration" : "N_TURNS",
@@ -62,7 +62,7 @@
 						},
 						
 						"normalSlow" : {
-							"addInfo" : 0,
+//							"addInfo" : 0,
 							"type" : "STACKS_SPEED",
 							"val" : -25,
 							"valueType" : "PERCENT_TO_ALL",

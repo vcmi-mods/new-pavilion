@@ -16,43 +16,49 @@
 			"image": "artifactsPavilion/scrollOfWisdom.png",
 			"map": "artifactsPavilion/scrollOfWisdommap.def"
 		},
-		"bonuses" : [
+		"bonuses" : {
+			"allSpellSchools" :
 			{
 				"subtype" : "spellSchool.any",
 				"type" : "MAGIC_SCHOOL_SKILL",
 				"val" : 1,
 				"valueType" : "BASE_NUMBER"				
 			},
+			"fireSpellSchool" :
 			{
 				"subtype" : "fire",
 				"type" : "MAGIC_SCHOOL_SKILL",
 				"val" : 1,
 				"valueType" : "ADDITIVE_VALUE"
-			},		
+			},	
+			"earthSpellShool" :			
 			{
 				"subtype" : "earth",
 				"type" : "MAGIC_SCHOOL_SKILL",
 				"val" : 1,
 				"valueType" : "ADDITIVE_VALUE"
 			},
+			"airSpellSchool" :
 			{
 				"subtype" : "air",
 				"type" : "MAGIC_SCHOOL_SKILL",
 				"val" : 1,
 				"valueType" : "ADDITIVE_VALUE"
 			},
+			"waterSpellschool" :
 			{
 				"subtype" : "water",
 				"type" : "MAGIC_SCHOOL_SKILL",
 				"val" : 1,
 				"valueType" : "ADDITIVE_VALUE"
 			},
+			"-knowledge" :
 			{
 				"subtype" : "knowledge",
 				"type" : "PRIMARY_SKILL",
 				"val" : -2,
 				"valueType" : "BASE_NUMBER"
 			}									
-		]
+		}
 	}
 }

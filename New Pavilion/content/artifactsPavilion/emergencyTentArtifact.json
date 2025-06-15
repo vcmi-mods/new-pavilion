@@ -1,6 +1,6 @@
 {
 	"emergencyTentArt":
-        {
+    {
 	"type" : ["HERO"],
 	"warMachine":"emergencyTentPav",
         "class": "SPECIAL",

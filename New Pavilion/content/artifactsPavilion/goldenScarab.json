@@ -17,18 +17,20 @@
 			"map": "artifactsPavilion/goldenScarabmap.def"
 		},
 		"bonuses":
-		[
+		{
+			"morale" :
 			{
 				"type": "MORALE",
 				"val": 1,
 				"valueType" : "BASE_NUMBER"
 			},
+			"gold" :
 			{
 				"type": "GENERATE_RESOURCE",
 				"subtype": "resource.gold",
 				"val": 350,
 				"valueType" : "BASE_NUMBER"
 			}
-		]
+		}
 	}
 }

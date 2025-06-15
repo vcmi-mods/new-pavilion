@@ -17,13 +17,14 @@
 			"map": "artifactsPavilion/fireRingmap.def"
 		},
 		"bonuses":
-		[
+		{
+			"fireDamage" :
 			{
                 "type" : "SPELL_DAMAGE",
                 "subtype" : "spellSchool.fire",
 				"val" : 25,
 				"valueType" : "BASE_NUMBER"
 			}
-		]
+		}
 	}
 }

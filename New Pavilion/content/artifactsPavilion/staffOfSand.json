@@ -17,18 +17,20 @@
 			"map": "artifactsPavilion/staffOfSandmap.def"
 		},
 		"bonuses":
-		[
+		{
+			"spellPower" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "spellpower",
 				"val": 4,
 				"valueType" : "BASE_NUMBER"
 			},
+			"manaRegeneration" :
 			{
 				"type": "MANA_REGENERATION",
 				"val": 2,
 				"valueType" : "BASE_NUMBER"
 			}
-		]
+		}
 	}
 }

@@ -18,18 +18,20 @@
 			"map": "artifactsPavilion/sunShield2map.def"
 		},
 		"bonuses":
-		[
+		{
+			"defence" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "defence",
 				"val": 5,
 				"valueType" : "BASE_NUMBER"
 			},
+			"magicResistance" :
 			{
 				"type": "MAGIC_RESISTANCE",
 				"val": 10,
 				"valueType" : "BASE_NUMBER"
 			}
-		]
+		}
 	}
 }
