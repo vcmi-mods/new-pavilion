@@ -325,7 +325,7 @@
 					"description" : "The presence of the Simoom increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day, and increases speed of defending units by 40% during the siege.",
 					"name" : "Simoom",
 					"produce": { "gold": 5000 },
-					"bonuses" : [ { "type" : "STACKS_SPEED", "val": 40, "valueType" : "PERCENT_TO_ALL", "propagator" : "VISITED_TOWN_AND_VISITOR" } ],
+					"bonuses" : [ { "type" : "STACKS_SPEED", "val": 40, "valueType" : "PERCENT_TO_ALL", "propagator" : "TOWN_AND_VISITOR" } ],
 					"id" : 26,
 					"mode" : "grail"
 				},

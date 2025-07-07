@@ -57,7 +57,7 @@
 									 },
 											 {
 												"type" : "HAS_ANOTHER_BONUS_LIMITER",
-												"parameters": [ "SPELL_IMMUNITY", "core:spell.slow" ]
+												"parameters": [ "SPELL_IMMUNITY", "core:spell.slow", null ]
 												 } ]
 						},
 						
@@ -70,7 +70,7 @@
 							"limiters": [ 
 								"noneOf", {
 									"type" : "HAS_ANOTHER_BONUS_LIMITER",
-									"parameters": [ "SPELL_IMMUNITY", "core:spell.slow" ]
+									"parameters": [ "SPELL_IMMUNITY", "core:spell.slow", null ]
 									 } ]
 							
 						}

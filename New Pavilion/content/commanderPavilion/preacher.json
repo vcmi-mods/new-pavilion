@@ -14,7 +14,11 @@
 		"faction" : "pavilion",
 		"aiValue" : 156,
 		"special" : true,
+		"level" : 0,
 		"attack" : 5,
+		"cost" : {
+			"gold" : 2000
+		},
 		"damage" :
 		{
 			"max" : 12,

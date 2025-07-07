@@ -661,9 +661,11 @@
 			{
 				"bonus" :
 				{
-					"type" : "FEARFUL" //old fear, not sure how it works in vcmi-1.7
+					"type" : "FEARFUL",
+					"valueType" : "INDEPENDENT_MIN",
+					"val" : 0
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 10, 10 ]
+				"values" : [ false, false, false, false, false, false, false, false, true, true ]
 			}		
 		]	
 	},

@@ -4,7 +4,7 @@
 	
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community, VCMI community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.84",
+	"version" : "2.9.85",
 	"modType" : "Town",	
 	"compatibility":
 	{
@@ -12,6 +12,7 @@
 	},	
 	"changelog" :
 	{
+		"2.9.85"   : [ "Yet another update for recent vcmi-1.7 format changes" ],
 		"2.9.84"   : [ "Another update for recent vcmi-1.7 format changes" ],
 		"2.9.83"   : [ "Update to vcmi-1.7 format" ],
 		"2.9.82"   : [ "Fixed unused death animations and glitching town theme" ],
