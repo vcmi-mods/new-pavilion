@@ -4,7 +4,7 @@
 	
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community, VCMI community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.85",
+	"version" : "2.9.86",
 	"modType" : "Town",	
 	"compatibility":
 	{
@@ -12,6 +12,7 @@
 	},	
 	"changelog" :
 	{
+		"2.9.85"   : [ "Added some new ability custom icons" ],
 		"2.9.85"   : [ "Yet another update for recent vcmi-1.7 format changes" ],
 		"2.9.84"   : [ "Another update for recent vcmi-1.7 format changes" ],
 		"2.9.83"   : [ "Update to vcmi-1.7 format" ],

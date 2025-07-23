@@ -1,0 +1,23 @@
+{
+     "new-pavilion:desertWarrior":
+	{
+		"abilities" :
+		{
+			"dunesRider" : 
+			{
+				"subtype" : "heroMovementLand",
+				"type" : "MOVEMENT",
+				"val" : 150,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters": [ 
+					{
+						"type":"CREATURE_TERRAIN_LIMITER",
+						"terrain":  "dunes"
+					}
+				],
+				"propagator": "HERO",
+				"hidden" : true				
+			} 
+		}	
+	}
+}

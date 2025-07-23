@@ -62,7 +62,7 @@
 			"bonuses": {
 				"fireShield": {
 					"type": "OPENING_BATTLE_SPELL",
-					"subtype": "spell.fireShield",
+					"subtype": "fireShield",
 					"val" : 2
 			    }
 			}

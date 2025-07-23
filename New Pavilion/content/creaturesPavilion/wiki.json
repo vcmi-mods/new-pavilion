@@ -26,7 +26,7 @@
 
 	"desertWarrior":
 	{
-		"description" : "{Desert Warrior}\r\n\r\n{gold|Special Ability : Sand Runner}\n\nUnlike Nomads, having Desert Warriors in army increases movement points by 150 on new turn during travelling through sand."
+		"description" : "{Desert Warrior}\r\n\r\n{gold|Special Ability : Sand Runner}\n\nUnlike Nomads, having Desert Warriors in army increases movement points by 150 on new turn during travelling through sand and dunes terrains."
 	},
 
 	"sekhmet":

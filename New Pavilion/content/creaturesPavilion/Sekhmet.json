@@ -81,7 +81,7 @@
 			"healPower" : 
 			{
 				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "spell.cure",
+				"subtype" : "cure",
 				"val" : 25
 			},
 			"spellPoints" : 
@@ -92,7 +92,7 @@
 			"healLife":
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.cure",
+				"subtype" : "cure",
 				"val" : 2
 			}
 		},

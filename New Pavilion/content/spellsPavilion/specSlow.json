@@ -53,12 +53,14 @@
 								"noneOf", 
 								{
 									"type" : "HAS_ANOTHER_BONUS_LIMITER",
-									"parameters": [ "KING" ]
-									 },
-											 {
-												"type" : "HAS_ANOTHER_BONUS_LIMITER",
-												"parameters": [ "SPELL_IMMUNITY", "core:spell.slow", null ]
-												 } ]
+									"bonusType":  "KING" 
+								},
+								{
+									"type" : "HAS_ANOTHER_BONUS_LIMITER",
+									"bonusType":  "SPELL_IMMUNITY", 
+									"bonusSubtype" : "core:spell.slow"
+								} 
+							]
 						},
 						
 						"normalSlow" : {
@@ -70,9 +72,10 @@
 							"limiters": [ 
 								"noneOf", {
 									"type" : "HAS_ANOTHER_BONUS_LIMITER",
-									"parameters": [ "SPELL_IMMUNITY", "core:spell.slow", null ]
-									 } ]
-							
+									"bonusType":  "SPELL_IMMUNITY", 
+									"bonusSubtype" : "core:spell.slow"
+								} 
+							]
 						}
 				}
 			}

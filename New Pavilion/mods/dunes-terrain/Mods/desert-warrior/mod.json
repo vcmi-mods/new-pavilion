@@ -1,0 +1,24 @@
+{
+	"name" : "Desert Warrior ability",
+	"description" : "This mod expands Desert Warrior ability to work with Diunes terrain",
+	"author" : "misiokles",
+	"contact" : "https://discord.gg/chBT42V",
+	"version" : "1.0",
+	"changelog" :
+	{
+		"1.0"   : [ "Initial release" ]
+	},
+	"compatibility" :
+	{
+		"min" : "1.7.0"
+	},
+	"modType" : "Compatibility",	
+	"depends" :
+	[
+		"new-pavilion"
+	],
+	"creatures":
+	[
+		"config/desert-warrior/desertWarrior.json"
+	]
+}

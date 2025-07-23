@@ -64,7 +64,7 @@
 			},
 			"poisonous" : {
 				"addInfo" : 0,
-				"subtype" : "spell.poison",
+				"subtype" : "poison",
 				"type" : "SPELL_AFTER_ATTACK",
 				"val" : 20
 			}

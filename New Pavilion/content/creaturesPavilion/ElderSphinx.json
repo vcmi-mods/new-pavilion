@@ -68,7 +68,7 @@
             	"buffNegation" : 
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.blessingSeal",
+				"subtype" : "blessingSeal",
 				"val" : 100
 			},
 				"spellDuration" : 

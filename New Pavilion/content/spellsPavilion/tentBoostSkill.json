@@ -4,7 +4,7 @@
 		"base" : {
 			"effects" : {
 				"main2" : {
-					"subtype" : "spell.smellingSalts",
+					"subtype" : "smellingSalts",
 					"type" : "SPECIFIC_SPELL_POWER",
 					"valueType" : "BASE_NUMBER"
 				}

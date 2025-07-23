@@ -43,7 +43,7 @@
 				"effects" : {
 					"scaledDefence" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
+						"subtype" : "defence",
 						"val" : 0,
 						"valueType" : "INDEPENDENT_MIN",
 						"duration" : "N_TURNS"
@@ -52,49 +52,13 @@
 					},
 					
 			"none":{
-				"description": "Defence scaled to 0.",
-				"cost": 0,
-				"power": 1,
-//				"aiValue": 0,
-				"effects" : {
-					"scaledDefence" : {
-
-					}
-				}
 			},
 			"basic":{
-				"description": "Defence scaled to 0.",
-				"cost": 0,
-				"power": 1,
-//				"aiValue": 0,
-				"effects" : {
-					"scaledDefence" : {
-
-					}
-				}
 			},
 			"advanced":{
-				"description": "Defence scaled to 0.",
-				"cost": 0,
-				"power": 1,
-//				"aiValue": 0,
-				"effects" : {
-					"scaledDefence" : {
-
-					}
-				}
 			},
 			"expert":{
-				"description": "Defence scaled to 0.",
-				"cost": 0,
-				"power": 1,
-//				"aiValue": 0,
-				"effects" : {
-					"scaledDefence" : {
-					
-					}
-				}
-		}
+			}
 		},
 		"absoluteLimit" : {
 

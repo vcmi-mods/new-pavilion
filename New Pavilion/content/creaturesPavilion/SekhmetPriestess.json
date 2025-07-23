@@ -77,13 +77,13 @@
 			"healLife":
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.cure",
+				"subtype" : "cure",
 				"val" : 2
 			},
 			"healPower" : 
 			{
 				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "spell.cure",
+				"subtype" : "cure",
 				"val" : 50
 			},
 

@@ -54,18 +54,8 @@
 				"skill" : "armorer"
 			}
 		], 		
-        "specialty": 
-		{
-			"bonuses" : {
-				"armorer" : {
-					"subtype" : "damageTypeAll",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "GENERAL_DAMAGE_REDUCTION",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE",
-					"updater" : "TIMES_HERO_LEVEL"
-				}
-			}
+		"specialty" : {
+			"secondary" : "armorer"
 		}
 	}
 }

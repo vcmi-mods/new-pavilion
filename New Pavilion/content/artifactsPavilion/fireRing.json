@@ -22,7 +22,7 @@
 			"fireDamage" :
 			{
                 "type" : "SPELL_DAMAGE",
-                "subtype" : "spellSchool.fire",
+                "subtype" : "fire",
 				"val" : 25,
 				"valueType" : "BASE_NUMBER"
 			}

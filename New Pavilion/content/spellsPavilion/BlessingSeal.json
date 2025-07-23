@@ -35,159 +35,156 @@
 //				"aiValue": 0,
 				"range" : "0",
 				"targetModifier":{"smart":true},
-
-
 				"battleEffects" : {
-
+					
 					"blockHelp" : {
-						
 						"type":"core:timed", 
 						"cumulative": false, 
 						"bonus":  {
-
-					"hasteSeal" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.haste",
-						"addInfo" : 0,						
-						"duration" : "N_TURNS"
-					},
-					"fortuneSeal" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.fortune",
-						"addInfo" : 0,						
-						"duration" : "N_TURNS"
-					},
-					"precisionSeal" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.precision",
-						"addInfo" : 0,						
-						"duration" : "N_TURNS"
-					},
-					"airShieldSeal" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.airShield",
-						"addInfo" : 0,						
-						"duration" : "N_TURNS"
-					},
-					"protectAirSeal" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.protectAir",
-						"addInfo" : 0,						
-						"duration" : "N_TURNS"
-					},
-					"counterstrikeSeal" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.counterstrike",
-						"addInfo" : 0,						
-						"duration" : "N_TURNS"
-					},
-					"magicMirrorSeal" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.magicMirror",
-						"addInfo" : 0,						
-						"duration" : "N_TURNS"
-					},
-					"bloodlustSeal" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.bloodlust",
-						"addInfo" : 0,						
-						"duration" : "N_TURNS"
-					},
-					"protectFireSeal" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.protectFire",
-						"addInfo" : 0,						
-						"duration" : "N_TURNS"
-					},
-					"fireShieldSeal" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.fireShield",
-						"addInfo" : 0,						
-						"duration" : "N_TURNS"
-					},
-					"frenzySeal" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.frenzy",
-						"addInfo" : 0,						
-						"duration" : "N_TURNS"
-					},
-					"slayerSeal" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.slayer",
-						"addInfo" : 0,						
-						"duration" : "N_TURNS"
-					},
-					"shieldSeal" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.shield",
-						"addInfo" : 0,						
-						"duration" : "N_TURNS"
-					},
-					"stoneSkinSeal" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.stoneSkin",
-						"addInfo" : 0,						
-						"duration" : "N_TURNS"
-					},
-					"protectEarthSeal" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.protectEarth",
-						"addInfo" : 0,						
-						"duration" : "N_TURNS"
-					},
-					"antiMagicSeal" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.antiMagic",
-						"addInfo" : 0,						
-						"duration" : "N_TURNS"
-					},
-					"resurrectionSeal" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.resurrection",
-						"addInfo" : 0,						
-						"duration" : "N_TURNS"
-					},
-					"blessSeal" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.bless",
-						"addInfo" : 0,						
-						"duration" : "N_TURNS"
-					},
-					"cureSeal" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.cure",
-						"addInfo" : 0,						
-						"duration" : "N_TURNS"
-					},
-					"protectWaterSeal" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.protectWater",
-						"addInfo" : 0,						
-						"duration" : "N_TURNS"
-					},
-					"mirthSeal" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.mirth",
-						"addInfo" : 0,						
-						"duration" : "N_TURNS"
-					},
-					"prayerSeal" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.prayer",
-						"addInfo" : 0,						
-						"duration" : "N_TURNS"
-					}
-					},
-					"dispelHelp":{
+							"hasteSeal" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "haste",
+								"addInfo" : 0,						
+								"duration" : "N_TURNS"
+							},
+							"fortuneSeal" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "fortune",
+								"addInfo" : 0,						
+								"duration" : "N_TURNS"
+							},
+							"precisionSeal" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "precision",
+								"addInfo" : 0,						
+								"duration" : "N_TURNS"
+							},
+							"airShieldSeal" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "airShield",
+								"addInfo" : 0,						
+								"duration" : "N_TURNS"
+							},
+							"protectAirSeal" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "protectAir",
+								"addInfo" : 0,						
+								"duration" : "N_TURNS"
+							},
+							"counterstrikeSeal" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "counterstrike",
+								"addInfo" : 0,						
+								"duration" : "N_TURNS"
+							},
+							"magicMirrorSeal" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "magicMirror",
+								"addInfo" : 0,						
+								"duration" : "N_TURNS"
+							},
+							"bloodlustSeal" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "bloodlust",
+								"addInfo" : 0,						
+								"duration" : "N_TURNS"
+							},
+							"protectFireSeal" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "protectFire",
+								"addInfo" : 0,						
+								"duration" : "N_TURNS"
+							},
+							"fireShieldSeal" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "fireShield",
+								"addInfo" : 0,						
+								"duration" : "N_TURNS"
+							},
+							"frenzySeal" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "frenzy",
+								"addInfo" : 0,						
+								"duration" : "N_TURNS"
+							},
+							"slayerSeal" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "slayer",
+								"addInfo" : 0,						
+								"duration" : "N_TURNS"
+							},
+							"shieldSeal" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "shield",
+								"addInfo" : 0,						
+								"duration" : "N_TURNS"
+							},
+							"stoneSkinSeal" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "stoneSkin",
+								"addInfo" : 0,						
+								"duration" : "N_TURNS"
+							},
+							"protectEarthSeal" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "protectEarth",
+								"addInfo" : 0,						
+								"duration" : "N_TURNS"
+							},
+							"antiMagicSeal" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "antiMagic",
+								"addInfo" : 0,						
+								"duration" : "N_TURNS"
+							},
+							"resurrectionSeal" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "resurrection",
+								"addInfo" : 0,						
+								"duration" : "N_TURNS"
+							},
+							"blessSeal" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "bless",
+								"addInfo" : 0,						
+								"duration" : "N_TURNS"
+							},
+							"cureSeal" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "cure",
+								"addInfo" : 0,						
+								"duration" : "N_TURNS"
+							},
+							"protectWaterSeal" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "protectWater",
+								"addInfo" : 0,						
+								"duration" : "N_TURNS"
+							},
+							"mirthSeal" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "mirth",
+								"addInfo" : 0,						
+								"duration" : "N_TURNS"
+							},
+							"prayerSeal" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "prayer",
+								"addInfo" : 0,						
+								"duration" : "N_TURNS"
+							}
+						}
+					},	
+					
+					"dispelHelp": {
 						"type":"core:dispel",
 						"ignoreImmunity" : true,
 						"dispelNegative":false,
 						"dispelNeutral":false,
 						"dispelPositive":true
 					}
-				}}
-					},
-					
+				}
+			},		
 					"none":	{},	"basic":{},	"advanced":	{}, "expert":{}	
 					
 			},

@@ -63,7 +63,7 @@
 		{
 			"bonuses" : {
 				"meteorShower" : {
-					"subtype" : "spell.meteorShower",
+					"subtype" : "meteorShower",
 					"type" : "SPECIAL_SPELL_LEV",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3

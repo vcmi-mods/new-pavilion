@@ -28,7 +28,7 @@
 			"gold" :
 			{
 				"type": "GENERATE_RESOURCE",
-				"subtype": "resource.gold",
+				"subtype": "gold",
 				"val": 350,
 				"valueType" : "BASE_NUMBER"
 			}

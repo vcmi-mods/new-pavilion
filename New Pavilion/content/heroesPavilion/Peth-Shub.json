@@ -60,17 +60,8 @@
 				"skill" : "eagleEye"
 			}
 		],
-		"specialty": 
-		{
-			"bonuses" : {
-				"eagleEye" : {
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "LEARN_BATTLE_SPELL_CHANCE",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE",
-					"updater" : "TIMES_HERO_LEVEL"
-				}
-			}
+		"specialty" : {
+			"secondary" : "eagleEye"
 		}		
 	}
 }

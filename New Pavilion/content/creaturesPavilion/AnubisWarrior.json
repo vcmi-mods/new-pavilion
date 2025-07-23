@@ -77,7 +77,7 @@
 			"godScalesAttack" : 
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.godScaleAttack",
+				"subtype" : "godScaleAttack",
 				"val" : 20
 			},
 //			"godScalesDefence" : 

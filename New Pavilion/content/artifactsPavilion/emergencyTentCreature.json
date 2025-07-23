@@ -22,7 +22,7 @@
 		"unlockResurrection" : 
 		{ 
 			"type" : "HEALER" ,
-			"subtype" : "spell.smellingSalts"
+			"subtype" : "smellingSalts"
 		},
 		"castsAmount" :
 		{

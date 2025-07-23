@@ -62,7 +62,10 @@
 			"increaseLuck" :
 			{
 				"type" : "LUCK",
-				"val" : 1
+				"val" : 1,
+				"propagator": "HERO",
+				"description" : "{Luck}\nScarabs increase whole army luck by 1",
+				"icon" : "bonusiconsPavilion/positiveluck.png"				
 			}
 
 		},

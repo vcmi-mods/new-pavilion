@@ -64,11 +64,10 @@
 			"lifeEater" :
 			{
 				"type": "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.lifeEater",
+				"subtype" : "lifeEater",
 				"val" : 100, 
 				"duration": "N_TURNS"
-			}	
-
+			}
 		},
 		"stackExperience" :
 		[

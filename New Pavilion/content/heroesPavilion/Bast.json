@@ -60,18 +60,8 @@
 			}
 		],
 		
-		"specialty": 
-{
-			"bonuses" : {
-				"logistics" : {
-					"subtype" : "heroMovementLand",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "MOVEMENT",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"updater" : "TIMES_HERO_LEVEL"
-				}
-			}
+		"specialty" : {
+			"secondary" : "logistics"
 		}
 	}
 }

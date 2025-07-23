@@ -64,11 +64,15 @@
 				"type" : "MOVEMENT",
 				"val" : 150,
 				"valueType" : "ADDITIVE_VALUE",
-				"limiters": [ {
-					"type":"CREATURE_TERRAIN_LIMITER",
-					"parameters": [ "sand" ]
-				} ],
-				"propagator": "HERO"
+				"limiters": [ 
+					{
+						"type":"CREATURE_TERRAIN_LIMITER",
+						"terrain":  "sand"
+					}
+				],
+				"propagator": "HERO",
+				"description" : "{Sand Runner}\nBoosts movement by 150 points when staring turn on sandy terrains",
+				"icon" : "bonusiconsPavilion/nomads.png"				
 			} 
 		}	
 	}

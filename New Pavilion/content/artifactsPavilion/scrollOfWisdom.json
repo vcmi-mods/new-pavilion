@@ -20,7 +20,7 @@
 		"bonuses" : {
 			"allSpellSchools" :
 			{
-				"subtype" : "spellSchool.any",
+				"subtype" : "any",
 				"type" : "MAGIC_SCHOOL_SKILL",
 				"val" : 1,
 				"valueType" : "BASE_NUMBER"				
