@@ -64,10 +64,10 @@
 				"type" : "LUCK",
 				"val" : 1,
 				"propagator": "HERO",
+				"stacking" : "Scarabs",
 				"description" : "{Luck}\nScarabs increase whole army luck by 1",
 				"icon" : "bonusiconsPavilion/bonusluckscarab.png"				
 			}
-
 		},
 		"stackExperience" :
 		[
