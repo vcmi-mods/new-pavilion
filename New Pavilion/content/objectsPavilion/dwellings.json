@@ -17,7 +17,8 @@
 						"animation" : "mapdefsPavilion/wadjetNest.def",
 						"mask" : [ "VVV", "VVV", "VAA" ]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "flagporticonsPavilion/pavilliondw02.def"
              },
                 
              "whipperVillage" :
@@ -34,8 +35,8 @@
 						"animation" : "mapdefsPavilion/village.def",
 						"mask" : [ "VVV", "VBB", "VAB" ]
 					}
-				}
-                
+				},
+                "kingdomOverviewImage" : "flagporticonsPavilion/pavilliondw01.def"
 			},
                 "camelTent" :
              {
@@ -51,7 +52,8 @@
 						"animation" : "mapdefsPavilion/tent.def",
 						"mask" : [ "VVV", "VVV", "VAA" ]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "flagporticonsPavilion/pavilliondw03.def"
                 
 			},
                    "sekhmetAltar" :
@@ -68,8 +70,8 @@
 						"animation" : "mapdefsPavilion/sekhetAltar.def",
 						"mask" : [ "VVV", "VVV", "VBA" ]
 					}
-				}
-                
+				},
+                "kingdomOverviewImage" : "flagporticonsPavilion/pavilliondw04.def"
 			},
 			"caveOfFear" :
             {
@@ -86,8 +88,8 @@
 						"animation" : "mapdefsPavilion/caveOfFear.def",
 						"mask" : [ "VVV", "VVV", "VBA" ]
 					}
-				}
-                
+				},
+                "kingdomOverviewImage" : "flagporticonsPavilion/pavilliondw05.def"
 			},
             "sphinxGarnison" :
              {
@@ -104,8 +106,8 @@
 						"animation" : "mapdefsPavilion/sphinxGarnison.def",
 						"mask" : [ "VVV", "VVV", "VBA" ]
 					}
-				}
-                
+				},
+                "kingdomOverviewImage" : "flagporticonsPavilion/pavilliondw06.def"
 			},
                      "anubisTomb" :
              {
@@ -122,8 +124,8 @@
 						"animation" : "mapdefsPavilion/tomb.def",
 						"mask" : [ "VVV", "VBB", "VAB" ]
 					}
-				}
-                
+				},
+                "kingdomOverviewImage" : "flagporticonsPavilion/pavilliondw07.def"
 			},
 				"scarabAltar" :
              {
@@ -139,7 +141,8 @@
 						"animation" : "mapdefsPavilion/scarabAltar.def",
 						"mask" : [ "VVV", "VVA" ]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "flagporticonsPavilion/pavilliondw08.def"
              }
 		}	
 	}

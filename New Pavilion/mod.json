@@ -4,7 +4,7 @@
 	
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community, VCMI community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.87",
+	"version" : "2.9.88",
 	"modType" : "Town",	
 	"compatibility":
 	{
@@ -12,6 +12,7 @@
 	},	
 	"changelog" :
 	{
+		"2.9.88"   : [ "Added flagport frames (Kingdom Overwiev window)", "Add formatter" ],
 		"2.9.87"   : [ "New icon for Scarab's Luck ability" ],
 		"2.9.86"   : [ "Added some new ability custom icons" ],
 		"2.9.85"   : [ "Yet another update for recent vcmi-1.7 format changes" ],
