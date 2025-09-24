@@ -4,21 +4,19 @@
 	"author" : "misiokles",
 	"contact" : "https://discord.gg/chBT42V",
 	"version" : "1.0",
-	"changelog" :
-	{
-		"1.0"   : [ "Initial release" ]
+	"changelog" : {
+		"1.0" : [
+			"Initial release"
+		]
 	},
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.7.0"
 	},
-	"modType" : "Compatibility",	
-	"depends" :
-	[
+	"modType" : "Compatibility",
+	"depends" : [
 		"new-pavilion"
 	],
-	"creatures":
-	[
+	"creatures" : [
 		"config/desert-warrior/desertWarrior.json"
 	]
 }

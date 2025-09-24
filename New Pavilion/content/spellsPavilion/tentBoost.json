@@ -1,47 +1,51 @@
 {
-    "smellingSalts" : {
+	"smellingSalts" : {
 		"targetType" : "CREATURE",
-		"type": "ability",
-		"name": "Serious Aid",
+		"type" : "ability",
+		"name" : "Serious Aid",
 		"school" : {},
-		"level": 1,
-		"power": 0,
-		"defaultGainChance": 0,
-		"gainChance": {},
-		"animation":{
-			"affect":["SP12_"]
+		"level" : 1,
+		"power" : 0,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"animation" : {
+			"affect" : [
+				"SP12_"
+			]
 		},
 
-		"sounds": {
-			"cast": "REGENER"
+		"sounds" : {
+			"cast" : "REGENER"
 		},
 		"levels" : {
-			"base":{
+			"base" : {
 				"description" : "",
-//				"aiValue" : 0,
+				//				"aiValue" : 0,
 				"power" : 50,
 				"cost" : 0,
-				"targetModifier":{"smart":true},
-				"battleEffects":{
-					"heal":{
-						"type":"core:heal",
-						"healLevel":"resurrect",
-						"healPower":"oneBattle",
+				"targetModifier" : {
+					"smart" : true
+				},
+				"battleEffects" : {
+					"heal" : {
+						"type" : "core:heal",
+						"healLevel" : "resurrect",
+						"healPower" : "oneBattle",
 						"minFullUnits" : 1,
-						"optional":true
+						"optional" : true
 					}
 				},
 				"range" : "0"
 			},
-			"none" :{},
-			"basic" :{},
-			"advanced" :{},
-			"expert" :{}
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		},
 		"flags" : {
-			"rising": true,
+			"rising" : true,
 			"nonMagical" : true,
-			"positive": true
+			"positive" : true
 		},
 		"targetCondition" : {
 			"noneOf" : {
@@ -49,5 +53,4 @@
 			}
 		}
 	}
-
 }

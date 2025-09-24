@@ -1,49 +1,43 @@
 {
-	"0_ko-Eset" :
-	{
+	"0_ko-Eset" : {
 		"class" : "vizier",
 		"female" : true,
-		
-		"texts" :
-		{
+
+		"texts" : {
 			"name" : "Ko-Eset",
 			"biography" : "Ko-Eset of enigmatic Falcon clan never shuns from lucrative opportunities and risky ventures. The jealous often accuse her of dabbling in sorcery but her industrious spirit and foresight are sole reasons for her wealth.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases kingdom's income by 350 gold per day.",
 				"tooltip" : "Resource Bonus: +350 Gold",
 				"name" : "+350 Gold"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "speciconsPavilion/un32Gold.bmp",
 			"specialtyLarge" : "speciconsPavilion/un44Gold.bmp",
 			"large" : "heroportraitsPavilion/KoEset.png",
 			"small" : "heroportraitsPavilion/KoEsetSmall.png"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "whipper",
 				"max" : 20,
 				"min" : 12
 			},
-            {
+			{
 				"creature" : "wadjet",
 				"max" : 9,
 				"min" : 7
 			},
 			{
-			"creature" : "whipper",
+				"creature" : "whipper",
 				"max" : 20,
 				"min" : 12
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "estates"
@@ -53,9 +47,8 @@
 				"skill" : "wisdom"
 			}
 		],
-		
-		"specialty":
-		{
+
+		"specialty" : {
 			"bonuses" : {
 				"gold" : {
 					"subtype" : "gold",
@@ -66,4 +59,3 @@
 		}
 	}
 }
-

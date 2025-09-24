@@ -1,50 +1,44 @@
 {
-	"0_elspeth" :
-	{
+	"0_elspeth" : {
 		"class" : "vizier",
 		"female" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Elspeth",
 			"biography" : "Elspeth braved the endless desert uncountable number of times and seems to know all of its secrets by heart. All of her troops always seem invigorated and filled with unknown force, perhaps thanks to the fabled spring of life?",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "All creatures receive +5% Health.",
 				"tooltip" : "+5% Health",
 				"name" : "Passive Bonus: Life Source"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "speciconsPavilion/32Ankh.bmp",
 			"specialtyLarge" : "speciconsPavilion/44Ankh.bmp",
 			"large" : "heroportraitsPavilion/Elspeth.png",
 			"small" : "heroportraitsPavilion/ElspethSmall.png"
 		},
- 
-		"army" :
-		[
-	{
-		"creature" : "whipper",
-		"max" : 25,
-		"min" : 15
-	},
-	{
-		"creature" : "wadjet",
-		"max" : 9,
-		"min" : 7
-	},
-	{
-		"creature" : "camelRider",
-		"max" : 5,
-		"min" : 3
-		}
-	],
 
-		"skills" :
-		[
+		"army" : [
+			{
+				"creature" : "whipper",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "wadjet",
+				"max" : 9,
+				"min" : 7
+			},
+			{
+				"creature" : "camelRider",
+				"max" : 5,
+				"min" : 3
+			}
+		],
+
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "logistics"
@@ -53,23 +47,20 @@
 				"level" : "basic",
 				"skill" : "pathfinding"
 			}
-		], 		
-        "specialty":
-		{
-			"bonuses": {
-				"health1": {
+		],
+		"specialty" : {
+			"bonuses" : {
+				"health1" : {
 					"type" : "STACK_HEALTH",
 					"val" : 1,
 					"valueType" : "BASE_NUMBER"
 				},
-				"health2": {
+				"health2" : {
 					"type" : "STACK_HEALTH",
 					"val" : 4,
 					"valueType" : "PERCENT_TO_BASE"
-				}	
+				}
 			}
 		}
 	}
 }
-
-

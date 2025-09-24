@@ -1,36 +1,30 @@
 {
-	"1_osir" :
-	{
+	"1_osir" : {
 		"class" : "embalmer",
 		"female" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Osir",
 			"biography" : "Osir’s family wealth allowed his healing talents to bloom under the tutelage of most esteemed priests. Sometimes, he ponders his unfulfilled ambition to become a powerful magus, but he takes great pride in his craft and eagerly aids the weak and the ill.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to First Aid skill.",
 				"tooltip" : "Secondary Skill Bonus: First Aid",
 				"name" : "First Aid"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "speciconsPavilion/32FirstA.bmp",
 			"specialtyLarge" : "speciconsPavilion/44FirstA.bmp",
 			"large" : "heroportraitsPavilion/Osir.png",
 			"small" : "heroportraitsPavilion/OsirSmall.png"
 		},
 
-		"spellbook" :
-		[
-			"dispel" 
+		"spellbook" : [
+			"dispel"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "whipper",
 				"max" : 25,
@@ -48,8 +42,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -59,11 +52,9 @@
 				"skill" : "firstAid"
 			}
 		],
-		
-		"specialty": 
-		{
+
+		"specialty" : {
 			"bonuses" : {
-				
 				"firstAid" : {
 					"subtype" : "firstAid",
 					"type" : "SPECIFIC_SPELL_POWER",
@@ -83,11 +74,9 @@
 			}
 		}
 	},
-	
-	"core:rion" :
-	{
-		"specialty": 
-		{
+
+	"core:rion" : {
+		"specialty" : {
 			"bonuses" : {
 				"firstAidBoosted" : {
 					"subtype" : "new-pavilion:spell.smellingSalts",
@@ -100,11 +89,9 @@
 			}
 		}
 	},
-	
-	"core:gem" :
-	{
-		"specialty": 
-		{
+
+	"core:gem" : {
+		"specialty" : {
 			"bonuses" : {
 				"firstAidBoosted" : {
 					"subtype" : "new-pavilion:spell.smellingSalts",
@@ -117,11 +104,9 @@
 			}
 		}
 	},
-	
-	"core:verdish" :
-	{
-		"specialty": 
-		{
+
+	"core:verdish" : {
+		"specialty" : {
 			"bonuses" : {
 				"firstAidBoosted" : {
 					"subtype" : "new-pavilion:spell.smellingSalts",

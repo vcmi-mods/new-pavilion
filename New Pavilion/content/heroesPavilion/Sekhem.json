@@ -1,31 +1,26 @@
 {
-	"0_sekhem" :
-	{
+	"0_sekhem" : {
 		"class" : "vizier",
 		"female" : false,
-	
-		"texts" :
-		{
+
+		"texts" : {
 			"name" : "Sekhem",
 			"biography" : "As an aspect of the Goddess’ rage, Sekhem is unfit to live with her sisters at the temple. In attempt to quench the undying thirst for blood and gore, she seeks battle during the times of war and unrest.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Offense skill percentage.",
 				"tooltip" : "Secondary Skill Bonus: Offense",
 				"name" : "Offense"
 			}
 		},
-	
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "speciconsPavilion/32Offen.bmp",
 			"specialtyLarge" : "speciconsPavilion/44Offen.bmp",
 			"large" : "heroportraitsPavilion/Sekhem.png",
 			"small" : "heroportraitsPavilion/SekhemSmall.png"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "whipper",
 				"max" : 25,
@@ -43,17 +38,15 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "offence"
 			}
 		],
-		
+
 		"specialty" : {
 			"secondary" : "offence"
 		}
 	}
 }
-

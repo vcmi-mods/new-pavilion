@@ -1,77 +1,61 @@
 {
-	"sphinx":
-	{
-		"name" :
-		{
+	"sphinx" : {
+		"name" : {
 			"plural" : "Sphinxes",
 			"singular" : "Sphinx"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 12,
 			"min" : 5
 		},
 		"faction" : "pavilion",
 		"attack" : 14,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 900
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 20,
 			"min" : 15
 		},
 		"defense" : 16,
 		"fightValue" : 1000,
-		"aiValue": 1800,
+		"aiValue" : 1800,
 
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creaturedefsPavilion/Sphinx.def",
 			"map" : "creaturedefsPavilion/SphinxMap.def",
 			"iconSmall" : "creatureiconsPavilion/SphinxSmall.bmp",
 			"iconLarge" : "creatureiconsPavilion/Sphinx.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
-				"idle" : 10.00,
-				"attack" : 1.00
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
-           
 		},
-	    "doubleWide" : true,
-        "growth" : 2,
+		"doubleWide" : true,
+		"growth" : 2,
 		"hitPoints" : 100,
 		"level" : 6,
-        "upgrades":
-		[
+		"upgrades" : [
 			"elderSphinx"
 		],
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "WUNCSHOT",
-			"defend":  "Pavilion/sphxDef.wav",
-			"killed":  "Pavilion/sphxDie.wav",
-			"move": "MANTMOVE",
-			"wince":  "Pavilion/sphxHit.wav"
- 		},
+			"defend" : "Pavilion/sphxDef.wav",
+			"killed" : "Pavilion/sphxDie.wav",
+			"move" : "MANTMOVE",
+			"wince" : "Pavilion/sphxHit.wav"
+		},
 		"speed" : 7,
-		"abilities" :
-		{
-			"canFly" : 
-			{
+		"abilities" : {
+			"canFly" : {
 				"type" : "FLYING"
 			},
-			"magicResistance" :
-			{
+			"magicResistance" : {
 				"type" : "MIND_IMMUNITY"
 			}
 		},
-		"stackExperience" :
-		[
-
-		]	
+		"stackExperience" : []
 	}
 }

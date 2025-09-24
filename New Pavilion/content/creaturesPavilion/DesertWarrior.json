@@ -1,79 +1,68 @@
 {
-     "desertWarrior":
-	{
-		"name" :
-		{
+	"desertWarrior" : {
+		"name" : {
 			"plural" : "Desert Warriors",
 			"singular" : "Desert Warrior"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 20,
 			"min" : 12
 		},
 		"faction" : "pavilion",
 		"aiValue" : 340,
 		"attack" : 10,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 260
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 6,
 			"min" : 2
 		},
 		"defense" : 10,
 		"fightValue" : 320,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creaturedefsPavilion/desertWarrior.def",
 			"map" : "creaturedefsPavilion/desertWarriorMap.def",
 			"iconSmall" : "creatureiconsPavilion/desertWarriorSmall.bmp",
 			"iconLarge" : "creatureiconsPavilion/desertWarrior.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
 		},
-	    "doubleWide" : true,
-        "growth" : 7,
+		"doubleWide" : true,
+		"growth" : 7,
 		"horde" : 3,
 		"hitPoints" : 25,
 		"level" : 3,
-    
-		"sound" :
-		{
-			"attack":  "Pavilion/camAtt.wav",
-			"defend":  "Pavilion/camDef.wav",
-			"killed":  "Pavilion/camDie.wav",
-			"move":  "Pavilion/camWalk.wav",
-			"wince":  "Pavilion/camHit.wav"
 
- 		},
+		"sound" : {
+			"attack" : "Pavilion/camAtt.wav",
+			"defend" : "Pavilion/camDef.wav",
+			"killed" : "Pavilion/camDie.wav",
+			"move" : "Pavilion/camWalk.wav",
+			"wince" : "Pavilion/camHit.wav"
+		},
 		"speed" : 8,
 
-		"abilities" :
-		{
-			"desertRider" : 
-			{
+		"abilities" : {
+			"desertRider" : {
 				"subtype" : "heroMovementLand",
 				"type" : "MOVEMENT",
 				"val" : 150,
 				"valueType" : "ADDITIVE_VALUE",
-				"limiters": [ 
+				"limiters" : [
 					{
-						"type":"CREATURE_TERRAIN_LIMITER",
-						"terrain":  "sand"
+						"type" : "CREATURE_TERRAIN_LIMITER",
+						"terrain" : "sand"
 					}
 				],
-				"propagator": "HERO",
+				"propagator" : "HERO",
 				"description" : "{Sand Runner}\nBoosts movement by 150 points when staring turn on sandy terrains",
-				"icon" : "bonusiconsPavilion/nomads.png"				
-			} 
-		}	
+				"icon" : "bonusiconsPavilion/nomads.png"
+			}
+		}
 	}
 }

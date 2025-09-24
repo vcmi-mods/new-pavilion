@@ -1,13 +1,14 @@
 {
-	"core:hole": {
-		"types": {
-			"object": {
-				"templates": {
-
-					"dunesHole": {
-						"animation": "dunes objects/hole",
-						"mask": ["V"],
-						"allowedTerrains": [
+	"core:hole" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"dunesHole" : {
+						"animation" : "dunes objects/hole",
+						"mask" : [
+							"V"
+						],
+						"allowedTerrains" : [
 							"dunes"
 						]
 					}

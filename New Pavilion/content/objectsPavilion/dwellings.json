@@ -1,149 +1,201 @@
 {
-	"core:creatureGeneratorCommon" : 
-    {
-		"types" : 
-        {
-			"wadjetNest" :
-             {
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"wadjetNest" : {
 				"name" : "Wadjet Nest",
-				"creatures" : [[ "wadjet" ]],
-				"sounds": {
-					"ambient": ["objectsPavilion/maplvl2"]
+				"creatures" : [
+					[
+						"wadjet"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"objectsPavilion/maplvl2"
+					]
 				},
-				"templates" : 
-                {
-					"default" : 
-                    {
+				"templates" : {
+					"default" : {
 						"animation" : "mapdefsPavilion/wadjetNest.def",
-						"mask" : [ "VVV", "VVV", "VAA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAA"
+						]
 					}
 				},
 				"kingdomOverviewImage" : "flagporticonsPavilion/pavilliondw02.def"
-             },
-                
-             "whipperVillage" :
-             {
+			},
+
+			"whipperVillage" : {
 				"name" : "Settlement",
-				"creatures" : [[ "whipper" ]],
-				"sounds": {
-					"ambient": ["objectsPavilion/desertGarrison"]
+				"creatures" : [
+					[
+						"whipper"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"objectsPavilion/desertGarrison"
+					]
 				},
-				"templates" : 
-                {
-					"default" : 
-                    {
+				"templates" : {
+					"default" : {
 						"animation" : "mapdefsPavilion/village.def",
-						"mask" : [ "VVV", "VBB", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAB"
+						]
 					}
 				},
-                "kingdomOverviewImage" : "flagporticonsPavilion/pavilliondw01.def"
+				"kingdomOverviewImage" : "flagporticonsPavilion/pavilliondw01.def"
 			},
-                "camelTent" :
-             {
+			"camelTent" : {
 				"name" : "Desert Tent",
-				"creatures" : [[ "camelRider" ]],
-				"sounds": {
-					"ambient": ["objectsPavilion/mapCamels"]
+				"creatures" : [
+					[
+						"camelRider"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"objectsPavilion/mapCamels"
+					]
 				},
-				"templates" : 
-                {
-					"default" : 
-                    {
+				"templates" : {
+					"default" : {
 						"animation" : "mapdefsPavilion/tent.def",
-						"mask" : [ "VVV", "VVV", "VAA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAA"
+						]
 					}
 				},
 				"kingdomOverviewImage" : "flagporticonsPavilion/pavilliondw03.def"
-                
 			},
-                   "sekhmetAltar" :
-             {
+			"sekhmetAltar" : {
 				"name" : "Altar of the Goddess",
-				"creatures" : [[ "sekhmet" ]],
-				"sounds": {
-					"ambient": ["objectsPavilion/maplvl4"]
+				"creatures" : [
+					[
+						"sekhmet"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"objectsPavilion/maplvl4"
+					]
 				},
-				"templates" : 
-                {
-					"default" : 
-                    {
+				"templates" : {
+					"default" : {
 						"animation" : "mapdefsPavilion/sekhetAltar.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				},
-                "kingdomOverviewImage" : "flagporticonsPavilion/pavilliondw04.def"
+				"kingdomOverviewImage" : "flagporticonsPavilion/pavilliondw04.def"
 			},
-			"caveOfFear" :
-            {
+			"caveOfFear" : {
 				"name" : "Cave of Fear",
-				"creatures" : [[ "ammut" ]],
-				"sounds": {
-					"ambient": ["objectsPavilion/maplvl5"]
+				"creatures" : [
+					[
+						"ammut"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"objectsPavilion/maplvl5"
+					]
 				},
-                 "guards" : true,
-				"templates" : 
-                {
-					"default" : 
-                    {
+				"guards" : true,
+				"templates" : {
+					"default" : {
 						"animation" : "mapdefsPavilion/caveOfFear.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				},
-                "kingdomOverviewImage" : "flagporticonsPavilion/pavilliondw05.def"
+				"kingdomOverviewImage" : "flagporticonsPavilion/pavilliondw05.def"
 			},
-            "sphinxGarnison" :
-             {
+			"sphinxGarnison" : {
 				"name" : "Sphinx Barracks",
-				"creatures" : [[ "sphinx" ]],
-				"sounds": {
-					"ambient": ["objectsPavilion/mapElephants"]
+				"creatures" : [
+					[
+						"sphinx"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"objectsPavilion/mapElephants"
+					]
 				},
-                "guards" : true,
-				"templates" : 
-                {
-					"default" : 
-                    {
+				"guards" : true,
+				"templates" : {
+					"default" : {
 						"animation" : "mapdefsPavilion/sphinxGarnison.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				},
-                "kingdomOverviewImage" : "flagporticonsPavilion/pavilliondw06.def"
+				"kingdomOverviewImage" : "flagporticonsPavilion/pavilliondw06.def"
 			},
-                     "anubisTomb" :
-             {
+			"anubisTomb" : {
 				"name" : "Ancient Tomb",
-				"creatures" : [[ "anubis" ]],
-				"sounds": {
-					"ambient": ["objectsPavilion/maplvl7"]
+				"creatures" : [
+					[
+						"anubis"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"objectsPavilion/maplvl7"
+					]
 				},
-                 "guards" : true,
-				"templates" : 
-                {
-					"default" : 
-                    {
+				"guards" : true,
+				"templates" : {
+					"default" : {
 						"animation" : "mapdefsPavilion/tomb.def",
-						"mask" : [ "VVV", "VBB", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAB"
+						]
 					}
 				},
-                "kingdomOverviewImage" : "flagporticonsPavilion/pavilliondw07.def"
+				"kingdomOverviewImage" : "flagporticonsPavilion/pavilliondw07.def"
 			},
-				"scarabAltar" :
-             {
+			"scarabAltar" : {
 				"name" : "Scarab Chantry",
-				"creatures" : [[ "scarab" ]],
-				"sounds": {
-					"ambient": ["objectsPavilion/mapScarabAltar"]
+				"creatures" : [
+					[
+						"scarab"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"objectsPavilion/mapScarabAltar"
+					]
 				},
-				"templates" : 
-                {
-					"default" : 
-                    {
+				"templates" : {
+					"default" : {
 						"animation" : "mapdefsPavilion/scarabAltar.def",
-						"mask" : [ "VVV", "VVA" ]
+						"mask" : [
+							"VVV",
+							"VVA"
+						]
 					}
 				},
 				"kingdomOverviewImage" : "flagporticonsPavilion/pavilliondw08.def"
-             }
-		}	
+			}
+		}
 	}
 }

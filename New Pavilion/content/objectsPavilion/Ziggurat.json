@@ -1,19 +1,34 @@
 {
-	"core:creatureBank" : 
-	{
-		"types" : 
-		{
-			"sphinxZiggurat" : 
-			{
+	"core:creatureBank" : {
+		"types" : {
+			"sphinxZiggurat" : {
 				"name" : "Ziggurat",
-				"sounds": {
-					"ambient": ["objectsPavilion/ziggurat"]
+				"sounds" : {
+					"ambient" : [
+						"objectsPavilion/ziggurat"
+					]
 				},
 				"templates" : {
-					"base" : { "animation" : "mapdefsPavilion/ziggurat.def", 
-					"visitableFrom" : [ "---", "-+-", "+++" ], 
-					"mask" : [ "VVVV", "VBBV", "BBBB", "VBAB"], 
-					"allowedTerrains":["subterra", "rough", "dirt", "sand", "lava"] 
+					"base" : {
+						"animation" : "mapdefsPavilion/ziggurat.def",
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"BBBB",
+							"VBAB"
+						],
+						"allowedTerrains" : [
+							"subterra",
+							"rough",
+							"dirt",
+							"sand",
+							"lava"
+						]
 					}
 				},
 				"blockedVisitable" : false,
@@ -23,86 +38,153 @@
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankWide",
 				"rmg" : {
-					"value"		: 2000,
-					"rarity"	: 100
+					"value" : 2000,
+					"rarity" : 100
 				},
-				"rewards": [
+				"rewards" : [
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 0, "max" : 30 },
-						"guards": [
-							{ "amount": 4, "type" : "sphinx" },
-							{ "amount": 4, "type" : "sphinx" },
-							{ "amount": 4, "type" : "sphinx", "upgradeChance": 50 },
-							{ "amount": 4, "type" : "sphinx" },
-							{ "amount": 4, "type" : "sphinx" }
+						"appearChance" : {
+							"min" : 0,
+							"max" : 30
+						},
+						"guards" : [
+							{
+								"amount" : 4,
+								"type" : "sphinx"
+							},
+							{
+								"amount" : 4,
+								"type" : "sphinx"
+							},
+							{
+								"amount" : 4,
+								"type" : "sphinx",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 4,
+								"type" : "sphinx"
+							},
+							{
+								"amount" : 4,
+								"type" : "sphinx"
+							}
 						],
-						"resources": 
-						{
-						
+						"resources" : {
 							"crystal" : 8,
 							"gems" : 8,
 							"gold" : 5000
 						}
 					},
-										
+
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 30, "max" : 60 },
-						"guards": [
-							{ "amount": 5, "type" : "sphinx" },
-							{ "amount": 5, "type" : "sphinx" },
-							{ "amount": 5, "type" : "sphinx", "upgradeChance": 50 },
-							{ "amount": 5, "type" : "sphinx" },
-							{ "amount": 5, "type" : "sphinx" }
+						"appearChance" : {
+							"min" : 30,
+							"max" : 60
+						},
+						"guards" : [
+							{
+								"amount" : 5,
+								"type" : "sphinx"
+							},
+							{
+								"amount" : 5,
+								"type" : "sphinx"
+							},
+							{
+								"amount" : 5,
+								"type" : "sphinx",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 5,
+								"type" : "sphinx"
+							},
+							{
+								"amount" : 5,
+								"type" : "sphinx"
+							}
 						],
-						"resources": 
-						{
-						
+						"resources" : {
 							"crystal" : 10,
 							"gems" : 10,
 							"gold" : 7000
 						}
 					},
-					
+
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 60, "max" : 90 },
-						"guards": [
-							{ "amount": 7, "type" : "sphinx" },
-							{ "amount": 7, "type" : "sphinx" },
-							{ "amount": 7, "type" : "sphinx", "upgradeChance": 50},
-							{ "amount": 7, "type" : "sphinx" },
-							{ "amount": 7, "type" : "sphinx" }
+						"appearChance" : {
+							"min" : 60,
+							"max" : 90
+						},
+						"guards" : [
+							{
+								"amount" : 7,
+								"type" : "sphinx"
+							},
+							{
+								"amount" : 7,
+								"type" : "sphinx"
+							},
+							{
+								"amount" : 7,
+								"type" : "sphinx",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 7,
+								"type" : "sphinx"
+							},
+							{
+								"amount" : 7,
+								"type" : "sphinx"
+							}
 						],
-						"resources": 
-						{
-						
+						"resources" : {
 							"crystal" : 15,
 							"gems" : 15,
 							"gold" : 10000
 						}
 					},
-					
+
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 90, "max" : 100 },
-						"guards": [
-							{ "amount": 10, "type" : "sphinx" },
-							{ "amount": 10, "type" : "sphinx" },
-							{ "amount": 10, "type" : "sphinx", "upgradeChance": 50 },
-							{ "amount": 10, "type" : "sphinx" },
-							{ "amount": 10, "type" : "sphinx" }
+						"appearChance" : {
+							"min" : 90,
+							"max" : 100
+						},
+						"guards" : [
+							{
+								"amount" : 10,
+								"type" : "sphinx"
+							},
+							{
+								"amount" : 10,
+								"type" : "sphinx"
+							},
+							{
+								"amount" : 10,
+								"type" : "sphinx",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 10,
+								"type" : "sphinx"
+							},
+							{
+								"amount" : 10,
+								"type" : "sphinx"
+							}
 						],
-						"resources": 
-						{
-						
+						"resources" : {
 							"crystal" : 20,
 							"gems" : 20,
 							"gold" : 12000
 						}
 					}
-
 				]
 			}
 		}

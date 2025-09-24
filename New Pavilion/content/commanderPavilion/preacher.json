@@ -1,13 +1,10 @@
 {
-	"preacher":
-	{
-		"name" :
-		{
+	"preacher" : {
+		"name" : {
 			"plural" : "Preachers",
 			"singular" : "Preacher"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 25,
 			"min" : 16
 		},
@@ -19,32 +16,27 @@
 		"cost" : {
 			"gold" : 2000
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 12,
 			"min" : 6
 		},
 		"defense" : 5,
 		"fightValue" : 130,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creaturedefsPavilion/preacher.def",
 			"map" : "creaturedefsPavilion/preacherMap.def",
 			"iconSmall" : "creatureiconsPavilion/preacherSmall.bmp",
 			"iconLarge" : "creatureiconsPavilion/preacher.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "creaturedefsPavilion/projectile/shot283.def",
 				"attackClimaxFrame" : 4,
-				"offset" :
-				{
+				"offset" : {
 					"lowerX" : 62,
 					"lowerY" : -93,
 					"middleX" : 62,
@@ -52,48 +44,54 @@
 					"upperX" : 62,
 					"upperY" : -93
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"doubleWide" : false,
 		"growth" : 9,
 		"hitPoints" : 40,
 		"shots" : 24,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "Pavilion/preaAtt.wav",
-			"defend": "Pavilion/preaDef.wav",
-			"killed": "Pavilion/preaDie.wav",
-			"wince": "Pavilion/preaHit.wav",
-			"move": "AMAGMOVE.wav",
-			"shoot": "Pavilion/preaShoot.wav"
+			"defend" : "Pavilion/preaDef.wav",
+			"killed" : "Pavilion/preaDie.wav",
+			"wince" : "Pavilion/preaHit.wav",
+			"move" : "AMAGMOVE.wav",
+			"shoot" : "Pavilion/preaShoot.wav"
 		},
 		"speed" : 4,
-		"abilities" :
-		{
-			"magicResistance" :
-			{
+		"abilities" : {
+			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "any",
 				"val" : 5
 			},
-			"castsAmount" :
-			{
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"enchant" :
-			{
+			"enchant" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 1
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"canCast" :
-			{
+			"canCast" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "airShield",
 				"val" : 1

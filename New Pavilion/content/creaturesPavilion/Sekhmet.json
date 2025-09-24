@@ -1,49 +1,40 @@
 {
-	"sekhmet":
-	{
-		"name" :
-		{
+	"sekhmet" : {
+		"name" : {
 			"plural" : "Priestesses",
 			"singular" : "Priestess"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 20,
 			"min" : 10
 		},
 		"faction" : "pavilion",
 		"aiValue" : 520,
 		"attack" : 10,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 330
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 9,
 			"min" : 7
 		},
 		"defense" : 7,
 		"fightValue" : 480,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creaturedefsPavilion/Sekhmet.def",
 			"map" : "creaturedefsPavilion/SekhmetMap.def",
 			"iconSmall" : "creatureiconsPavilion/SekhmetSmall.bmp",
 			"iconLarge" : "creatureiconsPavilion/Sekhmet.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			},
-            "missile" :
-			{
+			"missile" : {
 				"projectile" : "creaturedefsPavilion/projectile/shot283.def",
 				"attackClimaxFrame" : 7,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -51,54 +42,57 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-			}	
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
 		},
 		"growth" : 4,
 		"hitPoints" : 25,
 		"level" : 4,
-        "upgrades":
-		[
+		"upgrades" : [
 			"sekhmetPriestess"
 		],
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "Pavilion/sekhAtt.wav",
-			"defend": "Pavilion/sekhDef.wav",
-			"killed": "Pavilion/sekhDie.wav",
-			"move": "Pavilion/sekhWalk.wav",
-			"wince": "Pavilion/sekhHit.wav",
-            "shoot" : "Pavilion/sekhShoot.wav"
- 		},
+			"defend" : "Pavilion/sekhDef.wav",
+			"killed" : "Pavilion/sekhDie.wav",
+			"move" : "Pavilion/sekhWalk.wav",
+			"wince" : "Pavilion/sekhHit.wav",
+			"shoot" : "Pavilion/sekhShoot.wav"
+		},
 		"speed" : 5,
-        "shots" : 12,
-		"abilities" :
-		{
-			"canShoot" :
-			{
+		"shots" : 12,
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"healPower" : 
-			{
+			"healPower" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "cure",
 				"val" : 25
 			},
-			"spellPoints" : 
-			{
+			"spellPoints" : {
 				"type" : "CASTS",
 				"val" : 3
 			},
-			"healLife":
-			{
+			"healLife" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "cure",
 				"val" : 2
 			}
 		},
-		"stackExperience" :
-		[
-			
-		]	
+		"stackExperience" : []
 	}
 }

@@ -1,31 +1,26 @@
 {
-	"0_cassandra" :
-	{
+	"0_cassandra" : {
 		"class" : "vizier",
 		"female" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Cassandra",
 			"biography" : "Cassandra’s cold and unyielding character comes to light every time she settles her province’s matters as a high judge. Her incorruptible spirit and harsh punishments yielded her the sympathy of Ammuts, ever fond of feasts that each execution brings.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases the speed of Ammuts or Devouring Ammuts by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Ammuts",
 				"name" : "Ammuts"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "speciconsPavilion/un32Ammu.bmp",
 			"specialtyLarge" : "speciconsPavilion/un44Ammu.bmp",
 			"large" : "heroportraitsPavilion/Cassandra.png",
 			"small" : "heroportraitsPavilion/CassandraSmall.png"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "whipper",
 				"max" : 25,
@@ -43,8 +38,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "resistance"
@@ -54,7 +48,7 @@
 				"skill" : "diplomacy"
 			}
 		],
-		
+
 		"specialty" : {
 			"creature" : "ammut"
 		}

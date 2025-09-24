@@ -1,36 +1,31 @@
 {
-	"1_keila" :
-	{
+	"1_keila" : {
 		"class" : "embalmer",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Keila",
 			"biography" : "Young Keila never sought fame or approval, but when a grand magus invited her to work for him, she couldn’t refuse. Rewriting hundreds of parchments and tomes gave her great deal of arcane knowledge and satisfaction.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Casts Specialist's Slow with increased effect (additional -1 Speed for tier 1-6 creatures).",
 				"tooltip" : "Spell Bonus: Specialist's Slow",
 				"name" : "Specialist's Slow"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "speciconsPavilion/32Slow.bmp",
 			"specialtyLarge" : "speciconsPavilion/44Slow.bmp",
 			"large" : "heroportraitsPavilion/Keila3.png",
 			"small" : "heroportraitsPavilion/Keila3Small.png"
 		},
-		
-		"spellbook" :
-		[
-			"slow", "specialSlowPav" 
+
+		"spellbook" : [
+			"slow",
+			"specialSlowPav"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "whipper",
 				"max" : 25,
@@ -47,8 +42,7 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -58,24 +52,19 @@
 				"skill" : "scholar"
 			}
 		],
-		"specialty":
-		{
+		"specialty" : {
 			"bonuses" : {
-//				"slow" : {
-//					"subtype" : "spell.slow",
-//					"type" : "SPECIAL_SPELL_LEV",
-//					"updater" : "TIMES_HERO_LEVEL",
-//					"val" : 3
-//				}
-			"specialSlow" : 
-			{
-				"subtype" : "specialSlowPav",
-				"type" : "SPELL"
-			} 
-
+				//				"slow" : {
+				//					"subtype" : "spell.slow",
+				//					"type" : "SPECIAL_SPELL_LEV",
+				//					"updater" : "TIMES_HERO_LEVEL",
+				//					"val" : 3
+				//				}
+				"specialSlow" : {
+					"subtype" : "specialSlowPav",
+					"type" : "SPELL"
+				}
 			}
 		}
 	}
 }
-
-

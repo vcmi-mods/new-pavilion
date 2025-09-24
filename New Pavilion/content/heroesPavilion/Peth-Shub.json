@@ -1,37 +1,30 @@
 {
-	"1_peth-Shub" :
-	{
+	"1_peth-Shub" : {
 		"class" : "embalmer",
 		"female" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Peth-Shub",
 			"biography" : "Peth-Shub of enigmatic Falcon clan served the royal court for many years. Thanks to his intuition and keen eye, he eliminated numerous threats to the Pharaoh and became one of the most trusted guardians.",
-			"specialty" :
-			{
-
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Eagle Eye skill percentage.",
 				"tooltip" : "Secondary Skill Bonus: Eagle Eye",
-				"name" : "Eagle Eye"				
+				"name" : "Eagle Eye"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "speciconsPavilion/32Eagle.bmp",
 			"specialtyLarge" : "speciconsPavilion/44Eagle.bmp",
 			"large" : "heroportraitsPavilion/PethShub.png",
 			"small" : "heroportraitsPavilion/PethShubSmall.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"iceBolt"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "whipper",
 				"max" : 25,
@@ -49,8 +42,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -62,6 +54,6 @@
 		],
 		"specialty" : {
 			"secondary" : "eagleEye"
-		}		
+		}
 	}
 }

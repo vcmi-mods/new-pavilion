@@ -5,13 +5,22 @@
 				"templates" : {
 					"dunesLibrary" : {
 						"animation" : "dunes objectFunc/library",
-						"mask" : [ "VVVVV", "VBBBB", "VBBAB" ],
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains": [ "dunes" ]
+						"mask" : [
+							"VVVVV",
+							"VBBBB",
+							"VBBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"dunes"
+						]
 					}
 				}
 			}
 		}
 	}
 }
-

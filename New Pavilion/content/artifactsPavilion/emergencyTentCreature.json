@@ -1,53 +1,60 @@
-{	
-	"emergencyTentPav" :
-	{
+{
+	"emergencyTentPav" : {
 		"special" : true,
-		"advMapAmount" : {"max" : 1, "min" : 1},
+		"advMapAmount" : {
+			"max" : 1,
+			"min" : 1
+		},
 		"aiValue" : 500,
 		"attack" : 0,
-		"cost" : { "gold" : 1500 },
-		"damage" : {"max" : 0, "min" : 0},
+		"cost" : {
+			"gold" : 1500
+		},
+		"damage" : {
+			"max" : 0,
+			"min" : 0
+		},
 		"defense" : 0,
 		"faction" : "neutral",
 		"fightValue" : 500,
 		"growth" : 0,
 		"hitPoints" : 150,
-        "doubleWide" : true,
+		"doubleWide" : true,
 		"level" : 3,
 		"speed" : 0,
-		"name" : { "plural" : "Emergency Tents", "singular" : "Emergency Tent" },
-		"abilities":
-		{		
-				
-		"unlockResurrection" : 
-		{ 
-			"type" : "HEALER" ,
-			"subtype" : "smellingSalts"
+		"name" : {
+			"plural" : "Emergency Tents",
+			"singular" : "Emergency Tent"
 		},
-		"castsAmount" :
-		{
-			"type" : "CASTS",
-			"val" : 99,
-			"valueType" : "INDEPENDENT_MIN"
-		},
-			"warMachine" :
-			{
+		"abilities" : {
+			"unlockResurrection" : {
+				"type" : "HEALER",
+				"subtype" : "smellingSalts"
+			},
+			"castsAmount" : {
+				"type" : "CASTS",
+				"val" : 99,
+				"valueType" : "INDEPENDENT_MIN"
+			},
+			"warMachine" : {
 				"type" : "SIEGE_WEAPON"
-			}		
+			}
 		},
-		"graphics" :
-		{
-			"animation": "artifactsPavilion/EMtent.def",
-			"map": "artifactsPavilion/blanksmol.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.8 },
+		"graphics" : {
+			"animation" : "artifactsPavilion/EMtent.def",
+			"map" : "artifactsPavilion/blanksmol.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 0.8
+			},
 			"iconLarge" : "artifactsPavilion/EMtentLarge",
 			"iconSmall" : "artifactsPavilion/EMtentsmol",
 			"timeBetweenFidgets" : 1
 		},
-		"sound" :
-		{
-			"killed": "FAIDKILL.wav",
-			"wince": "FAIDWNCE.wav"
+		"sound" : {
+			"killed" : "FAIDKILL.wav",
+			"wince" : "FAIDWNCE.wav"
 		}
 	}
 }

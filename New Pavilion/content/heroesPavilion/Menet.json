@@ -1,35 +1,29 @@
 {
-	"1_menet" :
-	{
+	"1_menet" : {
 		"class" : "embalmer",
 		"female" : true,
-		
-		"texts" :
-		{
+
+		"texts" : {
 			"name" : "Menet",
 			"biography" : "Menet is said to be the first to undergo the metamorphosis. She treats other Priestesses like her daughters, helping and supporting them in service of the Goddess, and they repay her in kind.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases the speed of any Priestesses or High Priestesses by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Priestesses",
 				"name" : "Priestesses"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "speciconsPavilion/un32Sekh.bmp",
 			"specialtyLarge" : "speciconsPavilion/un44Sekh.bmp",
 			"large" : "heroportraitsPavilion/Menet.png",
 			"small" : "heroportraitsPavilion/MenetSmall.png"
 		},
-        "spellbook" :
-		[
+		"spellbook" : [
 			"resurrection"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "whipper",
 				"max" : 25,
@@ -47,8 +41,7 @@
 			}
 		],
 
-		"skills" : 
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -58,7 +51,7 @@
 				"skill" : "sorcery"
 			}
 		],
-		
+
 		"specialty" : {
 			"creature" : "sekhmet"
 		}

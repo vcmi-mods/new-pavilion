@@ -1,93 +1,78 @@
 {
-	"anubisWarrior":
-	{
-		"name" :
-		{
+	"anubisWarrior" : {
+		"name" : {
 			"plural" : "Divine Anubians",
 			"singular" : "Divine Anubian"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 8,
 			"min" : 3
 		},
 		"faction" : "pavilion",
 		"attack" : 30,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 4000,
-            "mercury" : 2
+			"mercury" : 2
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 45,
 			"min" : 35
 		},
 		"defense" : 20,
 		"fightValue" : 3850,
-		"aiValue": 7200,
+		"aiValue" : 7200,
 
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creaturedefsPavilion/newAnubis2.def",
 			"map" : "creaturedefsPavilion/newAnubis2adv.def",
 			"iconSmall" : "creatureiconsPavilion/newAnubisWarriorSmall.bmp",
 			"iconLarge" : "creatureiconsPavilion/newAnubisWarrior.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 2.00,
-				"idle" : 12.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 2.0,
+				"idle" : 12.0,
+				"attack" : 1.0
 			}
 		},
-        "growth" : 1,
+		"growth" : 1,
 		"hitPoints" : 250,
 		"level" : 7,
-        
-   
-		"sound" :
-		{
+
+		"sound" : {
 			"attack" : "Pavilion/anubAtt2.wav",
-			"defend": "Pavilion/anubDef.wav",
-			"killed": "Pavilion/anubDie2.wav",
-			"move": "Pavilion/anubLevi.wav",
-			"wince": "Pavilion/anubHit2.wav",
-            "shoot" : "Pavilion/anubShoot.wav"
- 		},
+			"defend" : "Pavilion/anubDef.wav",
+			"killed" : "Pavilion/anubDie2.wav",
+			"move" : "Pavilion/anubLevi.wav",
+			"wince" : "Pavilion/anubHit2.wav",
+			"shoot" : "Pavilion/anubShoot.wav"
+		},
 		"speed" : 14,
-		"abilities" :
-		{
-			"advancedSlayer" : 
-			{ 
+		"abilities" : {
+			"advancedSlayer" : {
 				"type" : "KING",
 				"val" : 2,
 				"valueType" : "ADDITIVE_VALUE"
-			},			
-            "earthImmunity" : 
-			{
+			},
+			"earthImmunity" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
 				"subtype" : "earth"
 			},
-			"levitate" :
-			{
+			"levitate" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
 			},
-			"godScalesAttack" : 
-			{
+			"godScalesAttack" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "godScaleAttack",
 				"val" : 20
 			},
-//			"godScalesDefence" : 
-//			{
-//				"type" : "SPELL_AFTER_ATTACK",
-//				"subtype" : "spell.godScaleDefence",
-//				"val" : 20
-//			},
-			"spellDuration" : 
-			{
+			//			"godScalesDefence" :
+			//			{
+			//				"type" : "SPELL_AFTER_ATTACK",
+			//				"subtype" : "spell.godScaleDefence",
+			//				"val" : 20
+			//			},
+			"spellDuration" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 3
 			}

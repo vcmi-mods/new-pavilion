@@ -1,78 +1,65 @@
 {
-	"anubis":
-	{
-		"name" :
-		{
+	"anubis" : {
+		"name" : {
 			"plural" : "Anubians",
 			"singular" : "Anubian"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 10,
 			"min" : 4
 		},
 		"faction" : "pavilion",
 		"aiValue" : 3850,
 		"attack" : 20,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 2000,
 			"mercury" : 1
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 40,
 			"min" : 35
 		},
 		"defense" : 15,
 		"fightValue" : 3650,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creaturedefsPavilion/newAnubis1.def",
 			"map" : "creaturedefsPavilion/newAnubis1adv.def",
 			"iconSmall" : "creatureiconsPavilion/newAnubisSmall.bmp",
 			"iconLarge" : "creatureiconsPavilion/newAnubis.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 2.00,
-				"idle" : 12.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 2.0,
+				"idle" : 12.0,
+				"attack" : 1.0
 			}
 		},
-        "growth" : 1,
+		"growth" : 1,
 		"hitPoints" : 180,
 		"level" : 7,
-        "upgrades":
-		[
+		"upgrades" : [
 			"anubisWarrior"
 		],
-   
-		"sound" :
-		{
+
+		"sound" : {
 			"attack" : "Pavilion/anubAtt2.wav",
-			"defend": "Pavilion/anubDef.wav",
-			"killed": "Pavilion/anubDie2.wav",
-			"move": "Pavilion/anubLevi.wav",
-			"wince": "Pavilion/anubHit2.wav",
-            "shoot" : "Pavilion/anubShoot.wav"
- 		},
+			"defend" : "Pavilion/anubDef.wav",
+			"killed" : "Pavilion/anubDie2.wav",
+			"move" : "Pavilion/anubLevi.wav",
+			"wince" : "Pavilion/anubHit2.wav",
+			"shoot" : "Pavilion/anubShoot.wav"
+		},
 		"speed" : 9,
-		"abilities" :
-		{
-			"advancedSlayer" : 
-			{ 
+		"abilities" : {
+			"advancedSlayer" : {
 				"type" : "KING",
 				"val" : 2,
 				"valueType" : "ADDITIVE_VALUE"
-			},			
-            "earthImmunity" : 
-			{
+			},
+			"earthImmunity" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
 				"subtype" : "earth"
 			},
-			"levitate" :
-			{
+			"levitate" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
 			}

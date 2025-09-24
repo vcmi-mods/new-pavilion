@@ -4,13 +4,22 @@
 			"idolOfFortune" : {
 				"templates" : {
 					"DunesIdol" : {
-						"animation": "dunes objectFunc/idol",
-						"mask" : [ "VV", "VA" ],
-						"visitableFrom" : [ "---", "+++", "+++" ],
-						"allowedTerrains": [ "dunes" ]
+						"animation" : "dunes objectFunc/idol",
+						"mask" : [
+							"VV",
+							"VA"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"dunes"
+						]
 					}
 				}
-			}	
+			}
 		}
 	}
 }

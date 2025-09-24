@@ -1,21 +1,33 @@
 {
-	"core:creatureBank" : 
-	{
-		"types" : 
-		{
-			"dunesSnakeTemple" : 
-			{
+	"core:creatureBank" : {
+		"types" : {
+			"dunesSnakeTemple" : {
 				"name" : "Snake Temple",
 				"templates" : {
-					"base" : { 
-					"animation" : "dunes objectFunc/snakeTemple", 
-					"visitableFrom" : [ "---", "-++", "+++" ], 
-					"mask" : [ "VVV", "VBB", "VBA" ],
-					"allowedTerrains": [ "sand", "subterra", "rough", "dunes" ] 
+					"base" : {
+						"animation" : "dunes objectFunc/snakeTemple",
+						"visitableFrom" : [
+							"---",
+							"-++",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBA"
+						],
+						"allowedTerrains" : [
+							"sand",
+							"subterra",
+							"rough",
+							"dunes"
+						]
 					}
 				},
-				"sounds": {
-					"ambient": ["objects/snakeTemple"]
+				"sounds" : {
+					"ambient" : [
+						"objects/snakeTemple"
+					]
 				},
 				"blockedVisitable" : false,
 				"onGuardedMessage" : 32,
@@ -24,80 +36,153 @@
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankWide",
 				"rmg" : {
-					"value"		: 3000,
-					"rarity"	: 30,
+					"value" : 3000,
+					"rarity" : 30,
 					"zoneLimit" : 1,
 					"mapLimit" : 20
 				},
-				"rewards": [
+				"rewards" : [
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 0, "max" : 50 },
-						"guards": [
-							{ "amount": 8, "type" : "new-pavilion:wadjet"},
-							{ "amount": 8, "type" : "new-pavilion:wadjet"},
-							{ "amount": 8, "type" : "new-pavilion:wadjet"},
-							{ "amount": 8, "type" : "new-pavilion:wadjet"},
-							{ "amount": 8, "type" : "new-pavilion:wadjet"},
-							{ "amount": 8, "type" : "new-pavilion:wadjet"},
-							{ "amount": 8, "type" : "new-pavilion:wadjet"}
+						"appearChance" : {
+							"min" : 0,
+							"max" : 50
+						},
+						"guards" : [
+							{
+								"amount" : 8,
+								"type" : "new-pavilion:wadjet"
+							},
+							{
+								"amount" : 8,
+								"type" : "new-pavilion:wadjet"
+							},
+							{
+								"amount" : 8,
+								"type" : "new-pavilion:wadjet"
+							},
+							{
+								"amount" : 8,
+								"type" : "new-pavilion:wadjet"
+							},
+							{
+								"amount" : 8,
+								"type" : "new-pavilion:wadjet"
+							},
+							{
+								"amount" : 8,
+								"type" : "new-pavilion:wadjet"
+							},
+							{
+								"amount" : 8,
+								"type" : "new-pavilion:wadjet"
+							}
 						],
-						"resources": 
-						{
+						"resources" : {
 							"gold" : 2500,
 							"crystal" : 4
-						},							
-						"spells" : [ 
-							{ 
-								"level" : 1 
-							} 
+						},
+						"spells" : [
+							{
+								"level" : 1
+							}
 						]
 					},
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 50, "max" : 80 },
-						"guards": [
-							{ "amount": 12, "type" : "new-pavilion:wadjet"},
-							{ "amount": 12, "type" : "new-pavilion:wadjet"},
-							{ "amount": 12, "type" : "new-pavilion:wadjet"},
-							{ "amount": 12, "type" : "new-pavilion:wadjet", "upgradeChance": 50 },
-							{ "amount": 12, "type" : "new-pavilion:wadjet"},
-							{ "amount": 12, "type" : "new-pavilion:wadjet"},
-							{ "amount": 12, "type" : "new-pavilion:wadjet"}
+						"appearChance" : {
+							"min" : 50,
+							"max" : 80
+						},
+						"guards" : [
+							{
+								"amount" : 12,
+								"type" : "new-pavilion:wadjet"
+							},
+							{
+								"amount" : 12,
+								"type" : "new-pavilion:wadjet"
+							},
+							{
+								"amount" : 12,
+								"type" : "new-pavilion:wadjet"
+							},
+							{
+								"amount" : 12,
+								"type" : "new-pavilion:wadjet",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 12,
+								"type" : "new-pavilion:wadjet"
+							},
+							{
+								"amount" : 12,
+								"type" : "new-pavilion:wadjet"
+							},
+							{
+								"amount" : 12,
+								"type" : "new-pavilion:wadjet"
+							}
 						],
-						"resources": 
-						{
+						"resources" : {
 							"gold" : 3500,
 							"crystal" : 6
 						},
-						"spells" : [ 
-							{ 
-								"level" : 1 
-							} 
+						"spells" : [
+							{
+								"level" : 1
+							}
 						]
 					},
-					
+
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 80, "max" : 100 },
-						"guards": [
-							{ "amount": 20, "type" : "new-pavilion:wadjet"},
-							{ "amount": 20, "type" : "new-pavilion:wadjet"},
-							{ "amount": 20, "type" : "new-pavilion:wadjet", "upgradeChance": 50 },
-							{ "amount": 20, "type" : "new-pavilion:wadjet", "upgradeChance": 50 },
-							{ "amount": 20, "type" : "new-pavilion:wadjet", "upgradeChance": 50 },
-							{ "amount": 20, "type" : "new-pavilion:wadjet"},
-							{ "amount": 20, "type" : "new-pavilion:wadjet"}
+						"appearChance" : {
+							"min" : 80,
+							"max" : 100
+						},
+						"guards" : [
+							{
+								"amount" : 20,
+								"type" : "new-pavilion:wadjet"
+							},
+							{
+								"amount" : 20,
+								"type" : "new-pavilion:wadjet"
+							},
+							{
+								"amount" : 20,
+								"type" : "new-pavilion:wadjet",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 20,
+								"type" : "new-pavilion:wadjet",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 20,
+								"type" : "new-pavilion:wadjet",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 20,
+								"type" : "new-pavilion:wadjet"
+							},
+							{
+								"amount" : 20,
+								"type" : "new-pavilion:wadjet"
+							}
 						],
-						"resources": 
-						{
+						"resources" : {
 							"gold" : 5500,
 							"crystal" : 10
 						},
-						"spells" : [ 
-							{ 
+						"spells" : [
+							{
 								"level" : 2
-							} 
+							}
 						]
 					}
 				]

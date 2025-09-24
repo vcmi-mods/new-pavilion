@@ -1,29 +1,20 @@
 {
-	"pavilion" :
-	{
-		"town" :
-		{
-			"buildings" :
-			{
-				"mageGuild1" :
-				{
-					
+	"pavilion" : {
+		"town" : {
+			"buildings" : {
+				"mageGuild1" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 1",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"ore" : 5,
 						"gold" : 2000
 					}
 				},
-				"mageGuild2" :
-				{
-					
+				"mageGuild2" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 2",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 4,
 						"ore" : 5,
@@ -33,12 +24,10 @@
 						"gold" : 1000
 					}
 				},
-				"mageGuild3" :
-				{
+				"mageGuild3" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 3",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 6,
 						"ore" : 5,
@@ -48,12 +37,10 @@
 						"gold" : 1000
 					}
 				},
-                "mageGuild4" :
-				{
+				"mageGuild4" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 4",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 8,
 						"ore" : 5,
@@ -63,129 +50,114 @@
 						"gold" : 1000
 					}
 				},
-				"tavern" :
-				{
+				"tavern" : {
 					"name" : "Tavern",
 					"description" : "The Tavern increases morale for troops defending the city.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 500
 					}
 				},
 
-				"fort" :
-				{
+				"fort" : {
 					"name" : "Fort",
 					"description" : "The Fort provides your town with defensive walls.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 20,
 						"ore" : 20,
 						"gold" : 5000
 					}
 				},
-				"citadel" :
-				{
+				"citadel" : {
 					"name" : "Citadel",
 					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"cost" :
-					{
+					"cost" : {
 						"ore" : 5,
 						"gold" : 2500
 					}
 				},
-				"castle" :
-				{
+				"castle" : {
 					"name" : "Castle",
 					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 10,
 						"ore" : 10,
 						"gold" : 5000
 					}
 				},
-				"villageHall" :
-				{
+				"villageHall" : {
 					"name" : "Village Hall",
 					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
 				},
-				"townHall" :
-				{
+				"townHall" : {
 					"name" : "Town Hall",
 					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 2500
 					}
 				},
-				"cityHall" :
-				{
+				"cityHall" : {
 					"name" : "City Hall",
 					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 5000
 					}
 				},
-				"capitol" :
-				{
+				"capitol" : {
 					"name" : "Capitol",
 					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 10000
 					}
 				},
-				
-				"homes" :
-				{
-					
+
+				"homes" : {
 					"description" : "Homes",
 					"name" : "Homes",
-					"requires" : ["anyOf", [ "cityHall" ], [ "capitol" ]],
+					"requires" : [
+						"anyOf",
+						[
+							"cityHall"
+						],
+						[
+							"capitol"
+						]
+					],
 					"mode" : "auto",
 					"id" : 21
 				},
-				"marketplace" :
-				{
+				"marketplace" : {
 					"name" : "Marketplace",
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 500
 					}
 				},
-				"resourceSilo" :
-				{
+				"resourceSilo" : {
 					"name" : "Resource Silo",
 					"description" : "The Resource Silo provides you with an additional +1 mercury each day.",
-					"cost" :
-					{
+					"cost" : {
 						"ore" : 5,
 						"gold" : 5000
 					},
-					"produce": { "mercury": 1 }
+					"produce" : {
+						"mercury" : 1
+					}
 				},
-				"blacksmith" :
-				{
+				"blacksmith" : {
 					"description" : "The Blacksmith provides your armies with First Aid Tents.",
 					"name" : "Blacksmith",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 1000
 					},
-					"warMachine" :  "firstAidTent"
+					"warMachine" : "firstAidTent"
 				},
-				"workshop" : 
-				{
+				"workshop" : {
 					"description" : "Allows the visiting hero to purchase an Emergency Tent (150 Health; revives healed creatures (revived units don't stay after battle)).",
 					"name" : "The Healers' Guild",
-					"cost" : 
-					{
+					"cost" : {
 						"mercury" : 2,
 						"sulfur" : 2,
 						"crystal" : 2,
@@ -195,37 +167,55 @@
 						"gold" : 2000
 					},
 					"warMachine" : "emergencyTentArt",
-					"requires" : [ "allOf", ["blacksmith"], ["mageGuild1"] ],
-					
+					"requires" : [
+						"allOf",
+						[
+							"blacksmith"
+						],
+						[
+							"mageGuild1"
+						]
+					],
 
 					"id" : 23
 				},
-				"horde1" :
-				{
+				"horde1" : {
 					"description" : "The Swarm increases Wadjets production by 4 per week.",
 					"name" : "Swarm",
-					"cost" : 
-					{
-                        "ore" : 10,
-						"gold" : 2000
-					},
-					"requires" : [ "allOf", ["fort"], ["dwellingLvl2"] ],
-					"upgrades" : "dwellingLvl2"										
-				},
-				"horde1Upgr" :
-				{
-					"description" : "The Swarm increases Wadjets production by 4 per week.",
-					"name" : "Swarm",
-					"cost" : 
-					{
+					"cost" : {
 						"ore" : 10,
 						"gold" : 2000
 					},
-					"requires" : ["allOf", ["horde1"], ["dwellingUpLvl2"] ],
+					"requires" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"dwellingLvl2"
+						]
+					],
+					"upgrades" : "dwellingLvl2"
+				},
+				"horde1Upgr" : {
+					"description" : "The Swarm increases Wadjets production by 4 per week.",
+					"name" : "Swarm",
+					"cost" : {
+						"ore" : 10,
+						"gold" : 2000
+					},
+					"requires" : [
+						"allOf",
+						[
+							"horde1"
+						],
+						[
+							"dwellingUpLvl2"
+						]
+					],
 					"upgrades" : "dwellingUpLvl2"
 				},
-				"special1" : 
-				{
+				"special1" : {
 					"description" : "The Idol gives every visiting hero 1000 experience points.",
 					"name" : "Idol",
 					"configuration" : {
@@ -237,225 +227,305 @@
 							}
 						]
 					},
-					"cost" : 
-					{
+					"cost" : {
 						"gems" : 5,
 						"crystal" : 5,
-						
+
 						"gold" : 1000
 					}
 				},
-				"horde2" : 
-				{
+				"horde2" : {
 					"description" : "The Water Mill increases Camel Riders production by 3 per week.",
-					"name" : "Water Mill", 
-					"cost" : 
-					{
+					"name" : "Water Mill",
+					"cost" : {
 						"wood" : 10,
 						"gold" : 2000
 					},
 
-					"requires" :["allOf", ["dwellingLvl3"], ["marketplace"]]
-				},	
-				"horde2Upgr" : 
-				{
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl3"
+						],
+						[
+							"marketplace"
+						]
+					]
+				},
+				"horde2Upgr" : {
 					"description" : "The Water Mill increases Desert Warriors production by 3 per week.",
-					"name" : "Water Mill", 
-					"cost" : 
-					{},
-					"requires" : ["allOf", ["horde2"], ["dwellingUpLvl3"] ],
+					"name" : "Water Mill",
+					"cost" : {},
+					"requires" : [
+						"allOf",
+						[
+							"horde2"
+						],
+						[
+							"dwellingUpLvl3"
+						]
+					],
 					"upgrades" : "horde2"
 				},
 
-				"special3" : 
-				{
+				"special3" : {
 					"description" : "The Treasury earns your kingdom 500 gold per day.",
 					"name" : "Treasury",
-					"cost" : 
-					{
+					"cost" : {
 						"ore" : 5,
 						"gold" : 2000
 					},
-                    "requires" : [ "resourceSilo" ],
-                    "produce": { "gold": 500 }
-				},	
+					"requires" : [
+						"resourceSilo"
+					],
+					"produce" : {
+						"gold" : 500
+					}
+				},
 
-				"grail" :
-				{
+				"grail" : {
 					"description" : "The presence of the Simoom increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day, and increases speed of defending units by 40% during the siege.",
 					"name" : "Simoom",
-					"bonuses" : [ { "type" : "STACKS_SPEED", "val": 40, "valueType" : "PERCENT_TO_ALL", "propagator" : "TOWN_AND_VISITOR" } ]
+					"bonuses" : [
+						{
+							"type" : "STACKS_SPEED",
+							"val" : 40,
+							"valueType" : "PERCENT_TO_ALL",
+							"propagator" : "TOWN_AND_VISITOR"
+						}
+					]
 				},
-				"dwellingLvl1" :
-				{
+				"dwellingLvl1" : {
 					"description" : "The Settlement allows you to recruit Whippers.",
 					"name" : "Settlement",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 400,
 						"wood" : 5,
 						"ore" : 5
 					},
-					"requires" : [ "fort" ]
+					"requires" : [
+						"fort"
+					]
 				},
-				"dwellingLvl2" :
-				{
+				"dwellingLvl2" : {
 					"description" : "The Wadjet Nests allow you to recruit Wadjets.",
 					"name" : "Wadjet Nests",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 1000,
 						"ore" : 5
 					},
-					"requires" :["allOf", ["dwellingLvl1"], ["fort"] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl1"
+						],
+						[
+							"fort"
+						]
+					]
 				},
-				"dwellingLvl3" :
-				{
+				"dwellingLvl3" : {
 					"description" : "The Desert Tent allows you to recruit Camel Riders.",
 					"name" : "Desert Tent",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 1500,
 						"wood" : 5
 					},
-					"requires" :["allOf", ["dwellingLvl1"], ["fort"] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl1"
+						],
+						[
+							"fort"
+						]
+					]
 				},
-				"dwellingLvl4" :
-				{
+				"dwellingLvl4" : {
 					"description" : "The Altar of Goddess allows you to recruit Priestesses.",
 					"name" : "Altar of Goddess",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 2500,
 						"crystal" : 10
 					},
-					"requires" : [ "allOf", ["dwellingLvl2"], ["fort"] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl2"
+						],
+						[
+							"fort"
+						]
+					]
 				},
-				"dwellingLvl5" :
-				{
+				"dwellingLvl5" : {
 					"description" : "The Cave of Fear allows you to recruit Ammuts.",
 					"name" : "Cave of Fear",
-					
-					"cost" : 
-					{
+
+					"cost" : {
 						"gold" : 3000,
 						"ore" : 10,
 						"mercury" : 10
 					},
-					"requires" : [ "allOf", ["dwellingLvl3"], ["fort"] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl3"
+						],
+						[
+							"fort"
+						]
+					]
 				},
-				"dwellingLvl6" :
-				{
+				"dwellingLvl6" : {
 					"description" : "The Sphinx Barracks allow you to recruit Sphinxes.",
 					"name" : "Sphinx Barracks",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 4000,
 						"ore" : 10,
 						"sulfur" : 4
 					},
-					"requires" : [ "allOf", ["mageGuild1"], ["dwellingLvl4"] ]
+					"requires" : [
+						"allOf",
+						[
+							"mageGuild1"
+						],
+						[
+							"dwellingLvl4"
+						]
+					]
 				},
-				"dwellingLvl7" :
-				{
+				"dwellingLvl7" : {
 					"description" : "The Ancient Tomb allows you to recruit Anubians.",
 					"name" : "Ancient Tomb",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 10000,
-						"ore"  : 10,
+						"ore" : 10,
 						"mercury" : 15
 					},
-					"requires" : [ "allOf", ["dwellingLvl5"], ["dwellingLvl6"] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl5"
+						],
+						[
+							"dwellingLvl6"
+						]
+					]
 				},
 
-				"dwellingUpLvl1" :
-				{
+				"dwellingUpLvl1" : {
 					"description" : "The Upg. Settlement allows you to recruit Overseers.",
 					"name" : "Upg. Settlement",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 1000,
 						"ore" : 10
 					},
-					"requires" :   [ "allOf", ["fort"] ],
+					"requires" : [
+						"allOf",
+						[
+							"fort"
+						]
+					],
 					"upgrades" : "dwellingLvl1"
 				},
-				"dwellingUpLvl2" :
-				{
+				"dwellingUpLvl2" : {
 					"description" : "The Upg. Wadjet Nests allow you to recruit Venomous Wadjets.",
 					"name" : "Upg. Wadjet Nests",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 1500,
 						"ore" : 5
 					},
-					"requires" :   [ "allOf", ["fort"]],
+					"requires" : [
+						"allOf",
+						[
+							"fort"
+						]
+					],
 					"upgrades" : "dwellingLvl2"
 				},
-				"dwellingUpLvl3" :
-				{
+				"dwellingUpLvl3" : {
 					"description" : "The Upg. Desert Tent allows you to recruit Desert Warriors.",
 					"name" : "Upg. Desert Tent",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 1500,
 						"wood" : 10,
 						"gems" : 2
 					},
-					"requires" :   [ "allOf", ["fort"] ],		
+					"requires" : [
+						"allOf",
+						[
+							"fort"
+						]
+					],
 					"upgrades" : "dwellingLvl3"
 				},
-				"dwellingUpLvl4" :
-				{
+				"dwellingUpLvl4" : {
 					"description" : "The Upg. Altar of Goddess allows you to recruit High Priestesses.",
 					"name" : "Upg. Altar of Goddess",
-					"cost" : 
-					{
+					"cost" : {
 						"gold" : 2500,
 						"crystal" : 5
 					},
-					"requires" :  [ "allOf", ["blacksmith"], ["fort"] ],
+					"requires" : [
+						"allOf",
+						[
+							"blacksmith"
+						],
+						[
+							"fort"
+						]
+					],
 					"upgrades" : "dwellingLvl4"
 				},
-				"dwellingUpLvl5" :
-				{
-					
+				"dwellingUpLvl5" : {
 					"description" : "The Upg. Cave of Fear allows you to recruit Devouring Ammuts.",
 					"name" : "Upg. Cave of Fear",
-					"cost" : 
-					{
-
+					"cost" : {
 						"gold" : 3000,
 						"ore" : 5,
 						"mercury" : 5
 					},
-					"requires" : [ "allOf", ["fort"]],
+					"requires" : [
+						"allOf",
+						[
+							"fort"
+						]
+					],
 					"upgrades" : "dwellingLvl5"
 				},
-				"dwellingUpLvl6" :
-				{
+				"dwellingUpLvl6" : {
 					"description" : "The Upg. Sphinx Barracks allow you to recruit Sphinx Oracles.",
 					"name" : "Upg. Sphinx Barracks",
-					"cost" : 
-					{	
+					"cost" : {
 						"gold" : 3000,
 						"ore" : 15
 					},
-                    "requires" :  [ "allOf", ["mageGuild2"], ["fort"] ],
+					"requires" : [
+						"allOf",
+						[
+							"mageGuild2"
+						],
+						[
+							"fort"
+						]
+					],
 					"upgrades" : "dwellingLvl6"
 				},
-				"dwellingUpLvl7" :
-				{
+				"dwellingUpLvl7" : {
 					"description" : "The Upg. Ancient Tomb allows you to recruit Divine Anubians.",
 					"name" : "Upg. Ancient Tomb",
-					"cost" : 
-					{
+					"cost" : {
 						"ore" : 10,
 						"gold" : 10000,
 						"mercury" : 20
 					},
-					"requires" :  [ "allOf", ["fort"] ],
+					"requires" : [
+						"allOf",
+						[
+							"fort"
+						]
+					],
 					"upgrades" : "dwellingLvl7"
 				}
 			}

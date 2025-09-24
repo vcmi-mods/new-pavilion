@@ -1,35 +1,29 @@
 {
-	"1_seref" :
-	{
+	"1_seref" : {
 		"class" : "embalmer",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Seref",
 			"biography" : "Seref’s fierce, yet protective nature has been widely known ever since she became an initiate. It surprised no one that she was chosen as one of the Goddess’ aspects – a shield that protects Her faithful.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "All units in Seref's army are enchanted with Advanced Fire Shield.",
 				"tooltip" : "Passive Bonus: Fire Shield",
 				"name" : "Fire Shield"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "speciconsPavilion/32Shield.bmp",
 			"specialtyLarge" : "speciconsPavilion/44Shield.bmp",
 			"large" : "heroportraitsPavilion/Seref.png",
 			"small" : "heroportraitsPavilion/SerefSmall.png"
 		},
-        "spellbook" :
-		[
+		"spellbook" : [
 			"fireShield"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "whipper",
 				"max" : 25,
@@ -46,10 +40,9 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
-				"level" : "basic" ,
+				"level" : "basic",
 				"skill" : "wisdom"
 			},
 			{
@@ -57,17 +50,14 @@
 				"skill" : "fireMagic"
 			}
 		],
-        "specialty": 
-		{
-			"bonuses": {
-				"fireShield": {
-					"type": "OPENING_BATTLE_SPELL",
-					"subtype": "fireShield",
+		"specialty" : {
+			"bonuses" : {
+				"fireShield" : {
+					"type" : "OPENING_BATTLE_SPELL",
+					"subtype" : "fireShield",
 					"val" : 2
-			    }
+				}
 			}
 		}
 	}
 }
-
-

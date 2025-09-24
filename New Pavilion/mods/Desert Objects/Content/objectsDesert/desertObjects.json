@@ -3,35 +3,51 @@
 		"types" : {
 			"idolOfFortune" : {
 				"templates" : {
-					"golden cat" : { 
-						"visitableFrom" : [ "+++", "+++", "+++" ],	
-						"animation" : "desertdefs/idolOfFortune", 
-						"mask" : [ "VV", "VA" ],
-						"allowedTerrains": [ "sand" ]
+					"golden cat" : {
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"animation" : "desertdefs/idolOfFortune",
+						"mask" : [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
 					}
 				}
-			}	
+			}
 		}
 	},
-	"core:treeOfKnowledge"	: {
+	"core:treeOfKnowledge" : {
 		"types" : {
 			"desertTreeOfKnowledge" : {
 				"name" : "Savant Sphinx",
 				"aiValue" : 2500,
 				"rmg" : {
-					"mapLimit"	: 100,
-					"value"		: 2500,
-					"rarity"	: 50
+					"mapLimit" : 100,
+					"value" : 2500,
+					"rarity" : 50
 				},
-				"compatibilityIdentifiers" : [ "object" ],
+				"compatibilityIdentifiers" : [
+					"object"
+				],
 				"onEmpty" : [
 					{
 						"message" : "{Savant Sphinx}\r\n\r\nTears brim in the eyes of the Sphinx. \"I need 2000 gold.\" it whispers. (sniff) \"Well, come back when you can pay me.\"",
-						"appearChance" : { "min" : 34, "max" : 67 }
+						"appearChance" : {
+							"min" : 34,
+							"max" : 67
+						}
 					},
 					{
 						"message" : "{Savant Sphinx}\r\n\r\nTears brim in the eyes of the Sphinx. \"I need 10 gems.\" it whispers. (sniff) \"Well, come back when you can pay me.\"",
-						"appearChance" : { "min" : 67 }
+						"appearChance" : {
+							"min" : 67
+						}
 					}
 				],
 				"onVisitedMessage" : "{Savant Sphinx}\r\n\r\nUppon your approach, the Sphinx opens its eyes in delight. \"It is good to see you, my student. I hope my teachings have helped you.\"",
@@ -45,32 +61,61 @@
 					{
 						"description" : "@core.arraytxt.202",
 						"message" : "{Savant Sphinx}\r\n\r\nUppon your approach, the Sphinx opens its eyes in delight. \"Ahh, an adventurer! Allow me to teach you a little of what I have learned over the ages.\"",
-						"appearChance" : { "max" : 34 },
+						"appearChance" : {
+							"max" : 34
+						},
 						"heroLevel" : 1
 					},
 					{
 						"description" : "@core.arraytxt.203",
 						"message" : "{Savant Sphinx}\r\n\r\nUppon your approach, the Sphinx opens its eyes in delight. \"Ahh, an adventurer! Allow me to teach you a little of what I have learned over the ages for a mere 2000 gold.\" (Just bury it around my roots.)",
-						"appearChance" : { "min" : 34, "max" : 67 },
-						"limiter" : { "resources" : { "gold" : 2000 } },
-						"resources" : { "gold" : -2000 },
+						"appearChance" : {
+							"min" : 34,
+							"max" : 67
+						},
+						"limiter" : {
+							"resources" : {
+								"gold" : 2000
+							}
+						},
+						"resources" : {
+							"gold" : -2000
+						},
 						"heroLevel" : 1
 					},
 					{
 						"description" : "@core.arraytxt.204",
 						"message" : "{Savant Sphinx}\r\n\r\nUppon your approach, the Sphinx opens its eyes in delight. \"Ahh, an adventurer! Allow me to teach you a little of what I have learned over the ages for a mere 10 gems.\" (Just bury it around my roots.)",
-						"appearChance" : { "min" : 67 },
-						"limiter" : { "resources" : { "gems" : 10 } },
-						"resources" : { "gems" : -10 },
+						"appearChance" : {
+							"min" : 67
+						},
+						"limiter" : {
+							"resources" : {
+								"gems" : 10
+							}
+						},
+						"resources" : {
+							"gems" : -10
+						},
 						"heroLevel" : 1
-					},
+					}
 				],
 				"templates" : {
-					"sphinx" : { 
-						"visitableFrom" : [ "+++", "+++", "+++" ],	
-						"animation" : "desertdefs/treeOfKnowledge", 
-						"mask" : [ "VVV","VBB","VVA" ],
-						"allowedTerrains": [ "sand" ]
+					"sphinx" : {
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"animation" : "desertdefs/treeOfKnowledge",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VVA"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
 					}
 				}
 			}
@@ -80,108 +125,192 @@
 		"types" : {
 			"object" : {
 				"templates" : {
-		
-					"pavDesertCave" : { 
-						"animation" : "desertdefs/subterraGate1",  
-						"mask" : [ "VVVVV","VBBBV","VBBBV", "VBABV" ], 
-						"visitableFrom" : [ "---", "+++", "+++" ],
-                       "allowedTerrains": [ "subterra", "sand" ]
+					"pavDesertCave" : {
+						"animation" : "desertdefs/subterraGate1",
+						"mask" : [
+							"VVVVV",
+							"VBBBV",
+							"VBBBV",
+							"VBABV"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"subterra",
+							"sand"
+						]
 					},
-					"subterraTunnelUp" : { 
-						"animation" : "desertdefs/subterraGate2", 
-						"mask" : [ "VBBV","VBBV","VAVV" ], 
-						"visitableFrom" : [ "---", "-+-", "-+-" ],
-                       "allowedTerrains": [ "subterra", "sand" ]
+					"subterraTunnelUp" : {
+						"animation" : "desertdefs/subterraGate2",
+						"mask" : [
+							"VBBV",
+							"VBBV",
+							"VAVV"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"-+-"
+						],
+						"allowedTerrains" : [
+							"subterra",
+							"sand"
+						]
 					},
-					"subterraTunnelDown" : { 
-						"animation" : "desertdefs/subterraGate3", 
-						"mask" : [ "VBBV","VBBV","VAVV" ], 
-						"visitableFrom" : [ "---", "-+-", "-+-" ], 
-						"allowedTerrains": [ "subterra", "sand" ]
-					}				
+					"subterraTunnelDown" : {
+						"animation" : "desertdefs/subterraGate3",
+						"mask" : [
+							"VBBV",
+							"VBBV",
+							"VAVV"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"-+-"
+						],
+						"allowedTerrains" : [
+							"subterra",
+							"sand"
+						]
+					}
 				}
 			}
 		}
 	},
-		"core:monolithOneWayEntrance" : {		
-			"types" : {
-				"desertMonsterMaw" : {
-					"name" : "Sand Maw",
-					"sounds": {
-						"visit" : ["objectsPavilion/desertFallingScream"]
-					},
-					"templates" : {		
-						"monsterMaw" : { 
-							"visitableFrom" : [ "+++", "+++", "+++" ],	
-							"animation" : "desertdefs/maw1", 
-							"mask" : [ "VVVV", "VAAV" ], 
-							"allowedTerrains":[ "sand" ],
-							"zIndex": 100						
-						}
-					}
-				}
-			}			
-		},
-		"core:monolithOneWayExit" : {		
-			"types" : {
-				"desertMonsterMaw" : {
-					"name" : "Underground Hole",
-					"templates" : {		
-						"monsterMaw" : { 
-							"visitableFrom" : [ "---", "+++", "+++" ],	
-							"animation" : "desertdefs/maw2", 
-							"mask" : [ "BBB", "BAB" ], 
-							"allowedTerrains":[ "subterra" ] 
-						}
-					}
-				}
-			}			
-		},
-		"core:fountainOfYouth"	: {
-			"types" : {
-				"fountainOfYouth" : {
-					"compatibilityIdentifiers" : [ "object" ],
-					"templates" : {
-						"youthStatue" : { 
-							"visitableFrom" : [ "---", "+++", "+++" ],
-							"animation" : "desertdefs/fountainOfYouth",
-							"mask" : [ "VVVV","VVBB","VBAV" ],
-							"allowedTerrains": [ "sand", "rough" ]
-						}
+	"core:monolithOneWayEntrance" : {
+		"types" : {
+			"desertMonsterMaw" : {
+				"name" : "Sand Maw",
+				"sounds" : {
+					"visit" : [
+						"objectsPavilion/desertFallingScream"
+					]
+				},
+				"templates" : {
+					"monsterMaw" : {
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"animation" : "desertdefs/maw1",
+						"mask" : [
+							"VVVV",
+							"VAAV"
+						],
+						"allowedTerrains" : [
+							"sand"
+						],
+						"zIndex" : 100
 					}
 				}
 			}
-		},
-		
-		"core:corpse" :{	
-			"types" : {	
-				"corpse" : {
-					"compatibilityIdentifiers" : [ "object" ],
-					"templates" : {
-						"corpse1" : { 
-							"visitableFrom" : [ "+++", "+++", "+++" ],
-							"animation" : "desertdefs/corpse1", 
-							"mask" : [ "BA"], 
-							"allowedTerrains": [ "sand" ]
-						},						
-						"corpse2" : { 
-							"visitableFrom" : [ "+++", "+++", "+++" ],
-							"animation" : "desertdefs/corpse2", 
-							"mask" : [ "VA" ], 
-							"allowedTerrains": [ "sand" ]
-						}					
+		}
+	},
+	"core:monolithOneWayExit" : {
+		"types" : {
+			"desertMonsterMaw" : {
+				"name" : "Underground Hole",
+				"templates" : {
+					"monsterMaw" : {
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"animation" : "desertdefs/maw2",
+						"mask" : [
+							"BBB",
+							"BAB"
+						],
+						"allowedTerrains" : [
+							"subterra"
+						]
 					}
-				}			
-			}	
-		},			
-		"core:campfire" :{	
-			"types" : {	
-				"desertCampfire" : {
+				}
+			}
+		}
+	},
+	"core:fountainOfYouth" : {
+		"types" : {
+			"fountainOfYouth" : {
+				"compatibilityIdentifiers" : [
+					"object"
+				],
+				"templates" : {
+					"youthStatue" : {
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"animation" : "desertdefs/fountainOfYouth",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBAV"
+						],
+						"allowedTerrains" : [
+							"sand",
+							"rough"
+						]
+					}
+				}
+			}
+		}
+	},
+
+	"core:corpse" : {
+		"types" : {
+			"corpse" : {
+				"compatibilityIdentifiers" : [
+					"object"
+				],
+				"templates" : {
+					"corpse1" : {
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"animation" : "desertdefs/corpse1",
+						"mask" : [
+							"BA"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"corpse2" : {
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"animation" : "desertdefs/corpse2",
+						"mask" : [
+							"VA"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					}
+				}
+			}
+		}
+	},
+	"core:campfire" : {
+		"types" : {
+			"desertCampfire" : {
 				"name" : "Burnt Campfire",
 				"aiValue" : 2000,
 				"rmg" : {
-					"value"		: 2000,
-					"rarity"	: 500
+					"value" : 2000,
+					"rarity" : 500
 				},
 				"visitMode" : "unlimited",
 				"selectMode" : "selectFirst",
@@ -191,56 +320,95 @@
 						"removeObject" : true,
 						"resources" : [
 							{
-								"anyOf" : [ "wood", "ore", "mercury", "gems", "sulfur", "crystal" ],
+								"anyOf" : [
+									"wood",
+									"ore",
+									"mercury",
+									"gems",
+									"sulfur",
+									"crystal"
+								],
 								"min" : 4,
 								"max" : 6
 							},
 							{
 								"type" : "gold",
-								"amount" : [ 400, 500, 600 ]
+								"amount" : [
+									400,
+									500,
+									600
+								]
 							}
 						]
 					}
 				],
 				"templates" : {
-					"burntCampfire" : { 						
-						"visitableFrom" : [ "+++", "+++", "+++" ],	
-						"animation" : "desertdefs/campfire", 
-						"mask" : [ "VA"], 
-						"allowedTerrains": [ "sand" ]
-						}			
-					}
-				}			
-			}	
-		},	
-		"core:temple" : {
-			"types" : {
-				"temple" : {
-					"compatibilityIdentifiers" : [ "object" ],
-					"templates" : {
-						"desertTemple" : { 
-							"visitableFrom" : [ "---", "+++", "+++" ],
-							"animation" : "desertdefs/temple", 
-							"mask" : [ "VBV", "VBA" ], 
-							"allowedTerrains": [ "sand" ]
-						}			
-					}
-				}
-			}
-		},				
-		"core:sign" : {
-			"types" : {
-				"stonetablet" : {
-				"name" : "Stone Tablet",
-					"templates" : {
-						"yellowTablet" : { 
-							"visitableFrom" : [ "---", "+++", "+++" ],
-							"animation" : "desertdefs/stoneTablet", 
-							"mask" : [ "VV", "VA" ], 
-							"allowedTerrains": [ "sand" ]
-						}			
+					"burntCampfire" : {
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"animation" : "desertdefs/campfire",
+						"mask" : [
+							"VA"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
 					}
 				}
 			}
 		}
+	},
+	"core:temple" : {
+		"types" : {
+			"temple" : {
+				"compatibilityIdentifiers" : [
+					"object"
+				],
+				"templates" : {
+					"desertTemple" : {
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"animation" : "desertdefs/temple",
+						"mask" : [
+							"VBV",
+							"VBA"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					}
+				}
+			}
+		}
+	},
+	"core:sign" : {
+		"types" : {
+			"stonetablet" : {
+				"name" : "Stone Tablet",
+				"templates" : {
+					"yellowTablet" : {
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"animation" : "desertdefs/stoneTablet",
+						"mask" : [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					}
+				}
+			}
+		}
+	}
 }

@@ -4,67 +4,61 @@
 	"author" : "edeksumo, lillith",
 	"contact" : "edeksumo@gmail.com",
 	"version" : "1.0.2",
-	"changelog" :
-	{
-		"1.0.2"   : [ "Expanded Desert Warrior ability on dunes" ],
-		"1.0.1"   : [ "Update Snake Temple creature bank to vcmi-1.6 format" ],
-		"1.0.0"   : [ "Initial release" ]
+	"changelog" : {
+		"1.0.2" : [
+			"Expanded Desert Warrior ability on dunes"
+		],
+		"1.0.1" : [
+			"Update Snake Temple creature bank to vcmi-1.6 format"
+		],
+		"1.0.0" : [
+			"Initial release"
+		]
 	},
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.7.0"
 	},
-	"modType" : "Objects",	
-	"conflicts" :
-	[
-
-	],
-	"rivers":
-	[
+	"modType" : "Objects",
+	"conflicts" : [],
+	"rivers" : [
 		"config/dunes terrain/river.json"
 	],
-		
-    "objects" :
-    [ 
-	"config/dunes objects/dunesDunes.json",
-	"config/dunes objects/dunesMountains.json",
-	"config/dunes objects/dunesRocks.json",
-	"config/dunes objects/dunesHoles.json",
-	"config/dunes objects/dunesOh.json",
-	"config/dunes objects/dunesObelisk.json",
-	"config/dunes objects/dunesOther.json",
-	"config/dunes objects/dunesOasis.json",
-	"config/dunes objects/dunesLibraryOfEnlightenment.json",
-	"config/dunes objects/dunesTreeOfKnowledge.json",
-	"config/dunes objects/dunesObservatory.json",
-	"config/dunes objects/dunesUtopia.json",
-	"config/dunes objects/dunesIdolOfFortune.json",
-	"config/dunes objects/dunesLearningStone.json",
-	"config/dunes objects/dunesStarAxis.json",
-	"config/dunes objects/dunesBigMine.json",
-	"config/dunes objects/dunesSnakeTemple.json",
-	"config/dunes objects/dunesDeltas.json",
-	"config/dunes objects/dunesFromWog.json",
-	"config/dunes objects/dunesMines.json"
-    ],
-	"biomes" :
-	[
+
+	"objects" : [
+		"config/dunes objects/dunesDunes.json",
+		"config/dunes objects/dunesMountains.json",
+		"config/dunes objects/dunesRocks.json",
+		"config/dunes objects/dunesHoles.json",
+		"config/dunes objects/dunesOh.json",
+		"config/dunes objects/dunesObelisk.json",
+		"config/dunes objects/dunesOther.json",
+		"config/dunes objects/dunesOasis.json",
+		"config/dunes objects/dunesLibraryOfEnlightenment.json",
+		"config/dunes objects/dunesTreeOfKnowledge.json",
+		"config/dunes objects/dunesObservatory.json",
+		"config/dunes objects/dunesUtopia.json",
+		"config/dunes objects/dunesIdolOfFortune.json",
+		"config/dunes objects/dunesLearningStone.json",
+		"config/dunes objects/dunesStarAxis.json",
+		"config/dunes objects/dunesBigMine.json",
+		"config/dunes objects/dunesSnakeTemple.json",
+		"config/dunes objects/dunesDeltas.json",
+		"config/dunes objects/dunesFromWog.json",
+		"config/dunes objects/dunesMines.json"
+	],
+	"biomes" : [
 		"config/dunes objects/dunesBiomes"
 	],
-	"factions" :
-	[
+	"factions" : [
 		"config/dunes pavilion/pavilionTerrain"
 	],
-	"battlefields" :
-	[
+	"battlefields" : [
 		"config/dunes terrain/battlefields.json"
 	],
-	"obstacles" :
-	[
+	"obstacles" : [
 		"config/dunes terrain/obstacles.json"
 	],
-	"terrains" :
-	[
+	"terrains" : [
 		"config/dunes terrain/terrains.json"
 	],
 	"czech" : {

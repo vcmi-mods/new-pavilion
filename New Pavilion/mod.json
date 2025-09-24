@@ -1,165 +1,240 @@
 {
 	"name" : "Pavilion Town",
 	"description" : "Modified and balanced version of the 'Bastion Town' ported to VCMI by edeksumo with help of Acid Cave modding community, originally conceptualised and created by New Town Group.",
-	
+
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community, VCMI community",
 	"contact" : "madaosoul@gmail.com",
 	"version" : "2.9.88",
-	"modType" : "Town",	
-	"compatibility":
-	{
-		"min" : "1.7.0" 
-	},	
-	"changelog" :
-	{
-		"2.9.88"   : [ "Added flagport frames (Kingdom Overwiev window)", "Add formatter" ],
-		"2.9.87"   : [ "New icon for Scarab's Luck ability" ],
-		"2.9.86"   : [ "Added some new ability custom icons" ],
-		"2.9.85"   : [ "Yet another update for recent vcmi-1.7 format changes" ],
-		"2.9.84"   : [ "Another update for recent vcmi-1.7 format changes" ],
-		"2.9.83"   : [ "Update to vcmi-1.7 format" ],
-		"2.9.82"   : [ "Fixed unused death animations and glitching town theme" ],
-		"2.9.80"   : [ "Small fixes is desert objects messages" ],
-		"2.9.79"   : [ "Adjusted aivalues from the pvp mod; corrected scarab description in all languages" ],
-		"2.9.78"   : [ "kdmcser fixes for dessert objects" ],		
-		"2.9.77"   : [ "Hero ids and specialty standarisation, added Emergency Tent" ],
-		"2.9.76"   : [ "Updated Polish translation" ],
-		"2.9.74"   : [ "Update Snake Temple and Ziggurat creature banks to vcmi-1.6 format" ],
-		"2.9.73"   : [ "Added basic wikipedia", "Fix for commander spell resistance ability", "Removed campaing due to numerous bugs" ],
-		"2.9.72"   : [ "Added campaign Wars of the Dessert made by Fabrice-TIERCELIN" ],
-		"2.9.71"   : [ "Fix Grail not to produce gold" ],
-		"2.9.70"   : [ "Update to vcmi-1.6 format" ],
-		"2.9.63"   : [ "Czech translation by George King" ],
-		"2.9.62"   : [ "Updated Portuguese translation" ],
-		"2.9.61"   : [ "Updated chinese translation by kdmcser" ],
-		"2.9.60"   : [ "Updated russian translation" ],
-		"2.9.59"   : [ "Russian translation by Anton Sergeew" ],
-		"2.9.58"   : [ "Fixed Polish translation of Anubis ability" ],
-		"2.9.57"   : [ "Portuguese translation added" ],
-		"2.9.56"   : [ "Minor hero specialty fixes, add pavilion special aid tent support to original H3 tent specialists" ],
-		"2.9.55"   : [ "Update chinese translation" ],
-		"2.9.54"   : [ "Add biomes configuration for Dunes" ],
-		"2.9.53"   : [ "Ziggurat should only be accessible from bottom." ],
-		"2.9.52"   : [ "Now only lvl1-lv3 creatures have double week spawning." ],
-		"2.9.51"   : [ "Updated french translation" ],
-		"2.9.5"   : [ "Fixed the commander and the translations' bugs" ],
-		"2.9.4"   : [ "New graphics for Sphinxes and Village Hall (map object)" ],
-		"2.9.3"   : [ "Fixed Redwood Observatory" ],
-		"2.9.2"   : [ "Update do vcmi-1.4 format" ],
-		"2.9.1"   : [ "Update chinese translation" ],
-		"2.9.0"   : [ "New sand terrain added", "Polish translation added" ],
-		"2.8.3"   : [ "Fixed Scroll of Wisdom" ],
-		"2.8.2"   : [ "French translation added", "Fixed boat issues" ],
-		"2.8.1"   : [ "Converting to vcmi-1.3 version", "New boat added" ],
-		"2.8.0"   : [ "Minor fixes, working special buildings, new graphics for heroes and Camel Riders." ],
-		"2.7.2"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
-		"2.7.1"   : [ "Update to vcmi-1.2" ]
+	"modType" : "Town",
+	"compatibility" : {
+		"min" : "1.7.0"
 	},
-	"conflicts" :
-	[
-	
-	],
-	
-	"factions" :
-	[
+	"changelog" : {
+		"2.9.88" : [
+			"Added flagport frames (Kingdom Overwiev window)",
+			"Add formatter"
+		],
+		"2.9.87" : [
+			"New icon for Scarab's Luck ability"
+		],
+		"2.9.86" : [
+			"Added some new ability custom icons"
+		],
+		"2.9.85" : [
+			"Yet another update for recent vcmi-1.7 format changes"
+		],
+		"2.9.84" : [
+			"Another update for recent vcmi-1.7 format changes"
+		],
+		"2.9.83" : [
+			"Update to vcmi-1.7 format"
+		],
+		"2.9.82" : [
+			"Fixed unused death animations and glitching town theme"
+		],
+		"2.9.80" : [
+			"Small fixes is desert objects messages"
+		],
+		"2.9.79" : [
+			"Adjusted aivalues from the pvp mod; corrected scarab description in all languages"
+		],
+		"2.9.78" : [
+			"kdmcser fixes for dessert objects"
+		],
+		"2.9.77" : [
+			"Hero ids and specialty standarisation, added Emergency Tent"
+		],
+		"2.9.76" : [
+			"Updated Polish translation"
+		],
+		"2.9.74" : [
+			"Update Snake Temple and Ziggurat creature banks to vcmi-1.6 format"
+		],
+		"2.9.73" : [
+			"Added basic wikipedia",
+			"Fix for commander spell resistance ability",
+			"Removed campaing due to numerous bugs"
+		],
+		"2.9.72" : [
+			"Added campaign Wars of the Dessert made by Fabrice-TIERCELIN"
+		],
+		"2.9.71" : [
+			"Fix Grail not to produce gold"
+		],
+		"2.9.70" : [
+			"Update to vcmi-1.6 format"
+		],
+		"2.9.63" : [
+			"Czech translation by George King"
+		],
+		"2.9.62" : [
+			"Updated Portuguese translation"
+		],
+		"2.9.61" : [
+			"Updated chinese translation by kdmcser"
+		],
+		"2.9.60" : [
+			"Updated russian translation"
+		],
+		"2.9.59" : [
+			"Russian translation by Anton Sergeew"
+		],
+		"2.9.58" : [
+			"Fixed Polish translation of Anubis ability"
+		],
+		"2.9.57" : [
+			"Portuguese translation added"
+		],
+		"2.9.56" : [
+			"Minor hero specialty fixes, add pavilion special aid tent support to original H3 tent specialists"
+		],
+		"2.9.55" : [
+			"Update chinese translation"
+		],
+		"2.9.54" : [
+			"Add biomes configuration for Dunes"
+		],
+		"2.9.53" : [
+			"Ziggurat should only be accessible from bottom."
+		],
+		"2.9.52" : [
+			"Now only lvl1-lv3 creatures have double week spawning."
+		],
+		"2.9.51" : [
+			"Updated french translation"
+		],
+		"2.9.5" : [
+			"Fixed the commander and the translations' bugs"
+		],
+		"2.9.4" : [
+			"New graphics for Sphinxes and Village Hall (map object)"
+		],
+		"2.9.3" : [
+			"Fixed Redwood Observatory"
+		],
+		"2.9.2" : [
+			"Update do vcmi-1.4 format"
+		],
+		"2.9.1" : [
+			"Update chinese translation"
+		],
+		"2.9.0" : [
+			"New sand terrain added",
+			"Polish translation added"
+		],
+		"2.8.3" : [
+			"Fixed Scroll of Wisdom"
+		],
+		"2.8.2" : [
+			"French translation added",
+			"Fixed boat issues"
+		],
+		"2.8.1" : [
+			"Converting to vcmi-1.3 version",
+			"New boat added"
+		],
+		"2.8.0" : [
+			"Minor fixes, working special buildings, new graphics for heroes and Camel Riders."
+		],
+		"2.7.2" : [
+			"Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"
+		],
+		"2.7.1" : [
+			"Update to vcmi-1.2"
+		]
+	},
+	"conflicts" : [],
+
+	"factions" : [
 		"townPavilion/structures.json",
 		"townPavilion/faction.json",
 		"townPavilion/buildings.json",
 		"townPavilion/siege.json",
 		"townPavilion/spells.json",
-		"townPavilion/puzzle.json" 
-
+		"townPavilion/puzzle.json"
 	],
-	
-	"creatures" :
-	[
-		"creaturesPavilion/Whipper.json",  
-		"creaturesPavilion/Overseer.json",  
-		"creaturesPavilion/Wadjet.json",  
-		"creaturesPavilion/VenomousWadjet.json", 		
+
+	"creatures" : [
+		"creaturesPavilion/Whipper.json",
+		"creaturesPavilion/Overseer.json",
+		"creaturesPavilion/Wadjet.json",
+		"creaturesPavilion/VenomousWadjet.json",
 		"creaturesPavilion/CamelRider.json",
 		"creaturesPavilion/DesertWarrior.json",
 		"creaturesPavilion/Sekhmet.json",
-		"creaturesPavilion/SekhmetPriestess.json",  
+		"creaturesPavilion/SekhmetPriestess.json",
 		"creaturesPavilion/Ammut.json",
-		"creaturesPavilion/SunAmmut.json", 		
-		"creaturesPavilion/Sphinx.json",  
-		"creaturesPavilion/ElderSphinx.json",      		
-		"creaturesPavilion/Anubis.json", 
-		"creaturesPavilion/AnubisWarrior.json", 
-       
+		"creaturesPavilion/SunAmmut.json",
+		"creaturesPavilion/Sphinx.json",
+		"creaturesPavilion/ElderSphinx.json",
+		"creaturesPavilion/Anubis.json",
+		"creaturesPavilion/AnubisWarrior.json",
+
 		"commanderPavilion/preacher.json",
 		"creaturesPavilion/Scarab.json",
 
 		"creaturesPavilion/stackExp.json",
-		
+
 		"creaturesPavilion/wiki.json",
 
-        "artifactsPavilion/emergencyTentCreature.json"
+		"artifactsPavilion/emergencyTentCreature.json"
 	],
-	
-	"spells" :
-	[
-	  "spellsPavilion/BlessingSeal.json" ,
-	  "spellsPavilion/GodScaleAttack.json",
-	  "spellsPavilion/GodScaleDefence.json",
-	  "spellsPavilion/LifeEater.json",
-	  "spellsPavilion/specSlow.json",
-	  "spellsPavilion/tentBoost.json",
-	  "spellsPavilion/moat.json"  
-	],
-	
-	"skills" :
-	[
-	  "spellsPavilion/tentBoostSkill.json"  
-	],
-	
-	"heroClasses" :
-	[
-		"classesPavilion/Vizier.json",
-        "classesPavilion/Embalmer.json"
-	],
-	
-	"heroes" :
-	[
 
-        "heroesPavilion/Amanra.json",
-        "heroesPavilion/Amesh.json",
-        "heroesPavilion/Azarias.json",
-        "heroesPavilion/Cassandra.json",
-		"heroesPavilion/Elspeth.json",    
-        "heroesPavilion/Gideon.json",
-        "heroesPavilion/Jaffa.json",    
-        "heroesPavilion/Keila.json", 
-		"heroesPavilion/Ko-Eset.json",
-        "heroesPavilion/Marzum.json",
-        "heroesPavilion/Menet.json",
-        "heroesPavilion/Osir.json",   
-        "heroesPavilion/Peth-Shub.json",   
-        "heroesPavilion/Sekhem.json",
-        "heroesPavilion/Seref.json", 
-        "heroesPavilion/Zamonth.json",
-              
-        "heroesPavilion/Bast.json",                                             
-        "heroesPavilion/Varn.json"
+	"spells" : [
+		"spellsPavilion/BlessingSeal.json",
+		"spellsPavilion/GodScaleAttack.json",
+		"spellsPavilion/GodScaleDefence.json",
+		"spellsPavilion/LifeEater.json",
+		"spellsPavilion/specSlow.json",
+		"spellsPavilion/tentBoost.json",
+		"spellsPavilion/moat.json"
 	],
-	
-	"objects" :
-	[ 
+
+	"skills" : [
+		"spellsPavilion/tentBoostSkill.json"
+	],
+
+	"heroClasses" : [
+		"classesPavilion/Vizier.json",
+		"classesPavilion/Embalmer.json"
+	],
+
+	"heroes" : [
+		"heroesPavilion/Amanra.json",
+		"heroesPavilion/Amesh.json",
+		"heroesPavilion/Azarias.json",
+		"heroesPavilion/Cassandra.json",
+		"heroesPavilion/Elspeth.json",
+		"heroesPavilion/Gideon.json",
+		"heroesPavilion/Jaffa.json",
+		"heroesPavilion/Keila.json",
+		"heroesPavilion/Ko-Eset.json",
+		"heroesPavilion/Marzum.json",
+		"heroesPavilion/Menet.json",
+		"heroesPavilion/Osir.json",
+		"heroesPavilion/Peth-Shub.json",
+		"heroesPavilion/Sekhem.json",
+		"heroesPavilion/Seref.json",
+		"heroesPavilion/Zamonth.json",
+
+		"heroesPavilion/Bast.json",
+		"heroesPavilion/Varn.json"
+	],
+
+	"objects" : [
 		"objectsPavilion/dwellings.json",
 		"objectsPavilion/ziggurat.json",
 		"boatPavilion/boats.json"
 	],
-	
-	"artifacts" :
-	[
-	  "artifactsPavilion/staffOfSand.json" ,
-	  "artifactsPavilion/goldenScarab.json",
-	  "artifactsPavilion/sunShield.json",
-	  "artifactsPavilion/scrollOfWisdom.json",
-	  "artifactsPavilion/maskOfTheDesertKing.json",
-	  "artifactsPavilion/fireRing.json",
-	  "artifactsPavilion/emergencyTentArtifact.json"
+
+	"artifacts" : [
+		"artifactsPavilion/staffOfSand.json",
+		"artifactsPavilion/goldenScarab.json",
+		"artifactsPavilion/sunShield.json",
+		"artifactsPavilion/scrollOfWisdom.json",
+		"artifactsPavilion/maskOfTheDesertKing.json",
+		"artifactsPavilion/fireRing.json",
+		"artifactsPavilion/emergencyTentArtifact.json"
 	],
 	"french" : {
 		"name" : "Pavillon",
@@ -177,7 +252,7 @@
 			"config/translationPavilion/german.json"
 		]
 	},
-		"polish" : {
+	"polish" : {
 		"name" : "Pawilon",
 		"description" : "Zmodyfikowana i zrównoważona wersja „Bastion Town” przeniesiona do VCMI przez edeksumo z pomocą społeczności modderskiej Acid Cave. Pierwotnie został wymyślony i stworzony przez New Town Group.",
 
@@ -185,14 +260,14 @@
 			"config/translationPavilion/polish.json"
 		]
 	},
-		"chinese" : {
+	"chinese" : {
 		"name" : "沙堡",
 		"description" : "沙堡的原型是古埃及神话，兵种设计也有独特的埃及神话艺术。在英雄无敌的世界里也是非常独特的设计。",
 		"translations" : [
 			"config/translationPavilion/chinese.json"
 		]
 	},
-		"portuguese" : {
+	"portuguese" : {
 		"name" : "Pavilhão",
 		"description" : "Versão modificada e equilibrada da 'Cidade Bastion' portada para VCMI por edeksumo com a ajuda da comunidade de modding Acid Cave, originalmente concebida e criada por New Town Group.",
 		"translations" : [

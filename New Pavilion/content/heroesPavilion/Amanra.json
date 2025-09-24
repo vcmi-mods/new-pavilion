@@ -1,55 +1,48 @@
 {
-	"1_amanra" :
-	{
+	"1_amanra" : {
 		"class" : "embalmer",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Amanra",
 			"biography" : "Amanra was the first daughter of a powerful Vizier but laws of the land foiled her ambition to inherit the family’s legacy. She turned to the dark arts to seize her birthright by force.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to sorcery skill percentage.",
 				"tooltip" : "Secondary Skill Bonus: Sorcery",
 				"name" : "Sorcery"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "speciconsPavilion/un32sorc.bmp",
 			"specialtyLarge" : "speciconsPavilion/un44sorc.bmp",
 			"large" : "heroportraitsPavilion/Amanra.png",
 			"small" : "heroportraitsPavilion/AmanraSmall.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"curse"
 		],
 
-		"army" :
-		[
-		{
-			"creature" : "whipper",
-			"max" : 25,
-			"min" : 15
-		},
-		{
-			"creature" : "wadjet",
-			"max" : 9,
-			"min" : 7
-		},
-		{
-			"creature" : "camelRider",
-			"max" : 5,
-			"min" : 3
+		"army" : [
+			{
+				"creature" : "whipper",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "wadjet",
+				"max" : 9,
+				"min" : 7
+			},
+			{
+				"creature" : "camelRider",
+				"max" : 5,
+				"min" : 3
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -59,7 +52,7 @@
 				"skill" : "sorcery"
 			}
 		],
-		
+
 		"specialty" : {
 			"secondary" : "sorcery"
 		}

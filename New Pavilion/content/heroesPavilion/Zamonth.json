@@ -1,34 +1,28 @@
 {
-	"1_zamonth" :
-	{
+	"1_zamonth" : {
 		"class" : "embalmer",
 		"female" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Zamonth",
 			"biography" : "Zamonth could never accept that necromantic arts had been banned by the priest caste. It was only because of his almost divine status that he was allowed to keep dark tomes containing the forbidden knowledge.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Transforms undead creatures into Mummies.",
 				"tooltip" : "Special Upgrade: Mummies",
 				"name" : "Mummies"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "speciconsPavilion/un32Mummy.bmp",
 			"specialtyLarge" : "speciconsPavilion/un44Mummy.bmp",
 			"large" : "heroportraitsPavilion/Zamonth.png",
 			"small" : "heroportraitsPavilion/ZamonthSmall.png"
 		},
-		"spellbook" :
-		[
+		"spellbook" : [
 			"animateDead"
 		],
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "mummy",
 				"max" : 2,
@@ -46,8 +40,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "necromancy"
@@ -57,29 +50,56 @@
 				"skill" : "wisdom"
 			}
 		],
-		
+
 		"specialty" : {
 			"base" : {
 				"addInfo" : "mummy",
 				"type" : "SPECIAL_UPGRADE"
 			},
 			"bonuses" : {
-				
-				"skeleton2mummy" : { "subtype" : "skeleton" },
-				"skeletonWarrior2mummy" : { "subtype" : "skeletonWarrior" },
-				"walkingDead2mummy" : { "subtype" : "walkingDead" },
-				"zombie2mummy" : { "subtype" : "zombie" },
-				"wight2mummy" : { "subtype" : "wight" },
-				"wraith2mummy" : { "subtype" : "wraith" },
-				"vampire2mummy" : { "subtype" : "vampire" },
-				"vampireLord2mummy" : { "subtype" : "vampireLord" },
-				"lich2mummy" : { "subtype" : "lich" },
-				"powerLich2mummy" : { "subtype" : "powerLich" },
-				"blackKnight2mummy" : { "subtype" : "blackKnight" },
-				"dreadKnight2mummy" : { "subtype" : "dreadKnight" },
-				"boneDragon2mummy" : { "subtype" : "boneDragon" },
-				"ghostDragon2mummy" : { "subtype" : "ghostDragon" }
+				"skeleton2mummy" : {
+					"subtype" : "skeleton"
+				},
+				"skeletonWarrior2mummy" : {
+					"subtype" : "skeletonWarrior"
+				},
+				"walkingDead2mummy" : {
+					"subtype" : "walkingDead"
+				},
+				"zombie2mummy" : {
+					"subtype" : "zombie"
+				},
+				"wight2mummy" : {
+					"subtype" : "wight"
+				},
+				"wraith2mummy" : {
+					"subtype" : "wraith"
+				},
+				"vampire2mummy" : {
+					"subtype" : "vampire"
+				},
+				"vampireLord2mummy" : {
+					"subtype" : "vampireLord"
+				},
+				"lich2mummy" : {
+					"subtype" : "lich"
+				},
+				"powerLich2mummy" : {
+					"subtype" : "powerLich"
+				},
+				"blackKnight2mummy" : {
+					"subtype" : "blackKnight"
+				},
+				"dreadKnight2mummy" : {
+					"subtype" : "dreadKnight"
+				},
+				"boneDragon2mummy" : {
+					"subtype" : "boneDragon"
+				},
+				"ghostDragon2mummy" : {
+					"subtype" : "ghostDragon"
+				}
 			}
-		}	
+		}
 	}
 }

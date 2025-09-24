@@ -1,77 +1,61 @@
 {
-    "sunAmmut":
-	{
-		"name" :
-		{
+	"sunAmmut" : {
+		"name" : {
 			"plural" : "Devouring Ammuts",
 			"singular" : "Devouring Ammut"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 12,
 			"min" : 8
 		},
 		"faction" : "pavilion",
 		"aiValue" : 1300,
 		"attack" : 14,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 600
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 18,
 			"min" : 13
 		},
 		"defense" : 13,
 		"fightValue" : 1100,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "creaturedefsPavilion/SunAmmut.def",
 			"map" : "creaturedefsPavilion/SunAmmutMap.def",
 			"iconSmall" : "creatureiconsPavilion/SunAmmutSmall.bmp",
 			"iconLarge" : "creatureiconsPavilion/SunAmmut.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			}
-	
 		},
-	    "doubleWide" : true,
-        "growth" : 3,
+		"doubleWide" : true,
+		"growth" : 3,
 		"hitPoints" : 50,
 		"level" : 5,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "Pavilion/amtAtt2.wav",
-			"defend": "Pavilion/amtdef2.wav",
-			"killed": "Pavilion/amtDie2.wav",
-			"move": "Pavilion/amtWalksteps.wav",
-			"wince": "Pavilion/amtHit2.wav"
- 		},
+			"defend" : "Pavilion/amtdef2.wav",
+			"killed" : "Pavilion/amtDie2.wav",
+			"move" : "Pavilion/amtWalksteps.wav",
+			"wince" : "Pavilion/amtHit2.wav"
+		},
 		"speed" : 6,
-		"abilities" :
-		{
-
-             "noRetaliate" :
-			{
+		"abilities" : {
+			"noRetaliate" : {
 				"type" : "BLOCKS_RETALIATION"
-			},	  
-			
-			"lifeEater" :
-			{
-				"type": "SPELL_AFTER_ATTACK",
+			},
+
+			"lifeEater" : {
+				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "lifeEater",
-				"val" : 100, 
-				"duration": "N_TURNS"
+				"val" : 100,
+				"duration" : "N_TURNS"
 			}
 		},
-		"stackExperience" :
-		[
-
-		]	
+		"stackExperience" : []
 	}
 }

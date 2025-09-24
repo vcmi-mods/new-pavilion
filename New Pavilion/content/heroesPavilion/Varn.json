@@ -1,32 +1,27 @@
 {
-	"0_varn" :
-	{
+	"0_varn" : {
 		"class" : "vizier",
 		"female" : false,
 		"special" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Varn",
 			"biography" : "The only thing Varn could remember when he woke up in the middle of the desert, was his name. He wanders seeking answers to the mystery of his past and his purpose.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases the speed of Anubians or Divine Anubians by 1 and their Attack and Defense skills by 5% for every 7 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Anubians",
 				"name" : "Anubians"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "speciconsPavilion/un32Anub.bmp",
 			"specialtyLarge" : "speciconsPavilion/un44Anub.bmp",
 			"large" : "heroportraitsPavilion/Varn.png",
 			"small" : "heroportraitsPavilion/VarnSmall.png"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "whipper",
 				"max" : 25,
@@ -44,9 +39,8 @@
 			}
 		],
 
-		"skills" :
-		[
-		{
+		"skills" : [
+			{
 				"level" : "basic",
 				"skill" : "logistics"
 			},
@@ -55,10 +49,9 @@
 				"skill" : "offence"
 			}
 		],
-		
+
 		"specialty" : {
 			"creature" : "anubis"
 		}
 	}
 }
-
