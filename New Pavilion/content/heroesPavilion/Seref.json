@@ -7,8 +7,8 @@
 			"name" : "Seref",
 			"biography" : "Seref’s fierce, yet protective nature has been widely known ever since she became an initiate. It surprised no one that she was chosen as one of the Goddess’ aspects – a shield that protects Her faithful.",
 			"specialty" : {
-				"description" : "All units in Seref's army are enchanted with Advanced Fire Shield.",
-				"tooltip" : "Passive Bonus: Fire Shield",
+				"description" : "All units in Seref's army are enchanted with Advanced Fire Shield at the beginning of battle.",
+				"tooltip" : "Autocast: Fire Shield",
 				"name" : "Fire Shield"
 			}
 		},

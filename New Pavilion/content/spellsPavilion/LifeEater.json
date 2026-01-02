@@ -22,7 +22,8 @@
 			]
 		},
 		"flags" : {
-			"positive" : true
+			"positive" : true,
+			"nonMagical": true
 		},
 		"sounds" : {
 			"cast" : "PROTECTE"
@@ -61,9 +62,7 @@
 			"expert" : {}
 		},
 		"targetCondition" : {
-			"allOf" : {
-				"new-pavilion:creature.sunAmmut" : "absolute"
-			}
+			"allOf" : {"new-pavilion:creature.sunAmmut" : "absolute"}
 		}
 	}
 }

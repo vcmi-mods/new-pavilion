@@ -1,15 +1,15 @@
 {
 	"0_elspeth" : {
 		"class" : "vizier",
-		"female" : false,
+		"female" : true,
 
 		"texts" : {
 			"name" : "Elspeth",
 			"biography" : "Elspeth braved the endless desert uncountable number of times and seems to know all of its secrets by heart. All of her troops always seem invigorated and filled with unknown force, perhaps thanks to the fabled spring of life?",
 			"specialty" : {
 				"description" : "All creatures receive +5% Health.",
-				"tooltip" : "+5% Health",
-				"name" : "Passive Bonus: Life Source"
+				"tooltip" : "Passive Bonus: +5% Health",
+				"name" : "Life Source"
 			}
 		},
 

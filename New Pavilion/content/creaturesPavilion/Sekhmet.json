@@ -9,18 +9,30 @@
 			"min" : 10
 		},
 		"faction" : "pavilion",
-		"aiValue" : 520,
+		"level" : 4,
 		"attack" : 10,
-		"cost" : {
-			"gold" : 330
-		},
-		"damage" : {
+		"defense" : 8,
+		"damage" :
+		{
 			"max" : 9,
 			"min" : 7
 		},
-		"defense" : 7,
+        "shots" : 12,
+		"hitPoints" : 25,
+		"speed" : 6,
+		"cost" :
+		{
+			"gold" : 330
+		},
+		"growth" : 4,
+		"aiValue" : 520,
 		"fightValue" : 480,
+
 		"graphics" : {
+			// Optional. Images of creatures when attacked on adventure map
+        	"mapAttackFromRight": "creaturedefsPavilion/mapattack/AdvsekhX",
+        	"mapAttackFromLeft": "creaturedefsPavilion/mapattack/AdvsekhY",
+
 			"animation" : "creaturedefsPavilion/Sekhmet.def",
 			"map" : "creaturedefsPavilion/SekhmetMap.def",
 			"iconSmall" : "creatureiconsPavilion/SekhmetSmall.bmp",
@@ -58,9 +70,6 @@
 				]
 			}
 		},
-		"growth" : 4,
-		"hitPoints" : 25,
-		"level" : 4,
 		"upgrades" : [
 			"sekhmetPriestess"
 		],
@@ -72,8 +81,6 @@
 			"wince" : "Pavilion/sekhHit.wav",
 			"shoot" : "Pavilion/sekhShoot.wav"
 		},
-		"speed" : 5,
-		"shots" : 12,
 		"abilities" : {
 			"canShoot" : {
 				"type" : "SHOOTER"

@@ -155,7 +155,7 @@
 					"warMachine" : "firstAidTent"
 				},
 				"workshop" : {
-					"description" : "Allows the visiting hero to purchase an Emergency Tent (150 Health; revives healed creatures (revived units don't stay after battle)).",
+					"description" : "Allows the visiting hero to purchase an Emergency Tent (150 Health; revives healed creatures (basic Resurrection)).",
 					"name" : "The Healers' Guild",
 					"cost" : {
 						"mercury" : 2,
@@ -167,15 +167,7 @@
 						"gold" : 2000
 					},
 					"warMachine" : "emergencyTentArt",
-					"requires" : [
-						"allOf",
-						[
-							"blacksmith"
-						],
-						[
-							"mageGuild1"
-						]
-					],
+					"requires" : [ "allOf", ["blacksmith"]],
 
 					"id" : 23
 				},
@@ -216,22 +208,20 @@
 					"upgrades" : "dwellingUpLvl2"
 				},
 				"special1" : {
-					"description" : "The Idol gives every visiting hero 1000 experience points.",
+					"description" : "The Idol gives every visiting hero 1500 experience points.",
 					"name" : "Idol",
 					"configuration" : {
 						"visitMode" : "hero",
 						"rewards" : [
 							{
 								"message" : "A visit to the Idol teaches you many new skills",
-								"heroExperience" : 1000
+								"heroExperience" : 1500
 							}
 						]
 					},
 					"cost" : {
-						"gems" : 5,
-						"crystal" : 5,
-
-						"gold" : 1000
+						"gems" : 3,
+						"gold" : 1500
 					}
 				},
 				"horde2" : {
@@ -275,15 +265,15 @@
 						"ore" : 5,
 						"gold" : 2000
 					},
-					"requires" : [
-						"resourceSilo"
-					],
+                    "requires" : [ "marketplace" ],
 					"produce" : {
 						"gold" : 500
 					}
 				},
 
 				"grail" : {
+					//for future
+					//"description" : "The presence of the Simoom increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day, and decreases speed of enemy units by 25% during the siege, while making defending units resistant to Slow.",
 					"description" : "The presence of the Simoom increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day, and increases speed of defending units by 40% during the siege.",
 					"name" : "Simoom",
 					"bonuses" : [
@@ -293,6 +283,7 @@
 							"valueType" : "PERCENT_TO_ALL",
 							"propagator" : "TOWN_AND_VISITOR"
 						}
+						//{"type" : "SPELL_IMMUNITY", "subtype" : "slow", "propagator" : "TOWN_AND_VISITOR"}						
 					]
 				},
 				"dwellingLvl1" : {
@@ -346,7 +337,7 @@
 					"name" : "Altar of Goddess",
 					"cost" : {
 						"gold" : 2500,
-						"crystal" : 10
+						"crystal" : 4
 					},
 					"requires" : [
 						"allOf",
@@ -363,14 +354,12 @@
 					"name" : "Cave of Fear",
 
 					"cost" : {
-						"gold" : 3000,
-						"ore" : 10,
-						"mercury" : 10
+						"gold" : 3000
 					},
 					"requires" : [
 						"allOf",
 						[
-							"dwellingLvl3"
+							"dwellingLvl4"
 						],
 						[
 							"fort"
@@ -406,10 +395,10 @@
 					"requires" : [
 						"allOf",
 						[
-							"dwellingLvl5"
+							"mageGuild1"
 						],
 						[
-							"dwellingLvl6"
+							"dwellingLvl5"
 						]
 					]
 				},
@@ -418,8 +407,7 @@
 					"description" : "The Upg. Settlement allows you to recruit Overseers.",
 					"name" : "Upg. Settlement",
 					"cost" : {
-						"gold" : 1000,
-						"ore" : 10
+						"gold" : 1000
 					},
 					"requires" : [
 						"allOf",
@@ -434,7 +422,7 @@
 					"name" : "Upg. Wadjet Nests",
 					"cost" : {
 						"gold" : 1500,
-						"ore" : 5
+						"mercury" : 2
 					},
 					"requires" : [
 						"allOf",
@@ -448,9 +436,7 @@
 					"description" : "The Upg. Desert Tent allows you to recruit Desert Warriors.",
 					"name" : "Upg. Desert Tent",
 					"cost" : {
-						"gold" : 1500,
-						"wood" : 10,
-						"gems" : 2
+						"gold" : 1500
 					},
 					"requires" : [
 						"allOf",
@@ -465,7 +451,7 @@
 					"name" : "Upg. Altar of Goddess",
 					"cost" : {
 						"gold" : 2500,
-						"crystal" : 5
+						"crystal" : 4
 					},
 					"requires" : [
 						"allOf",
@@ -499,13 +485,11 @@
 					"name" : "Upg. Sphinx Barracks",
 					"cost" : {
 						"gold" : 3000,
-						"ore" : 15
+						"ore" : 10,
+						"gems" : 5
 					},
 					"requires" : [
 						"allOf",
-						[
-							"mageGuild2"
-						],
 						[
 							"fort"
 						]
@@ -522,6 +506,9 @@
 					},
 					"requires" : [
 						"allOf",
+						[
+							"mageGuild2"
+						],
 						[
 							"fort"
 						]

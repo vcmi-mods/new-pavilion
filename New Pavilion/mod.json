@@ -1,15 +1,20 @@
 {
 	"name" : "Pavilion Town",
-	"description" : "Modified and balanced version of the 'Bastion Town' ported to VCMI by edeksumo with help of Acid Cave modding community, originally conceptualised and created by New Town Group.",
+	"description" : "Version of the 'Egyptian Bastion Town', originally conceptualised and created by the New Town Group, then ported to VCMI by edeksumo, then modified and worked on further by the members of Acid Cave and VCMI modding communities.",
 
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community, VCMI community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.88",
+	"version" : "2.9.90",
 	"modType" : "Town",
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"2.9.90" : [
+			"New Wadjet visuals",
+			"Overall buffs",
+			"Adjusted Polish translation"
+		],
 		"2.9.88" : [
 			"Added flagport frames (Kingdom Overwiev window)",
 			"Add formatter"
@@ -187,7 +192,8 @@
 		"spellsPavilion/LifeEater.json",
 		"spellsPavilion/specSlow.json",
 		"spellsPavilion/tentBoost.json",
-		"spellsPavilion/moat.json"
+		"spellsPavilion/moat.json",
+	  "spellsPavilion/desertBlessing.json"
 	],
 
 	"skills" : [
@@ -254,7 +260,7 @@
 	},
 	"polish" : {
 		"name" : "Pawilon",
-		"description" : "Zmodyfikowana i zrównoważona wersja „Bastion Town” przeniesiona do VCMI przez edeksumo z pomocą społeczności modderskiej Acid Cave. Pierwotnie został wymyślony i stworzony przez New Town Group.",
+		"description" : "Wersja „Bastion Town” przeniesiona do VCMI przez edkasumo i zmodyfikowana przez społeczność modderską Kwasowej Groty. Pierwotnie miasto zostało opracowane przez zespół New Town Group.",
 
 		"translations" : [
 			"config/translationPavilion/polish.json"

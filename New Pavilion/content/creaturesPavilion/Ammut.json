@@ -9,18 +9,28 @@
 			"min" : 8
 		},
 		"faction" : "pavilion",
-		"aiValue" : 1000,
-		"attack" : 13,
-		"cost" : {
-			"gold" : 500
-		},
-		"damage" : {
+		"level" : 5,
+		"attack" : 14,
+		"defense" : 12,
+		"damage" :
+		{
 			"max" : 18,
 			"min" : 13
 		},
-		"defense" : 12,
+		"hitPoints" : 50,
+		"speed" : 6,
+		"cost" :
+		{
+			"gold" : 500
+		},
+        "growth" : 3,
+		"aiValue" : 1000,
 		"fightValue" : 800,
 		"graphics" : {
+			// Optional. Images of creatures when attacked on adventure map
+        	"mapAttackFromRight": "creaturedefsPavilion/mapattack/amt1advX",
+        	"mapAttackFromLeft": "creaturedefsPavilion/mapattack/amt1advY",
+
 			"animation" : "creaturedefsPavilion/Ammut.def",
 			"map" : "creaturedefsPavilion/AmmutMap.def",
 			"iconSmall" : "creatureiconsPavilion/AmmutSmall.bmp",
@@ -33,9 +43,6 @@
 			}
 		},
 		"doubleWide" : true,
-		"growth" : 3,
-		"hitPoints" : 45,
-		"level" : 5,
 		"upgrades" : [
 			"sunAmmut"
 		],
@@ -46,7 +53,6 @@
 			"move" : "Pavilion/amtWalksteps.wav",
 			"wince" : "Pavilion/amtHit2.wav"
 		},
-		"speed" : 5,
 		"abilities" : {
 			"noRetaliate" : {
 				"type" : "BLOCKS_RETALIATION"

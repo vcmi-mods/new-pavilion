@@ -9,19 +9,31 @@
 			"min" : 20
 		},
 		"faction" : "pavilion",
-		"aiValue" : 60,
-		"hasDoubleWeek" : true,
+		"hasDoubleWeek": true,
+		"level" : 1,
 		"attack" : 4,
-		"cost" : {
-			"gold" : 50
-		},
-		"damage" : {
+		"defense" : 3,
+		"damage" :
+		{
 			"max" : 3,
 			"min" : 1
 		},
-		"defense" : 3,
+		"hitPoints" : 7,
+		"speed" : 5,
+		"cost" :
+		{
+			"gold" : 50
+		},
+		"growth" : 15,
+		"horde" : 4,
+		"aiValue" : 60,
 		"fightValue" : 60,
+
 		"graphics" : {
+			// Optional. Images of creatures when attacked on adventure map
+        	"mapAttackFromRight": "creaturedefsPavilion/mapattack/whipadvX",
+        	"mapAttackFromLeft": "creaturedefsPavilion/mapattack/whipadvY",
+
 			"animation" : "creaturedefsPavilion/Whipper.def",
 			"map" : "creaturedefsPavilion/WhipperMap.def",
 			"iconSmall" : "creatureiconsPavilion/WhipperSmall.bmp",
@@ -33,9 +45,6 @@
 				"attack" : 1.0
 			}
 		},
-		"growth" : 15,
-		"hitPoints" : 7,
-		"level" : 1,
 		"upgrades" : [
 			"overseer"
 		],
@@ -46,19 +55,36 @@
 			"move" : "Pavilion/wippWalk.wav",
 			"wince" : "Pavilion/wippHit.wav"
 		},
-		"speed" : 4,
-		"horde" : 3,
-		"abilities" : {
-			"tribute" : {
-				"type" : "GENERATE_RESOURCE",
-				"subtype" : "gold",
-				"val" : 50,
-				"propagator" : "HERO",
-				"stacking" : "base",
-				"description" : "{Generate Gold}\nThe presence of any Whipper in hero army produces 50 gold every day",
-				"icon" : "bonusiconsPavilion/gold.png"
-			}
-		},
+        "abilities" : {
+            "tribute1" : {
+                "type" : "GENERATE_RESOURCE",
+                "subtype" : "gold",
+                "val" : 2,
+                "propagator" : "HERO",
+                "updater" : {
+                    "type" : "TIMES_ARMY_SIZE",
+                    "stepSize" : 1,
+                    "filteredCreature": "whipper"
+                },
+                "stacking" : "base",
+                "description" : "{Generate Gold}\nEach Whipper produces 2 pieces of gold every day or 4 pieces if it's stationed in town",
+                "icon" : "bonusiconsPavilion/gold.png"
+            },
+			
+            "tribute2" : {
+                "type" : "GENERATE_RESOURCE",
+                "subtype" : "gold",
+                "val" : 4,
+                "propagator" : "TOWN_AND_VISITOR",
+                "updater" : {
+                    "type" : "TIMES_ARMY_SIZE",
+                    "stepSize" : 1,
+                    "filteredCreature": "whipper"
+                },
+                "stacking" : "base",
+				"hidden" : true
+            }
+        },
 		"stackExperience" : []
 	}
 }

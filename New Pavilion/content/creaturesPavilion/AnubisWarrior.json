@@ -9,20 +9,30 @@
 			"min" : 3
 		},
 		"faction" : "pavilion",
+		"level" : 7,
 		"attack" : 30,
-		"cost" : {
-			"gold" : 4000,
-			"mercury" : 2
-		},
-		"damage" : {
-			"max" : 45,
-			"min" : 35
-		},
 		"defense" : 20,
+		"damage" :
+		{
+			"max" : 45,
+			"min" : 40
+		},
+		"hitPoints" : 250,
+		"speed" : 14,
+		"cost" :
+		{
+			"gold" : 4000,
+            "mercury" : 2
+		},
+        "growth" : 1,
+		"aiValue": 7200,
 		"fightValue" : 3850,
-		"aiValue" : 7200,
 
 		"graphics" : {
+			// Optional. Images of creatures when attacked on adventure map
+        	"mapAttackFromRight": "creaturedefsPavilion/mapattack/anu2advx",
+        	"mapAttackFromLeft": "creaturedefsPavilion/mapattack/anu2advy",
+
 			"animation" : "creaturedefsPavilion/newAnubis2.def",
 			"map" : "creaturedefsPavilion/newAnubis2adv.def",
 			"iconSmall" : "creatureiconsPavilion/newAnubisWarriorSmall.bmp",
@@ -34,9 +44,6 @@
 				"attack" : 1.0
 			}
 		},
-		"growth" : 1,
-		"hitPoints" : 250,
-		"level" : 7,
 
 		"sound" : {
 			"attack" : "Pavilion/anubAtt2.wav",
@@ -46,12 +53,10 @@
 			"wince" : "Pavilion/anubHit2.wav",
 			"shoot" : "Pavilion/anubShoot.wav"
 		},
-		"speed" : 14,
 		"abilities" : {
 			"advancedSlayer" : {
 				"type" : "KING",
-				"val" : 2,
-				"valueType" : "ADDITIVE_VALUE"
+				"val" : 2
 			},
 			"earthImmunity" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
@@ -66,15 +71,14 @@
 				"subtype" : "godScaleAttack",
 				"val" : 20
 			},
-			//			"godScalesDefence" :
-			//			{
-			//				"type" : "SPELL_AFTER_ATTACK",
-			//				"subtype" : "spell.godScaleDefence",
-			//				"val" : 20
-			//			},
 			"spellDuration" : {
 				"type" : "CREATURE_ENCHANT_POWER",
-				"val" : 3
+				"val" : 2
+			},
+            "regenerate" : 
+			{
+				"type" : "HP_REGENERATION",
+				"val" : 60
 			}
 		}
 	}

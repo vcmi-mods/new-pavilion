@@ -9,18 +9,30 @@
 			"min" : 20
 		},
 		"faction" : "pavilion",
-		"aiValue" : 90,
+		"level" : 1,
 		"attack" : 5,
-		"cost" : {
-			"gold" : 60
-		},
-		"damage" : {
+		"defense" : 5,
+		"damage" :
+		{
 			"max" : 3,
 			"min" : 1
 		},
-		"defense" : 5,
+		"hitPoints" : 7,
+		"speed" : 6,
+		"cost" :
+		{
+			"gold" : 60
+		},
+		"growth" : 15,
+		"horde" : 4,
+		"aiValue" : 90,
 		"fightValue" : 80,
+
 		"graphics" : {
+			// Optional. Images of creatures when attacked on adventure map
+        	"mapAttackFromRight": "creaturedefsPavilion/mapattack/ovadvX",
+        	"mapAttackFromLeft": "creaturedefsPavilion/mapattack/ovadvY",
+
 			"animation" : "creaturedefsPavilion/Overseer.def",
 			"map" : "creaturedefsPavilion/OverseerMap.def",
 			"iconSmall" : "creatureiconsPavilion/OverseerSmall.bmp",
@@ -32,10 +44,6 @@
 				"attack" : 1.0
 			}
 		},
-		"growth" : 15,
-		"hitPoints" : 7,
-		"level" : 1,
-		"horde" : 4,
 		"sound" : {
 			"attack" : "PFOEATTK.wav",
 			"defend" : "Pavilion/wippDef.wav",
@@ -43,27 +51,36 @@
 			"move" : "Pavilion/wippWalk.wav",
 			"wince" : "Pavilion/wippHit.wav"
 		},
-		"speed" : 5,
-		"abilities" : {
-			"tribute" : {
-				"type" : "GENERATE_RESOURCE",
-				"subtype" : "gold",
-				"val" : 50,
-				"propagator" : "HERO",
-				"stacking" : "base",
-				"description" : "{Generate Gold}\nThe presence of any Whipper in hero army produces 75 gold every day",
-				"icon" : "bonusiconsPavilion/gold.png"
-			},
-
-			"tribute2" : {
-				"type" : "GENERATE_RESOURCE",
-				"subtype" : "gold",
-				"val" : 25,
-				"propagator" : "HERO",
-				"description" : "{Generate Gold}\nThe presence of any Whipper in hero army produces 75 gold every day",
-				"icon" : "bonusiconsPavilion/gold.png"
-			}
-		},
+        "abilities" : {
+            "tribute1" : {
+                "type" : "GENERATE_RESOURCE",
+                "subtype" : "gold",
+                "val" : 3,
+                "propagator" : "HERO",
+                "updater" : {
+                    "type" : "TIMES_ARMY_SIZE",
+                    "stepSize" : 1,
+                    "filteredCreature": "overseer"
+                },
+                "stacking" : "upgrade",
+                "description" : "{Generate Gold}\nEach Overseer produces 3 pieces of gold every day or 6 pieces if it's stationed in town",
+                "icon" : "bonusiconsPavilion/gold.png"
+            },
+			
+            "tribute2" : {
+                "type" : "GENERATE_RESOURCE",
+                "subtype" : "gold",
+                "val" : 6,
+                "propagator" : "TOWN_AND_VISITOR",
+                "updater" : {
+                    "type" : "TIMES_ARMY_SIZE",
+                    "stepSize" : 1,
+                    "filteredCreature": "overseer"
+                },
+                "stacking" : "upgrade",
+				"hidden" : true
+            }
+        },
 		"stackExperience" : []
 	}
 }

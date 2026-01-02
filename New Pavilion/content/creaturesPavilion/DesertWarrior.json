@@ -9,18 +9,30 @@
 			"min" : 12
 		},
 		"faction" : "pavilion",
-		"aiValue" : 340,
+		"level" : 3,
 		"attack" : 10,
-		"cost" : {
-			"gold" : 260
-		},
-		"damage" : {
+		"defense" : 10,
+		"damage" :
+		{
 			"max" : 6,
 			"min" : 2
 		},
-		"defense" : 10,
+		"hitPoints" : 25,
+		"speed" : 8,
+		"cost" :
+		{
+			"gold" : 260
+		},
+        "growth" : 7,
+		"horde" : 3,
+		"aiValue" : 340,
 		"fightValue" : 320,
+
 		"graphics" : {
+			// Optional. Images of creatures when attacked on adventure map
+        	"mapAttackFromRight": "creaturedefsPavilion/mapattack/AVWdeseWX",
+        	"mapAttackFromLeft": "creaturedefsPavilion/mapattack/AVWdeseWY",
+
 			"animation" : "creaturedefsPavilion/desertWarrior.def",
 			"map" : "creaturedefsPavilion/desertWarriorMap.def",
 			"iconSmall" : "creatureiconsPavilion/desertWarriorSmall.bmp",
@@ -33,10 +45,6 @@
 			}
 		},
 		"doubleWide" : true,
-		"growth" : 7,
-		"horde" : 3,
-		"hitPoints" : 25,
-		"level" : 3,
 
 		"sound" : {
 			"attack" : "Pavilion/camAtt.wav",
@@ -45,8 +53,6 @@
 			"move" : "Pavilion/camWalk.wav",
 			"wince" : "Pavilion/camHit.wav"
 		},
-		"speed" : 8,
-
 		"abilities" : {
 			"desertRider" : {
 				"subtype" : "heroMovementLand",
@@ -60,9 +66,16 @@
 					}
 				],
 				"propagator" : "HERO",
-				"description" : "{Sand Runner}\nBoosts movement by 150 points when staring turn on sandy terrains",
+				"description" : "{Sand Runner}\nBoosts Hero's movement by 150 points when starting turn on sandy terrains",
 				"icon" : "bonusiconsPavilion/nomads.png"
-			}
+			},
+			
+			"desertBlessing" : 
+			{
+				"type" : "ENCHANTED",
+					"subtype" : "spell.desertBlessing",
+				"description" : "{Desert Blessing}\nBoosts Attack, Defense and Speed by 2 on sandy terrains"
+			} 
 		}
 	}
 }
