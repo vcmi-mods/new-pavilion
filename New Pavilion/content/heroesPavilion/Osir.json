@@ -31,7 +31,7 @@
 				"min" : 15
 			},
 			{
-				"creature" : "firstAidTent",
+				"creature" : "emergencyTentPav",
 				"max" : 1,
 				"min" : 1
 			},

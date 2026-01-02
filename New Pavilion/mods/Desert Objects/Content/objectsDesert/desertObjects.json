@@ -37,20 +37,20 @@
 				],
 				"onEmpty" : [
 					{
-						"message" : "{Savant Sphinx}\r\n\r\nTears brim in the eyes of the Sphinx. \"I need 2000 gold.\" it whispers. (sniff) \"Well, come back when you can pay me.\"",
+						"message" : "{Savant Sphinx}\r\n\r\nTears brim in the eyes of the Sphinx. \"I need 2000 gold.\" she whispers. (sniff) \"Well, come back when you can pay me.\"",
 						"appearChance" : {
 							"min" : 34,
 							"max" : 67
 						}
 					},
 					{
-						"message" : "{Savant Sphinx}\r\n\r\nTears brim in the eyes of the Sphinx. \"I need 10 gems.\" it whispers. (sniff) \"Well, come back when you can pay me.\"",
+						"message" : "{Savant Sphinx}\r\n\r\nTears brim in the eyes of the Sphinx. \"I need 10 gems.\" she whispers. (sniff) \"Well, come back when you can pay me.\"",
 						"appearChance" : {
 							"min" : 67
 						}
 					}
 				],
-				"onVisitedMessage" : "{Savant Sphinx}\r\n\r\nUppon your approach, the Sphinx opens its eyes in delight. \"It is good to see you, my student. I hope my teachings have helped you.\"",
+				"onVisitedMessage" : "{Savant Sphinx}\r\n\r\nUppon your approach, the Sphinx opens her eyes in delight. \"It is good to see you, my student. I hope my teachings have helped you.\"",
 				"description" : "@core.xtrainfo.18",
 				"visitMode" : "hero",
 				"selectMode" : "selectFirst",
@@ -60,7 +60,7 @@
 				"rewards" : [
 					{
 						"description" : "@core.arraytxt.202",
-						"message" : "{Savant Sphinx}\r\n\r\nUppon your approach, the Sphinx opens its eyes in delight. \"Ahh, an adventurer! Allow me to teach you a little of what I have learned over the ages.\"",
+						"message" : "{Savant Sphinx}\r\n\r\nUppon your approach, the Sphinx opens her eyes in delight. \"Ahh, an adventurer! Allow me to share with you a little of what I have learned over the ages.\"",
 						"appearChance" : {
 							"max" : 34
 						},
@@ -68,7 +68,7 @@
 					},
 					{
 						"description" : "@core.arraytxt.203",
-						"message" : "{Savant Sphinx}\r\n\r\nUppon your approach, the Sphinx opens its eyes in delight. \"Ahh, an adventurer! Allow me to teach you a little of what I have learned over the ages for a mere 2000 gold.\" (Just bury it around my roots.)",
+						"message" : "{Savant Sphinx}\r\n\r\nUppon your approach, the Sphinx opens her eyes in delight. \"Ahh, an adventurer! Allow me to share with you a little of what I have learned over the ages for a mere 2000 gold.\" (Just bury it behind my rump.)",
 						"appearChance" : {
 							"min" : 34,
 							"max" : 67
@@ -85,7 +85,7 @@
 					},
 					{
 						"description" : "@core.arraytxt.204",
-						"message" : "{Savant Sphinx}\r\n\r\nUppon your approach, the Sphinx opens its eyes in delight. \"Ahh, an adventurer! Allow me to teach you a little of what I have learned over the ages for a mere 10 gems.\" (Just bury it around my roots.)",
+						"message" : "{Savant Sphinx}\r\n\r\nUppon your approach, the Sphinx opens her eyes in delight. \"Ahh, an adventurer! Allow me to share with you a little of what I have learned over the ages for a mere 10 gems.\" (Just bury it behind my rump.)",
 						"appearChance" : {
 							"min" : 67
 						},
@@ -316,7 +316,7 @@
 				"selectMode" : "selectFirst",
 				"rewards" : [
 					{
-						"message" : "{Burnt Campfire}\r\n\r\nRansacking an enemy camp, you discover a hidden cache of treasures.",
+						"message" : "{Burnt Campfire}\r\n\r\nRansacking an abandoned enemy camp, you discover a hidden cache of treasures.",
 						"removeObject" : true,
 						"resources" : [
 							{

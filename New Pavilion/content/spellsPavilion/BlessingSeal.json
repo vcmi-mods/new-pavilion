@@ -198,7 +198,8 @@
 		"targetCondition" : {},
 
 		"flags" : {
-			"negative" : true
+			"negative" : true,
+			"nonMagical": true
 		}
 	}
 }

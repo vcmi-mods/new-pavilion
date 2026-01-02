@@ -9,19 +9,29 @@
 			"min" : 4
 		},
 		"faction" : "pavilion",
-		"aiValue" : 3850,
+		"level" : 7,
 		"attack" : 20,
-		"cost" : {
-			"gold" : 2000,
-			"mercury" : 1
-		},
-		"damage" : {
+		"defense" : 15,
+		"damage" :
+		{
 			"max" : 40,
 			"min" : 35
 		},
-		"defense" : 15,
+		"hitPoints" : 180,
+		"speed" : 9,
+		"cost" :
+		{
+			"gold" : 2000,
+			"mercury" : 1
+		},
+        "growth" : 1,
+		"aiValue" : 3850,
 		"fightValue" : 3650,
 		"graphics" : {
+			// Optional. Images of creatures when attacked on adventure map
+        	"mapAttackFromRight": "creaturedefsPavilion/mapattack/anu1advx",
+        	"mapAttackFromLeft": "creaturedefsPavilion/mapattack/anu1advy",
+
 			"animation" : "creaturedefsPavilion/newAnubis1.def",
 			"map" : "creaturedefsPavilion/newAnubis1adv.def",
 			"iconSmall" : "creatureiconsPavilion/newAnubisSmall.bmp",
@@ -33,9 +43,6 @@
 				"attack" : 1.0
 			}
 		},
-		"growth" : 1,
-		"hitPoints" : 180,
-		"level" : 7,
 		"upgrades" : [
 			"anubisWarrior"
 		],
@@ -48,12 +55,10 @@
 			"wince" : "Pavilion/anubHit2.wav",
 			"shoot" : "Pavilion/anubShoot.wav"
 		},
-		"speed" : 9,
 		"abilities" : {
 			"advancedSlayer" : {
 				"type" : "KING",
-				"val" : 2,
-				"valueType" : "ADDITIVE_VALUE"
+				"val" : 2
 			},
 			"earthImmunity" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
@@ -62,6 +67,11 @@
 			"levitate" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
+			},
+            "regenerate" : 
+			{
+				"type" : "HP_REGENERATION",
+				"val" : 40
 			}
 		}
 	}

@@ -9,19 +9,30 @@
 			"min" : 16
 		},
 		"faction" : "pavilion",
-		"aiValue" : 200,
-
+		"level" : 2,
 		"attack" : 7,
-		"cost" : {
+		"defense" : 5,
+		"damage" :
+		{
+			"max" : 5,
+			"min" : 3
+		},
+		"hitPoints" : 20,
+		"speed" : 9,
+		"cost" :
+		{
 			"gold" : 180
 		},
-		"damage" : {
-			"max" : 3,
-			"min" : 2
-		},
-		"defense" : 5,
+		"growth" : 9,
+		"horde" : 4,
+		"aiValue" : 200,
 		"fightValue" : 190,
+
 		"graphics" : {
+			// Optional. Images of creatures when attacked on adventure map
+        	"mapAttackFromRight": "creaturedefsPavilion/mapattack/venomwadjX",
+        	"mapAttackFromLeft": "creaturedefsPavilion/mapattack/venomwadjY",
+
 			"animation" : "creaturedefsPavilion/venomousWadjet.def",
 			"map" : "creaturedefsPavilion/venomousWadjetMap.def",
 			"iconSmall" : "creatureiconsPavilion/venomousWadjetSmall.bmp",
@@ -34,10 +45,6 @@
 			}
 		},
 		"doubleWide" : true,
-		"growth" : 9,
-		"hitPoints" : 20,
-		"level" : 2,
-		"horde" : 4,
 		"sound" : {
 			"attack" : "Pavilion/wadjAtt.wav",
 			"defend" : "Pavilion/wadjDef.wav",
@@ -45,7 +52,6 @@
 			"move" : "Pavilion/wadjWalk.wav",
 			"wince" : "Pavilion/wadjHit.wav"
 		},
-		"speed" : 8,
 		"abilities" : {
 			"canFly" : {
 				"type" : "FLYING"

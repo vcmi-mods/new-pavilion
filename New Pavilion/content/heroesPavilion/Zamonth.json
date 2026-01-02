@@ -25,18 +25,18 @@
 		"army" : [
 			{
 				"creature" : "mummy",
-				"max" : 2,
-				"min" : 2
+				"max" : 7,
+				"min" : 7
 			},
 			{
 				"creature" : "mummy",
-				"max" : 2,
-				"min" : 2
+				"max" : 7,
+				"min" : 7
 			},
 			{
 				"creature" : "mummy",
-				"max" : 2,
-				"min" : 2
+				"max" : 7,
+				"min" : 7
 			}
 		],
 

@@ -1,10 +1,14 @@
 {
 	"name" : "Desert Warrior ability",
-	"description" : "This mod expands Desert Warrior ability to work with Diunes terrain",
+	"description" : "This mod expands Camel Rider and Desert Warrior abilities to work with Dunes terrain",
 	"author" : "misiokles",
 	"contact" : "https://discord.gg/chBT42V",
-	"version" : "1.0",
+	"version" : "1.1",
 	"changelog" : {
+		"1.1" : [
+			"Updated Camel Rider and Deser Warrior abilities."
+		],
+		
 		"1.0" : [
 			"Initial release"
 		]
@@ -18,5 +22,9 @@
 	],
 	"creatures" : [
 		"config/desert-warrior/desertWarrior.json"
+	],
+	
+	"spells" : [
+	  "config/desert-warrior/desertBlessing.json"
 	]
 }

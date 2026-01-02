@@ -9,24 +9,34 @@
 			"min" : 16
 		},
 		"faction" : "pavilion",
-		"aiValue" : 180,
+		"hasDoubleWeek": true,
+		"level" : 2,
 		"attack" : 7,
-		"hasDoubleWeek" : true,
-		"cost" : {
+		"defense" : 4,
+		"damage" :
+		{
+			"max" : 4,
+			"min" : 3
+		},
+		"hitPoints" : 15,
+		"speed" : 7,
+		"cost" :
+		{
 			"gold" : 130
 		},
-		"damage" : {
-			"max" : 3,
-			"min" : 2
-		},
-		"defense" : 4,
+		"growth" : 9,
+		"horde" : 4,
+		"aiValue" : 180,
 		"fightValue" : 160,
-
 		"graphics" : {
+			// Optional. Images of creatures when attacked on adventure map
+        	"mapAttackFromRight": "creaturedefsPavilion/mapattack/wadjX",
+        	"mapAttackFromLeft": "creaturedefsPavilion/mapattack/wadjY",
+
 			"animation" : "creaturedefsPavilion/Wadjet.def",
 			"map" : "creaturedefsPavilion/wadjetMap.def",
 			"iconSmall" : "creatureiconsPavilion/WadjetSmall.bmp",
-			"iconLarge" : "creatureiconsPavilion/Wadjet.bmp",
+			"iconLarge" : "creatureiconsPavilion/Wadjet.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.2,
@@ -35,10 +45,6 @@
 			}
 		},
 		"doubleWide" : true,
-		"growth" : 9,
-		"hitPoints" : 15,
-		"level" : 2,
-		"horde" : 4,
 		"upgrades" : [
 			"venomousWadjet"
 		],
@@ -49,7 +55,6 @@
 			"move" : "Pavilion/wadjWalk.wav",
 			"wince" : "Pavilion/wadjHit.wav"
 		},
-		"speed" : 6,
 		"abilities" : {
 			"canFly" : {
 				"type" : "FLYING"

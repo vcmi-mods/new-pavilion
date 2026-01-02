@@ -23,8 +23,8 @@
 		"army" : [
 			{
 				"creature" : "whipper",
-				"max" : 20,
-				"min" : 12
+				"max" : 25,
+				"min" : 15
 			},
 			{
 				"creature" : "wadjet",
@@ -32,9 +32,9 @@
 				"min" : 7
 			},
 			{
-				"creature" : "whipper",
-				"max" : 20,
-				"min" : 12
+				"creature" : "camelRider",
+				"max" : 5,
+				"min" : 3
 			}
 		],
 		"skills" : [

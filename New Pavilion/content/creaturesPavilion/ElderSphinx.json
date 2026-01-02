@@ -9,19 +9,30 @@
 			"min" : 5
 		},
 		"faction" : "pavilion",
+		"level" : 6,
 		"attack" : 15,
-		"cost" : {
-			"gold" : 1100
-		},
-		"damage" : {
+		"defense" : 17,
+		"damage" :
+		{
 			"max" : 23,
 			"min" : 18
 		},
-		"defense" : 17,
+		"hitPoints" : 110,
+		"speed" : 9,
+		"cost" :
+		{
+			"gold" : 1100
+		},
+        "growth" : 2,
+        "horde" : 1,
+		"aiValue": 2000,
 		"fightValue" : 1400,
-		"aiValue" : 2000,
 
 		"graphics" : {
+			// Optional. Images of creatures when attacked on adventure map
+        	"mapAttackFromRight": "creaturedefsPavilion/mapattack/AdvsphxOX",
+        	"mapAttackFromLeft": "creaturedefsPavilion/mapattack/AdvsphxOY",
+
 			"animation" : "creaturedefsPavilion/ElderSphinx.def",
 			"map" : "creaturedefsPavilion/ElderSphinxMap.def",
 			"iconSmall" : "creatureiconsPavilion/ElderSphinxSmall.bmp",
@@ -34,10 +45,6 @@
 			}
 		},
 		"doubleWide" : true,
-		"growth" : 2,
-		"hitPoints" : 110,
-		"level" : 6,
-		"horde" : 1,
 
 		"sound" : {
 			"attack" : "WUNCSHOT",
@@ -46,7 +53,6 @@
 			"move" : "MANTMOVE",
 			"wince" : "Pavilion/sphxHit.wav"
 		},
-		"speed" : 9,
 		"abilities" : {
 			"canFly" : {
 				"type" : "FLYING"

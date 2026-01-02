@@ -3,8 +3,11 @@
 	"description" : "Assets for dunes terrain. \nSpecial thanks for Avatar and Witchking. \nMusic from: https://pixabay.com/pl/users/artslop_flodur-1985637/ ",
 	"author" : "edeksumo, lillith",
 	"contact" : "edeksumo@gmail.com",
-	"version" : "1.0.2",
+	"version" : "1.0.3",
 	"changelog" : {
+		"1.0.3" : [
+			"Further Desert Warrior ability expansion"
+		],
 		"1.0.2" : [
 			"Expanded Desert Warrior ability on dunes"
 		],

@@ -9,18 +9,30 @@
 			"min" : 12
 		},
 		"faction" : "pavilion",
-		"aiValue" : 340,
+		"level" : 3,
 		"attack" : 9,
-		"cost" : {
-			"gold" : 220
-		},
-		"damage" : {
+		"defense" : 9,
+		"damage" :
+		{
 			"max" : 6,
 			"min" : 2
 		},
-		"defense" : 9,
+		"hitPoints" : 25,
+		"speed" : 7,
+		"cost" :
+		{
+			"gold" : 220
+		},
+        "growth" : 7,
+		"horde" : 3,
+		"aiValue" : 340,
 		"fightValue" : 320,
+
 		"graphics" : {
+			// Optional. Images of creatures when attacked on adventure map
+        	"mapAttackFromRight": "creaturedefsPavilion/mapattack/AVWbeduX",
+        	"mapAttackFromLeft": "creaturedefsPavilion/mapattack/AVWbeduY",
+
 			"animation" : "creaturedefsPavilion/camelRider.def",
 			"map" : "creaturedefsPavilion/camelRiderMap.def",
 			"iconSmall" : "creatureiconsPavilion/camelRiderSmall.bmp",
@@ -33,10 +45,6 @@
 			}
 		},
 		"doubleWide" : true,
-		"growth" : 7,
-		"horde" : 3,
-		"hitPoints" : 25,
-		"level" : 3,
 		"upgrades" : [
 			"desertWarrior"
 		],
@@ -48,8 +56,24 @@
 			"move" : "Pavilion/camWalk.wav",
 			"wince" : "Pavilion/camHit.wav"
 		},
-		"speed" : 7,
-		"abilities" : {},
+		"abilities" : {
+			"desertRider" : 
+			{
+				"subtype" : "heroMovementLand",
+				"type" : "MOVEMENT",
+				"val" : 150,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "CREATURE_TERRAIN_LIMITER",
+						"terrain" : "sand"
+					}
+				],
+				"propagator": "HERO",
+				"description" : "{Sand Runner}\nBoosts Hero's movement by 150 points when starting turn on sandy terrains",
+				"icon" : "bonusiconsPavilion/nomads.png"
+			}
+		},
 		"stackExperience" : []
 	}
 }

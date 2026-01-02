@@ -5,11 +5,11 @@
 
 		"texts" : {
 			"name" : "Keila",
-			"biography" : "Young Keila never sought fame or approval, but when a grand magus invited her to work for him, she couldn’t refuse. Rewriting hundreds of parchments and tomes gave her great deal of arcane knowledge and satisfaction.",
+			"biography" : "Young Keila never sought fame or approval, but when a grand magus offered her an apprenticeship, she couldn’t refuse. Rewriting hundreds of parchments and tomes gave her great deal of arcane knowledge and satisfaction.",
 			"specialty" : {
-				"description" : "Casts Specialist's Slow with increased effect (additional -1 Speed for tier 1-6 creatures).",
-				"tooltip" : "Spell Bonus: Specialist's Slow",
-				"name" : "Specialist's Slow"
+				"description" : "Casts Slow with increased effect (10% increase).",
+				"tooltip" : "Spell Bonus: Slow",
+				"name" : "Slow"
 			}
 		},
 
@@ -21,8 +21,7 @@
 		},
 
 		"spellbook" : [
-			"slow",
-			"specialSlowPav"
+			"slow"
 		],
 
 		"army" : [
@@ -54,16 +53,12 @@
 		],
 		"specialty" : {
 			"bonuses" : {
-				//				"slow" : {
-				//					"subtype" : "spell.slow",
-				//					"type" : "SPECIAL_SPELL_LEV",
-				//					"updater" : "TIMES_HERO_LEVEL",
-				//					"val" : 3
-				//				}
-				"specialSlow" : {
-					"subtype" : "specialSlowPav",
-					"type" : "SPELL"
-				}
+			"specialSlow" : 
+			{
+					"addInfo" : -10,
+					"subtype" : "slow",
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
+			}
 			}
 		}
 	}
