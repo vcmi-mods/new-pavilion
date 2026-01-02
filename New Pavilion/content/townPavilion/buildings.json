@@ -167,7 +167,12 @@
 						"gold" : 2000
 					},
 					"warMachine" : "emergencyTentArt",
-					"requires" : [ "allOf", ["blacksmith"]],
+					"requires" : [
+						"allOf",
+						[
+							"blacksmith"
+						]
+					],
 
 					"id" : 23
 				},
@@ -265,7 +270,9 @@
 						"ore" : 5,
 						"gold" : 2000
 					},
-                    "requires" : [ "marketplace" ],
+					"requires" : [
+						"marketplace"
+					],
 					"produce" : {
 						"gold" : 500
 					}
@@ -283,7 +290,7 @@
 							"valueType" : "PERCENT_TO_ALL",
 							"propagator" : "TOWN_AND_VISITOR"
 						}
-						//{"type" : "SPELL_IMMUNITY", "subtype" : "slow", "propagator" : "TOWN_AND_VISITOR"}						
+						//{"type" : "SPELL_IMMUNITY", "subtype" : "slow", "propagator" : "TOWN_AND_VISITOR"}
 					]
 				},
 				"dwellingLvl1" : {

@@ -9,19 +9,17 @@
 			"min" : 20
 		},
 		"faction" : "pavilion",
-		"hasDoubleWeek": true,
+		"hasDoubleWeek" : true,
 		"level" : 1,
 		"attack" : 4,
 		"defense" : 3,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 3,
 			"min" : 1
 		},
 		"hitPoints" : 7,
 		"speed" : 5,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 50
 		},
 		"growth" : 15,
@@ -31,8 +29,8 @@
 
 		"graphics" : {
 			// Optional. Images of creatures when attacked on adventure map
-        	"mapAttackFromRight": "creaturedefsPavilion/mapattack/whipadvX",
-        	"mapAttackFromLeft": "creaturedefsPavilion/mapattack/whipadvY",
+			"mapAttackFromRight" : "creaturedefsPavilion/mapattack/whipadvX",
+			"mapAttackFromLeft" : "creaturedefsPavilion/mapattack/whipadvY",
 
 			"animation" : "creaturedefsPavilion/Whipper.def",
 			"map" : "creaturedefsPavilion/WhipperMap.def",
@@ -55,36 +53,36 @@
 			"move" : "Pavilion/wippWalk.wav",
 			"wince" : "Pavilion/wippHit.wav"
 		},
-        "abilities" : {
-            "tribute1" : {
-                "type" : "GENERATE_RESOURCE",
-                "subtype" : "gold",
-                "val" : 2,
-                "propagator" : "HERO",
-                "updater" : {
-                    "type" : "TIMES_ARMY_SIZE",
-                    "stepSize" : 1,
-                    "filteredCreature": "whipper"
-                },
-                "stacking" : "base",
-                "description" : "{Generate Gold}\nEach Whipper produces 2 pieces of gold every day or 4 pieces if it's stationed in town",
-                "icon" : "bonusiconsPavilion/gold.png"
-            },
-			
-            "tribute2" : {
-                "type" : "GENERATE_RESOURCE",
-                "subtype" : "gold",
-                "val" : 4,
-                "propagator" : "TOWN_AND_VISITOR",
-                "updater" : {
-                    "type" : "TIMES_ARMY_SIZE",
-                    "stepSize" : 1,
-                    "filteredCreature": "whipper"
-                },
-                "stacking" : "base",
+		"abilities" : {
+			"tribute1" : {
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "gold",
+				"val" : 2,
+				"propagator" : "HERO",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"stepSize" : 1,
+					"filteredCreature" : "whipper"
+				},
+				"stacking" : "base",
+				"description" : "{Generate Gold}\nEach Whipper produces 2 pieces of gold every day or 4 pieces if it's stationed in town",
+				"icon" : "bonusiconsPavilion/gold.png"
+			},
+
+			"tribute2" : {
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "gold",
+				"val" : 4,
+				"propagator" : "TOWN_AND_VISITOR",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"stepSize" : 1,
+					"filteredCreature" : "whipper"
+				},
+				"stacking" : "base",
 				"hidden" : true
-            }
-        },
+			}
+		},
 		"stackExperience" : []
 	}
 }

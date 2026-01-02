@@ -12,25 +12,23 @@
 		"level" : 6,
 		"attack" : 14,
 		"defense" : 16,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 20,
 			"min" : 15
 		},
 		"hitPoints" : 100,
 		"speed" : 7,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 900
 		},
-        "growth" : 2,
-		"aiValue": 1800,
+		"growth" : 2,
+		"aiValue" : 1800,
 		"fightValue" : 1000,
 
 		"graphics" : {
 			// Optional. Images of creatures when attacked on adventure map
-        	"mapAttackFromRight": "creaturedefsPavilion/mapattack/AdvsphxX",
-        	"mapAttackFromLeft": "creaturedefsPavilion/mapattack/AdvsphxY",
+			"mapAttackFromRight" : "creaturedefsPavilion/mapattack/AdvsphxX",
+			"mapAttackFromLeft" : "creaturedefsPavilion/mapattack/AdvsphxY",
 
 			"animation" : "creaturedefsPavilion/Sphinx.def",
 			"map" : "creaturedefsPavilion/SphinxMap.def",

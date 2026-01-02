@@ -12,26 +12,24 @@
 		"level" : 3,
 		"attack" : 10,
 		"defense" : 10,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 6,
 			"min" : 2
 		},
 		"hitPoints" : 25,
 		"speed" : 8,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 260
 		},
-        "growth" : 7,
+		"growth" : 7,
 		"horde" : 3,
 		"aiValue" : 340,
 		"fightValue" : 320,
 
 		"graphics" : {
 			// Optional. Images of creatures when attacked on adventure map
-        	"mapAttackFromRight": "creaturedefsPavilion/mapattack/AVWdeseWX",
-        	"mapAttackFromLeft": "creaturedefsPavilion/mapattack/AVWdeseWY",
+			"mapAttackFromRight" : "creaturedefsPavilion/mapattack/AVWdeseWX",
+			"mapAttackFromLeft" : "creaturedefsPavilion/mapattack/AVWdeseWY",
 
 			"animation" : "creaturedefsPavilion/desertWarrior.def",
 			"map" : "creaturedefsPavilion/desertWarriorMap.def",
@@ -69,13 +67,12 @@
 				"description" : "{Sand Runner}\nBoosts Hero's movement by 150 points when starting turn on sandy terrains",
 				"icon" : "bonusiconsPavilion/nomads.png"
 			},
-			
-			"desertBlessing" : 
-			{
+
+			"desertBlessing" : {
 				"type" : "ENCHANTED",
-					"subtype" : "spell.desertBlessing",
+				"subtype" : "spell.desertBlessing",
 				"description" : "{Desert Blessing}\nBoosts Attack, Defense and Speed by 2 on sandy terrains"
-			} 
+			}
 		}
 	}
 }

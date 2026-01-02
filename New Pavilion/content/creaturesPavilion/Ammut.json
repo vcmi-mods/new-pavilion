@@ -12,24 +12,22 @@
 		"level" : 5,
 		"attack" : 14,
 		"defense" : 12,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 18,
 			"min" : 13
 		},
 		"hitPoints" : 50,
 		"speed" : 6,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 500
 		},
-        "growth" : 3,
+		"growth" : 3,
 		"aiValue" : 1000,
 		"fightValue" : 800,
 		"graphics" : {
 			// Optional. Images of creatures when attacked on adventure map
-        	"mapAttackFromRight": "creaturedefsPavilion/mapattack/amt1advX",
-        	"mapAttackFromLeft": "creaturedefsPavilion/mapattack/amt1advY",
+			"mapAttackFromRight" : "creaturedefsPavilion/mapattack/amt1advX",
+			"mapAttackFromLeft" : "creaturedefsPavilion/mapattack/amt1advY",
 
 			"animation" : "creaturedefsPavilion/Ammut.def",
 			"map" : "creaturedefsPavilion/AmmutMap.def",

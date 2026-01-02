@@ -8,7 +8,7 @@
 		"1.1" : [
 			"Updated Camel Rider and Deser Warrior abilities."
 		],
-		
+
 		"1.0" : [
 			"Initial release"
 		]
@@ -23,8 +23,8 @@
 	"creatures" : [
 		"config/desert-warrior/desertWarrior.json"
 	],
-	
+
 	"spells" : [
-	  "config/desert-warrior/desertBlessing.json"
+		"config/desert-warrior/desertBlessing.json"
 	]
 }

@@ -12,16 +12,14 @@
 		"level" : 4,
 		"attack" : 10,
 		"defense" : 8,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 9,
 			"min" : 7
 		},
-        "shots" : 12,
+		"shots" : 12,
 		"hitPoints" : 25,
 		"speed" : 6,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 330
 		},
 		"growth" : 4,
@@ -30,8 +28,8 @@
 
 		"graphics" : {
 			// Optional. Images of creatures when attacked on adventure map
-        	"mapAttackFromRight": "creaturedefsPavilion/mapattack/AdvsekhX",
-        	"mapAttackFromLeft": "creaturedefsPavilion/mapattack/AdvsekhY",
+			"mapAttackFromRight" : "creaturedefsPavilion/mapattack/AdvsekhX",
+			"mapAttackFromLeft" : "creaturedefsPavilion/mapattack/AdvsekhY",
 
 			"animation" : "creaturedefsPavilion/Sekhmet.def",
 			"map" : "creaturedefsPavilion/SekhmetMap.def",

@@ -53,12 +53,11 @@
 		],
 		"specialty" : {
 			"bonuses" : {
-			"specialSlow" : 
-			{
+				"specialSlow" : {
 					"addInfo" : -10,
 					"subtype" : "slow",
 					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
-			}
+				}
 			}
 		}
 	}

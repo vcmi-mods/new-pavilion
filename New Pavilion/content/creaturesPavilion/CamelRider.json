@@ -12,26 +12,24 @@
 		"level" : 3,
 		"attack" : 9,
 		"defense" : 9,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 6,
 			"min" : 2
 		},
 		"hitPoints" : 25,
 		"speed" : 7,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 220
 		},
-        "growth" : 7,
+		"growth" : 7,
 		"horde" : 3,
 		"aiValue" : 340,
 		"fightValue" : 320,
 
 		"graphics" : {
 			// Optional. Images of creatures when attacked on adventure map
-        	"mapAttackFromRight": "creaturedefsPavilion/mapattack/AVWbeduX",
-        	"mapAttackFromLeft": "creaturedefsPavilion/mapattack/AVWbeduY",
+			"mapAttackFromRight" : "creaturedefsPavilion/mapattack/AVWbeduX",
+			"mapAttackFromLeft" : "creaturedefsPavilion/mapattack/AVWbeduY",
 
 			"animation" : "creaturedefsPavilion/camelRider.def",
 			"map" : "creaturedefsPavilion/camelRiderMap.def",
@@ -57,8 +55,7 @@
 			"wince" : "Pavilion/camHit.wav"
 		},
 		"abilities" : {
-			"desertRider" : 
-			{
+			"desertRider" : {
 				"subtype" : "heroMovementLand",
 				"type" : "MOVEMENT",
 				"val" : 150,
@@ -69,7 +66,7 @@
 						"terrain" : "sand"
 					}
 				],
-				"propagator": "HERO",
+				"propagator" : "HERO",
 				"description" : "{Sand Runner}\nBoosts Hero's movement by 150 points when starting turn on sandy terrains",
 				"icon" : "bonusiconsPavilion/nomads.png"
 			}

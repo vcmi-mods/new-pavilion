@@ -193,7 +193,7 @@
 		"spellsPavilion/specSlow.json",
 		"spellsPavilion/tentBoost.json",
 		"spellsPavilion/moat.json",
-	  "spellsPavilion/desertBlessing.json"
+		"spellsPavilion/desertBlessing.json"
 	],
 
 	"skills" : [

@@ -12,26 +12,24 @@
 		"level" : 6,
 		"attack" : 15,
 		"defense" : 17,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 23,
 			"min" : 18
 		},
 		"hitPoints" : 110,
 		"speed" : 9,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 1100
 		},
-        "growth" : 2,
-        "horde" : 1,
-		"aiValue": 2000,
+		"growth" : 2,
+		"horde" : 1,
+		"aiValue" : 2000,
 		"fightValue" : 1400,
 
 		"graphics" : {
 			// Optional. Images of creatures when attacked on adventure map
-        	"mapAttackFromRight": "creaturedefsPavilion/mapattack/AdvsphxOX",
-        	"mapAttackFromLeft": "creaturedefsPavilion/mapattack/AdvsphxOY",
+			"mapAttackFromRight" : "creaturedefsPavilion/mapattack/AdvsphxOX",
+			"mapAttackFromLeft" : "creaturedefsPavilion/mapattack/AdvsphxOY",
 
 			"animation" : "creaturedefsPavilion/ElderSphinx.def",
 			"map" : "creaturedefsPavilion/ElderSphinxMap.def",

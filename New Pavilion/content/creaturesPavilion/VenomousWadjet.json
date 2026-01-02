@@ -12,15 +12,13 @@
 		"level" : 2,
 		"attack" : 7,
 		"defense" : 5,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 5,
 			"min" : 3
 		},
 		"hitPoints" : 20,
 		"speed" : 9,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 180
 		},
 		"growth" : 9,
@@ -30,8 +28,8 @@
 
 		"graphics" : {
 			// Optional. Images of creatures when attacked on adventure map
-        	"mapAttackFromRight": "creaturedefsPavilion/mapattack/venomwadjX",
-        	"mapAttackFromLeft": "creaturedefsPavilion/mapattack/venomwadjY",
+			"mapAttackFromRight" : "creaturedefsPavilion/mapattack/venomwadjX",
+			"mapAttackFromLeft" : "creaturedefsPavilion/mapattack/venomwadjY",
 
 			"animation" : "creaturedefsPavilion/venomousWadjet.def",
 			"map" : "creaturedefsPavilion/venomousWadjetMap.def",

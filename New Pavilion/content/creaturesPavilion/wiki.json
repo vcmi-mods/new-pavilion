@@ -15,9 +15,8 @@
 		"description" : "{Venomous Wadjet}\r\n\r\n{gold|Special Ability : Can inflict Poison after attack. Flying.}\n\nVenomous Wadjets have 20% chance to inflict Poison after attack.\nPoison causes a creature to lose 10% of its health each turn. This state lasts 3 turns.\nFlying is a special ability of creatures, which allows them to bypass obstacles (e.g. walls) during combat. Having creatures with this special ability in a hero's army does not affect the movement of that hero on the adventure map in any way (meaning that flying creatures also cause a movement penalty on non-native terrain)."
 	},
 
-	"camelRider":
-	{
-	"description" : "{Camel Rider}\r\n\r\n{gold|Special Ability : Sand Runner}\n\nCamel Riders increase movement points by 150 on new turn during travelling through sand and dunes terrains."
+	"camelRider" : {
+		"description" : "{Camel Rider}\r\n\r\n{gold|Special Ability : Sand Runner}\n\nCamel Riders increase movement points by 150 on new turn during travelling through sand and dunes terrains."
 	},
 
 	"desertWarrior" : {

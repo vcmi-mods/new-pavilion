@@ -61,7 +61,7 @@
 		"immunity" : {},
 		"flags" : {
 			"negative" : true,
-			"nonMagical": true
+			"nonMagical" : true
 		}
 	}
 }

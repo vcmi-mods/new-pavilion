@@ -12,25 +12,23 @@
 		"level" : 7,
 		"attack" : 20,
 		"defense" : 15,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 40,
 			"min" : 35
 		},
 		"hitPoints" : 180,
 		"speed" : 9,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 2000,
 			"mercury" : 1
 		},
-        "growth" : 1,
+		"growth" : 1,
 		"aiValue" : 3850,
 		"fightValue" : 3650,
 		"graphics" : {
 			// Optional. Images of creatures when attacked on adventure map
-        	"mapAttackFromRight": "creaturedefsPavilion/mapattack/anu1advx",
-        	"mapAttackFromLeft": "creaturedefsPavilion/mapattack/anu1advy",
+			"mapAttackFromRight" : "creaturedefsPavilion/mapattack/anu1advx",
+			"mapAttackFromLeft" : "creaturedefsPavilion/mapattack/anu1advy",
 
 			"animation" : "creaturedefsPavilion/newAnubis1.def",
 			"map" : "creaturedefsPavilion/newAnubis1adv.def",
@@ -68,8 +66,7 @@
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
 			},
-            "regenerate" : 
-			{
+			"regenerate" : {
 				"type" : "HP_REGENERATION",
 				"val" : 40
 			}

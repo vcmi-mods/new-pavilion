@@ -9,19 +9,17 @@
 			"min" : 16
 		},
 		"faction" : "pavilion",
-		"hasDoubleWeek": true,
+		"hasDoubleWeek" : true,
 		"level" : 2,
 		"attack" : 7,
 		"defense" : 4,
-		"damage" :
-		{
+		"damage" : {
 			"max" : 4,
 			"min" : 3
 		},
 		"hitPoints" : 15,
 		"speed" : 7,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 130
 		},
 		"growth" : 9,
@@ -30,8 +28,8 @@
 		"fightValue" : 160,
 		"graphics" : {
 			// Optional. Images of creatures when attacked on adventure map
-        	"mapAttackFromRight": "creaturedefsPavilion/mapattack/wadjX",
-        	"mapAttackFromLeft": "creaturedefsPavilion/mapattack/wadjY",
+			"mapAttackFromRight" : "creaturedefsPavilion/mapattack/wadjX",
+			"mapAttackFromLeft" : "creaturedefsPavilion/mapattack/wadjY",
 
 			"animation" : "creaturedefsPavilion/Wadjet.def",
 			"map" : "creaturedefsPavilion/wadjetMap.def",
