@@ -55,7 +55,7 @@
 				"type" : "FLYING"
 			},
 			"poisonous" : {
-				"addInfo" : 0,
+				"addInfo" : [2, 2],
 				"subtype" : "poison",
 				"type" : "SPELL_AFTER_ATTACK",
 				"val" : 20

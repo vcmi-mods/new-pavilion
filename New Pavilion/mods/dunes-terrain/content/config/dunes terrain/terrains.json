@@ -19,9 +19,8 @@
 		"river" : "lazurRiver",
 		"rockTerrain" : "rock",
 		"shortIdentifier" : "dn",
-		"type" : [
-			"SURFACE"
-		],
+		"type" : [],
+		"allowedLayers": ["surface", "unknown"],
 		"battleFields" : [
 			"dunesBattlefield_01",
 			"dunesBattlefield_02",

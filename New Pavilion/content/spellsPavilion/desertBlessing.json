@@ -54,7 +54,7 @@
 						]
 					},
 					"desertSpeed" : {
-						"addInfo" : 0,
+//						"addInfo" : 0,
 						"type" : "STACKS_SPEED",
 						"val" : 2,
 						"duration" : "N_TURNS",
