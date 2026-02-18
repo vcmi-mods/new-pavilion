@@ -20,7 +20,10 @@
 		"rockTerrain" : "rock",
 		"shortIdentifier" : "dn",
 		"type" : [],
-		"allowedLayers": ["surface", "unknown"],
+		"allowedLayers" : [
+			"surface",
+			"unknown"
+		],
 		"battleFields" : [
 			"dunesBattlefield_01",
 			"dunesBattlefield_02",
