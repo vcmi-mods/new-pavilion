@@ -277,7 +277,6 @@
 	"mapObject.new-pavilion.dunes-terrain.creatureBank.dunesSnakeTemple.name" : "蛇神殿",
 	"mapObject.new-pavilion.dunes-terrain.mountain.desertBarchanDunes.name" : "新月形沙丘",
 	"mapObject.new-pavilion.dunes-terrain.treeOfKnowledge.desertTreeOfKnowledge.name" : "斯芬克斯",
-	"mapObject.new-pavilion.desert objects.treeOfKnowledge.desertTreeOfKnowledge.name" : "斯芬克斯",
 
 	"mapObject.new-pavilion.dunes-terrain.monolithOneWayEntrance.desertMonsterMaw.name" : "颚骨",
 	"mapObject.new-pavilion.dunes-terrain.monolithOneWayExit.desertMonsterMaw.name" : "地洞",
