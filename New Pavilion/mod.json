@@ -4,12 +4,15 @@
 
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community, VCMI community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.91",
+	"version" : "2.9.92",
 	"modType" : "Town",
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"2.9.92" : [
+			"Fix console warnings"
+		],
 		"2.9.91" : [
 			"Adjust for RMG multilayers feature"
 		],
