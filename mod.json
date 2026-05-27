@@ -1,15 +1,19 @@
 {
-	"name" : "Pavilion Town",
-	"description" : "Version of the 'Egyptian Bastion Town', originally conceptualised and created by the New Town Group, then ported to VCMI by edeksumo, then modified and worked on further by the members of Acid Cave and VCMI modding communities.",
-
+	"name" : "Pavilion",
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community, VCMI community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.92",
+	"version" : "2.9.93",
 	"modType" : "Town",
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"2.9.93" : [
+			"Moved mod to root",
+			"Moved translation files",
+			"Added new mod description",
+			"Updated Czech translation"
+		],
 		"2.9.92" : [
 			"Fix console warnings"
 		],
@@ -180,14 +184,10 @@
 		"creaturesPavilion/ElderSphinx.json",
 		"creaturesPavilion/Anubis.json",
 		"creaturesPavilion/AnubisWarrior.json",
-
 		"commanderPavilion/preacher.json",
 		"creaturesPavilion/Scarab.json",
-
 		"creaturesPavilion/stackExp.json",
-
 		"creaturesPavilion/wiki.json",
-
 		"artifactsPavilion/emergencyTentCreature.json"
 	],
 
@@ -250,55 +250,44 @@
 	],
 	"french" : {
 		"name" : "Pavillon",
-		"description" : "Version modifiée et équilibrée de 'Bastion Town' portée sur VCMI par edeksumo avec l'aide de la communauté de modding Acid Cave, initialement conceptualisée et créée par New Town Group.",
-
 		"translations" : [
-			"config/translationPavilion/french.json"
+			"translation/french.json"
 		]
 	},
 	"german" : {
 		"name" : "Pavillon",
-		"description" : "Modifizierte und ausgewogene Version der 'Bastion Town', die von edeksumo mit Hilfe der Acid Cave Modding-Community auf VCMI portiert wurde. Ursprünglich wurde sie von der New Town Group konzipiert und erstellt.",
-
 		"translations" : [
-			"config/translationPavilion/german.json"
+			"translation/german.json"
 		]
 	},
 	"polish" : {
 		"name" : "Pawilon",
-		"description" : "Wersja „Bastion Town” przeniesiona do VCMI przez edkasumo i zmodyfikowana przez społeczność modderską Kwasowej Groty. Pierwotnie miasto zostało opracowane przez zespół New Town Group.",
-
 		"translations" : [
-			"config/translationPavilion/polish.json"
+			"translation/polish.json"
 		]
 	},
 	"chinese" : {
 		"name" : "沙堡",
-		"description" : "沙堡的原型是古埃及神话，兵种设计也有独特的埃及神话艺术。在英雄无敌的世界里也是非常独特的设计。",
 		"translations" : [
-			"config/translationPavilion/chinese.json"
+			"translation/chinese.json"
 		]
 	},
 	"portuguese" : {
 		"name" : "Pavilhão",
-		"description" : "Versão modificada e equilibrada da 'Cidade Bastion' portada para VCMI por edeksumo com a ajuda da comunidade de modding Acid Cave, originalmente concebida e criada por New Town Group.",
 		"translations" : [
-			"config/translationPavilion/portuguese.json"
+			"translation/portuguese.json"
 		]
 	},
 	"russian" : {
 		"name" : "Павильон",
-		"description" : "Модифицированная и сбалансированная версия «Bastion Town», портированная на VCMI пользователем edeksumo при поддержке сообщества моддеров Acid Cave, изначально задуманная и созданная New Town Group. Город, созданный на основе египетской мифологии.",
-
 		"translations" : [
-			"config/translationPavilion/russian.json"
+			"translation/russian.json"
 		]
 	},
 	"czech" : {
 		"name" : "Pavilon",
-		"description" : "Upravená a vyvážená verze města Bastion, portovaná do VCMI uživatelem edeksumo za pomoci modderské komunity Acid Cave. Původní koncept a tvorba jsou dílem skupiny New Town Group.",
 		"translations" : [
-			"config/translationPavilion/czech.json"
+			"translation/czech.json"
 		]
 	}
 }
