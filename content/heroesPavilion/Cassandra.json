@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "speciconsPavilion/un32Ammu.bmp",
-			"specialtyLarge" : "speciconsPavilion/un44Ammu.bmp",
+			"specialtySmall" : "speciconsPavilion/un32Ammu.png",
+			"specialtyLarge" : "speciconsPavilion/un44Ammu.png",
 			"large" : "heroportraitsPavilion/Cassandra.png",
 			"small" : "heroportraitsPavilion/CassandraSmall.png"
 		},

@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "speciconsPavilion/32Shield.bmp",
-			"specialtyLarge" : "speciconsPavilion/44Shield.bmp",
+			"specialtySmall" : "speciconsPavilion/32Shield.png",
+			"specialtyLarge" : "speciconsPavilion/44Shield.png",
 			"large" : "heroportraitsPavilion/Seref.png",
 			"small" : "heroportraitsPavilion/SerefSmall.png"
 		},

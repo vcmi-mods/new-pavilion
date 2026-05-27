@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "speciconsPavilion/32Offen.bmp",
-			"specialtyLarge" : "speciconsPavilion/44Offen.bmp",
+			"specialtySmall" : "speciconsPavilion/32Offen.png",
+			"specialtyLarge" : "speciconsPavilion/44Offen.png",
 			"large" : "heroportraitsPavilion/Sekhem.png",
 			"small" : "heroportraitsPavilion/SekhemSmall.png"
 		},

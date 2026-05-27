@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "speciconsPavilion/32Ankh.bmp",
-			"specialtyLarge" : "speciconsPavilion/44Ankh.bmp",
+			"specialtySmall" : "speciconsPavilion/32Ankh.png",
+			"specialtyLarge" : "speciconsPavilion/44Ankh.png",
 			"large" : "heroportraitsPavilion/Elspeth.png",
 			"small" : "heroportraitsPavilion/ElspethSmall.png"
 		},

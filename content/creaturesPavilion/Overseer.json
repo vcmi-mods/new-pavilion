@@ -33,8 +33,8 @@
 
 			"animation" : "creaturedefsPavilion/Overseer.def",
 			"map" : "creaturedefsPavilion/OverseerMap.def",
-			"iconSmall" : "creatureiconsPavilion/OverseerSmall.bmp",
-			"iconLarge" : "creatureiconsPavilion/Overseer.bmp",
+			"iconSmall" : "creatureiconsPavilion/OverseerSmall.png",
+			"iconLarge" : "creatureiconsPavilion/Overseer.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.1,

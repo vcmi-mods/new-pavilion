@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "speciconsPavilion/32Meteor.bmp",
-			"specialtyLarge" : "speciconsPavilion/44Meteor.bmp",
+			"specialtySmall" : "speciconsPavilion/32Meteor.png",
+			"specialtyLarge" : "speciconsPavilion/44Meteor.png",
 			"large" : "heroportraitsPavilion/Jaffa.png",
 			"small" : "heroportraitsPavilion/JaffaSmall.png"
 		},

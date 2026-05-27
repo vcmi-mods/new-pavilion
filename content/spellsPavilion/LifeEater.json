@@ -29,8 +29,8 @@
 			"cast" : "PROTECTE"
 		},
 		"graphics" : {
-			"iconImmune" : "spellsPavilion/placeholder.bmp",
-			"iconEffect" : "spellsPavilion/LifeEaterEffect.bmp"
+			"iconImmune" : "spellsPavilion/placeholder.png",
+			"iconEffect" : "spellsPavilion/LifeEaterEffect.png"
 		},
 		"levels" : {
 			"base" : {

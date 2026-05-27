@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "speciconsPavilion/Un32Sphi.bmp",
-			"specialtyLarge" : "speciconsPavilion/Un44Sphi.bmp",
+			"specialtySmall" : "speciconsPavilion/Un32Sphi.png",
+			"specialtyLarge" : "speciconsPavilion/Un44Sphi.png",
 			"large" : "heroportraitsPavilion/Amesh.png",
 			"small" : "heroportraitsPavilion/AmeshSmall.png"
 		},

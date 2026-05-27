@@ -33,7 +33,7 @@
 
 			"animation" : "creaturedefsPavilion/Wadjet.def",
 			"map" : "creaturedefsPavilion/wadjetMap.def",
-			"iconSmall" : "creatureiconsPavilion/WadjetSmall.bmp",
+			"iconSmall" : "creatureiconsPavilion/WadjetSmall.png",
 			"iconLarge" : "creatureiconsPavilion/Wadjet.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {

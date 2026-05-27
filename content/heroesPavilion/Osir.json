@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "speciconsPavilion/32FirstA.bmp",
-			"specialtyLarge" : "speciconsPavilion/44FirstA.bmp",
+			"specialtySmall" : "speciconsPavilion/32FirstA.png",
+			"specialtyLarge" : "speciconsPavilion/44FirstA.png",
 			"large" : "heroportraitsPavilion/Osir.png",
 			"small" : "heroportraitsPavilion/OsirSmall.png"
 		},

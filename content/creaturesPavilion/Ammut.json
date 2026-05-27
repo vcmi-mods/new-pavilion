@@ -31,8 +31,8 @@
 
 			"animation" : "creaturedefsPavilion/Ammut.def",
 			"map" : "creaturedefsPavilion/AmmutMap.def",
-			"iconSmall" : "creatureiconsPavilion/AmmutSmall.bmp",
-			"iconLarge" : "creatureiconsPavilion/Ammut.bmp",
+			"iconSmall" : "creatureiconsPavilion/AmmutSmall.png",
+			"iconLarge" : "creatureiconsPavilion/Ammut.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.2,

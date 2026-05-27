@@ -15,8 +15,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "speciconsPavilion/un32logi.bmp",
-			"specialtyLarge" : "speciconsPavilion/un44logi.bmp",
+			"specialtySmall" : "speciconsPavilion/un32logi.png",
+			"specialtyLarge" : "speciconsPavilion/un44logi.png",
 			"large" : "heroportraitsPavilion/Bast.png",
 			"small" : "heroportraitsPavilion/BastSmall.png"
 		},

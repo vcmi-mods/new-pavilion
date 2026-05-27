@@ -23,8 +23,8 @@
 		"graphics" : {
 			"animation" : "creaturedefsPavilion/scarab.def",
 			"map" : "creaturedefsPavilion/scarabMap.def",
-			"iconSmall" : "creatureiconsPavilion/scarabIcoSmall.bmp",
-			"iconLarge" : "creatureiconsPavilion/scarabIco.bmp",
+			"iconSmall" : "creatureiconsPavilion/scarabIcoSmall.png",
+			"iconLarge" : "creatureiconsPavilion/scarabIco.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.0,

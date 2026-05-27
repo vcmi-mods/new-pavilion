@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "speciconsPavilion/UN32Wadj.bmp",
-			"specialtyLarge" : "speciconsPavilion/UN44Wadj.bmp",
+			"specialtySmall" : "speciconsPavilion/UN32Wadj.png",
+			"specialtyLarge" : "speciconsPavilion/UN44Wadj.png",
 			"large" : "heroportraitsPavilion/Azarias.png",
 			"small" : "heroportraitsPavilion/AzariasSmall.png"
 		},
