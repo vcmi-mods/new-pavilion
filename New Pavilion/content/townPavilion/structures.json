@@ -12,16 +12,15 @@
 					"animation" : "towndefsPavilion/TBFREXT1",
 					"x" : 141,
 					"y" : 96,
-					"z" : -3
+					"z" : -8
 				},
-
 				"mageGuild1" : {
 					"animation" : "towndefsPavilion/00-mages-guild-1",
 					"area" : "town-screenPavilion/buildings-area/00-mages-guild-1",
 					"border" : "town-screenPavilion/buildings-border/00-mages-guild-1",
 					"x" : 350,
 					"y" : 90,
-					"z" : -5
+					"z" : -4
 				},
 				"mageGuild2" : {
 					"animation" : "towndefsPavilion/01-mages-guild-2",
@@ -29,7 +28,7 @@
 					"border" : "town-screenPavilion/buildings-border/01-mages-guild-2",
 					"x" : 340,
 					"y" : 59,
-					"z" : -5
+					"z" : -4
 				},
 				"mageGuild3" : {
 					"animation" : "towndefsPavilion/02-mages-guild-3",
@@ -37,7 +36,7 @@
 					"border" : "town-screenPavilion/buildings-border/02-mages-guild-3",
 					"x" : 340,
 					"y" : 43,
-					"z" : -5
+					"z" : -4
 				},
 				"mageGuild4" : {
 					"animation" : "towndefsPavilion/03-mages-guild-4",
@@ -45,7 +44,7 @@
 					"border" : "town-screenPavilion/buildings-border/03-mages-guild-4",
 					"x" : 345,
 					"y" : 3,
-					"z" : -5
+					"z" : -4
 				},
 				"tavern" : {
 					"animation" : "towndefsPavilion/05-tavern",
@@ -62,7 +61,7 @@
 					"border" : "town-screenPavilion/buildings-border/07-fort",
 					"x" : 43,
 					"y" : 60,
-					"z" : -5
+					"z" : -6
 				},
 				"citadel" : {
 					"animation" : "towndefsPavilion/08-citadel",
@@ -70,7 +69,7 @@
 					"border" : "town-screenPavilion/buildings-border/08-citadel",
 					"x" : 28,
 					"y" : 4,
-					"z" : -5
+					"z" : -6
 				},
 				"castle" : {
 					"animation" : "towndefsPavilion/09-castle",
@@ -78,21 +77,23 @@
 					"border" : "town-screenPavilion/buildings-border/09-castle",
 					"x" : 28,
 					"y" : 4,
-					"z" : -5
+					"z" : -6
 				},
 				"villageHall" : {
 					"animation" : "towndefsPavilion/10-village-hall",
 					"area" : "town-screenPavilion/buildings-area/10-village-hall",
 					"border" : "town-screenPavilion/buildings-border/10-village-hall",
 					"x" : 650,
-					"y" : 128
+					"y" : 128,
+					"z" : -5
 				},
 				"townHall" : {
 					"animation" : "towndefsPavilion/11-town-hall",
 					"area" : "town-screenPavilion/buildings-area/11-town-hall",
 					"border" : "town-screenPavilion/buildings-border/11-town-hall",
 					"x" : 176,
-					"y" : 93
+					"y" : 93,
+					"z" : -5
 				},
 				"cityHall" : {
 					"animation" : "towndefsPavilion/12-city-hall",
@@ -124,7 +125,7 @@
 					"border" : "town-screenPavilion/buildings-border/15-resource-silo",
 					"x" : 369,
 					"y" : 191,
-					"z" : 0
+					"z" : 2
 				},
 				"blacksmith" : {
 					"animation" : "towndefsPavilion/16-blacksmith",
@@ -193,7 +194,7 @@
 					"border" : "town-screenPavilion/buildings-border/22-special-3",
 					"x" : 369,
 					"y" : 191,
-					"z" : 0
+					"z" : 1
 				},
 				"grail" : {
 					"animation" : "towndefsPavilion/26-grail ani",
@@ -201,7 +202,7 @@
 					"border" : "town-screenPavilion/buildings-border/26-grail",
 					"x" : 0,
 					"y" : 0,
-					"z" : -6
+					"z" : -7
 				},
 
 				"dwellingLvl1" : {
@@ -218,8 +219,7 @@
 					"border" : "town-screenPavilion/buildings-border/30-dwelling-1",
 					"x" : 575,
 					"y" : 258,
-					"z" : -6
-					//					"z" : 4
+					"z" : 4
 				},
 				"dwellingLvl3" : {
 					"animation" : "towndefsPavilion/32-dwelling-3",
@@ -227,7 +227,7 @@
 					"border" : "town-screenPavilion/buildings-border/32-dwelling-3",
 					"x" : 178,
 					"y" : 203,
-					"z" : 0
+					"z" : 1
 				},
 				"dwellingLvl4" : {
 					"animation" : "towndefsPavilion/33-dwelling-4",
@@ -235,7 +235,7 @@
 					"border" : "town-screenPavilion/buildings-border/33-dwelling-4",
 					"x" : 206,
 					"y" : 97,
-					"z" : -4
+					"z" : -3
 				},
 				"dwellingLvl5" : {
 					"animation" : "towndefsPavilion/35-dwelling-6",
@@ -249,7 +249,6 @@
 					"animation" : "towndefsPavilion/34-dwelling-5",
 					"area" : "town-screenPavilion/buildings-area/34-dwelling-5",
 					"border" : "town-screenPavilion/buildings-border/34-dwelling-5",
-
 					"x" : 0,
 					"y" : 209,
 					"z" : 4
@@ -260,7 +259,7 @@
 					"border" : "town-screenPavilion/buildings-border/36-dwelling-7",
 					"x" : 449,
 					"y" : 70,
-					"z" : 0
+					"z" : 1
 				},
 
 				"dwellingUpLvl1" : {
@@ -285,7 +284,7 @@
 					"border" : "town-screenPavilion/buildings-border/39-dwelling-upgrade-3",
 					"x" : 164,
 					"y" : 203,
-					"z" : 0
+					"z" : 1
 				},
 
 				"dwellingUpLvl4" : {
@@ -294,7 +293,7 @@
 					"border" : "town-screenPavilion/buildings-border/40-dwelling-upgrade-4",
 					"x" : 206,
 					"y" : 97,
-					"z" : -4
+					"z" : -3
 				},
 				"dwellingUpLvl5" : {
 					"animation" : "towndefsPavilion/42-dwelling-upgrade-6",
@@ -318,7 +317,7 @@
 					"border" : "town-screenPavilion/buildings-border/43-dwelling-upgrade-7",
 					"x" : 449,
 					"y" : 70,
-					"z" : 0
+					"z" : 1
 				}
 			}
 		}
