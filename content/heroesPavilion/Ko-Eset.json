@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "speciconsPavilion/un32Gold.bmp",
-			"specialtyLarge" : "speciconsPavilion/un44Gold.bmp",
+			"specialtySmall" : "speciconsPavilion/un32Gold.png",
+			"specialtyLarge" : "speciconsPavilion/un44Gold.png",
 			"large" : "heroportraitsPavilion/KoEset.png",
 			"small" : "heroportraitsPavilion/KoEsetSmall.png"
 		},

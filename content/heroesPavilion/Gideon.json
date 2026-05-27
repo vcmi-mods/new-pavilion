@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "speciconsPavilion/Un32Defe.bmp",
-			"specialtyLarge" : "speciconsPavilion/Un44Defe.bmp",
+			"specialtySmall" : "speciconsPavilion/Un32Defe.png",
+			"specialtyLarge" : "speciconsPavilion/Un44Defe.png",
 			"large" : "heroportraitsPavilion/Gideon.png",
 			"small" : "heroportraitsPavilion/GideonSmall.png"
 		},

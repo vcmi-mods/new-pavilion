@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "speciconsPavilion/32Eagle.bmp",
-			"specialtyLarge" : "speciconsPavilion/44Eagle.bmp",
+			"specialtySmall" : "speciconsPavilion/32Eagle.png",
+			"specialtyLarge" : "speciconsPavilion/44Eagle.png",
 			"large" : "heroportraitsPavilion/PethShub.png",
 			"small" : "heroportraitsPavilion/PethShubSmall.png"
 		},

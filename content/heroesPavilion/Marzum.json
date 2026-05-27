@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "speciconsPavilion/un32Whip.bmp",
-			"specialtyLarge" : "speciconsPavilion/un44Whip.bmp",
+			"specialtySmall" : "speciconsPavilion/un32Whip.png",
+			"specialtyLarge" : "speciconsPavilion/un44Whip.png",
 			"large" : "heroportraitsPavilion/Marzum.png",
 			"small" : "heroportraitsPavilion/MarzumSmall.png"
 		},

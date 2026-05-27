@@ -32,8 +32,8 @@
 
 			"animation" : "creaturedefsPavilion/Sphinx.def",
 			"map" : "creaturedefsPavilion/SphinxMap.def",
-			"iconSmall" : "creatureiconsPavilion/SphinxSmall.bmp",
-			"iconLarge" : "creatureiconsPavilion/Sphinx.bmp",
+			"iconSmall" : "creatureiconsPavilion/SphinxSmall.png",
+			"iconLarge" : "creatureiconsPavilion/Sphinx.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1,

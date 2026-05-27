@@ -33,8 +33,8 @@
 
 			"animation" : "creaturedefsPavilion/SekhmetPriestess.def",
 			"map" : "creaturedefsPavilion/SekhmetPriestessMap.def",
-			"iconSmall" : "creatureiconsPavilion/SekhmetPriestessSmall.bmp",
-			"iconLarge" : "creatureiconsPavilion/SekhmetPriestess.bmp",
+			"iconSmall" : "creatureiconsPavilion/SekhmetPriestessSmall.png",
+			"iconLarge" : "creatureiconsPavilion/SekhmetPriestess.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.0,

@@ -34,8 +34,8 @@
 
 			"animation" : "creaturedefsPavilion/Whipper.def",
 			"map" : "creaturedefsPavilion/WhipperMap.def",
-			"iconSmall" : "creatureiconsPavilion/WhipperSmall.bmp",
-			"iconLarge" : "creatureiconsPavilion/Whipper.bmp",
+			"iconSmall" : "creatureiconsPavilion/WhipperSmall.png",
+			"iconLarge" : "creatureiconsPavilion/Whipper.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.1,

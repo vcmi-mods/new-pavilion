@@ -15,8 +15,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "speciconsPavilion/un32Anub.bmp",
-			"specialtyLarge" : "speciconsPavilion/un44Anub.bmp",
+			"specialtySmall" : "speciconsPavilion/un32Anub.png",
+			"specialtyLarge" : "speciconsPavilion/un44Anub.png",
 			"large" : "heroportraitsPavilion/Varn.png",
 			"small" : "heroportraitsPavilion/VarnSmall.png"
 		},

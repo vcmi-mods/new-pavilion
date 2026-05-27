@@ -32,8 +32,8 @@
 
 			"animation" : "creaturedefsPavilion/newAnubis1.def",
 			"map" : "creaturedefsPavilion/newAnubis1adv.def",
-			"iconSmall" : "creatureiconsPavilion/newAnubisSmall.bmp",
-			"iconLarge" : "creatureiconsPavilion/newAnubis.bmp",
+			"iconSmall" : "creatureiconsPavilion/newAnubisSmall.png",
+			"iconLarge" : "creatureiconsPavilion/newAnubis.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 2.0,

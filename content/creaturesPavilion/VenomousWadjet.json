@@ -33,8 +33,8 @@
 
 			"animation" : "creaturedefsPavilion/venomousWadjet.def",
 			"map" : "creaturedefsPavilion/venomousWadjetMap.def",
-			"iconSmall" : "creatureiconsPavilion/venomousWadjetSmall.bmp",
-			"iconLarge" : "creatureiconsPavilion/venomousWadjet.bmp",
+			"iconSmall" : "creatureiconsPavilion/venomousWadjetSmall.png",
+			"iconLarge" : "creatureiconsPavilion/venomousWadjet.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.2,

@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "speciconsPavilion/un32Sekh.bmp",
-			"specialtyLarge" : "speciconsPavilion/un44Sekh.bmp",
+			"specialtySmall" : "speciconsPavilion/un32Sekh.png",
+			"specialtyLarge" : "speciconsPavilion/un44Sekh.png",
 			"large" : "heroportraitsPavilion/Menet.png",
 			"small" : "heroportraitsPavilion/MenetSmall.png"
 		},

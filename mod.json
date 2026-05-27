@@ -2,12 +2,16 @@
 	"name" : "Pavilion",
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community, VCMI community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.93",
+	"version" : "2.9.94",
 	"modType" : "Town",
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"2.9.94" : [
+			"Converted BMP2PNG",
+			"Updated screenshots"
+		],
 		"2.9.93" : [
 			"Moved mod to root",
 			"Moved translation files",

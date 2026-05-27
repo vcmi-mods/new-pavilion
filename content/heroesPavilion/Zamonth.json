@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "speciconsPavilion/un32Mummy.bmp",
-			"specialtyLarge" : "speciconsPavilion/un44Mummy.bmp",
+			"specialtySmall" : "speciconsPavilion/un32Mummy.png",
+			"specialtyLarge" : "speciconsPavilion/un44Mummy.png",
 			"large" : "heroportraitsPavilion/Zamonth.png",
 			"small" : "heroportraitsPavilion/ZamonthSmall.png"
 		},

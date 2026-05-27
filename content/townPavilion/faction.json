@@ -2,8 +2,8 @@
 	"pavilion" : {
 		"name" : "Pavilion",
 		"creatureBackground" : {
-			"120px" : "creature-bg-120pxPavilion.bmp",
-			"130px" : "creature-bg-130pxPavilion.bmp"
+			"120px" : "creature-bg-120pxPavilion.png",
+			"130px" : "creature-bg-130pxPavilion.png"
 		},
 		"nativeTerrain" : "sand",
 		"alignment" : "neutral",
@@ -13,9 +13,9 @@
 			"musicTheme" : [
 				"music/BastionTown"
 			],
-			"guildWindow" : "town-screenPavilion/mage-guild.bmp",
-			"townBackground" : "town-screenPavilion/background.bmp",
-			"guildBackground" : "TPMAGE.bmp",
+			"guildWindow" : "town-screenPavilion/mage-guild.png",
+			"townBackground" : "town-screenPavilion/background.png",
+			"guildBackground" : "TPMAGE.png",
 			"hallBackground" : "PAVTHALL",
 			"hallSlots" : [
 				[
@@ -156,22 +156,22 @@
 			"icons" : {
 				"village" : {
 					"normal" : {
-						"small" : "towniconsPavilion/hall-small.bmp",
-						"large" : "towniconsPavilion/hall-big.bmp"
+						"small" : "towniconsPavilion/hall-small.png",
+						"large" : "towniconsPavilion/hall-big.png"
 					},
 					"built" : {
-						"small" : "towniconsPavilion/hall-builded-small.bmp",
-						"large" : "towniconsPavilion/hall-builded-big.bmp"
+						"small" : "towniconsPavilion/hall-builded-small.png",
+						"large" : "towniconsPavilion/hall-builded-big.png"
 					}
 				},
 				"fort" : {
 					"normal" : {
-						"small" : "towniconsPavilion/fort-small.bmp",
-						"large" : "towniconsPavilion/fort-big.bmp"
+						"small" : "towniconsPavilion/fort-small.png",
+						"large" : "towniconsPavilion/fort-big.png"
 					},
 					"built" : {
-						"small" : "towniconsPavilion/fort-builded-small.bmp",
-						"large" : "towniconsPavilion/fort-builded-big.bmp"
+						"small" : "towniconsPavilion/fort-builded-small.png",
+						"large" : "towniconsPavilion/fort-builded-big.png"
 					}
 				}
 			},

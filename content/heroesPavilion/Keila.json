@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "speciconsPavilion/32Slow.bmp",
-			"specialtyLarge" : "speciconsPavilion/44Slow.bmp",
+			"specialtySmall" : "speciconsPavilion/32Slow.png",
+			"specialtyLarge" : "speciconsPavilion/44Slow.png",
 			"large" : "heroportraitsPavilion/Keila3.png",
 			"small" : "heroportraitsPavilion/Keila3Small.png"
 		},

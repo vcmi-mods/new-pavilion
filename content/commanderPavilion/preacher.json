@@ -25,8 +25,8 @@
 		"graphics" : {
 			"animation" : "creaturedefsPavilion/preacher.def",
 			"map" : "creaturedefsPavilion/preacherMap.def",
-			"iconSmall" : "creatureiconsPavilion/preacherSmall.bmp",
-			"iconLarge" : "creatureiconsPavilion/preacher.bmp",
+			"iconSmall" : "creatureiconsPavilion/preacherSmall.png",
+			"iconLarge" : "creatureiconsPavilion/preacher.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.0,

@@ -33,8 +33,8 @@
 
 			"animation" : "creaturedefsPavilion/Sekhmet.def",
 			"map" : "creaturedefsPavilion/SekhmetMap.def",
-			"iconSmall" : "creatureiconsPavilion/SekhmetSmall.bmp",
-			"iconLarge" : "creatureiconsPavilion/Sekhmet.bmp",
+			"iconSmall" : "creatureiconsPavilion/SekhmetSmall.png",
+			"iconLarge" : "creatureiconsPavilion/Sekhmet.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.0,

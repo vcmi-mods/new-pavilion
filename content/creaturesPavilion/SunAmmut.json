@@ -32,8 +32,8 @@
 
 			"animation" : "creaturedefsPavilion/SunAmmut.def",
 			"map" : "creaturedefsPavilion/SunAmmutMap.def",
-			"iconSmall" : "creatureiconsPavilion/SunAmmutSmall.bmp",
-			"iconLarge" : "creatureiconsPavilion/SunAmmut.bmp",
+			"iconSmall" : "creatureiconsPavilion/SunAmmutSmall.png",
+			"iconLarge" : "creatureiconsPavilion/SunAmmut.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.0,

@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "speciconsPavilion/un32sorc.bmp",
-			"specialtyLarge" : "speciconsPavilion/un44sorc.bmp",
+			"specialtySmall" : "speciconsPavilion/un32sorc.png",
+			"specialtyLarge" : "speciconsPavilion/un44sorc.png",
 			"large" : "heroportraitsPavilion/Amanra.png",
 			"small" : "heroportraitsPavilion/AmanraSmall.png"
 		},
