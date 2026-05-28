@@ -12,8 +12,9 @@
 					"animation" : "towndefsPavilion/TBFREXT1",
 					"x" : 141,
 					"y" : 96,
-					"z" : -8
+					"z" : -2
 				},
+
 				"mageGuild1" : {
 					"animation" : "towndefsPavilion/00-mages-guild-1",
 					"area" : "town-screenPavilion/buildings-area/00-mages-guild-1",
@@ -125,7 +126,7 @@
 					"border" : "town-screenPavilion/buildings-border/15-resource-silo",
 					"x" : 369,
 					"y" : 191,
-					"z" : 2
+					"z" : 0
 				},
 				"blacksmith" : {
 					"animation" : "towndefsPavilion/16-blacksmith",
@@ -194,7 +195,7 @@
 					"border" : "town-screenPavilion/buildings-border/22-special-3",
 					"x" : 369,
 					"y" : 191,
-					"z" : 1
+					"z" : 0
 				},
 				"grail" : {
 					"animation" : "towndefsPavilion/26-grail ani",
@@ -227,7 +228,7 @@
 					"border" : "town-screenPavilion/buildings-border/32-dwelling-3",
 					"x" : 178,
 					"y" : 203,
-					"z" : 1
+					"z" : 0
 				},
 				"dwellingLvl4" : {
 					"animation" : "towndefsPavilion/33-dwelling-4",
@@ -249,6 +250,7 @@
 					"animation" : "towndefsPavilion/34-dwelling-5",
 					"area" : "town-screenPavilion/buildings-area/34-dwelling-5",
 					"border" : "town-screenPavilion/buildings-border/34-dwelling-5",
+
 					"x" : 0,
 					"y" : 209,
 					"z" : 4
@@ -259,7 +261,7 @@
 					"border" : "town-screenPavilion/buildings-border/36-dwelling-7",
 					"x" : 449,
 					"y" : 70,
-					"z" : 1
+					"z" : 0
 				},
 
 				"dwellingUpLvl1" : {
@@ -284,7 +286,7 @@
 					"border" : "town-screenPavilion/buildings-border/39-dwelling-upgrade-3",
 					"x" : 164,
 					"y" : 203,
-					"z" : 1
+					"z" : 0
 				},
 
 				"dwellingUpLvl4" : {
@@ -317,7 +319,7 @@
 					"border" : "town-screenPavilion/buildings-border/43-dwelling-upgrade-7",
 					"x" : 449,
 					"y" : 70,
-					"z" : 1
+					"z" : 0
 				}
 			}
 		}
