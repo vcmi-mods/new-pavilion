@@ -2,12 +2,15 @@
 	"name" : "Pavilion",
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community, VCMI community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.95",
+	"version" : "2.9.96",
 	"modType" : "Town",
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"2.9.96" : [
+			"Updated Wadjets portraits"
+		],
 		"2.9.95" : [
 			"Added missing ScalesAttackEffect graphics",
 			"Fixed few glitches in buildings order"
