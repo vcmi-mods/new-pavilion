@@ -1,13 +1,16 @@
 {
-	"new-pavilion:sphinxZiggurat" : {
-		"templates" : {
-			"base" : {
-				"allowedTerrains" : [
-					"sand",
-					"dunes"
-					]
-				}
-			}
-		}
-			
+    "core:creatureBank" : {
+        "types" : {
+            "sphinxZiggurat" : {
+                "templates" : {
+                    "base" : {
+                        "allowedTerrains" : [
+                            "sand",
+                            "dunes"
+                        ]
+                    }
+                }
+            }
+        }
+    }
 }

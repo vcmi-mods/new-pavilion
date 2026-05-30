@@ -10,6 +10,7 @@
 				"sounds": {
 					//"ambient": ["objectsCasemate/hulk"]
 				},
+				"bannedForRandomDwelling" : true,
 				"kingdomOverviewImage" : "dunes Dwarf/flagport.def",
 				"templates" : 
                 {
@@ -20,7 +21,7 @@
 					}
 				}
              },
-			 	"carpetSellerk" :
+			 	"carpetSeller" :
              {
 				"name" : "Carpet Seller",
 				"creatures" : [[ "duneskCarpetWhisperer" ]],
