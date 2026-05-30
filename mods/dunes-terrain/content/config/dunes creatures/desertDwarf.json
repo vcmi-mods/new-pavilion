@@ -1,0 +1,96 @@
+{
+    
+    	"dunesDwarf":
+	{
+		"name" :
+		{
+			"plural" : "Desert Dwarfs",
+			"singular" : "Desert Dwarf"
+		},
+		"advMapAmount" :
+		{
+			"max" : 20,
+			"min" : 12
+		},
+		"description" : "Desert Dwarves descend from the clans of AvLee that settled upon the northern deserts of Bracada centuries ago. Guarding merchant roads and the caravans of Bracadas wizards, they became masters of the crossbow and survival beneath the unforgiving desert sun.",
+		"faction" : "neutral",
+		"aiValue" : 300,
+
+		"attack" : 6,
+		"cost" :
+		{
+			"gold" : 220
+		},
+		"damage" :
+		{
+			"max" : 6,
+			"min" : 3
+		},
+		"defense" : 9,
+		"fightValue" : 280,
+		"shots" : 10,
+		"hasDoubleWeek": true,
+		"graphics" :
+		{
+			"animation" : "dunes Dwarf/dwarfDesert.def",
+			"map" : "dunes Dwarf/dwarfDesertMap.def",
+			"iconSmall" : "dunes Dwarf/small.bmp",
+			"iconLarge" : "dunes Dwarf/big.bmp",
+			"mapAttackFromLeft": "dunes Dwarf/desertDwarfAtt.def:0:0",
+			"mapAttackFromRight": "dunes Dwarf/desertDwarfAtt.def:0:1",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.20,
+				"idle" : 10.00,
+				"attack" : 1.00
+			},
+			"missile" :
+			{
+				"attackClimaxFrame" : 6,
+				"projectile": "PLCBOWX.DEF",
+				"offset" : {
+					"upperX" : 38,
+					"upperY" : -49,
+					"middleX" : 50,
+					"middleY" : -40,
+					"lowerX" : 32,
+					"lowerY" : -21
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+
+		},
+		"growth" : 6,
+		"hitPoints" : 25,
+		"level" : 3,
+		"sound" :
+		{
+			"attack": "BDRFATTK.wav",
+			"defend": "BDRFDFND.wav",
+			"killed": "BDRFKILL.wav",
+			"move": "BDRFMOVE.wav",
+			"wince": "BDRFWNCE.wav",
+			"shoot": "HCRSSHOT.wav",
+ 		},
+		"speed" : 6,
+		"abilities" :
+		{
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 40
+			},
+			"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			},
+		}
+		
+	}
+    
+}

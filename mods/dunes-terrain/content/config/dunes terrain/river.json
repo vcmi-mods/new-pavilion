@@ -3,6 +3,12 @@
 		"text" : "Lazur river",
 		"shortIdentifier" : "lr", //must be 2 characters
 		"tilesFilename" : "dunes river/riverDunes",
-		"delta" : "dunes river/riverDunes_delta"
+		"delta" : "dunes river/riverDunes_delta",
+        "paletteAnimation" : [
+            {
+                "start" : 9,
+                "length" : 20
+            }
+		]
 	}
 }

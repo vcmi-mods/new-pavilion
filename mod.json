@@ -2,12 +2,16 @@
 	"name" : "Pavilion",
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community, VCMI community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.96",
+	"version" : "2.9.97",
 	"modType" : "Town",
 	"compatibility" : {
-		"min" : "1.7.0"
+		"min" : "1.8.0"
 	},
 	"changelog" : {
+		"2.9.97" : [
+			"Updated visuals of Scarab dwelling",
+			"Dunes Update"
+		],
 		"2.9.96" : [
 			"Updated Wadjets portraits"
 		],

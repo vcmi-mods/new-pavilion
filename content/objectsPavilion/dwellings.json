@@ -190,7 +190,8 @@
 						"animation" : "mapdefsPavilion/scarabAltar.def",
 						"mask" : [
 							"VVV",
-							"VVA"
+							"VVV",
+							"VAA"
 						]
 					}
 				},

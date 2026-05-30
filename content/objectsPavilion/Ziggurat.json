@@ -23,11 +23,7 @@
 							"VBAB"
 						],
 						"allowedTerrains" : [
-							"subterra",
-							"rough",
-							"dirt",
-							"sand",
-							"lava"
+							"sand"
 						]
 					}
 				},
@@ -74,7 +70,7 @@
 						"resources" : {
 							"crystal" : 8,
 							"gems" : 8,
-							"gold" : 5000
+							"gold" : 7000
 						}
 					},
 
@@ -110,7 +106,7 @@
 						"resources" : {
 							"crystal" : 10,
 							"gems" : 10,
-							"gold" : 7000
+							"gold" : 9000
 						}
 					},
 
@@ -146,7 +142,7 @@
 						"resources" : {
 							"crystal" : 15,
 							"gems" : 15,
-							"gold" : 10000
+							"gold" : 12000
 						}
 					},
 
@@ -182,7 +178,7 @@
 						"resources" : {
 							"crystal" : 20,
 							"gems" : 20,
-							"gold" : 12000
+							"gold" : 14000
 						}
 					}
 				]

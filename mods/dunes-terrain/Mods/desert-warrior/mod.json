@@ -3,8 +3,11 @@
 	"description" : "This mod expands Camel Rider and Desert Warrior abilities to work with Dunes terrain",
 	"author" : "misiokles",
 	"contact" : "https://discord.gg/chBT42V",
-	"version" : "1.1",
+	"version" : "1.2",
 	"changelog" : {
+		"1.2" : [
+			"Added Ziggurat into Dunes."
+		],
 		"1.1" : [
 			"Updated Camel Rider and Deser Warrior abilities."
 		],
@@ -23,7 +26,9 @@
 	"creatures" : [
 		"config/desert-warrior/desertWarrior.json"
 	],
-
+	"objects" : [
+		"config/objectsPavilion/ziggurat.json"
+	],
 	"spells" : [
 		"config/desert-warrior/desertBlessing.json"
 	]

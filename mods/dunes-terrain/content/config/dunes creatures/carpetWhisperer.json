@@ -1,0 +1,71 @@
+{
+	"duneskCarpetWhisperer" : {
+		"abilities" : {	
+			"shoter" : 
+			{
+				"type" : "SHOOTER"
+			},
+			"canFly" :
+			{
+				"type" : "FLYING"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"spellAfterAttack" :
+			{
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.magicCarpet",
+				"val" : 1
+			}
+		},	
+		"advMapAmount" : {"max" : 15, "min" : 10},
+		"description" : "Carpet Whisperers are feline humanoids who wield magic woven into enchanted flying carpets. In battle, their living fabrics ensnare enemies, binding and crushing them with supernatural force.",
+		"aiValue" : 620,
+		"attack" : 12,
+		"cost" : { "gold" : 450 },
+		"damage" : {"max" : 10, "min" : 9},
+		"shots" : 4,
+		"defense" : 6,
+		"faction" : "neutral",
+		"fightValue" : 501,
+		"graphics" : {
+			"animation" : "creatures/battle/carpetWhisperer.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1.6 },
+			"iconLarge" : "creatures/big/carpetWhispererBig.bmp",
+			"iconSmall" : "creatures/small/carpetWhispererSmall.bmp",
+			"map" : "creatures/map/carpetWhispererMap.def",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile" : "creatures/battle/projectile/null.def",
+				"attackClimaxFrame" : 8,
+				"offset" :
+				{
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},	
+		"growth" : 3,
+		"hitPoints" : 35,
+        "doubleWide" : true,
+		"level" : 5,
+		"name" : { "plural" : "Carpet Whisperers", "singular" : "Carpet Whisperer" },
+		"sound" : {
+			"attack" : "creatures/carpAtt.wav",
+			"defend" : "creatures/carpDef.wav",
+			"killed" : "creatures/carpDead.wav",
+			"move" : "creatures/carpMove.wav",
+			"wince" : "creatures/carpHit.wav",
+			"shoot" : "creatures/carpShot.wav"
+		},
+		"speed" : 9
+	}
+}

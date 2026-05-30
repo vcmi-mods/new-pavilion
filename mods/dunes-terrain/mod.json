@@ -3,8 +3,15 @@
 	"description" : "Assets for dunes terrain. \nSpecial thanks for Avatar and Witchking. \nMusic from: https://pixabay.com/pl/users/artslop_flodur-1985637/ ",
 	"author" : "edeksumo, lillith",
 	"contact" : "edeksumo@gmail.com",
-	"version" : "1.0.4",
+	"version" : "1.1.0",
 	"changelog" : {
+		"1.1.0" : [
+			"Added Desert Dwarves, a new neutral creature that protects Bigh Crystal Mine",
+			"Move Carper Whisperers from Neutral Creatures Pack into Dunes.",
+			"Updated visuals of Carpet Whisperers",
+			"Added functional Big Crystal Mine"
+			
+		],
 		"1.0.4" : [
 			"Adjust for RMG multilayers feature"
 		],
@@ -26,8 +33,16 @@
 	},
 	"modType" : "Objects",
 	"conflicts" : [],
+		"spells" :
+	[ 
+		"config/spells/magicCarpet"
+	],
 	"rivers" : [
 		"config/dunes terrain/river.json"
+	],	
+	"creatures" : [
+		"config/dunes creatures/desertDwarf.json",
+		"config/dunes creatures/carpetWhisperer.json"
 	],
 
 	"objects" : [
@@ -50,7 +65,8 @@
 		"config/dunes objects/dunesSnakeTemple.json",
 		"config/dunes objects/dunesDeltas.json",
 		"config/dunes objects/dunesFromWog.json",
-		"config/dunes objects/dunesMines.json"
+		"config/dunes objects/dunesMines.json",
+		"config/dunes dwellings/dwellings.json",
 	],
 	"biomes" : [
 		"config/dunes objects/dunesBiomes"

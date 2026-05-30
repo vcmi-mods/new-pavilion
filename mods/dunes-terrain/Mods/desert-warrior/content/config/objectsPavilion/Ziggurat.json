@@ -1,0 +1,16 @@
+{
+    "core:creatureBank" : {
+        "types" : {
+            "sphinxZiggurat" : {
+                "templates" : {
+                    "base" : {
+                        "allowedTerrains" : [
+                            "sand",
+                            "dunes"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
