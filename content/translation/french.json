@@ -250,7 +250,6 @@
 	"mapObject.new-pavilion.creatureGeneratorCommon.anubisTomb.name": "Tombeau Antique",
 	"mapObject.new-pavilion.creatureGeneratorCommon.scarabAltar.name": "Scarab Chantry",
 	"mapObject.new-pavilion.creatureBank.sphinxZiggurat.name": "Ziggurat",
-	"object.new-pavilion.dunes-terrain.dunesBigMines.name": "Les grandes mines",
 	"object.new-pavilion.dunes-terrain.dunesMt.name": "Dunes de sable",
 	"object.new-pavilion.dunes-terrain.dunesBones.name": "Os",
 	"object.new-pavilion.dunes-terrain.dunesCrystals.name": "Cristal du désert",
@@ -269,9 +268,6 @@
 	"object.new-pavilion.dunes-terrain.vase.name": "Vase à fleurs",
 	"mapObject.new-pavilion.dunes-terrain.vase.vase.name": "Vase à fleurs",
 	"mapObject.new-pavilion.dunes-terrain.vase.vase.rewards.0": "{Vase à fleurs} \r\n\r\nVous avez trouvé des ressources dans le vase cassé.",
-	"mapObject.new-pavilion.dunes-terrain.dunesBigMines.dunesBigGoldMine.name": "Grande mine de cristal",
-	"mapObject.new-pavilion.dunes-terrain.dunesBigMines.dunesBigGoldMine.onVisited": "{Grande mine de cristal} \r\n\r\nCreuse, creuse, creuse.",
-	"mapObject.new-pavilion.dunes-terrain.dunesBigMines.dunesBigGoldMine.rewards.0": "{Grande mine de cristal} \r\n\r\nAinsi, cette mine fonctionne comme une mine abandonnée, mais avec de puissants nains du désert qui produisent 2 cristaux par jour, mais actuellement VCMI ne le permet pas, il fournit donc 2 cristaux par visite quotidienne.",
 	"mapObject.new-pavilion.dunes-terrain.creatureBank.dunesSnakeTemple.name": "Le Temple du serpent",
 	"terrain.new-pavilion.dunes-terrain.dunes.name": "Dunes de sable"
 }

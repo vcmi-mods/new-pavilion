@@ -246,7 +246,6 @@
 	"mapObject.new-pavilion.creatureGeneratorCommon.anubisTomb.name": "Храм Анубиса",
 	"mapObject.new-pavilion.creatureGeneratorCommon.scarabAltar.name": "Храм скарабеев",
 	"mapObject.new-pavilion.creatureBank.sphinxZiggurat.name": "Пустынный Зиккурат",
-	"object.new-pavilion.dunes-terrain.dunesBigMines.name": "Большие шахты",
 	"object.new-pavilion.dunes-terrain.dunesMt.name": "Дюны",
 	"object.new-pavilion.dunes-terrain.dunesBones.name": "Кость",
 	"object.new-pavilion.dunes-terrain.dunesCrystals.name": "Кристаллы пустыни",
@@ -265,9 +264,6 @@
 	"object.new-pavilion.dunes-terrain.vase.name": "Ваза",
 	"mapObject.new-pavilion.dunes-terrain.vase.vase.name": "Ваза",
 	"mapObject.new-pavilion.dunes-terrain.vase.vase.rewards.0": "{Ваза} \r\n\r\nВы нашли ресурсы в разбитой вазе.",
-	"mapObject.new-pavilion.dunes-terrain.dunesBigMines.dunesBigGoldMine.name": "Большая хрустальная шахта",
-	"mapObject.new-pavilion.dunes-terrain.dunesBigMines.dunesBigGoldMine.onVisited": "{Большая хрустальная шахта} \r\n\r\nМогила могила могила.",
-	"mapObject.new-pavilion.dunes-terrain.dunesBigMines.dunesBigGoldMine.rewards.0": "{Большая хрустальная шахта} \r\n\r\nИтак, эта шахта должна работать аналогично моей, но с мощными углами пустыни и производить 2 кристалла в день, но на данный момент что-то не позволяет такие вещи, поэтому за посещение в день приходится два кристалла.",
 	"mapObject.new-pavilion.dunes-terrain.creatureBank.dunesSnakeTemple.name": "Змеиный храм",
 	"terrain.new-pavilion.dunes-terrain.dunes.name": "Дюны"
 }
