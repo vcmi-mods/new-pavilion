@@ -85,7 +85,7 @@
 	    "objects" :
     [ 
 		"config/dunes dwellings/dwellings.json",
-	]
+	],
 	"czech" : {
 		"name" : "Duny",
 		"description" : "Podklady pro terén dun.\nZvláštní poděkování Avatarovi a Witchkingovi.\nHudba z: https://pixabay.com/pl/users/artslop_flodur-1985637/"
