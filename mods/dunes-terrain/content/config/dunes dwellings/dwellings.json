@@ -24,7 +24,7 @@
              {
 				"name" : "Carpet Seller",
 				"creatures" : [[ "duneskCarpetWhisperer" ]],
-				"kingdomOverviewImage" : "objects/flagports/dw01.def"
+				"kingdomOverviewImage" : "objects/flagports/dw01.def",
 				"templates" : 
                 {
 					"default" : 
