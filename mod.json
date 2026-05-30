@@ -1,13 +1,19 @@
 {
 	"name" : "Pavilion",
+	"description" : "Version of the 'Egyptian Bastion Town', originally conceptualised and created by the New Town Group, then ported to VCMI by edeksumo, then modified and worked on further by the members of Acid Cave and VCMI modding communities.",
+
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community, VCMI community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.96",
+	"version" : "2.9.97",
 	"modType" : "Town",
 	"compatibility" : {
-		"min" : "1.7.0"
+		"min" : "1.8.0"
 	},
 	"changelog" : {
+		"2.9.97" : [
+			"Updated visuals of Scarab dwelling",
+			"Dunes Update"
+		],
 		"2.9.96" : [
 			"Updated Wadjets portraits"
 		],

@@ -1,0 +1,13 @@
+{
+	"new-pavilion:sphinxZiggurat" : {
+		"templates" : {
+			"base" : {
+				"allowedTerrains" : [
+					"sand",
+					"dunes"
+					]
+				}
+			}
+		}
+			
+}

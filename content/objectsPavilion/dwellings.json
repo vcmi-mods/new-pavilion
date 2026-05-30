@@ -189,8 +189,9 @@
 					"default" : {
 						"animation" : "mapdefsPavilion/scarabAltar.def",
 						"mask" : [
+							"VVV"
 							"VVV",
-							"VVA"
+							"VAA"
 						]
 					}
 				},

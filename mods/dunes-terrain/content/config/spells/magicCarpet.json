@@ -1,0 +1,67 @@
+{
+	"magicCarpet" : {
+		"type": "combat",
+		"name": "Magic Carpet",
+		"school":
+		{
+			"air": false,
+			"earth": true,
+			"fire": false,
+			"water": false
+		},
+		"targetType": "CREATURE",
+		"level": 1,
+		"power": 1,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+		"animation":{
+			"affect":[{"defName":"creatures/battle/spell/carpet", "verticalPosition":"bottom"}]
+		},
+		"flags" : {
+			"positive": true,
+			"special": true
+		},
+		"targetCondition" : {
+		},
+		"sounds": {
+			"cast": "spell/carpSpell"
+		},
+		"graphics":
+		{
+			"iconBook": "spells/null",
+			"iconScroll": "spells/null",
+			"iconScenarioBonus": "spells/null",
+			"iconEffect": "spells/null"
+		},
+		"levels" : {
+			"base":{
+				"range": "0",
+				"power": 10,
+				"aiValue": 20,
+				"cost" : 0,
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"battleEffects" : 
+				{
+				},
+				"description": "{Magic Carpet}"
+			},
+			"none":
+			{	 
+			},
+			"basic":
+			{	 
+			},
+			"advanced":
+			{	 
+			},
+			"expert":
+			{
+			}
+		}
+	}
+}

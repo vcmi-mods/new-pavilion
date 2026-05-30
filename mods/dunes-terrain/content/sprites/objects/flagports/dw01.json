@@ -1,0 +1,10 @@
+{
+	"basepath" : "objects/flagports/",
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "dw01"
+		}
+	]
+}

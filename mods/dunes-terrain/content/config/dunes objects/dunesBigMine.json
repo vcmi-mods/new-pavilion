@@ -1,12 +1,43 @@
 {
-	"dunesBigMines" : {
-		"name" : "Big Mines",
-		"handler" : "configurable",
+	"core:mine" : {
 		"types" : {
-			"dunesBigGoldMine" : {
-				"name" : "Big Crystal Mine",
+			"crystalCavernBig" : {
+				"name" : "Big Crystal Cavern",
+				"description" : "{Big Crystal Cavern}\n\nYou gain control of a Big Crystal Cavern. It will provide you with two units of crystals per day",
+				"aiValue" : 4000,
+				"rmg" : {
+					"value" : 4000,
+					"rarity" : 400,
+					"zoneLimit" : 1
+				},
+				"sounds" : {
+					"ambient" : [
+						"objects/bigMineAmbient"
+					]
+				},
+				"onGuardedMessage" : "Big Crystal Cavern is guarded!\n\nAre you sure you want to attack guards?",
+				"guards" : [
+					{
+						"type" : "dunesDwarf",
+						"amount" : 30
+					},
+					{
+						"type" : "dunesDwarf",
+						"amount" : 30
+					},
+					{
+						"amount" : 20,
+						"type" : "dunesDwarf",
+					},
+					{
+						"amount" : 20,
+						"type" : "dunesDwarf",
+					}
+				],
+				"resource" : "crystal",
+				"defaultQuantity" : 2,
 				"templates" : {
-					"crystal" : {
+					"grass" : {
 						"animation" : "dunes objectFunc/BigMine",
 						"mask" : [
 							"VBBBV",
@@ -22,30 +53,6 @@
 							"dunes"
 						]
 					}
-				},
-				"sounds" : {
-					"ambient" : [
-						"objects/bigMineAmbient"
-					]
-				},
-				"onVisitedMessage" : "{Big Crystal Mine}\r\n\r\nDig dig dig.",
-				"rewards" : [
-					{
-						"message" : "{Big Crystal Mine}\r\n\r\nSo this mine supposed to work similar to abandon mine but with mighty desert Dwarfs and producing 2 crystals per day, but for now VCMI don't allow for such thing so it's gives 2 crystal per visit per day.",
-						"resources" : {
-							"crystal" : 2
-						}
-					}
-				],
-				"visitMode" : "once",
-				"resetParameters" : {
-					"period" : 1,
-					"visitors" : true
-				},
-				"rmg" : {
-					"value" : 4000,
-					"rarity" : 400,
-					"zoneLimit" : 1
 				}
 			}
 		}
