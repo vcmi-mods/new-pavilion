@@ -27,7 +27,7 @@
 		"config/desert-warrior/desertWarrior.json"
 	],
 	"objects" : [
-		"objectsPavilion/ziggurat.json"
+		"config/objectsPavilion/ziggurat.json"
 	],
 	"spells" : [
 		"config/desert-warrior/desertBlessing.json"
