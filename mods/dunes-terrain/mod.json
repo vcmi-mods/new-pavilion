@@ -10,7 +10,6 @@
 			"Move Carper Whisperers from Neutral Creatures Pack into Dunes.",
 			"Updated visuals of Carpet Whisperers",
 			"Added functional Big Crystal Mine"
-			
 		],
 		"1.0.4" : [
 			"Adjust for RMG multilayers feature"
@@ -33,13 +32,12 @@
 	},
 	"modType" : "Objects",
 	"conflicts" : [],
-		"spells" :
-	[ 
+	"spells" : [
 		"config/spells/magicCarpet"
 	],
 	"rivers" : [
 		"config/dunes terrain/river.json"
-	],	
+	],
 	"creatures" : [
 		"config/dunes creatures/desertDwarf.json",
 		"config/dunes creatures/carpetWhisperer.json"
@@ -66,7 +64,7 @@
 		"config/dunes objects/dunesDeltas.json",
 		"config/dunes objects/dunesFromWog.json",
 		"config/dunes objects/dunesMines.json",
-		"config/dunes dwellings/dwellings.json",
+		"config/dunes dwellings/dwellings.json"
 	],
 	"biomes" : [
 		"config/dunes objects/dunesBiomes"

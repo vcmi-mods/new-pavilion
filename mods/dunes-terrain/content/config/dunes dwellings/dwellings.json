@@ -1,44 +1,53 @@
 {
-	"core:creatureGeneratorCommon" : 
-    {
-		"types" : 
-        {
-			"dunesCaravanOutpost" :
-             {
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"dunesCaravanOutpost" : {
 				"name" : "Caravan Outpost",
-				"creatures" : [[ "dunesDwarf" ]],
-				"sounds": {
+				"creatures" : [
+					[
+						"dunesDwarf"
+					]
+				],
+				"sounds" : {
 					//"ambient": ["objectsCasemate/hulk"]
 				},
 				"bannedForRandomDwelling" : true,
 				"kingdomOverviewImage" : "dunes Dwarf/flagport.def",
-				"templates" : 
-                {
-					"default" : 
-                    {
+				"templates" : {
+					"default" : {
 						"animation" : "dunes Dwarf/desertDwarfDwell.def",
-						"mask" : [ "VVV", "BBB", "BAB" ]
+						"mask" : [
+							"VVV",
+							"BBB",
+							"BAB"
+						]
 					}
 				}
-             },
-			 	"carpetSeller" :
-             {
+			},
+			"carpetSeller" : {
 				"name" : "Carpet Seller",
-				"creatures" : [[ "duneskCarpetWhisperer" ]],
+				"creatures" : [
+					[
+						"duneskCarpetWhisperer"
+					]
+				],
 				"kingdomOverviewImage" : "objects/flagports/dw01.def",
-				"templates" : 
-                {
-					"default" : 
-                    {
-						"animation": "objects/carpetSeller",
-						"mask" : [ "VVV", "VVV", "VAB" ],
+				"templates" : {
+					"default" : {
+						"animation" : "objects/carpetSeller",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				},
-				"sounds": {
-					"ambient": ["objects/carpetSeller"]
-				}								
-            }
+				"sounds" : {
+					"ambient" : [
+						"objects/carpetSeller"
+					]
+				}
+			}
 		}
 	}
-              
 }

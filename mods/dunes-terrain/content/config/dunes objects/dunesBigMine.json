@@ -27,11 +27,11 @@
 					},
 					{
 						"amount" : 20,
-						"type" : "dunesDwarf",
+						"type" : "dunesDwarf"
 					},
 					{
 						"amount" : 20,
-						"type" : "dunesDwarf",
+						"type" : "dunesDwarf"
 					}
 				],
 				"resource" : "crystal",
