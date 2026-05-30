@@ -65,7 +65,8 @@
 		"config/dunes objects/dunesSnakeTemple.json",
 		"config/dunes objects/dunesDeltas.json",
 		"config/dunes objects/dunesFromWog.json",
-		"config/dunes objects/dunesMines.json"
+		"config/dunes objects/dunesMines.json",
+		"config/dunes dwellings/dwellings.json",
 	],
 	"biomes" : [
 		"config/dunes objects/dunesBiomes"
@@ -81,10 +82,6 @@
 	],
 	"terrains" : [
 		"config/dunes terrain/terrains.json"
-	],
-	    "objects" :
-    [ 
-		"config/dunes dwellings/dwellings.json",
 	],
 	"czech" : {
 		"name" : "Duny",
