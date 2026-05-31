@@ -7,7 +7,7 @@
 			"name" : "Azarias",
 			"biography" : "Azarias dedicated his life to studying wild creatures around the world. As it turned into obsession, he started to spend most of his time in the wilderness, but as a result, his insight of many beasts’ strengths and weaknesses became unparelleled.",
 			"specialty" : {
-				"description" : "Increases the speed of Wadjets or Venomous Wadjets by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up).",
+				"description" : "Increases the Speed of any Wadjets or Venomous Wadjets by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Wadjets",
 				"name" : "Wadjets"
 			}
