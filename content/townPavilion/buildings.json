@@ -155,7 +155,7 @@
 					"warMachine" : "firstAidTent"
 				},
 				"workshop" : {
-					"description" : "Allows the visiting hero to purchase an Emergency Tent (150 Health; revives healed creatures (basic Resurrection)).",
+					"description" : "Allows the visiting hero to purchase an Emergency Tent (150 Health; revives healed creatures until end of battle).",
 					"name" : "The Healers' Guild",
 					"cost" : {
 						"mercury" : 2,
@@ -195,7 +195,7 @@
 					"upgrades" : "dwellingLvl2"
 				},
 				"horde1Upgr" : {
-					"description" : "The Swarm increases Wadjets production by 4 per week.",
+					"description" : "The Swarm increases Venomous Wadjets production by 4 per week.",
 					"name" : "Swarm",
 					"cost" : {
 						"ore" : 10,
@@ -219,7 +219,7 @@
 						"visitMode" : "hero",
 						"rewards" : [
 							{
-								"message" : "A visit to the Idol teaches you many new skills",
+								"message" : "A visit to the Idol teaches you many new skills.",
 								"heroExperience" : 1500
 							}
 						]
