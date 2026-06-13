@@ -2,15 +2,21 @@
 	"name" : "Pavilion",
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community, VCMI community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.97",
+	"version" : "2.9.98",
 	"modType" : "Town",
 	"compatibility" : {
 		"min" : "1.8.0"
 	},
 	"changelog" : {
+		"2.9.98" : [
+			"Updated Czech translation",
+			"Removed obsolete strings in all languages"
+		],
 		"2.9.97" : [
-			"Updated visuals of Scarab dwelling",
-			"Dunes Update"
+			"Updated Scarab dwelling visual",
+			"Added fully working custom mine - Big Crystal Cavern",
+			"Added Desert Dwarves and Carpet Whisperers",
+			"Updated Ziggurat"
 		],
 		"2.9.96" : [
 			"Updated Wadjets portraits"

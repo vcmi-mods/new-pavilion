@@ -37,7 +37,7 @@
 				"resource" : "crystal",
 				"defaultQuantity" : 2,
 				"templates" : {
-					"grass" : {
+					"crystal" : {
 						"animation" : "dunes objectFunc/BigMine",
 						"mask" : [
 							"VBBBV",
