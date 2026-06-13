@@ -7,7 +7,7 @@
 			"name" : "Keila",
 			"biography" : "Young Keila never sought fame or approval, but when a grand magus offered her an apprenticeship, she couldn’t refuse. Rewriting hundreds of parchments and tomes gave her great deal of arcane knowledge and satisfaction.",
 			"specialty" : {
-				"description" : "Casts Slow with increased effect (10% increase).",
+				"description" : "Casts Slow with effect increased by 10%.",
 				"tooltip" : "Spell Bonus: Slow",
 				"name" : "Slow"
 			}

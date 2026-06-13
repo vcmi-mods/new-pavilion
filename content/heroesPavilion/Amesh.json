@@ -7,7 +7,7 @@
 			"name" : "Amesh",
 			"biography" : "Amesh is the only human known to have gone toe to toe with a Sphinx during a riddling competition. His love for solving riddles and coming up with the new ones has gained him a notoriety and great respect among these esoteric creatures.",
 			"specialty" : {
-				"description" : "Increases the speed of Sphinxes or Sphinx Oracles by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up).",
+				"description" : "Increases the Speed of any Sphinxes or Sphinx Oracles by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Sphinxes",
 				"name" : "Sphinxes"
 			}

@@ -9,7 +9,7 @@
 		"slot" : "MACH3",
 		"text" : {
 			"name" : "Emergency Tent",
-			"description" : "{Emergency Tent}\r\n\r\nThe Emergency Tent is sturdier, more efficient than First Aid Tent and revives units (the effect doesn't last past the battle).",
+			"description" : "{Emergency Tent}\r\n\r\nThe Emergency Tent is sturdier and more efficient than First Aid Tent and revives units until the end of the battle.",
 			"event" : "The Emergency Tent."
 		},
 		"graphics" : {

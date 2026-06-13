@@ -7,7 +7,7 @@
 			"name" : "Menet",
 			"biography" : "Menet is said to be the first to undergo the metamorphosis. She treats other Priestesses like her daughters, helping and supporting them in service of the Goddess, and they repay her in kind.",
 			"specialty" : {
-				"description" : "Increases the speed of any Priestesses or High Priestesses by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up).",
+				"description" : "Increases the Speed of any Priestesses or High Priestesses by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Priestesses",
 				"name" : "Priestesses"
 			}
