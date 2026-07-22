@@ -302,5 +302,6 @@
 	"spell.new-pavilion.specialSlowPav.name": "Specjalne Spowolnienie",
 	"spell.new-pavilion.desertBlessing.description.none": "{Dobrodziejstwo Pustyni}\n\nUrodzeni pośród piasków pustyni, otrzymują od niej pokrzepienie.\n",
 	"spell.new-pavilion.desertBlessing.name": "Dobrodziejstwo Pustyni",
-	"terrain.new-pavilion.dunes-terrain.dunes.name": "Wydmy"
+	"terrain.new-pavilion.dunes-terrain.dunes.name": "Wydmy",
+	"mod.name": "Pawilon"
 }

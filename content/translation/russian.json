@@ -265,5 +265,6 @@
 	"mapObject.new-pavilion.dunes-terrain.vase.vase.name": "Ваза",
 	"mapObject.new-pavilion.dunes-terrain.vase.vase.rewards.0": "{Ваза} \r\n\r\nВы нашли ресурсы в разбитой вазе.",
 	"mapObject.new-pavilion.dunes-terrain.creatureBank.dunesSnakeTemple.name": "Змеиный храм",
-	"terrain.new-pavilion.dunes-terrain.dunes.name": "Дюны"
+	"terrain.new-pavilion.dunes-terrain.dunes.name": "Дюны",
+	"mod.name": "Павильон"
 }

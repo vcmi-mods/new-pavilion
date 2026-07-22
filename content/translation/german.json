@@ -265,5 +265,6 @@
 	"mapObject.new-pavilion.dunes-terrain.vase.vase.name": "Vase",
 	"mapObject.new-pavilion.dunes-terrain.vase.vase.rewards.0": "{Vase} \r\n\r\nSie haben einige Ressourcen in kaputter Vase gefunden.",
 	"mapObject.new-pavilion.dunes-terrain.creatureBank.dunesSnakeTemple.name": "Schlangentempel",
-	"terrain.new-pavilion.dunes-terrain.dunes.name": "Dünen"
+	"terrain.new-pavilion.dunes-terrain.dunes.name": "Dünen",
+	"mod.name": "Pavillon"
 }

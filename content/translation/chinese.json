@@ -287,5 +287,6 @@
 	"object.new-pavilion.dunes-terrain.mirage.name": "海市蜃楼",
 	"river.new-pavilion.dunes-terrain.lazurRiver.name": "青金河",
 	"spell.new-pavilion.pavilionMoat.name": "沙坑",
-	"spell.new-pavilion.pavilionMoatTrigger.name": "沙坑"
+	"spell.new-pavilion.pavilionMoatTrigger.name": "沙坑",
+	"mod.name": "沙堡"
 }

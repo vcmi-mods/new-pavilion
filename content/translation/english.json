@@ -346,5 +346,12 @@
 	"spell.new-pavilion.specialSlowPav.description.expert" : "{Expert Spec. Slow}\n\nReduces the speed of all enemy units.\n\nEffect is twice that of Basic Slow and increased by 10% for lv 1-6 creatures.\n",
 	"spell.new-pavilion.specialSlowPav.description.none" : "{Specialist's Slow}\n\nReduces the speed of the selected enemy unit.\n\n(Effect is increased by 10% for lv 1-6 creatures.)\n",
 	"spell.new-pavilion.specialSlowPav.name" : "Specialist's Slow",
-	"terrain.new-pavilion.dunes-terrain.dunes.name" : "Dunes"
+	"terrain.new-pavilion.dunes-terrain.dunes.name" : "Dunes",
+	"mod.name" : "Pavilion",
+	"mod.desert objects.name" : "Desert Objects",
+	"mod.desert objects.description" : "Desert-themed objects from the fred's object pack. ",
+	"mod.dunes-terrain.name" : "Dunes terrain",
+	"mod.dunes-terrain.description" : "Assets for dunes terrain. \nSpecial thanks for Avatar and Witchking. \nMusic from: https://pixabay.com/pl/users/artslop_flodur-1985637/ ",
+	"mod.dunes-terrain.desert-warrior.name" : "Desert Warrior ability",
+	"mod.dunes-terrain.desert-warrior.description" : "This mod expands Camel Rider and Desert Warrior abilities to work with Dunes terrain"
 }

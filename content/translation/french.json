@@ -269,5 +269,6 @@
 	"mapObject.new-pavilion.dunes-terrain.vase.vase.name": "Vase à fleurs",
 	"mapObject.new-pavilion.dunes-terrain.vase.vase.rewards.0": "{Vase à fleurs} \r\n\r\nVous avez trouvé des ressources dans le vase cassé.",
 	"mapObject.new-pavilion.dunes-terrain.creatureBank.dunesSnakeTemple.name": "Le Temple du serpent",
-	"terrain.new-pavilion.dunes-terrain.dunes.name": "Dunes de sable"
+	"terrain.new-pavilion.dunes-terrain.dunes.name": "Dunes de sable",
+	"mod.name": "Pavillon"
 }

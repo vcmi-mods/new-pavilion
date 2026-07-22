@@ -353,5 +353,10 @@
 	"spell.new-pavilion.dunes-terrain.magicCarpet.description.expert": "{Kouzelný koberec}",
 	"spell.new-pavilion.dunes-terrain.magicCarpet.description.none": "{Kouzelný koberec}",
 	"spell.new-pavilion.dunes-terrain.magicCarpet.name": "Kouzelný koberec",
-	"terrain.new-pavilion.dunes-terrain.dunes.name": "Duny"
+	"terrain.new-pavilion.dunes-terrain.dunes.name": "Duny",
+	"mod.name": "Pavilon",
+	"mod.desert objects.name": "Pouštní objekty",
+	"mod.desert objects.description": "Objekty s pouštní tematikou z balíčku objektů od Freda.",
+	"mod.dunes-terrain.name": "Duny",
+	"mod.dunes-terrain.description": "Podklady pro terén dun.\nZvláštní poděkování Avatarovi a Witchkingovi.\nHudba z: https://pixabay.com/pl/users/artslop_flodur-1985637/"
 }
