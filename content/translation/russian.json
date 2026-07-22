@@ -269,5 +269,6 @@
 	"mapObject.new-pavilion.dunes-terrain.dunesBigMines.dunesBigGoldMine.onVisited": "{Большая хрустальная шахта} \r\n\r\nМогила могила могила.",
 	"mapObject.new-pavilion.dunes-terrain.dunesBigMines.dunesBigGoldMine.rewards.0": "{Большая хрустальная шахта} \r\n\r\nИтак, эта шахта должна работать аналогично моей, но с мощными углами пустыни и производить 2 кристалла в день, но на данный момент что-то не позволяет такие вещи, поэтому за посещение в день приходится два кристалла.",
 	"mapObject.new-pavilion.dunes-terrain.creatureBank.dunesSnakeTemple.name": "Змеиный храм",
-	"terrain.new-pavilion.dunes-terrain.dunes.name": "Дюны"
+	"terrain.new-pavilion.dunes-terrain.dunes.name": "Дюны",
+	"mod.name": "Павильон"
 }

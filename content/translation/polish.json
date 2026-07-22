@@ -334,5 +334,6 @@
 	"spell.new-pavilion.lifeEater.description.advanced": "Pożeracz staje się silniejszy z każdym kęsem.",
 	"spell.new-pavilion.lifeEater.description.basic": "Pożeracz staje się silniejszy z każdym kęsem.",
 	"spell.new-pavilion.lifeEater.description.expert": "Pożeracz staje się silniejszy z każdym kęsem.",
-	"spell.new-pavilion.lifeEater.description.none": "Pożeracz staje się silniejszy z każdym kęsem."
+	"spell.new-pavilion.lifeEater.description.none": "Pożeracz staje się silniejszy z każdym kęsem.",
+	"mod.name": "Pawilon"
 }

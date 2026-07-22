@@ -285,5 +285,6 @@
 	"spell.new-pavilion.specialSlowPav.description.expert": "{Lentidão Especial Nv. Experiente}\r\n\r\nReduz a velocidade de todas as unidades inimigas.\n\nO efeito é o dobro do de Lentidão Especial Nv. Básico e aumentado em 10% para criaturas de nível 1 a 6.\n",
 	"spell.new-pavilion.specialSlowPav.description.none": "{Lentidão Especial}\r\n\r\nReduz a velocidade da unidade inimiga selecionada.\n\n(O efeito é aumentado em 10% para criaturas de nível 1 a 6.)\n",
 	"spell.new-pavilion.specialSlowPav.name": "Lentidão Especial",
-	"terrain.new-pavilion.dunes-terrain.dunes.name": "Dunas"
+	"terrain.new-pavilion.dunes-terrain.dunes.name": "Dunas",
+	"mod.name": "Pavilhão"
 }

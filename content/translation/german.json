@@ -269,5 +269,6 @@
 	"mapObject.new-pavilion.dunes-terrain.dunesBigMines.dunesBigGoldMine.onVisited": "{Große Kristallgrube} \r\n\r\nGrab Grab Grab.",
 	"mapObject.new-pavilion.dunes-terrain.dunesBigMines.dunesBigGoldMine.rewards.0": "{Große Kristallgrube} \r\n\r\nAlso sollte diese Mine ähnlich funktionieren wie meine, aber mit mächtigen Wüstenwinkeln und 2-Kristalle pro Tag produzieren, aber im Moment erlaubt VCMI solche Dinge nicht, also gibt es zwei Kristalle pro Besuch und Tag.",
 	"mapObject.new-pavilion.dunes-terrain.creatureBank.dunesSnakeTemple.name": "Schlangentempel",
-	"terrain.new-pavilion.dunes-terrain.dunes.name": "Dünen"
+	"terrain.new-pavilion.dunes-terrain.dunes.name": "Dünen",
+	"mod.name": "Pavillon"
 }
