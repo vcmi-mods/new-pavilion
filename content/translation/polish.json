@@ -335,5 +335,11 @@
 	"spell.new-pavilion.lifeEater.description.basic": "Pożeracz staje się silniejszy z każdym kęsem.",
 	"spell.new-pavilion.lifeEater.description.expert": "Pożeracz staje się silniejszy z każdym kęsem.",
 	"spell.new-pavilion.lifeEater.description.none": "Pożeracz staje się silniejszy z każdym kęsem.",
-	"mod.name": "Pawilon"
+	"mod.name": "Pawilon",
+	"mod.desert objects.name": "Pustynne obiekty",
+	"mod.desert objects.description": "Pustynne obiekty map z paczki freda. ",
+	"mod.dunes-terrain.name": "Wydmy",
+	"mod.dunes-terrain.description": "Grafiki dla terenu Wydm.\nSpecjalnie podziękowania dla Avatara i Witchkinga.\nMotyw muzyczny pochodzi z: https://pixabay.com/pl/users/artslop_flodur-1985637/ ",
+	"mod.dunes-terrain.desert-warrior.name": "Zdolność Pustynnego gońca",
+	"mod.dunes-terrain.desert-warrior.description": "Modyfikacja sprawia, że zdolność Jeźdźca wielbłądów i Pustynnego gońca działa także na terenie Wydm"
 }
