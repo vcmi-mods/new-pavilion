@@ -1,25 +1,27 @@
-Advance through burning sands with **Pavilion**, a desert faction forged by
-ancient rites, sacred beasts, and uncompromising discipline. Pavilion favors
-smart positioning, steady pressure, and high-value late game units that become
-more dangerous the longer a battle lasts.
+Прокладіть шлях крізь палючі піски разом із **Павільйоном** — пустельною
+фракцією, сформованою стародавніми обрядами, священними звірами та
+безкомпромісною дисципліною. Павільйон винагороджує розумне розташування військ,
+постійний тиск і цінні загони високих рівнів, які стають небезпечнішими що довше
+триває бій.
 
-Its army grows in clear stages: **Whippers** and **Wadjets** secure the early
-tempo, **Camel Riders** and **Desert Warriors** exploit sand mobility, and the
-upper tiers - **High Priestesses**, **Ammuts**, **Sphinx Oracles**, and **Divine
-Anubians** - deliver control, sustain, and decisive finishing power. Signature
-mechanics such as **Sand Runner**, terrain-driven **Desert Blessing**, anti-buff
-pressure via **Cruel Fate**, and regeneration on top creatures reward deliberate
-tactical play.
+Армія розвивається чіткими етапами: **Бичувальники** й **ваджет** забезпечують
+перевагу на початку, **Вершники на верблюдах** і **Воїни пустелі**
+використовують мобільність на пісках, а загони вищих рівнів — **Верховні
+жриці**, **Ненаситні аммути**, **Сфінкси-оракули** та **Божественні анубіти** —
+забезпечують контроль, витривалість і вирішальну силу. Такі особливі механіки,
+як **Піщаний бігун**, залежний від місцевості **Дар пустелі**, протидія
+позитивним ефектам через **Жорстоку долю** та регенерація верхніх істот у
+загонах винагороджують продуману тактичну гру.
 
-Pavilion’s town development supports both economy and momentum: full
-fortifications, complete creature growth chain, and key structures like the
-**Idol** (hero experience), **Treasury** (daily gold), **Healers' Guild**
-(access to the **Emergency Tent**), and **Simoom** as the grail centerpiece for
-growth, income, and siege defense speed.
+Розбудова міста Павільйону підтримує як економіку, так і темп розвитку: повний
+набір укріплень, уся лінійка споруд приросту істот і ключові споруди — **Ідол**
+(досвід героя), **Скарбниця** (щоденне золото), **Гільдія цілителів** (доступ до
+**Намету невідкладної допомоги**) та **Самум** як центральна споруда Грааля, що
+збільшує приріст, прибуток і Швидкість захисників під час облоги.
 
-The faction is further reinforced by dedicated heroes and classes (**Vizier**,
-**Embalmer**), thematic artifacts such as **Golden Scarab**, **Mask of the
-Desert King**, **Sun Shield**, **Staff of Sand**, and **Ring of Scorching**,
-plus additional desert-themed world content.
+Фракцію додатково підсилюють особливі герої та класи (**Візир**,
+**Бальзамувальник**), тематичні артефакти — **Золотий скарабей**, **Маска Короля
+пустелі**, **Сонячний щит**, **Посох пісків** і **Перстень спопеління**, — а
+також додаткові об’єкти світу в пустельній тематиці.
 
 ---
