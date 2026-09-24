@@ -170,7 +170,6 @@
 		]
 	},
 	"conflicts" : [],
-
 	"factions" : [
 		"townPavilion/structures.json",
 		"townPavilion/faction.json",
@@ -179,7 +178,6 @@
 		"townPavilion/spells.json",
 		"townPavilion/puzzle.json"
 	],
-
 	"creatures" : [
 		"creaturesPavilion/Whipper.json",
 		"creaturesPavilion/Overseer.json",
@@ -201,7 +199,6 @@
 		"creaturesPavilion/wiki.json",
 		"artifactsPavilion/emergencyTentCreature.json"
 	],
-
 	"spells" : [
 		"spellsPavilion/BlessingSeal.json",
 		"spellsPavilion/GodScaleAttack.json",
@@ -212,16 +209,13 @@
 		"spellsPavilion/moat.json",
 		"spellsPavilion/desertBlessing.json"
 	],
-
 	"skills" : [
 		"spellsPavilion/tentBoostSkill.json"
 	],
-
 	"heroClasses" : [
 		"classesPavilion/Vizier.json",
 		"classesPavilion/Embalmer.json"
 	],
-
 	"heroes" : [
 		"heroesPavilion/Amanra.json",
 		"heroesPavilion/Amesh.json",
@@ -239,17 +233,14 @@
 		"heroesPavilion/Sekhem.json",
 		"heroesPavilion/Seref.json",
 		"heroesPavilion/Zamonth.json",
-
 		"heroesPavilion/Bast.json",
 		"heroesPavilion/Varn.json"
 	],
-
 	"objects" : [
 		"objectsPavilion/dwellings.json",
 		"objectsPavilion/ziggurat.json",
 		"boatPavilion/boats.json"
 	],
-
 	"artifacts" : [
 		"artifactsPavilion/staffOfSand.json",
 		"artifactsPavilion/goldenScarab.json",
@@ -299,6 +290,11 @@
 		"name" : "Pavilon",
 		"translations" : [
 			"translation/czech.json"
+		]
+	},
+	"ukrainian" : {
+		"translations" : [
+			"translation/ukrainian.json"
 		]
 	}
 }
