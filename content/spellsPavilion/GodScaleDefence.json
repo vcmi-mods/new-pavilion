@@ -40,13 +40,18 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"scaledDefence" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "defence",
-						"val" : 0,
-						"valueType" : "INDEPENDENT_MIN",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"lowerDefence" : {
+						"type" : "timed",
+						"bonus" : {
+							"scaledDefence" : {
+							"type" : "PRIMARY_SKILL",
+								"subtype" : "defence",
+								"val" : 0,
+								"valueType" : "INDEPENDENT_MIN",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			},

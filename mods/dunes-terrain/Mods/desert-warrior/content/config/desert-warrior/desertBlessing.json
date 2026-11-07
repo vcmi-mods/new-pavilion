@@ -2,79 +2,84 @@
 	"new-pavilion:desertBlessing" : {
 		"levels" : {
 			"base" : {
-				"effects" : {
-					"desertAttack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "attack",
-						"val" : 2,
-						"duration" : "N_TURNS",
-						"limiters" : [
-							{
-								"type" : "CREATURE_TERRAIN_LIMITER",
-								"terrain" : "sand"
-							}
-						]
-					},
-					"desertDefence" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "defence",
-						"val" : 2,
-						"duration" : "N_TURNS",
-						"limiters" : [
-							{
-								"type" : "CREATURE_TERRAIN_LIMITER",
-								"terrain" : "sand"
-							}
-						]
-					},
-					"desertSpeed" : {
-						//						"addInfo" : 0,
-						"type" : "STACKS_SPEED",
-						"val" : 2,
-						"duration" : "N_TURNS",
-						"limiters" : [
-							{
-								"type" : "CREATURE_TERRAIN_LIMITER",
-								"terrain" : "sand"
-							}
-						]
-					},
+				"battleEffects" : {
+						"statsBoots" : {
+						"type" : "timed",
+						"bonus" : {
+							"desertAttack" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "attack",
+								"val" : 2,
+								"duration" : "N_TURNS",
+								"limiters" : [
+									{
+										"type" : "CREATURE_TERRAIN_LIMITER",
+										"terrain" : "sand"
+									}
+								]
+							},
+							"desertDefence" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "defence",
+								"val" : 2,
+								"duration" : "N_TURNS",
+								"limiters" : [
+									{
+										"type" : "CREATURE_TERRAIN_LIMITER",
+										"terrain" : "sand"
+									}
+								]
+							},
+							"desertSpeed" : {
+								//						"addInfo" : 0,
+								"type" : "STACKS_SPEED",
+								"val" : 2,
+								"duration" : "N_TURNS",
+								"limiters" : [
+									{
+										"type" : "CREATURE_TERRAIN_LIMITER",
+										"terrain" : "sand"
+									}
+								]
+							},
 
-					"dunesAttack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "attack",
-						"val" : 2,
-						"duration" : "N_TURNS",
-						"limiters" : [
-							{
-								"type" : "CREATURE_TERRAIN_LIMITER",
-								"terrain" : "dunes"
+							"dunesAttack" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "attack",
+								"val" : 2,
+								"duration" : "N_TURNS",
+								"limiters" : [
+									{
+										"type" : "CREATURE_TERRAIN_LIMITER",
+										"terrain" : "dunes"
+									}
+								]
+							},
+							"dunesDefence" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "defence",
+								"val" : 2,
+								"duration" : "N_TURNS",
+								"limiters" : [
+									{
+										"type" : "CREATURE_TERRAIN_LIMITER",
+										"terrain" : "dunes"
+									}
+								]
+							},
+							"dunesSpeed" : {
+								//						"addInfo" : 0,
+								"type" : "STACKS_SPEED",
+								"val" : 2,
+								"duration" : "N_TURNS",
+								"limiters" : [
+									{
+										"type" : "CREATURE_TERRAIN_LIMITER",
+										"terrain" : "dunes"
+									}
+								]
 							}
-						]
-					},
-					"dunesDefence" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "defence",
-						"val" : 2,
-						"duration" : "N_TURNS",
-						"limiters" : [
-							{
-								"type" : "CREATURE_TERRAIN_LIMITER",
-								"terrain" : "dunes"
-							}
-						]
-					},
-					"dunesSpeed" : {
-						//						"addInfo" : 0,
-						"type" : "STACKS_SPEED",
-						"val" : 2,
-						"duration" : "N_TURNS",
-						"limiters" : [
-							{
-								"type" : "CREATURE_TERRAIN_LIMITER",
-								"terrain" : "dunes"
-							}
-						]
+						}
 					}
 				}
 			}

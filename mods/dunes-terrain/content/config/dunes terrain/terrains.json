@@ -16,6 +16,7 @@
 			"dunes/Cavernous_Desert02"
 		],
 		"tiles" : "dunes/dunestls",
+		"grailRumor" : "buried beneath the scorching desert sands.",
 		"river" : "lazurRiver",
 		"rockTerrain" : "rock",
 		"shortIdentifier" : "dn",

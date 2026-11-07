@@ -5,7 +5,7 @@
 			"120px" : "creature-bg-120pxPavilion.png",
 			"130px" : "creature-bg-130pxPavilion.png"
 		},
-		"nativeTerrain" : "sand",
+		"nativeTerrain" : [ "sand" ],
 		"alignment" : "neutral",
 		"boat" : "boatPavilion",
 		"town" : {

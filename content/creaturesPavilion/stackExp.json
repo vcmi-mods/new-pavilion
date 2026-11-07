@@ -1849,8 +1849,11 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "airShield"
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : {
+						"spell" : "airShield"
+					}
 				},
 				"values" : [
 					1,
@@ -2013,8 +2016,11 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "airShield"
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : {
+						"spell" : "airShield"
+					}
 				},
 				"values" : [
 					0,
@@ -2177,7 +2183,10 @@
 			},
 			{
 				"bonus" : {
-					"type" : "FIRE_SHIELD"
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "fireShield",
+					"val" : 20,
+					"stacking" : "fireShield"
 				},
 				"values" : [
 					false,

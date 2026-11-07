@@ -2,12 +2,15 @@
 	"name" : "Pavilion",
 	"author" : "Bastion New Town Group, edeksumo, New Pawulon Team, Acid Cave community, VCMI community",
 	"contact" : "madaosoul@gmail.com",
-	"version" : "2.9.98",
+	"version" : "2.9.99",
 	"modType" : "Town",
 	"compatibility" : {
 		"min" : "1.8.0"
 	},
 	"changelog" : {
+		"2.9.99" : [
+			"Update to vcmi-1.8 format"
+		],
 		"2.9.98" : [
 			"Updated Czech translation",
 			"Removed obsolete strings in all languages"

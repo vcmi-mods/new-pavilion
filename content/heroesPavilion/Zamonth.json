@@ -58,46 +58,67 @@
 			},
 			"bonuses" : {
 				"skeleton2mummy" : {
-					"subtype" : "skeleton"
-				},
-				"skeletonWarrior2mummy" : {
-					"subtype" : "skeletonWarrior"
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "skeleton",
+							"includeUpgrades" : true
+						}
+					]					
 				},
 				"walkingDead2mummy" : {
-					"subtype" : "walkingDead"
-				},
-				"zombie2mummy" : {
-					"subtype" : "zombie"
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "walkingDead",
+							"includeUpgrades" : true
+						}
+					]
 				},
 				"wight2mummy" : {
-					"subtype" : "wight"
-				},
-				"wraith2mummy" : {
-					"subtype" : "wraith"
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "wight",
+							"includeUpgrades" : true
+						}
+					]
 				},
 				"vampire2mummy" : {
-					"subtype" : "vampire"
-				},
-				"vampireLord2mummy" : {
-					"subtype" : "vampireLord"
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "vampire",
+							"includeUpgrades" : true
+						}
+					]
 				},
 				"lich2mummy" : {
-					"subtype" : "lich"
-				},
-				"powerLich2mummy" : {
-					"subtype" : "powerLich"
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "lich",
+							"includeUpgrades" : true
+						}
+					]
 				},
 				"blackKnight2mummy" : {
-					"subtype" : "blackKnight"
-				},
-				"dreadKnight2mummy" : {
-					"subtype" : "dreadKnight"
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "blackKnight",
+							"includeUpgrades" : true
+						}
+					]					
 				},
 				"boneDragon2mummy" : {
-					"subtype" : "boneDragon"
-				},
-				"ghostDragon2mummy" : {
-					"subtype" : "ghostDragon"
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "boneDragon",
+							"includeUpgrades" : true
+						}
+					]					
 				}
 			}
 		}

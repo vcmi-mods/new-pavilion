@@ -133,7 +133,7 @@
 				"onVisitedMessage" : "{Eye on the World}\r\n\r\nDoors seems to be locked.",
 				"visitMode" : "once",
 				"resetParameters" : {
-					"period" : 7,
+					"days" : 7,
 					"visitors" : true
 				},
 				"templates" : {
