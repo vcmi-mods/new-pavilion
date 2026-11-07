@@ -51,14 +51,9 @@
 				"skill" : "scholar"
 			}
 		],
-		"specialty" : {
-			"bonuses" : {
-				"specialSlow" : {
-					"addInfo" : -10,
-					"subtype" : "slow",
-					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
-				}
-			}
-		}
+        "specialty" : {
+            "spellFixedAdditive" : "slow",
+            "spellFixedValues" : [ -10, -10, -10, -10, -10, -10, -10 ]
+        }
 	}
 }

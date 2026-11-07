@@ -69,8 +69,11 @@
 			},
 
 			"desertBlessing" : {
-				"type" : "ENCHANTED",
-				"subtype" : "spell.desertBlessing",
+				"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : {
+						"spell" : "desertBlessing"
+					},
 				"description" : "{Desert Blessing}\nBoosts Attack, Defense and Speed by 2 on sandy terrains"
 			}
 		}

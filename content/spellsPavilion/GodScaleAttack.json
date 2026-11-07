@@ -44,13 +44,18 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"scaledAttack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "attack",
-						"val" : 0,
-						"valueType" : "INDEPENDENT_MIN",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"lowerAttack" : {
+						"type" : "timed",
+						"bonus" : {
+							"scaledAttack" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "attack",
+								"val" : 0,
+								"valueType" : "INDEPENDENT_MIN",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			},
