@@ -51,9 +51,17 @@
 				"skill" : "scholar"
 			}
 		],
-        "specialty" : {
-            "spellFixedAdditive" : "slow",
-            "spellFixedValues" : [ -10, -10, -10, -10, -10, -10, -10 ]
-        }
+		"specialty" : {
+			"spellFixedAdditive" : "slow",
+			"spellFixedValues" : [
+				-10,
+				-10,
+				-10,
+				-10,
+				-10,
+				-10,
+				-10
+			]
+		}
 	}
 }

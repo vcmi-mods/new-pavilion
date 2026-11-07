@@ -3,7 +3,7 @@
 		"levels" : {
 			"base" : {
 				"battleEffects" : {
-						"statsBoots" : {
+					"statsBoots" : {
 						"type" : "timed",
 						"bonus" : {
 							"desertAttack" : {

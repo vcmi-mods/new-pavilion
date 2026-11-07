@@ -45,7 +45,7 @@
 						"type" : "timed",
 						"bonus" : {
 							"scaledDefence" : {
-							"type" : "PRIMARY_SKILL",
+								"type" : "PRIMARY_SKILL",
 								"subtype" : "defence",
 								"val" : 0,
 								"valueType" : "INDEPENDENT_MIN",

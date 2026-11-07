@@ -64,7 +64,7 @@
 							"creature" : "skeleton",
 							"includeUpgrades" : true
 						}
-					]					
+					]
 				},
 				"walkingDead2mummy" : {
 					"limiters" : [
@@ -109,7 +109,7 @@
 							"creature" : "blackKnight",
 							"includeUpgrades" : true
 						}
-					]					
+					]
 				},
 				"boneDragon2mummy" : {
 					"limiters" : [
@@ -118,7 +118,7 @@
 							"creature" : "boneDragon",
 							"includeUpgrades" : true
 						}
-					]					
+					]
 				}
 			}
 		}

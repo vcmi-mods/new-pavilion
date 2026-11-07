@@ -1,5 +1,7 @@
 {
 	"new-pavilion:pavilion" : {
-		"nativeTerrain" : [ "dunes" ]
+		"nativeTerrain" : [
+			"dunes"
+		]
 	}
 }

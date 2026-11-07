@@ -346,6 +346,7 @@
 	"spell.new-pavilion.specialSlowPav.description.expert" : "{Expert Spec. Slow}\n\nReduces the speed of all enemy units.\n\nEffect is twice that of Basic Slow and increased by 10% for lv 1-6 creatures.\n",
 	"spell.new-pavilion.specialSlowPav.description.none" : "{Specialist's Slow}\n\nReduces the speed of the selected enemy unit.\n\n(Effect is increased by 10% for lv 1-6 creatures.)\n",
 	"spell.new-pavilion.specialSlowPav.name" : "Specialist's Slow",
+	"terrain.new-pavilion.dunes-terrain.dunes.grailRumor" : "buried beneath the scorching desert sands.",
 	"terrain.new-pavilion.dunes-terrain.dunes.name" : "Dunes",
 	"mod.name" : "Pavilion",
 	"mod.desert objects.name" : "Desert Objects",
