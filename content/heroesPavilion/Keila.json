@@ -53,15 +53,7 @@
 		],
 		"specialty" : {
 			"spellFixedAdditive" : "slow",
-			"spellFixedValues" : [
-				-10,
-				-10,
-				-10,
-				-10,
-				-10,
-				-10,
-				-10
-			]
+			"spellFixedValues" : [-10 ]
 		}
 	}
 }
